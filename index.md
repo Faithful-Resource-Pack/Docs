@@ -13,6 +13,7 @@ On this site you will find documentation and guides related to the Compliance Re
 
 This is a list of all available pages on this site.
 
-{% for page in site.pages %}
+{% assign sorted_pages = site.pages | sort:"title" %}
+{% for page in sorted_pages %}
 {% unless page.url contains "assets/css/style.css" or page.title == "Home" %}- [{{ page.title }}]({{ site.baseurl }}{{ page.url }}){% endunless %}
 {% endfor %}
