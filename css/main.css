@@ -133,6 +133,9 @@ main {
 img {
   max-width: 100%;
 }
+pre {
+  overflow-x: scroll;
+}
 button {
   margin: 4px 0;
   outline: 0;
