@@ -21,7 +21,7 @@
     <div id="nav-img">Logo</div>
     <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
     {% for page in site.pages %}
-      {% if page.title != "Home" %}<a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>{% endif %}
+      {% unless page.url contains "assets/css/style.css" or page.title == "Home" %}<a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>{% endunless %}
     {% endfor %}
   </nav>
   <main>
@@ -29,6 +29,6 @@
 {{ content }}
 
   </main>
-  <script src="/js/header.min.js" async></script>
+  <script src="{{ site.baseurl }}/js/header.min.js" async></script>
 </body>
 </html>
