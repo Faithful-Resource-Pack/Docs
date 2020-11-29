@@ -1,5 +1,5 @@
 ---
-title: 'Dev: Write a documentation article'
+title: 'Docs: Write a documentation article'
 ---
 # How to write a new documentation article
 

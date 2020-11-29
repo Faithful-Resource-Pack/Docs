@@ -1,5 +1,5 @@
 ---
-title: 'Help us: Use scripts!'
+title: 'Mods: Use scripts'
 ---
 # Use **scripts**
 
