@@ -1,5 +1,5 @@
 ---
-title: 'Mods: Add a new MC version'
+title: 'Mods: Add a new Minecraft version'
 ---
 {% assign organization_name = 'Compliance-Resource-Pack' %}
 {% assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' %}
@@ -10,39 +10,38 @@ title: 'Mods: Add a new MC version'
 
 ## Prerequisites:
 
-> You need to have a [GitHub](https://github.com/) account first.
-> It is recommended to download [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
+- You need to have a [GitHub](https://github.com/) account first.  
+- It is recommended to download [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
+
+## Step by Step:
 
 1.  Firstly, check if the branch already exists, if not create a new one :
 
-    #### GitHub:
+	#### **Using GitHub Website:**
 
-    Type the Minecraft version you want to add support for, then click on `Create a branch`.
+	Type the Minecraft version you want to add support for, then click on `Create a branch`.
+	<img src="{{ site.baseurl }}/images/pages/mods/add-new-version/github-add-branch.png" alt="github-add-branch.png" class="center">
 
-    ![github add branch]({{ site.baseurl }}/images/pages/mods/add-new-version/github-add-branch.png)
+	#### **Using GitHub Desktop:**
 
-    #### GitHub Desktop:
+	1. Click on the `current branch` button, then `New branch`, then type the Minecraft version you want to add support for, if `main` is not selected, click on it, then `create branch`.
+	<img src="{{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-1st-step.png" alt="github-desktop-add-branch-1st-step.png" class="center">
+	<br>
+	<img src="{{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-2nd-step.png" alt="github-desktop-add-branch-2nd-step.png" class="center">
 
-    Click on the `current branch` button, then `New branch`, then type the Minecraft version you want to add support for, if `main` is not selected, click on it, then `create branch`.
+	2. Add those files to your new branch:
+		- `pack.png`
+			<img src="https://compliancepack.net/image/icon/compliance_mods.png" alt="compliance_mods.png" class="center">
+		- `pack.mcmeta` with this inside:
+			```json
+			{
+				"pack":{
+				"pack_format": 3,
+					"description": "Compliance Mods"
+				}
+			}
+			```
+			> The `"pack_format"` can be found [here]({{ organization_website_repo_url }}/blob/master/data/versions.json) (make a pull request if outdated).
+		- An `assets` folder with the mod's textures inside, following this path: `assets/<modassetname>/textures/.../<modassetname>`  
 
-    ![github desktop add branch 1st step]({{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-1st-step.png)![github desktop add branch 2nd step]({{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-2nd-step.png)
-
-2.  Add those files to your new branch:
-
-    *   `pack.png`
-
-        ![pack.png](https://compliancepack.net/image/icon/compliance_mods.png)
-    *   `pack.mcmeta` with this inside:
-
-            {
-            	"pack":{
-            		"pack_format": 3,
-            		"description": "Compliance Mods"
-            	}
-            }
-
-        > The `"pack_format"` can be found [here]({{ organization_website_repo_url }}/blob/master/data/versions.json) (make a pull request if outdated).
-
-    *   An `assets` folder with the mod's textures inside, following this path: `assets/<modassetname>/textures/...</modassetname>`
-
-3.  If the default file from the main branch (the file named: `initialcommit`) is present, remove it. Then if you are not a member of our organization, make a pull request (**do not merge the branch: never**) & post a message in our [Discord](https://discord.com/invite/QF2CAX7).
+3. If the default file from the main branch (the file named: `initialcommit`) is present, remove it. Then if you are not a member of our organization, make a pull request (**do not merge the branch: never**) & post a message in our [Discord](https://discord.com/invite/QF2CAX7).

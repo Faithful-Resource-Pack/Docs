@@ -5,4 +5,4 @@ title: 'Mods: Use scripts'
 
 ## Prerequisites
 
-WIP
+Currently a Work In Progress

@@ -1,77 +1,84 @@
 ---
 title: 'Mods: Add a new Mod'
 ---
-{% assign organization_name = 'Compliance-Resource-Pack' %}
-{% assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' %}
-{% assign organization_website_repo_name = 'Website' %}
-{% assign organization_website_repo_url = github_organization_url | append: organization_website_repo_name %}
-{% assign project_name = 'Compliance Mods' %}
+{%- assign organization_name = 'Compliance-Resource-Pack' -%}
+{%- assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' -%}
+{%- assign organization_website_repo_name = 'Website' -%}
+{%- assign organization_website_repo_url = github_organization_url | append: organization_website_repo_name -%}
+{%- assign project_name = 'Compliance Mods' -%}
 
 # Add an entirely **new** Mod:
 
 ## Prerequisites:
 
-> You need to have a [GitHub](https://github.com/) account first.
-> It is recommended to download [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
+- You need to have a [GitHub](https://github.com/) account first.  
+- It is recommended to download [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
 
-1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) by typing the name of the mod or its assets folder name.
+## Step by step: 
 
-    ![github research]({{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png)
+1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://www.compliancepack.net/mods) by typing the name of the mod or its assets folder name.
+<img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center">
+> See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exist
+
 2.  If the mod does not have any repository, then create a repository in your `own` profile, the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
+<img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center">
 
-    ![new repo img]({{ site.baseurl }}/images/pages/mods/add-new-mod/new-repo-img.png)
-3.  Keep the `main` branch with only one file: `initialcommit` **(without any extension)** and make a new branch for each supported Minecraft version
+3.  Keep the `main` branch with only one file: `initialcommit` **(without any extension)** and make a new branch for each supported Minecraft version, _don't forget to delete the initialcommit **in branches you have created**._  
+<img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/branches-list.png" alt="branches-list" class="center">
+> The `main` branch needs to be set as the **default branch**! Do not merge others branches to the main branch!  
+> If you made your repository before the 1st October 2020, rename your `master` branch to `main`. ([Discover Why?](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/))  
 
-    > If you made your repository before the 1st October 2020, rename your `master` branch to `main`.
-    > [Discover Why?](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/)
-
-    ![branches list : main (default) + mc versions]({{ site.baseurl }}/images/pages/mods/add-new-mod/branches-list.png)
-
-    > The `main` branch needs to be set as the **default branch**! Do not merge the branch to the main branch!
-
-4.  Upload your textures in each branch (see how [here](/help-us/add-new-version)), use the same `pack.png` as the {{ project_name }} logo. You also need to add a `pack.mcmeta` following this setup:
-
-        {
-        	"pack":{
-        		"pack_format": 3,
-        		"description": "{{ project_name }}"
-        	}
-        }
-
-    > The `"pack_format"` can be found [here]({{ github_organization_url }}{{ organization_website_repo_name }}/blob/master/data/versions.json) (make a pull request if outdated).
+4.  Upload your textures in each branch (see how [here]({{ site.baseurl }}/pages/mods/add-textures.html)), use the same `pack.png` as the {{ project_name }} logo. You also need to add a `pack.mcmeta` following this setup:
+```json
+{
+	"pack": {
+		"pack_format": 3,
+		"description": "{{ project_name }}"
+	}
+}
+```
+> The `"pack_format"` can be found [here]({{ github_organization_url }}{{ organization_website_repo_name }}/blob/master/data/versions.json) (make a pull request if outdated).
 
 5.  Your repository now should look like this:
-
-    ![final result]({{ site.baseurl }}/images/pages/mods/add-new-mod/final-result.png)
-
-    > **You need to create an `assets` folder and place your textures inside!**
+<img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center">  
+> **You need to create an `assets` folder and place your textures inside!**
 
 6.  Then make a pull request on the website repository modifying [this file]({{ organization_website_repo_url }}/blob/master/data/mods.json) following this setup:
-
-        [
-          {
-            ... another mod ...
-          },
-          {
-            "name": {
-              "displayName": "Example Mod",   // Name with capital & spaces
-              "aliases": [ "ExampleMod" ]     // Any other names the mod has, leave empty if none
-            },
-            "versions": [                     // Supported versions
-              "1.12.2",
-              "1.11.2",
-              "1.8.9"
-            ],
-            "curse": "example-mod",           // Name of the CurseForge URL: https://www.curseforge.com/minecraft/mc-mods/example-mod
-                                              // Set it to "none" if there is not a CurseForge page
-            "orgRepo": "examplemod"           // The name of the repository of the pack
-        	                                  // Replace the line with this if it isn't in our organisation: "extRepo": "https://github.com/your-name/examplemod"
-          },
-          {
-            ... another mod ...
-          }
-        ]
-
-    > **Please add the following in an alphabetical order**
-
-7.  **Final step:** if your pull request is merged, you will receive an invitation to be a member of the {{ project_name }} organization. From there, you will be able to move your repository inside our organization (don't forget to modify the `mods.json` file with the new repository: replace the `extRepo` line with `orgRepo`).
+```json
+[
+	{
+		// another mod
+	},
+	{
+		"name": {
+			// Name displayed on https://www.compliancepack.net/mods
+			"displayName": "Example Mod",
+			// Can be left empty if there is no aliases
+			"aliases": [ "(EM)", "Example Mod 2" ]
+		},
+		// Supported versions
+		"versions": [
+			"1.12.2",
+			"1.7.10"
+		],
+		/*
+		* OPTIONAL: can be deleted if none
+		* End of the CurseForge URL: 
+		* Ex: https://www.curseforge.com/minecraft/mc-mods/example-mod -> example-mod
+		*/
+		"curse": "example-mod",
+		
+		/*
+		* ONLY ONE OF THEM: depends where the repository is located
+		* Inside Compliance Mods Organization -> orgRepo
+		* Everywhere else -> extRepo: https://github.com/{{ username }}/{{ repository }}
+		*/
+		"orgRepo": "examplemod"
+		"extRepo": "https://github.com/{{ username }}/{{ repository }}"
+	},
+	{
+		// another mod
+	}
+]
+```
+> **Please add the following in an alphabetical order** ⚠️  
