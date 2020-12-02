@@ -19,13 +19,13 @@ title: 'Mods: Add a new MC version'
 
     Type the Minecraft version you want to add support for, then click on `Create a branch`.
 
-    ![github add branch](https://i.imgur.com/KpRCljE.png)
+    ![github add branch]({{ site.baseurl }}/images/pages/mods/add-new-version/github-add-branch.png)
 
     #### GitHub Desktop:
 
     Click on the `current branch` button, then `New branch`, then type the Minecraft version you want to add support for, if `main` is not selected, click on it, then `create branch`.
 
-    ![github desktop add branch 1st step](https://i.imgur.com/Gow5arC.png)![github desktop add branch 2nd step](https://i.imgur.com/PJtANzD.png)
+    ![github desktop add branch 1st step]({{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-1st-step.png)![github desktop add branch 2nd step]({{ site.baseurl }}/images/pages/mods/add-new-version/github-desktop-add-branch-2nd-step.png)
 
 2.  Add those files to your new branch:
 
