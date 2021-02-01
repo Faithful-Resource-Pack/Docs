@@ -18,9 +18,9 @@ title: 'Mods: Add a new Mod'
 
 1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://www.compliancepack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center">
-> See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exist
+> See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exists.
 
-2.  If the mod does not have any repository, then create a repository in your `own` profile, the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
+2.  If the mod does not have any repository, then create a repository in your `own` profile (if you have access to the Compliance Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center">
 
 3.  Keep the `main` branch with only one file: `initialcommit` **(without any extension)** and make a new branch for each supported Minecraft version, _don't forget to delete the initialcommit **in branches you have created**._  
