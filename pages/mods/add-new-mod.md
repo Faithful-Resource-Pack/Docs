@@ -16,7 +16,7 @@ title: 'Mods: Add a new Mod'
 
 ## Step by step: 
 
-1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://www.compliancepack.net/mods) by typing the name of the mod or its assets folder name.
+1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://compliancepack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center">
 > See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exists.
 
@@ -51,7 +51,7 @@ title: 'Mods: Add a new Mod'
 	},
 	{
 		"name": {
-			// Name displayed on https://www.compliancepack.net/mods
+			// Name displayed on https://compliancepack.net/mods
 			"displayName": "Example Mod",
 			// Can be left empty if there is no aliases
 			"aliases": [ "(EM)", "Example Mod 2" ]
