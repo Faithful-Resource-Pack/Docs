@@ -1,5 +1,5 @@
 ---
-title: 'Textures: Compliance texturing guidlines'
+title: 'Textures: Compliance texturing guidelines'
 ---
 # Acquiring More Pixels
 ### *A guide on how to upscale Minecraft textures for Compliance, and have them not suck*
