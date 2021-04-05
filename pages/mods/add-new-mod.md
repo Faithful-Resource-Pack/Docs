@@ -16,7 +16,7 @@ title: 'Mods: Add a new Mod'
 
 ## Step by step: 
 
-1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://compliancepack.net/mods) by typing the name of the mod or its assets folder name.
+1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Compliance-Mods) **and** on our [Compliance Website](https://compliancepack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center">
 > See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exists.
 
@@ -28,18 +28,10 @@ title: 'Mods: Add a new Mod'
 > The `main` branch needs to be set as the **default branch**! Do not merge others branches to the main branch!  
 > If you made your repository before the 1st October 2020, rename your `master` branch to `main`. ([Discover Why?](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/))  
 
-4.  Upload your textures in each branch (see how [here]({{ site.baseurl }}/pages/mods/add-textures.html)), use the same `pack.png` as the {{ project_name }} logo. You also need to add a `pack.mcmeta` following this setup:
-```json
-{
-	"pack": {
-		"pack_format": 3,
-		"description": "{{ project_name }}"
-	}
-}
-```
-> The `"pack_format"` can be found [here]({{ github_organization_url }}{{ organization_website_repo_name }}/blob/master/data/versions.json) (make a pull request if outdated).
+4.  Upload your textures in each branch (see how [here]({{ site.baseurl }}/pages/mods/add-textures.html)).
 
 5.  Your repository now should look like this:
+- **The pack.png and pack.mcmeta are not needed anymore, because that process is now automated.**
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center">  
 > **You need to create an `assets` folder and place your textures inside!**
 
