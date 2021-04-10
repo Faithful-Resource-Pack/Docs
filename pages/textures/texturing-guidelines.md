@@ -16,37 +16,37 @@ Here are some basic rules and guidelines to help you!
 This one is particularly important. There's no exact reason for this, but most people agree that 1px outlines simply look better. Thin outlines have also become a staple of Compliance, and help maintain the style consistency we want to achieve.  
 In certain cases, like in the daylight sensor texture, it is acceptable to use 2px lines, as 1px lines would look off-centre or otherwise out of place.
 
-*fig. 1: Bad examples.*  
-<img src="{{ site.baseurl }}/images/pages/textures/bad_2px_examples.png" alt="bad_2px_examples">
+<p align="center"><i>fig. 1: Bad examples.</i></p>
+<img src="{{ site.baseurl }}/images/pages/textures/bad_2px_examples.png" alt="bad_2px_examples" class="center">
 
-*fig. 2: Good examples.*  
-<img src="{{ site.baseurl }}/images/pages/textures/good_2px_examples.png" alt="good_2px_examples">
+<p align="center"><i>fig. 2: Good examples.</i></p>
+<img src="{{ site.baseurl }}/images/pages/textures/good_2px_examples.png" alt="good_2px_examples" class="center">
 
 **2. Avoid adding extra colours at all costs. Use the vanilla palette.**  
 Most of the time, in double the resolution, you're fine with the palette the original texture uses. If you need to blend two or more colours, use dithering, if applicable.  
 In extreme cases, such as shading a smooth object where dithering would look out of place, adding colours is necessary for the texture to look good. Just try to keep the number of extra colours at a minimum, and discuss it with other artists as well.
 **This applies to vanilla textures with many unnecessary colours as well!** If you want to redraw one of these, index the original's colours first. (That means you should reduce the colours present in the image to only the necessary colours, using an image editing program like Aseprite or Photoshop.)
 
-*fig. 1: Bad examples.*  
-<img src="{{ site.baseurl }}/images/pages/textures/bad_colour_examples.png" alt="bad_colour_examples">
+<p align="center"><i>fig. 1: Bad examples.</i></p>
+<img src="{{ site.baseurl }}/images/pages/textures/bad_colour_examples.png" alt="bad_colour_examples" class="center">
 
-*fig. 2: Good examples.*  
-<img src="{{ site.baseurl }}/images/pages/textures/good_colour_examples.png" alt="good_colour_examples">
+<p align="center"><i>fig. 2: Good examples.</i></p>
+<img src="{{ site.baseurl }}/images/pages/textures/good_colour_examples.png" alt="good_colour_examples" class="center">
 
 **3. Keep material in mind.**  
 You can't shade coal the same way as you would a bucket. When drawing a texture, define its material (rough/smooth, shiny/non-reflective), and shade it accordingly. If it's shiny, make the highlights and shades stand out and don't dither, if it's not reflective, lower the shades'/highlights' contrast and use dithering to your advantage.  
 In the same manner, well-defined shapes mean nothing if they look out of place – think about what the texture represents, so make leaves look like leaves, wood like wood, etc.
 
-*fig. 1: Middle: Default texture; Left: Incorrect interpretation; Right: Correct interpretation.*  
-<img src="{{ site.baseurl }}/images/pages/textures/well_defined_shapes.png" alt="well_defined_shapes">
+<p align="center"><i>fig. 1: Middle: Default texture; Left: Incorrect interpretation; Right: Correct interpretation.</i></p>  
+<img src="{{ site.baseurl }}/images/pages/textures/well_defined_shapes.png" alt="well_defined_shapes" class="center">
 
 **4. Additional tips**  
 When dithering, try not to overdo it – super-noisy textures usually don't look good. (Unless you're drawing e.g. sand – whether or not the sand texture uses dithering is up for debate.)  
 Avoid large patches of a singular colour in most textures. If possible, break the colour patches into smaller, more compact areas using dithering or other methods. This helps get rid of the plasticky look that's usually not suited for a texture.  
 When doing a texture of a mob's face, if all attempts at upscaling the face fail, it is fine to just use the vanilla face directly upscaled to double the resolution, such as seen below.
 
-*fig. 1: An acceptable mob face*  
-<img src="{{ site.baseurl }}/images/pages/textures/good_face_example.png" alt="good_face_example">
+<p align="center"><i>fig. 1: An acceptable mob face</i></p>
+<img src="{{ site.baseurl }}/images/pages/textures/good_face_example.png" alt="good_face_example" class="center">
 
 ___
 
