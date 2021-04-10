@@ -12,11 +12,16 @@ Please only use markdown files and do not change anything on the existing HTML, 
 The article needs a front matter to get recognized automatically.
 It has to be the first thing in the file and defines the title of your article.
 Below you can see an example.
-```yaml
+```yml
 ---
 title: 'Your title here'
+type: 'Docs'
 ---
 ```
+
+## Add a new type of docs:
+Currently, documents ``type`` could be: ``Mods``, ``Docs``, ``Textures``.  
+If you want to add a new type, please modify this [line](https://github.com/Compliance-Resource-Pack/Docs/blob/main/_layouts/default.html#L34)
 
 ## Markdown
 

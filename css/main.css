@@ -149,21 +149,6 @@ pre {
 	border-radius: 16px;
 }
 
-/* json coloration */
-.nl {
-	color: #E6DB74;
-}
-.mi {
-	color: #8E81FF;
-}
-.err {
-	color: #75715E;
-}
-.s2 {
-	color: #E6DB74;
-}
-
-
 button {
 	margin: 4px 0;
 	outline: 0;
@@ -239,4 +224,33 @@ blockquote {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
+}
+
+/* json coloration */
+/* comment */
+span.err {
+	color: #75715E;
+}
+/* variable */
+span.nl {
+	color: #66D9EF;
+	font-style: italic;
+}
+/* string value */
+span.s2 {
+	color: #CFCFC2;
+}
+/* number value */
+span.mi {
+	color: #AE76C6;
+}
+
+/* yaml coloration */
+/* var name */
+span.na {
+	color: #F92658;
+}
+/* var value */
+span.s1, span.s {
+	color: #DADB67;
 }
