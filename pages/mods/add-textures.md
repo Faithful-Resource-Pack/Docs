@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 'Mods: Add textures'
+title: "Add textures"
+type: "Mods"
 ---
 
 # Add textures to an **existing** Mod:

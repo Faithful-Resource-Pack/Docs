@@ -1,5 +1,5 @@
-const navBg = document.getElementById('nav-bg');
-const nav = document.getElementsByTagName('NAV');
+const navBg  = document.getElementById('nav-bg');
+const nav    = document.getElementsByTagName('NAV');
 const header = document.getElementsByTagName('HEADER');
 var i;
 

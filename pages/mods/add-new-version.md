@@ -1,5 +1,6 @@
 ---
-title: 'Mods: Add a new Minecraft version'
+title: "Add a new Minecraft version"
+type: "Mods"
 ---
 {% assign organization_name = 'Compliance-Resource-Pack' %}
 {% assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' %}

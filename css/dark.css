@@ -1,0 +1,34 @@
+body, nav {
+  background-color: #22272E;
+  color: #ADBAC7;
+}
+
+header {
+  background-color: rgba(0,0,0,.2);
+  color: #768390;
+}
+
+p, h1, h2, h3, h4, h5 {
+  color: #ADBAC7;
+}
+
+a, a:hover {
+  color: #3E9BF5;
+}
+
+a:visited {
+  color: #7055e9;
+}
+
+li {
+  color: #768390;
+}
+
+#nav-img {
+	background: #22272E url(../images/nav_image_dark.jpg) repeat center;
+  background-size: 100% 100%;
+}
+
+.nav-link, a:visited.nav-link, a:hover.nav-link, .collapsible, .collapsible:hover {
+	color: #ADBAC7;
+}

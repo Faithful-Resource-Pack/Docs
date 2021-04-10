@@ -3,33 +3,55 @@
 <head>
 	<meta charset="utf-8">
 	<title>Compliance Pack Docs - {{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.min.css" />
 	<meta name="theme-color" content="#76C945">
 	<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
 	<meta name="description" content="The official site with documentation and guides related to Compliance." />
 	<meta property="og:image" content="{{ site.baseurl }}/logo_og.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.min.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/dark.min.css" id="darkcss" />
+
+	<!-- Font awesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
 	<header>
-		<button id="menuBtn" class="header-button" type="button" onclick="openMenu()">Men&uuml;</button>
+		<button id="menuBtn" class="header-button" type="button" onclick="openMenu()">Menu</button>
 		<h1 class="small-display">Docs</h1>
 		<h1 class="big-display">Compliance Pack Docs</h1>
 	</header>
 	<div id="nav-bg"></div>
 	<nav>
 		<div id="nav-img">Logo</div>
+		<btn id="DarkMode" onclick="changeMod(true)" class="nav-link">
+			<i style="margin-right: 5px" class="fas fa-adjust"></i> Auto Theme
+		</btn>
 		<a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-		{%- assign sorted_pages = site.pages | sort:"title" -%}
-		{%- for page in sorted_pages -%}
-			{%- unless page.url contains "assets/css/style.css" or page.title == "Home" -%}
-			<a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-			{%- endunless -%}
+
+		{%- assign sorted_pages = site.pages | sort: "type" -%}
+		{%- assign items = "Docs, Mods, Textures" | split: ", " -%}
+	
+		{%- for item in items -%}
+			<button class="collapsible">{{ item }}</button>
+			<div class="content">
+				{%- for page in sorted_pages -%}
+					{%- unless page.url contains "assets/css/style.css" or page.title == "Home" -%}
+						{%- if page.type == item -%}
+							<a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+						{%- endif -%}
+					{%- endunless -%}
+				{%- endfor -%}
+			</div>
 		{%- endfor -%}
+
 	</nav>
 	<main>
 		{{ content }}
 	</main>
 	<script src="{{ site.baseurl }}/js/header.min.js" async></script>
+	<script src="{{ site.baseurl }}/js/darktheme.min.js" async></script>
+	<script src="{{ site.baseurl }}/js/collapse.min.js" async></script>
 </body>
 </html>
