@@ -36,7 +36,8 @@ type: "Mods"
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center">  
 > **You need to create an `assets` folder and place your textures inside!**
 
-6.  Then make a pull request on the website repository modifying [this file]({{ organization_website_repo_url }}/blob/master/data/mods.json) following this setup:
+6.  Then make a pull request on the [JSON repository](https://github.com/Compliance-Resource-Pack/JSON) modifying [this file](https://github.com/Compliance-Resource-Pack/JSON/blob/main/mods/mods.json) following this setup:
+
 ```json
 [
 	{
