@@ -24,6 +24,9 @@
 	--code-blocks-number-value-color: #AE76C6;
 	--code-blocks-yaml-key-color: #F92658;
 	--code-blocks-yaml-value-color: #DADB67;
+	--code-blocks-shell-regex: #F92665;
+	--code-blocks-shell-string: #E6DB74;
+	--code-blocks-shell-key-color: #66D9EF;
 
 	--code-quote-text-background-color: rgba(0,0,0,.1);
 
@@ -305,7 +308,7 @@ li > h3 {
 
 /* json coloration */
 /* comment */
-span.err {
+span.err, span.c {
 	color: var(--code-blocks-comment-text-color);
 }
 /* variable */
@@ -330,4 +333,18 @@ span.na {
 /* var value */
 span.s1, span.s {
 	color: var(--code-blocks-yaml-value-color);
+}
+
+/* shell coloration */
+/* char '*' */
+span.k {
+	color: var(--code-blocks-shell-regex);
+}
+/* text between "" */
+div.language-shell > * > * > code > span.s2 {
+	color: var(--code-blocks-shell-string);
+}
+/* $ at the begining */
+span.nv {
+	color: var(--code-blocks-shell-key-color);
 }
