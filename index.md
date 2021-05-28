@@ -5,15 +5,27 @@ title: Home
   <img src="{{ site.baseurl }}/images/logo.png" alt="Logo">
 </p>
 
-# Welcome to the docs
+<h1>Welcome to the docs</h1>
+<p align="justify">On this site you will find documentation and guides related to the Compliance Resource Pack.</p>
 
-On this site you will find documentation and guides related to the Compliance Resource Pack.
-
-## Pages
-
-This is a list of all available pages on this site.
+<h2>Pages</h2>
+<p align="justify">This is a list of all available pages on this website:</p>
 
 {% assign sorted_pages = site.pages | sort:"title" %}
-{% for page in sorted_pages %}
-{% unless page.url contains "assets/css/style.css" or page.title == "Home" %}- [{{ page.title }}]({{ site.baseurl }}{{ page.url }}){% endunless %}
-{% endfor %}
+{%- assign sorted_pages = site.pages | sort: "type" -%}
+{%- assign items = "Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
+
+{%- for item in items -%}
+<li><h3>{{ item }}</h3></li>
+
+{%- for page in sorted_pages -%}
+{%- unless page.title == "Home" -%}
+<ul>
+{%- if page.type == item -%}
+<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+{%- endif -%}
+</ul>
+{%- endunless -%}
+{%- endfor -%}
+
+{%- endfor -%}

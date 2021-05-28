@@ -1,5 +1,5 @@
 ---
-title: "Add a new Minecraft version"
+title: "Add new Minecraft version"
 type: "Mods"
 ---
 {% assign organization_name = 'Compliance-Resource-Pack' %}

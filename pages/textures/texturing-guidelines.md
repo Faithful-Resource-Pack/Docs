@@ -1,5 +1,5 @@
 ---
-title: "Compliance texturing guidelines"
+title: "Compliance guidelines"
 type: "Textures"
 ---
 # Acquiring More Pixels

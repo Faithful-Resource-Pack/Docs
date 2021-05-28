@@ -6,15 +6,15 @@ const btn = document.getElementById('DarkMode')
 const THEME_VALUES = [
   {
     value: 'auto',
-    html: '<i style="margin-right: 5px" class="fas fa-adjust"></i> Auto Theme'
+    html: 'THEME: AUTO'
   },
   {
     value: 'dark',
-    html: '<i style="margin-right: 5px" class="fas fa-moon"></i> Dark Theme'
+    html: 'THEME: DARK'
   },
   {
     value: 'light',
-    html: '<i style="margin-right: 5px" class="fas fa-sun"></i> Light Theme'
+    html: 'THEME: LIGHT'
   }
 ]
 
@@ -51,8 +51,10 @@ btn.innerHTML = theme.currentThemeHTML
 window.changeMod = change => {
   // true if the btn calls the method, false otherwise
   if (change) {
+    btn.classList.remove(theme.currentTheme)
     window.theme.currentTheme = theme.nextTheme
     btn.innerHTML = theme.currentThemeHTML
+    btn.classList.add(theme.currentTheme)
   }
 
   // update theme

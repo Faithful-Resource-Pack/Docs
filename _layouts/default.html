@@ -9,8 +9,8 @@
 	<meta property="og:image" content="{{ site.baseurl }}/logo_og.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.min.css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/dark.min.css" id="darkcss" />
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/dark.css" id="darkcss" />
 
 	<!-- Font awesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -19,30 +19,37 @@
 <body>
 	<header>
 		<button id="menuBtn" class="header-button" type="button" onclick="openMenu()">Menu</button>
-		<h1 class="small-display">Docs</h1>
-		<h1 class="big-display">Compliance Pack Docs</h1>
+		<h1 class="small-display">DOCS</h1>
+		<h1 class="big-display">COMPLIANCE PACK DOCS</h1>
 	</header>
 	<div id="nav-bg"></div>
 	<nav>
 		<div id="nav-img">Logo</div>
-		<btn id="DarkMode" onclick="changeMod(true)" class="nav-link">
-			<i style="margin-right: 5px" class="fas fa-adjust"></i> Auto Theme
-		</btn>
-		<a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+		<button id="DarkMode" onclick="changeMod(true)" class="nav-link auto">THEME: AUTO</button>
+		{%- unless page.title == "Home" -%}
+			<a class="nav-link home" href="{{ site.baseurl }}/">HOME</a>
+		{%- endunless -%}
 
 		{%- assign sorted_pages = site.pages | sort: "type" -%}
-		{%- assign items = "Docs, Mods, Textures" | split: ", " -%}
+		{%- assign items = "Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
+		{%- assign type = "peer" -%}
 	
 		{%- for item in items -%}
-			<button class="collapsible">{{ item }}</button>
+			<button class="collapsible">{{ item | upcase}}</button>
 			<div class="content">
 				{%- for page in sorted_pages -%}
-					{%- unless page.url contains "assets/css/style.css" or page.title == "Home" -%}
+					{%- unless page.title == "Home" -%}
 						{%- if page.type == item -%}
-							<a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+							<a class="nav-link {{ type }}" href="{{ site.baseurl }}{{ page.url }}">{{ page.title | upcase }}</a>
+							{%- if type == "peer" -%}
+								{%- assign type = "odd" -%}
+							{%- else -%}
+								{%- assign type = "peer" -%}
+							{%- endif -%}
 						{%- endif -%}
 					{%- endunless -%}
 				{%- endfor -%}
+				{%- assign type = "peer" -%}
 			</div>
 		{%- endfor -%}
 
@@ -50,8 +57,8 @@
 	<main>
 		{{ content }}
 	</main>
-	<script src="{{ site.baseurl }}/js/header.min.js" async></script>
-	<script src="{{ site.baseurl }}/js/darktheme.min.js" async></script>
-	<script src="{{ site.baseurl }}/js/collapse.min.js" async></script>
+	<script src="{{ site.baseurl }}/js/header.js" async></script>
+	<script src="{{ site.baseurl }}/js/darktheme.js" async></script>
+	<script src="{{ site.baseurl }}/js/collapse.js" async></script>
 </body>
 </html>

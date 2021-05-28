@@ -1,5 +1,5 @@
 ---
-title: "Add a new Mod"
+title: "Add new Mod"
 type: "Mods"
 ---
 {%- assign organization_name = 'Compliance-Resource-Pack' -%}

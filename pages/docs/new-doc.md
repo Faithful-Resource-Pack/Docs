@@ -1,5 +1,5 @@
 ---
-title: "Write a documentation article"
+title: "Write a Doc"
 type: "Docs"
 ---
 # How to write a new documentation article
