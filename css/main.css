@@ -51,17 +51,9 @@
 	background: var(--scrollbar-thumb-hover-color);
 }
 
-/*@font-face {
-  font-family: Compliance;
-  src: url("../fonts/Compliance.ttf") format("truetype");
-}*/
-
 * {
-	/*font-family: Compliance;*/
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 	box-sizing: border-box;
-	/*transition-duration: .25s;*/
-	background-color: var(--background-white-color);
 }
 .big-display {
 	display: none;
@@ -72,6 +64,7 @@ html, body {
 	font: 20px arial, sans-serif;
 	padding: 0;
 	margin: 0;
+	background-color: var(--background-white-color);
 }
 header {
 	position: fixed;
@@ -251,6 +244,7 @@ blockquote {
 	padding: 0px 2px;
 }
 .center {
+	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -309,6 +303,38 @@ li > h3 {
 	transition: max-height 0.2s ease-out;
 }
 
+.table-of-content {
+	background-color: var(--peer-color-hover);
+	padding: 20px;
+	text-align: left !important;
+	border-radius: 10px;
+}
+
+.table-of-content > h2 {
+	margin-top: 0;
+	text-align: center;
+}
+.table-of-content > ul {
+	margin-block-start: 0;
+	padding-inline-start: 10px;
+}
+.table-of-content > ul > li {
+	list-style: none;
+	padding-top: 10px;
+	font-size: large
+}
+.table-of-content > ul > * {
+	font-size: medium
+}
+
+@media (min-width: 1850px) {
+	.table-of-content {
+		position: absolute;
+		left: 2.5%;
+		max-width: 350px;
+	}
+}
+
 /* json coloration */
 /* comment */
 span.err, span.c {
@@ -353,17 +379,17 @@ span.nv {
 }
 
 ol.lettered {
-    counter-reset: list;
+	counter-reset: list;
 }
 ol.lettered > li {
-    list-style: none;
-    position: relative;
+	list-style: none;
+	position: relative;
 }
 ol.lettered > li:before {
-    counter-increment: list;
-    content: counter(list, lower-alpha) ") ";
-    position: absolute;
-    left: -1.4em;
+	counter-increment: list;
+	content: counter(list, lower-alpha) ") ";
+	position: absolute;
+	left: -1.4em;
 }
 
 ol.roman {
