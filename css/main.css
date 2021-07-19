@@ -35,6 +35,8 @@
 	--scrollbar-track-color: #F1F1F1;
 	--scrollbar-thumb-color: #C1C1C1;
 	--scrollbar-thumb-hover-color: #A8A8A8;
+	
+	--link-color: #3E9BF5;
 }
 ::-webkit-scrollbar {
 	width: 8px;
@@ -334,6 +336,11 @@ li > h3 {
 	.table-of-content {
 		position: inherit;
 	}
+}
+
+/* changes link coloration in lightmode */
+a, a:hover, a:visited {
+	color: var(--link-color);
 }
 
 /* json coloration */
