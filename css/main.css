@@ -228,6 +228,7 @@ td {
 }
 th {
 	font-weight: bold;
+	width: 200px;
 	border: 1px solid var(--background-white-color);
 }
 
