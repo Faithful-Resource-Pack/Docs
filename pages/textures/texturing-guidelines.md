@@ -74,7 +74,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <p align="center"><i><b>Picture 9:</b> Left: An example of a texture with noticeable colour banding. Right: The same texture, with colour banding mostly eliminated.</i></p>
     <br>
   </ol>
-  <li><b>Indexing colours</b> refers to the process of reducing the colour count of an image. This is used when basing a texture off of its (usually) programmer art version, which oftentimes hasneedless amounts of colours. Since using too many colours would be against these guidelines, one is required to index them. This can be done automatically in an image editing program by using the Indexed Colours mode, but since that can cause problems, it’s recommended to either switch back to RGB/8 after indexing is done or to do the indexing manually.</li>
+  <li><b>Indexing colours</b> refers to the process of reducing the colour count of an image. This is used when basing a texture off of its (usually) programmer art version, which oftentimes has needless amounts of colours. Since using too many colours would be against these guidelines, one is required to index them. This can be done automatically in an image editing program by using the Indexed Colours mode, but since that can cause problems, it’s recommended to either switch back to RGB/8 after indexing is done or to do the indexing manually.</li>
   <br>
   <img src="{{ site.baseurl }}/images/pages/textures/11.png" alt="indexing" class="center">
   <img src="{{ site.baseurl }}/images/pages/textures/12.png" alt="indexing" class="center">
