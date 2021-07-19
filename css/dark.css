@@ -26,12 +26,11 @@
 }
 
 /* Classic url colors are weird in dark mode */
-a, a:hover {
-  color: #3E9BF5;
+a, a:hover ,a:visited {
+  	color: #3E9BF5;
+	text-decoration:none;
 }
-a:visited {
-  color: #3E9BF5;
-}
+
 
 #nav-img {
   background-image: url(../images/nav_image_logo.png), url(../images/bg_dark.png);
