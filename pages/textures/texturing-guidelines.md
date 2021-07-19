@@ -8,12 +8,12 @@ ___
 
 ## Introduction
 
-Compliance was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Compliance.
+<i>Compliance was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Compliance.
 But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.
 Initially, we tried to have minimal, ambiguous guidelines so as to not limit people’s creativity too much, in the hopes that artists would stick to approximately the same style. This proved to be too optimistic, and as the pack expanded, textures with increasing degrees of stylistic variety were added, hindering the overall consistency of the pack.
 Whenever a texture that was borderline rule-breaking was made, it always led to controversy and a huge debate that would drag on for hours, and would never come to a clear conclusion.
 The truth is, nobody really expressed a clear enough idea on what the pack’s style should be, nor were the preceding guidelines ever enforced heavily.
-These new rules and guidelines aim to fix all of these problems, and will try to outline Compliance’s stylistic direction with as much attention to detail and as much clarity as possible.
+These new rules and guidelines aim to fix all of these problems, and will try to outline Compliance’s stylistic direction with as much attention to detail and as much clarity as possible.</i>
 
 ___
 
