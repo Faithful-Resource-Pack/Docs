@@ -21,7 +21,7 @@
 	<div id="nav-bg"></div>
 	<nav>
 		<div id="nav-img">Logo</div>
-		<button id="DarkMode" onclick="changeMod(true)" class="nav-link auto">THEME: AUTO</button>
+		<button id="DarkMode" onclick="changeMod(true)" class="nav-link auto" style="height: 36px;">THEME: AUTO</button>
 		{%- unless page.title == "Home" -%}
 			<a class="nav-link home" href="{{ site.baseurl }}/">HOME</a>
 		{%- endunless -%}
@@ -36,7 +36,11 @@
 				{%- for page in sorted_pages -%}
 					{%- unless page.title == "Home" -%}
 						{%- if page.type == item -%}
-							<a class="nav-link {{ type }}" href="{{ site.baseurl }}{{ page.url }}">{{ page.title | upcase }}</a>
+							<a class="nav-link {{ type }}" href="{{ site.baseurl }}{{ page.url }}">
+								{{ page.title | upcase }}<br>
+								<span class="new-badge keepTag" data-date="{{ page.date }}" style="margin-right: 5px;">NEW</span>
+								{%- if page.deprecated -%}<span class="deprecated-badge">DEPRECATED</span>{%- endif -%}
+							</a>
 							{%- if type == "peer" -%}
 								{%- assign type = "odd" -%}
 							{%- else -%}
@@ -56,5 +60,6 @@
 	<script src="{{ site.baseurl }}/js/header.js" async></script>
 	<script src="{{ site.baseurl }}/js/darktheme.js" async></script>
 	<script src="{{ site.baseurl }}/js/collapse.js" async></script>
+	<script src="{{ site.baseurl }}/js/keepTag.js"></script>
 </body>
 </html>

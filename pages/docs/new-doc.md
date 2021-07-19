@@ -1,6 +1,7 @@
 ---
 title: "Write a Doc"
 type: "Docs"
+date: "19/07/2021"
 ---
 # How to write a new documentation article
 
@@ -16,19 +17,21 @@ Below you can see an example.
 ---
 title: 'Your title here'
 type: 'Docs'
+date: 'dd/mm/yyyy'
 ---
 ```
 
 ## Add a new type of docs:
-Currently, documents ``type`` could be: ``Mods``, ``Docs``, ``Textures``.  
-If you want to add a new type, please modify this [line](https://github.com/Compliance-Resource-Pack/Docs/blob/main/_layouts/default.html#L34)
+Currently, documents ``type`` could be: ``CompliBot``, ``Docs``, ``Dungeons``, ``Modpacks``, ``Mods``, ``Textures``.  
+If you want to add a new type, please modify this [line](https://github.com/Compliance-Resource-Pack/Docs/blob/main/_layouts/default.html#L34).
 
 ## Markdown
 
-Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004.
-You can find a useful cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004.  
+You can find a useful cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).  
+You can find a useful online editor for it [here](https://hackmd.io/) (click the blue button saying: ``use for free``).  
 
 ## Jekyll
 
-You can also use the liquid templating language which is used by Jekyll.
+You can also use the liquid templating language which is used by Jekyll.  
 You can find a useful cheatsheet [here](https://shopify.github.io/liquid/).

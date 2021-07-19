@@ -1,6 +1,8 @@
 ---
 title: "Add textures: with commands"
 type: "Mods"
+date: "02/12/2020"
+deprecated: true
 ---
 
 # Add textures to an **existing** Mod - With Commands:

@@ -3,12 +3,13 @@
 	--accent-color-dark: #2467D6;
 
 	--text-color: #212529;
+	--text-color-red: #AC2F2F;
 	--secondary-text-color: #212529;
 
-	--peer-color: rgba(0,0,0,.1);
-	--odd-color: rgba(0,0,0,.075);
-	--peer-color-hover: rgba(0,0,0,.15);
-	--odd-color-hover: rgba(0,0,0,.15);
+	--peer-color: rgba(170, 205, 255, .25);
+	--odd-color: rgba(137, 186, 255, .25);
+	--peer-color-hover: rgba(170, 205, 255, .75);
+	--odd-color-hover: rgba(170, 205, 255, .75);
 
 	--shadow-black-50-color: rgba(0,0,0,.5);
 	--shadow-black-30-color: rgba(0,0,0,.3);
@@ -141,10 +142,10 @@ nav.nav-open {
 .nav-link {
 	display: block;
 	font-size: 16px;
-	height: 36px;
+	/* height: 36px; */
 	width: 350px;
 	padding: 0 16px 0;
-	line-height: 36px;
+	line-height: 24px;
 	text-decoration: none;
 	text-align: left;
 	color: var(--text-color) !important;
@@ -299,6 +300,14 @@ li > h3 {
 	display: inline;
 }
 
+ul.no-heads {
+	margin-block-start: 0;
+	padding-inline-start: 10px;
+}
+ul.no-heads > li {
+	list-style: none;
+}
+
 .content {
 	max-height: 0;
 	overflow: hidden;
@@ -342,6 +351,33 @@ li > h3 {
 a, a:hover, a:visited {
 	color: var(--link-color);
 	text-decoration: none;
+}
+
+/* new tag badge (used in menus) */
+.new-badge {
+	background-color: var(--text-color-red);
+	color: white;
+	border-radius: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: x-small;
+	vertical-align: middle;
+}
+.deprecated-badge {
+	background-color: orange;
+	color: black;
+	border-radius: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: x-small;
+	vertical-align: middle;
+
+	position: inline
+}
+
+/* colored text classes */
+.red-text {
+	color: var(--text-color-red); 
 }
 
 /* json coloration */

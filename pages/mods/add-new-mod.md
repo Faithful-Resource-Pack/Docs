@@ -1,6 +1,8 @@
 ---
 title: "Add new Mod"
 type: "Mods"
+date: "11/04/2021"
+deprecated: false
 ---
 {%- assign organization_name = 'Compliance-Resource-Pack' -%}
 {%- assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' -%}

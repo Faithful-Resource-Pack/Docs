@@ -6,11 +6,17 @@ title: Home
 </p>
 
 <h1>Welcome to the docs</h1>
-<p align="justify">On this site you will find documentation and guides related to the Compliance Resource Pack.</p>
+<p align="justify">On this site you will find documentation and guides related to the Compliance Team such as: Compliance Resources Packs, the Discord Bot and much more...</p>
 
-<div class="table-of-content" style="position: inherit;">
+<h2>Tags meaning</h2>
+<ul class="no-heads">
+  <li><span class="new-badge">NEW</span> : This Doc is recent! Go check-it out!</li>
+  <li><span class="deprecated-badge">DEPRECATED</span> : This Doc is old it might be not accurate and will change in a near future!</li>
+</ul>
 
 <h2>Table of Contents</h2>
+<div class="table-of-content" style="position: inherit;">
+
 <ul>
 
 {% assign sorted_pages = site.pages | sort:"title" %}

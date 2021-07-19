@@ -1,6 +1,8 @@
 ---
 title: "Compliance guidelines"
 type: "Textures"
+date: "19/07/2021"
+deprecated: false
 ---
 
 <style>
@@ -244,7 +246,7 @@ ___
   <p class="center"><i><b>Picture 20:</b> An ore texture. Note how the already existing stone texture is used in the background.</i></p>
   <br>
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Compliance.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
-  <p style="color: #AC2F2F; text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
+  <p class="red-text" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
 </ol>
 
 **Tips**

@@ -1,6 +1,8 @@
 ---
 title: "Add textures"
 type: "Mods"
+date: "02/12/2020"
+deprecated: false
 ---
 
 # Add textures to an **existing** Mod:
