@@ -308,6 +308,9 @@ li > h3 {
 	padding: 20px;
 	text-align: left !important;
 	border-radius: 10px;
+	position: absolute;
+	left: 2.5%;
+	max-width: 350px;
 }
 
 .table-of-content > h2 {
@@ -327,11 +330,9 @@ li > h3 {
 	font-size: medium
 }
 
-@media (min-width: 1850px) {
+@media (max-width: 1850px) {
 	.table-of-content {
-		position: absolute;
-		left: 2.5%;
-		max-width: 350px;
+		position: inherit;
 	}
 }
 
