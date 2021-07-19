@@ -23,7 +23,7 @@
 		<div id="nav-img">Logo</div>
 		<button id="DarkMode" onclick="changeMod(true)" class="nav-link auto" style="height: 36px;">THEME: AUTO</button>
 		{%- unless page.title == "Home" -%}
-			<a class="nav-link home" href="{{ site.baseurl }}/">HOME</a>
+			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="{{ site.baseurl }}/">HOME</a>
 		{%- endunless -%}
 
 		{%- assign sorted_pages = site.pages | sort: "type" -%}
@@ -37,7 +37,7 @@
 					{%- unless page.title == "Home" -%}
 						{%- if page.type == item -%}
 							<a class="nav-link {{ type }}" href="{{ site.baseurl }}{{ page.url }}">
-								{{ page.title | upcase }}<br>
+								{{ page.title }}<br>
 								<span class="new-badge keepTag" data-date="{{ page.date }}" style="margin-right: 5px;">NEW</span>
 								{%- if page.deprecated -%}<span class="deprecated-badge">DEPRECATED</span>{%- endif -%}
 							</a>

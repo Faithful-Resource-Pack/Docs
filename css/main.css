@@ -4,6 +4,7 @@
 
 	--text-color: #212529;
 	--text-color-red: #AC2F2F;
+	--secondary-text-color-red: #6E1E1E;
 	--secondary-text-color: #212529;
 
 	--peer-color: rgba(170, 205, 255, .25);
@@ -168,11 +169,11 @@ div.content > a.nav-link {
 	background-color: var(--odd-color-hover);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th {
 	color: var(--text-color);
 	font-weight: normal;
 }
-p, ul, ol, li {
+p, ul, ol, li, td {
 	line-height: 1.5;
 	color: var(--secondary-text-color);
 }
@@ -213,6 +214,38 @@ pre {
 
 pre > code > * {
 	background-color: var(--code-blocks-background-color);
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-radius: 10px;
+	background-color: var(--code-quote-text-background-color);
+}
+td {
+	padding-left: 10px;
+	border: 1px solid var(--background-white-color);
+}
+th {
+	font-weight: bold;
+	border: 1px solid var(--background-white-color);
+}
+
+.new-issue-btn {
+	outline: 0;
+	border: 0;
+	border-radius: 2px;
+	padding: 8px 16px;
+	font-size: 14px;
+	cursor: pointer;
+	background-color: var(--text-color-red);
+	color: white;
+}
+.new-issue-btn:hover {
+	background-color: var(--secondary-text-color-red);
+}
+.new-issue-btn:hover, .new-issue-btn:visited {
+	color: white;
 }
 
 button {
@@ -371,8 +404,15 @@ a, a:hover, a:visited {
 	padding-right: 4px;
 	font-size: x-small;
 	vertical-align: middle;
-
-	position: inline
+}
+.green-badge {
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: x-small;
+	vertical-align: middle;
 }
 
 /* colored text classes */

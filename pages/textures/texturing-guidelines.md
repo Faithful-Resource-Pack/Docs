@@ -1,5 +1,5 @@
 ---
-title: "Compliance guidelines"
+title: "Compliance Guidelines"
 type: "Textures"
 date: "19/07/2021"
 deprecated: false
