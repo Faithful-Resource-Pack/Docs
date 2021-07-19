@@ -123,6 +123,7 @@ nav {
 	background: var(--background-white-color);
 	box-shadow: 0 0 8px var(--shadow-black-50-color);
 	overflow: hidden auto;
+	transition: .5s;
 	z-index: 100;
 }
 #nav-bg.nav-open {
