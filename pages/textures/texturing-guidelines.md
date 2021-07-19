@@ -2,6 +2,13 @@
 title: "Compliance guidelines"
 type: "Textures"
 ---
+
+<style>
+  li, p {
+    text-align: justify;
+  }
+</style>
+
 # Compliance Texturing Rules and Guidelines
 
 ___
