@@ -57,7 +57,7 @@ type: "Textures"
   <ol>
     Tips
     <li><a href="{{ page.url }}#mob-faces">Mob Faces</a></li>
-    <li><a href="{{ page.url }}#dithering">Dithering</a></li>
+    <li><a href="{{ page.url }}#dithering-tip">Dithering</a></li>
     <li><a href="{{ page.url }}#stairing-pixels">Stairing Pixels</a></li>
   </ol>
   <li><a href="{{ page.url }}#part-3-material-and-shape-reference-list">Part 3: Material and Shape Reference List</a></li>
@@ -255,7 +255,7 @@ ___
   <img src="{{ site.baseurl }}/images/pages/textures/23.png" alt="acceptable mob face" class="center">
   <p class="center"><i><b>Picture 21:</b> An acceptable mob face.</i></p>
   <br>
-  <li id="dithering"><b>Dithering</b> should not be overdone, unless you’re re-drawing a particularly noisy texture (e.g. sand). Also while dithering, try to avoid lone pixels, as in the ones that do not border other ones of the same colour.</li>
+  <li id="dithering-tip"><b>Dithering</b> should not be overdone, unless you’re re-drawing a particularly noisy texture (e.g. sand). Also while dithering, try to avoid lone pixels, as in the ones that do not border other ones of the same colour.</li>
   <br>
   <img src="{{ site.baseurl }}/images/pages/textures/24.png" alt="overdone dithering" class="center">
   <p class="center"><i><b>Picture 22:</b> A close-up of a colour transition with lone pixels, which should be avoided.</i></p>
