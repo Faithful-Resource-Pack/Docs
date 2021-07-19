@@ -341,6 +341,7 @@ li > h3 {
 /* changes link coloration in lightmode */
 a, a:hover, a:visited {
 	color: var(--link-color);
+	text-decoration: none;
 }
 
 /* json coloration */
