@@ -2,8 +2,8 @@
 	--accent-color: #4285f4;
 	--accent-color-dark: #2467D6;
 
-	--text-color: #212121;
-	--secondary-text-color: #666;
+	--text-color: #212529;
+	--secondary-text-color: #212529;
 
 	--peer-color: rgba(0,0,0,.1);
 	--odd-color: rgba(0,0,0,.075);
@@ -48,18 +48,19 @@
 	border: 2px solid var(--scrollbar-track-color);
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: var(--scrollbar-hover-color);
+	background: var(--scrollbar-thumb-hover-color);
 }
 
-@font-face {
-	font-family: PTMono;
-	src: url(../fonts/PTMono-Regular.ttf) format('truetype');
-}
+/*@font-face {
+  font-family: Compliance;
+  src: url("../fonts/Compliance.ttf") format("truetype");
+}*/
 
 * {
-	font-family: PTMono;
+	/*font-family: Compliance;*/
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 	box-sizing: border-box;
-	transition-duration: .25s;
+	/*transition-duration: .25s;*/
 	background-color: var(--background-white-color);
 }
 .big-display {
@@ -68,7 +69,7 @@
 html, body {
 	scroll-padding-top: 112px;
 	scroll-behavior: smooth;
-	font: 16px arial, sans-serif;
+	font: 20px arial, sans-serif;
 	padding: 0;
 	margin: 0;
 }
@@ -347,4 +348,30 @@ div.language-shell > * > * > code > span.s2 {
 /* $ at the begining */
 span.nv {
 	color: var(--code-blocks-shell-key-color);
+}
+
+ol.lettered {
+    counter-reset: list;
+}
+ol.lettered > li {
+    list-style: none;
+    position: relative;
+}
+ol.lettered > li:before {
+    counter-increment: list;
+    content: counter(list, lower-alpha) ") ";
+    position: absolute;
+    left: -1.4em;
+}
+
+ol.roman {
+	list-style-type: upper-roman;
+}
+
+img[src$=".png"], img[src$=".gif"] {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none
 }

@@ -2,8 +2,8 @@
 	--accent-color: #4285f4;
 	--accent-color-dark: #2467D6;
 
-	--text-color: #ADBAC7;
-	--secondary-text-color: #768390;
+	--text-color: rgba(255, 255, 255, .7);
+	--secondary-text-color: rgba(255, 255, 255, .7);
 
 	--peer-color: rgba(24, 29, 36, .25);
 	--odd-color: rgba(14, 19, 26, .25);
@@ -13,16 +13,16 @@
 	--shadow-black-50-color: rgba(0,0,0,.5);
 	--shadow-black-30-color: rgba(0,0,0,.3);
 
-	--nav-background-color: #22272E;
-	--background-white-color: #22272E;
+	--nav-background-color: #131313;
+	--background-white-color: #131313;
 
 	--code-quote-text-background-color: rgba(255,255,255,.1);
 
 	--blockquote-bar-color: #666666;
 
-	--scrollbar-track-color: #22272E;
-	--scrollbar-thumb-color: #111418;
-	--scrollbar-thumb-hover-color: #111418;
+	--scrollbar-track-color: #0E0E0E;
+	--scrollbar-thumb-color: #3E3E3E;
+	--scrollbar-thumb-hover-color: #575757;
 }
 
 /* Classic url colors are weird in dark mode */

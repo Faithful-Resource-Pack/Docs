@@ -2,80 +2,343 @@
 title: "Compliance guidelines"
 type: "Textures"
 ---
-# Acquiring More Pixels
+# Compliance Texturing Rules and Guidelines
 ### *A guide on how to upscale Minecraft textures for Compliance, and have them not suck*
 
 ___
 
-Redrawing textures in double the resolution while staying true to the art style is ***hard***, and I'm sure everyone who's tried making anything for Compliance knows this. Nonetheless, it's time to tackle all the problems you might encounter while texturing.  
-Here are some basic rules and guidelines to help you!
+## Introduction
 
-## Part 1: The Do's and Don't's
-
-**1. Outlines, dividing lines and the like that would end up being 2px when upscaled should always\* be 1px.**  
-This one is particularly important. There's no exact reason for this, but most people agree that 1px outlines simply look better. Thin outlines have also become a staple of Compliance, and help maintain the style consistency we want to achieve.  
-In certain cases, like in the daylight sensor texture, it is acceptable to use 2px lines, as 1px lines would look off-centre or otherwise out of place.
-
-<p align="center"><i>fig. 1: Bad examples.</i></p>
-<img src="{{ site.baseurl }}/images/pages/textures/bad_2px_examples.png" alt="bad_2px_examples" class="center">
-
-<p align="center"><i>fig. 2: Good examples.</i></p>
-<img src="{{ site.baseurl }}/images/pages/textures/good_2px_examples.png" alt="good_2px_examples" class="center">
-
-**2. Avoid adding extra colours at all costs. Use the vanilla palette.**  
-Most of the time, in double the resolution, you're fine with the palette the original texture uses. If you need to blend two or more colours, use dithering, if applicable.  
-In extreme cases, such as shading a smooth object where dithering would look out of place, adding colours is necessary for the texture to look good. Just try to keep the number of extra colours at a minimum, and discuss it with other artists as well.
-**This applies to vanilla textures with many unnecessary colours as well!** If you want to redraw one of these, index the original's colours first. (That means you should reduce the colours present in the image to only the necessary colours, using an image editing program like Aseprite or Photoshop.)
-
-<p align="center"><i>fig. 1: Bad examples.</i></p>
-<img src="{{ site.baseurl }}/images/pages/textures/bad_colour_examples.png" alt="bad_colour_examples" class="center">
-
-<p align="center"><i>fig. 2: Good examples.</i></p>
-<img src="{{ site.baseurl }}/images/pages/textures/good_colour_examples.png" alt="good_colour_examples" class="center">
-
-**3. Keep material in mind.**  
-You can't shade coal the same way as you would a bucket. When drawing a texture, define its material (rough/smooth, shiny/non-reflective), and shade it accordingly. If it's shiny, make the highlights and shades stand out and don't dither, if it's not reflective, lower the shades'/highlights' contrast and use dithering to your advantage.  
-In the same manner, well-defined shapes mean nothing if they look out of place – think about what the texture represents, so make leaves look like leaves, wood like wood, etc.
-
-<p align="center"><i>fig. 1: Middle: Default texture; Left: Incorrect interpretation; Right: Correct interpretation.</i></p>  
-<img src="{{ site.baseurl }}/images/pages/textures/well_defined_shapes.png" alt="well_defined_shapes" class="center">
-
-**4. Additional tips**  
-When dithering, try not to overdo it – super-noisy textures usually don't look good. (Unless you're drawing e.g. sand – whether or not the sand texture uses dithering is up for debate.)  
-Avoid large patches of a singular colour in most textures. If possible, break the colour patches into smaller, more compact areas using dithering or other methods. This helps get rid of the plasticky look that's usually not suited for a texture.  
-When doing a texture of a mob's face, if all attempts at upscaling the face fail, it is fine to just use the vanilla face directly upscaled to double the resolution, such as seen below.
-
-<p align="center"><i>fig. 1: An acceptable mob face</i></p>
-<img src="{{ site.baseurl }}/images/pages/textures/good_face_example.png" alt="good_face_example" class="center">
+Compliance was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Compliance.
+But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.
+Initially, we tried to have minimal, ambiguous guidelines so as to not limit people’s creativity too much, in the hopes that artists would stick to approximately the same style. This proved to be too optimistic, and as the pack expanded, textures with increasing degrees of stylistic variety were added, hindering the overall consistency of the pack.
+Whenever a texture that was borderline rule-breaking was made, it always led to controversy and a huge debate that would drag on for hours, and would never come to a clear conclusion.
+The truth is, nobody really expressed a clear enough idea on what the pack’s style should be, nor were the preceding guidelines ever enforced heavily.
+These new rules and guidelines aim to fix all of these problems, and will try to outline Compliance’s stylistic direction with as much attention to detail and as much clarity as possible.
 
 ___
 
-## Part 2: The Jappa Dilemma
+## Part 1: Terms and Definitions
 
-Most people agree that the main Compliance pack should be "Jappa". But what even *is* this word?  
-Well, for starters, Jappa is the online nickname of [Jasper Boerstra](https://minecraft.gamepedia.com/Jasper_Boerstra), Minecraft's lead texture artist, that has been hired to make textures for the 1.14 Texture Update and continues to make textures for new Minecraft features.
+Over time, our community has adopted and come up with numerous terms regarding pixel art, texturing and art techniques. Since these guidelines use these terms extensively, a definitive dictionary must be made for the layman.
 
-When most people say "it should be jappa", what they *really* mean is that a texture should not be "programmer art" – or modelled after a pre-1.14 Minecraft texture, which are colloquially called "programmer art", or "progart" for short, among Minecraft texture artists. For the main Compliance pack, this should indeed not be the case, as modelling textures after programmer art ones for 1.14+ would mean using non-default textures as a base, which is against the main aim of Compliance.  
-
-The problem arises when people say "this is *not* jappa", because the actual meaning varies.  
-It is widely accepted that Compliance's textures should "look jappa" as in they should *try to emulate Jappa's personal style in double the resolution, while keeping attention to detail.*  
-That means that when making a texture, you should look at the default texture, think "how would Jappa do it if he had more pixels to work with?" and conceive the texture with this in mind.  
-If you're still confused (which is okay), here is a list of what (generally) applies to a "jappa" Compliance texture:
-- The object represented is the same as in the default texture.
-- The object is portrayed in the same angle/perspective.
-- The object maintains similar proportions to the vanilla one.
-- The overall design of the object is the same.
-- If said object is an item, it is drawn with a darker, one pixel thick outline.
-- The object is lit from the same direction (usually top-left) as the vanilla one, and is shaded accordingly.
-- Each area of the object is shaded using only a few shades of each colour.
-- The texture maintains the same palette as the vanilla one.
-
-#### About 16x limitations
-
-When redrawing a texture in double the resolution, there is a tendency to keep the same level of detail and the same shape, without really thinking about what the texture represents. It is important to know that the perceived "flatness" or "cartooniness" is usually NOT a design choice, but rather a limitation of the resolution the texture is drawn in. Don't let yourself be chained up with the same limitations! Take full advantage of the higher resolution: as said above, make (for example) buckets look like buckets, even if you have to differ from the vanilla shape a bit.
-
-Of course, all these definitions are really vague – and I don't think we can really improve that. So please, always discuss with other artists before posting a texture. You'll find that feedback can improve your texture by a *lot*.
+<ol>
+  <li><b>(Colour) Blending</b> refers to the method of transitioning one colour into another. It mostly occurs around the border between these two colours.
+  <br>There are many types of blending. The most important ones are listed here:</li>
+  <ol class="lettered">
+    <br>
+    <li><b>No blending</b> is a simple border between two or more colours, without any additional effects. An early in-development texture usually has no blending, which is added in later stages of the process.
+    <br>This type of blending is discouraged in most cases, because it usually ends up making the texture look “plasticky” and fails to portray the material of the texture.</li>
+    <br>
+    <img src="{{ site.baseurl }}/images/pages/textures/1.png" alt="no blending" class="center">
+    <p align="center"><i><b>Picture 1:</b> Example of a border between two colours, with no blending applied.</i></p>
+    <br>
+    <li><b>Anti-aliasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colours. It uses an additional in-between colour (usually taken from somewhere else in the texture) to provide a smoother transition. This method is recommended to be used in conjunction with no blending on very smooth surfaces, like metal or plastic. It can also be used in small amounts on most other materials to eliminate drastic borders between light and dark colours.</li>
+    <br>
+    <img src="{{ site.baseurl }}/images/pages/textures/2.png" alt="aliased and anti-aliased" class="center">
+    <p align="center"><i><b>Picture 2:</b> A line with no anti-aliasing compared to a line with anti-aliasing applied to it.</i></p>
+    <img src="{{ site.baseurl }}/images/pages/textures/3.png" alt="anti-aliasing" class="center">
+    <img src="{{ site.baseurl }}/images/pages/textures/4.png" alt="anti-aliasing" class="center">
+    <p align="center"><i><b>Picture 3:</b> Example of anti-aliasing used in a texture featured in Compliance.</i></p>
+    <br>
+    <li><b>Dithering</b> is perhaps the most used texturing term in the Compliance servers. The word describes a method used very commonly for the many textures of raw, unprocessed materials found in Minecraft, such as stone, wood and others. To achieve dithering, one is required to displace the pixels of a colour border in such a way that said border is no longer as defined and has parts protruding in and out of the other colour.
+    <br>Dithering can be done in multiple ways:</li>
+    <br>
+    <ol class="roman">
+      <li><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material.
+      <br>Special cases include chainmail and sand (in small amounts). It looks like, well, a checkerboard of two colours.</li>
+      <br>
+      <img src="{{ site.baseurl }}/images/pages/textures/5.png" alt="checkerboard dithering transition" class="center">
+      <p align="center"><i><b>Picture 4:</b> Checkerboard dithering used as a transition between two colours.</i></p>
+      <br>
+      <img src="{{ site.baseurl }}/images/pages/textures/6.png" alt="checkerboard dithering texture" class="center">
+      <p align="center"><i><b>Picture 5:</b> Example of checkerboard dithering in a texture.</i></p>
+      <br>
+      <li><b>Regular dithering</b> is the single most used dithering method, as it can be utilised in the largest array of cases, and the vast majority of Compliance textures, be it in high or low levels. The technique consists of placing displaced pixels around the colour border (which look random, but oftentimes are cleverly laid out to avoid visual issues) in such a way that little to no checkerboarding is created. Displaced pixels usually take the shape of a single 1px square or a 2x1px rectangle, but never full-on intentional lines. Regular dithering doesn’t convey any sense of directionality!</li>
+      <br>
+      <img src="{{ site.baseurl }}/images/pages/textures/7.png" alt="regular dithering texture" class="center">
+      <p align="center"><i><b>Picture 6:</b> Example of regular dithering in a texture.</i></p>
+      <br>
+      <li><b>Linear dithering</b> is just like dithering, but with displaced pixels taking the shape of (usually) 1px wide lines that all go in the same direction, most of the time vertically or horizontally. This method is best used for textures that already have a linear pattern in vanilla, such as stone or wood.</li>
+      <br>
+      <img src="{{ site.baseurl }}/images/pages/textures/8.png" alt="linear dithering texture" class="center">
+      <p align="center"><i><b>Picture 7:</b> Example of linear dithering in a texture.</i></p>
+      <br>
+    </ol>
+    <p>Do note that all of these dithering methods can be mixed and matched at various intensities in a single texture. This is often required to accurately portray a desired material.</p>
+    <img src="{{ site.baseurl }}/images/pages/textures/9.png" alt="mixed dithering textures" class="center">
+    <p align="center"><i><b>Picture 8:</b> Examples of mixed dithering methods: linear and regular on stone, regular and hints of checkerboard dithering on sand, respectively.</i></p>
+    <br>
+    <li><b>Colour banding</b> describes the phenomenon of noticeable stripes of a single colour appearing as a result of using multiple colours for a transition. This is generally unwanted, just because it doesn’t look the best. Colour banding can be reduced by narrowing the individual colour stripes to be 1 pixel thick or so, but this method often can and does look bad. If it doesn’t work, keep the colours banded, it’s not that much of an issue.</li>
+    <br>
+    <img src="{{ site.baseurl }}/images/pages/textures/10.png" alt="colour banding" class="center">
+    <p align="center"><i><b>Picture 9:</b> Left: An example of a texture with noticeable colour banding. Right: The same texture, with colour banding mostly eliminated.</i></p>
+    <br>
+  </ol>
+  <li><b>Indexing colours</b> refers to the process of reducing the colour count of an image. This is used when basing a texture off of its (usually) programmer art version, which oftentimes hasneedless amounts of colours. Since using too many colours would be against these guidelines, one is required to index them. This can be done automatically in an image editing program by using the Indexed Colours mode, but since that can cause problems, it’s recommended to either switch back to RGB/8 after indexing is done or to do the indexing manually.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/11.png" alt="indexing" class="center">
+  <img src="{{ site.baseurl }}/images/pages/textures/12.png" alt="indexing" class="center">
+  <p align="center"><i><b>Picture 10:</b> Left: An example of a texture with too many colours. Right: The same texture, with indexed colours.</i></p>
+  <br>
+  <li><b>Upscaling (a texture)</b> in Compliance’s context refers to redrawing a vanilla-resolution texture in a higher resolution (32x or 64x) according to these guidelines. In other contexts, it can refer to an image whose resolution has been increased for example, all 1x1 pixels become 2x2 colour areas using an image editing program, and/or with an AI.</li>
+  <br>
+  <li><b>JAPPA,</b> or Jasper Boerstra, is Minecraft’s current lead art director and pixel artist and has been working on the game since 2017.</li>
+  <br>
+  <li><b>Programmer art</b> (often colloquially referred to as “progart”) is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren’t made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn’t coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features. Which is what the pre-1.14 textures basically are, since most of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
+  <br>
+  <li><b>JAPPA textures</b> directly oppose Programmer Art. They were made by a single artist – Jappa – and they have a consistent art style. They are featured in all versions after 1.14 inclusive.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/13.png" alt="Jappa textures" class="center">
+  <p align="center"><i><b>Picture 11:</b> Left: Programmer art oak planks. Right: Jappa oak planks.</i></p>
+  <br>
+  <li><b>False lines</b> are the occurrence of several elements and/or colour areas of a texture lining up in such a way that they create an illusion of a straight line, even when there is none in reality.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/14.png" alt="false lines" class="center">
+  <p align="center"><i><b>Picture 12:</b> An example of false lines.</i></p>
+  <br>
+  <li><b>Mixels</b> describe pixels of clashing resolutions, for example if a texture uses 1x1 pixels and the other uses 2x2 pixels extensively, that would be considered mixels.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/15.png" alt="mixel texture" class="center">
+  <p align="center"><i><b>Picture 13:</b> Example of mixels in a texture.</i></p>
+  <br>
+  <li><b>A contrasty colour palette</b> is a colour palette utilising colours which have high contrast between each other. Contrast in colour theory is defined as the difference in brightness or hue between two or more colours.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/16.png" alt="false lines" class="center">
+  <p align="center"><i><b>Picture 14:</b> Left: example of a texture with low contrast. Right: example of a texture with high contrast.</i></p>
+</ol>
 
 ___
 
-That being said, have fun drawing and good luck with your texture!
+## Part 2: General Rules and Tips
+
+**Rules**
+<br>These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Compliance.
+
+<ol>
+  <li><b>Textures need to mimic vanilla Minecraft textures, and should be heavily based upon them.</b> This probably goes without saying, but it’s good to have it specified nonetheless. While you are not required to make your texture by directly editing the vanilla one, it is heavily recommended and usually helps your texture look better and closer to the default texture.</li>
+  <br>
+  <li><b>Outlines, dividing lines and the like that would end up being 2 pixels wide when upscaled to double the resolution should almost always be 1 pixel wide.</b> Pretty straight-forward, most lines in Compliance should be 1 pixel wide (examples: glass, gold block, iron ingot, diamond). There are exceptions to this, especially if a line is not an outline/dividing line,  and/or is curvy, or would be off-centre if it was 1 pixel wide. In these cases it’s acceptable to make the line wider.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/17.png" alt="outlines" class="center">
+  <p align="center"><i><b>Picture 15:</b> Top: Vanilla texture. Bottom left: Incorrect interpretation of lines present in the vanilla texture. Bottom right: Correct interpretation.</i></p>
+  <br>
+  <li><b>All textures are required to be shaded correctly according to their material and shape.</b> Before shading a texture, define its material correctly (rough/smooth, shiny/non-reflective), and then use adequate shading methods. These are further described in the Material and Shape Reference List.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/18.png" alt="shading" class="center">
+  <p align="center"><i><b>Picture 16:</b> Left: Incorrectly shaded item (see the Material and Shape Reference List). Right: Correctly shaded item.</i></p>
+  <br>
+  <li><b>All elements of a texture need to have their meaning, and should look like actual things instead of just shapes.</b> Don’t just mindlessly upscale textures without paying attention to what they’re supposed to represent: When drawing an element of a texture, always think about what it’s supposed to represent in vanilla, and then draw the element according to this idea (while still keeping similarity to vanilla in mind, of course).</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/19.png" alt="correct upscaling" class="center">
+  <p align="center"><i><b>Picture 17:</b> Top: Vanilla texture. Bottom left: Incorrect upscale. Bottom right: Correct interpretation (note the individual leaves, which are required in double the resolution but aren’t possible to be depicted in the vanilla resolution).</i></p>
+  <br>
+  <li><b>Textures should stick to the vanilla colour palette.</b> Self-explanatory; try to only use the colours that the vanilla texture uses. If you’re trying to blend two colours together using anti-aliasing, you can usually re-use a colour from elsewhere in the texture. In particularly puzzling predicaments you can add colours to help you, but most of the time, one or two is enough. If the texture you’re upscaling already has many colours, you can use that to your advantage, but you should still keep the palette limited to more or less than 10 colours. Additionally, never change existing colours from the vanilla palette! If a vanilla texture uses 5 specific colours, make sure your texture uses these exact ones.
+  <br>This rule does not apply to animated textures that used to be generated procedurally in the past: e.g. water, lava, nether portal, fire and soul fire.</li>
+  <br>
+  <li><b>Do not make up features/details that are not clearly present in the vanilla texture and don’t add them to your texture, unless not having them makes absolutely no sense in double the resolution.</b> While upscaling a texture, one might have the tendency to add significant elements that are not present in vanilla. This is discouraged, as it makes a texture look too distant from the vanilla look most of the time. This also applies to various details in a texture: If appropriate, a normal amount is encouraged, but don’t overdo it.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/20.png" alt="texture details" class="center">
+  <p align="center"><i><b>Picture 18:</b> Top: Vanilla texture. Bottom left: A texture with too many added details. Bottom right: A texture with just enough details and features.</i></p>
+  <br>
+  <li><b>When blending colour using anti-aliasing or dithering, make sure that darkest colours never directly border the lightest ones and vice versa.</b> Dirt is an example of this. Always have a transition colour in between the colours. In some cases this is desired, but not in many. If you’re a beginner Compliance contributor, always follow this rule.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/21.png" alt="colour borders" class="center">
+  <p align="center"><i><b>Picture 19:</b> Left: Improper colour borders. Note the very harsh-looking colour borders caused by the lack of a transition colour. Right: Correct colour transitions.</i></p>
+  <br>
+  <li><b>Try to eliminate colour banding, if possible.</b> As already described in previous sections, this can be done by cleverly reducing the width of each colour band to one or two pixels. Don’t brute force it though, in some cases where the colour palette is especially limited this can harm the texture overall. It’s certainly possible to do in most cases though.</li>
+  <br>
+  <li><b>Unless it’s intentional and makes sense to have, there should never be large single-colour areas in your texture.</b> This applies especially to raw materials like stone or wood. You can always break these areas up by using dithering or other methods.</li>
+  <br>
+  <li><b>If a texture uses another texture as a base, use the already existing Compliance rendition of it, if available.</b> An example of this would be stone and ores. Don’t make stone from scratch just for the ore texture. Make your life simpler and re-use existing textures when you can.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/22.png" alt="already existing texture" class="center">
+  <p align="center"><i><b>Picture 20:</b> An ore texture. Note how the already existing stone texture is used in the background.</i></p>
+  <br>
+  <li><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Compliance.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
+  <p align="center" style="color: #AC2F2F"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
+</ol>
+
+**Tips**
+
+<ol>
+  <li><b>Mob faces</b> can be particularly hard to interpret in only double the resolution. If all attempts at upscaling the face end up looking bad, it is acceptable to use a “mixel-face” – just keeping the vanilla mob face, without any edits, on an upscaled background.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/23.png" alt="acceptable mob face" class="center">
+  <p align="center"><i><b>Picture 21:</b> An acceptable mob face.</i></p>
+  <br>
+  <li><b>Dithering</b> should not be overdone, unless you’re re-drawing a particularly noisy texture (e.g. sand). Also while dithering, try to avoid lone pixels, as in the ones that do not border other ones of the same colour.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/24.png" alt="overdone dithering" class="center">
+  <p align="center"><i><b>Picture 22:</b> A close-up of a colour transition with lone pixels, which should be avoided.</i></p>
+  <br>
+  <li><b>Try to minimise the occurrence of stairing pixels,</b> an example of which is shown below.</li>
+  <br>
+  <img src="{{ site.baseurl }}/images/pages/textures/25.png" alt="stairing pixels" class="center">
+  <p align="center"><i><b>Picture 23:</b> Left: Example of a colour transition featuring stairing pixels. Right: The same transition, with the stairing removed.</i></p>
+</ol>
+
+**And most importantly, always get feedback from others while drawing a texture! It will help you improve in ways you wouldn’t even have thought of.**
+
+___
+
+## Part 3: Material and Shape Reference List
+This section goes into detail about how to draw and shade specific materials and shapes.
+
+<br>
+### Materials
+There exists a correlation between the roughness and shininess of a material and the colour blending method. Generally, the rougher a material is, the more dithering you should use. The same applies to high-contrast colours and minimal colour blending for shiny materials.
+
+<br>
+**Smooth metal** should only use anti-aliasing as a colour blending method, or no blending at all. The colour palette should be limited and contrasty. In some cases mild linear dithering is acceptable if it’s required to keep the texture from looking like plastic. Additionally, in item textures, faces of an object which are in the shade should have a lighter outline (as well as the item outline itself) to simulate light reflection.
+
+<img src="{{ site.baseurl }}/images/pages/textures/26.png" alt="smooth metal textures" class="center">
+<p align="center"><i><b>Picture 24:</b> Examples of various smooth metal textures.</i></p>
+
+<br>
+**Rough metals** such as raw ore blocks, netherite, anvils and even iron golems should follow the same lighting logic as regular metals while being dithered. Regular dithering should be used as the preferred method.
+
+<img src="{{ site.baseurl }}/images/pages/textures/27.png" alt="rough metal textures" class="center">
+<p align="center"><i><b>Picture 25:</b> Examples of rough metal textures.</i></p>
+
+<br>
+**Diamonds and other gemstones** in Minecraft’s context should be shaded like reflective rocks more than anything – they usually don’t let much light pass through, unlike their real-life counterparts. Only anti-aliasing should be used here. For faces in the shade in item textures, the same shading logic as on smooth metal textures applies.
+
+<img src="{{ site.baseurl }}/images/pages/textures/28.png" alt="gemstone textures" class="center">
+<p align="center"><i><b>Picture 26:</b> Examples of gemstone textures.</i></p>
+
+<br>
+**Contiguous stones** that are not broken up into smaller rocks are very rough, so they should use dithering as much as possible. For textures with a linear pattern (stone, dripstone), it is recommended to use a mixture of linear and regular dithering to emphasise the material even more. Anti-aliasing can be used here, but only when the material is smoother than usual, like with dripstone.
+
+<img src="{{ site.baseurl }}/images/pages/textures/29.png" alt="raw stone textures" class="center">
+<p align="center"><i><b>Picture 27:</b> Examples of contiguous raw stone textures.</i></p>
+
+<br>
+**Polished stones** should use dithering (linear when applicable) a bit, but not nearly as much as raw stones. Instead, anti-aliasing should be used in heavier amounts to express the smoothness of the material.
+Smooth stone is a special case however, as it directly reuses regular stone’s texture pattern (which you should do as well, as per rule 10).
+
+<img src="{{ site.baseurl }}/images/pages/textures/30.png" alt="polished stone textures" class="center">
+<p align="center"><i><b>Picture 28:</b> Examples of polished stone textures.</i></p>
+
+<br>
+**Rocky materials** such as cobblestone and netherrack should be dithered as much as raw stones, but unless the rocks are arranged in a clear linear pattern (like in the deepslate texture), linear dithering should never be used.
+
+<img src="{{ site.baseurl }}/images/pages/textures/31.png" alt="rocky material textures" class="center">
+<p align="center"><i><b>Picture 29:</b> Examples of rocky material textures.</i></p>
+
+<br>
+**Wood** should use a lot of linear dithering and very minimal amounts of regular dithering. To smooth colour transitions, anti-aliasing can be used if it looks good.
+
+<img src="{{ site.baseurl }}/images/pages/textures/32.png" alt="wood textures" class="center">
+<p align="center"><i><b>Picture 30:</b> Examples of wood textures.</i></p>
+
+<br>
+**Most flowers, foliage, and other plant matter** can use dithering (linear or regular) depending on the general roughness/smoothness of the surface. While flower petals can employ this shading method, genuine leaves should never use dithering. 
+
+<img src="{{ site.baseurl }}/images/pages/textures/33.png" alt="plant textures" class="center">
+<p align="center"><i><b>Picture 31:</b> Examples of plant textures.</i></p>
+
+<br>
+**Corals** should mainly use anti-aliasing, but regular dithering is also acceptable.
+
+<img src="{{ site.baseurl }}/images/pages/textures/34.png" alt="coral textures" class="center">
+<p align="center"><i><b>Picture 32:</b> Examples of coral textures.</i></p>
+
+<br>
+**Sand and other powdery materials** should be heavily dithered: there should be no large contiguous area of a single colour. Even checkerboard dithering can be used in this case, in small amounts. Anti-aliasing is encouraged to a smaller degree. This also applies to gravel, where the individual rocks that make up the material are clearly visible.
+
+<img src="{{ site.baseurl }}/images/pages/textures/35.png" alt="powdery textures" class="center">
+<p align="center"><i><b>Picture 33:</b> Examples of powdery textures.</i></p>
+
+<br>
+**Bee nests** are to be shaded the same way wood is.
+
+<br>
+**Honey and slime** should not feature any dithering at all, only using anti-aliasing to smooth the colours.
+
+<br>
+**Glazed terracotta** should only use minimal amounts of anti-aliasing when required, otherwise no colour blending should be present.
+
+<img src="{{ site.baseurl }}/images/pages/textures/36.png" alt="glazed terracotta textures" class="center">
+<p align="center"><i><b>Picture 34:</b> Examples of glazed terracotta textures.</i></p>
+
+<br>
+**Glass** can use small amounts of dithering for the frame. This does not apply to items.
+
+<br>
+**Bones** (including skeletons) should ideally mainly use anti-aliasing, with a bit of occasional linear dithering sprinkled in, near colour transitions. This applies to tusks as well.
+
+<img src="{{ site.baseurl }}/images/pages/textures/37.png" alt="bone textures" class="center">
+<p align="center"><i><b>Picture 35:</b> Examples of bone textures.</i></p>
+
+<br>
+**Cloth and paper** should both be shaded approximately the same way, with the only difference being that cloth should have more linearity. Anti-aliasing should be the main colour blending method for these materials.
+
+<br>
+**Skin (in mob textures) and leather** should mainly use anti-aliasing. Not using many colour blending methods can lead to heavy colour banding and looking plasticky, so this is a reminder to try and eliminate that if possible. Depending on the roughness of a specific skin type, linear and regular dithering can also be used to communicate the feel of the material.
+
+<img src="{{ site.baseurl }}/images/pages/textures/38.png" alt="skin textures" class="center">
+<p align="center"><i><b>Picture 36:</b> Examples of skin textures.</i></p>
+
+<br>
+**Creepers** are quite mind boggling. The texture was originally made from the leaves texture used in Alpha, but since a lot of noise has been overlaid on top, the texture no longer looks anything close to leaves, not to mention Alpha leaves barely resemble leaves in the first place. Basically, nobody knows how to shade this chaos of a material properly, so we just made the texture a jumbled noisy mess of pixels and went with that. Worked surprisingly well.
+
+<br>
+**Fur and hair** should employ linear dithering, but in such a way that it creates visible strands of hair. Some regular dithering and anti-aliasing can also come in handy. This applies to wool on sheep as well.
+
+<img src="{{ site.baseurl }}/images/pages/textures/39.png" alt="fur/hair textures" class="center">
+<p align="center"><i><b>Picture 37:</b> Examples of fur/hair textures.</i></p>
+
+<br>
+**Fish entities** should have clearly visible scales present where appropriate (don’t just draw a checkerboard!). Basically all colour blending methods can be used here.
+
+<img src="{{ site.baseurl }}/images/pages/textures/40.png" alt="fish texture" class="center">
+<p align="center"><i><b>Picture 38:</b> Example of a fish texture.</i></p>
+
+<br>
+### Shapes
+
+<br>
+**Cylindrical type objects** such as iron bars, individual dynamite sticks that make up TNT and metal railings should have visible shades along both sides and a highlight on the side near the centre like so:
+
+<img src="{{ site.baseurl }}/images/pages/textures/41.png" alt="cylindrical type objects" class="center">
+<p align="center"><i><b>Picture 39:</b> An example showing how to shade cylindrical type objects</i></p>
+
+___
+
+## Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten
+
+Compliance extends its field of expertise to correcting Jappa’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
+
+<img src="{{ site.baseurl }}/images/pages/textures/42.png" alt="forgotten texture" class="center">
+<p align="center"><i><b>Picture 40:</b> Pre-1.17 vanilla oak sign texture</i></p>
+
+<br>
+It is obvious that this texture uses the programmer art oak planks and bark. This is not viable for Compliance, as the pack strives for consistency, and as such it has been decided to use the already existing jappa plank and bark textures instead. Besides the sign, many more textures requiring this treatment exist. Some uncertainties about this have emerged though, so after all this time we are finally defining the replaceable textures properly:
+
+**Only replace programmer art textures (or textures that weren’t changed in the texture update) if it’s absolutely obvious what they should be changed to.**
+
+Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the jappa planks in order to make a viable Compliance texture.
+
+On the contrary, a texture that should NOT be “jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Compliance artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
+
+<img src="{{ site.baseurl }}/images/pages/textures/43.png" alt="texture should not be jappafied" class="center">
+<p align="center"><i><b>Picture 41:</b> Blaze powder, an example of a texture that should not be “jappafied”.</i></p>
+
+___
+
+## Conclusion
+Wow, this turned out way longer than we expected it to be. Would you believe that these guidelines were over a month in development? Well, we hope that you have found them useful and descriptive, and that they have cleared up any misbeliefs or doubts you might have had. If you have any questions, want to give feedback for this document or just post your textures, message us on our Discord server!
+
+___
+
+## Final Note
+These rules and guidelines are subject to change at any time. All changes to this document will be announced publicly. More images may be added in the future.
+
+___
+
+## Credits
+Written by Pomi108 for use in the Compliance project
+<br>Edited by Cituation, Juknum and Billy Apicella
+<br>Images compiled by Cituation and Pomi108
+<br>Credit for images goes to various Compliance and Faithful contributors, Mojang Studios and Google Images
