@@ -3,7 +3,6 @@ title: "Compliance guidelines"
 type: "Textures"
 ---
 # Compliance Texturing Rules and Guidelines
-### *A guide on how to upscale Minecraft textures for Compliance, and have them not suck*
 
 ___
 
