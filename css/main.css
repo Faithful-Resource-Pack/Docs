@@ -478,6 +478,20 @@ ol.lettered > li:before {
 	left: -1.4em;
 }
 
+ol.closing-bracket {
+	counter-reset: list;
+}
+ol.closing-bracket > li {
+	list-style: none;
+	position: relative;
+}
+ol.closing-bracket > li:before {
+	counter-increment: list;
+	content: counter(list, number) ") ";
+	position: absolute;
+	left: -1.4em;
+}
+
 ol.roman {
 	list-style-type: upper-roman;
 }

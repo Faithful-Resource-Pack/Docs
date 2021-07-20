@@ -16,83 +16,85 @@ deprecated: false
 <div class="table-of-content">
 <h2>Table of Contents</h2>
 
+{% assign url = page.url | remove: ".html" %}
+
 <ul>
-  <li><a href="{{ page.url }}#introduction">Introduction</a></li>
-  <li><a href="{{ page.url }}#part-1-terms-and-definitions">Part 1: Terms and Definitions</a></li>
+  <li><a href="{{ url }}#introduction">Introduction</a></li>
+  <li><a href="{{ url }}#part-1-terms-and-definitions">Part 1: Terms and Definitions</a></li>
   <ol>
-    <li><a href="{{ page.url }}#blending">(Colour) Blending</a></li>
+    <li><a href="{{ url }}#blending">(Colour) Blending</a></li>
     <ol class="lettered">
-      <li><a href="{{ page.url }}#no-blending">No Blending</a></li>
-      <li><a href="{{ page.url }}#anti-aliasing">Anti-Aliasing (AA)</a></li>
-      <li><a href="{{ page.url }}#dithering">Dithering</a></li>
+      <li><a href="{{ url }}#no-blending">No Blending</a></li>
+      <li><a href="{{ url }}#anti-aliasing">Anti-Aliasing (AA)</a></li>
+      <li><a href="{{ url }}#dithering">Dithering</a></li>
       <ol class="roman">
-        <li><a href="{{ page.url }}#checkerboard-dithering">Checkerboard dithering</a></li>
-        <li><a href="{{ page.url }}#regular-dithering">Regular dithering</a></li>
-        <li><a href="{{ page.url }}#linear-dithering">Linear dithering</a></li>
+        <li><a href="{{ url }}#checkerboard-dithering">Checkerboard dithering</a></li>
+        <li><a href="{{ url }}#regular-dithering">Regular dithering</a></li>
+        <li><a href="{{ url }}#linear-dithering">Linear dithering</a></li>
       </ol>
-      <li><a href="{{ page.url }}#colour-banding">Colour Banding</a></li>
+      <li><a href="{{ url }}#colour-banding">Colour Banding</a></li>
     </ol>
-    <li><a href="{{ page.url }}#indexing-colours">Indexing Colours</a></li>
-    <li><a href="{{ page.url }}#upscaling-a-texture">Upscaling</a></li>
-    <li><a href="{{ page.url }}#jappa">JAPPA</a></li>
-    <li><a href="{{ page.url }}#prog-art">Programmer Art</a></li>
-    <li><a href="{{ page.url }}#jappa-textures">JAPPA Textures</a></li>
-    <li><a href="{{ page.url }}#false-lines">False Lines</a></li>
-    <li><a href="{{ page.url }}#mixels">Mixels</a></li>
-    <li><a href="{{ page.url }}#contrast-palette">Contrast</a></li>
+    <li><a href="{{ url }}#indexing-colours">Indexing Colours</a></li>
+    <li><a href="{{ url }}#upscaling-a-texture">Upscaling</a></li>
+    <li><a href="{{ url }}#jappa">JAPPA</a></li>
+    <li><a href="{{ url }}#prog-art">Programmer Art</a></li>
+    <li><a href="{{ url }}#jappa-textures">JAPPA Textures</a></li>
+    <li><a href="{{ url }}#false-lines">False Lines</a></li>
+    <li><a href="{{ url }}#mixels">Mixels</a></li>
+    <li><a href="{{ url }}#contrast-palette">Contrast</a></li>
   </ol>
-  <li><a href="{{ page.url }}#part-2-general-rules-and-tips">Part 2: General Rules and Tips</a></li>
+  <li><a href="{{ url }}#part-2-general-rules-and-tips">Part 2: General Rules and Tips</a></li>
   <ol>
     Rules
-    <li><a href="{{ page.url }}#mimic-vanilla">Mimic Vanilla Textures</a></li>
-    <li><a href="{{ page.url }}#1px-wide">One Pixel Lines</a></li>
-    <li><a href="{{ page.url }}#shading">Shading</a></li>
-    <li><a href="{{ page.url }}#meaning">Meaning</a></li>
-    <li><a href="{{ page.url }}#vanilla-colour-palette">Vanilla Colour Palette</a></li>
-    <li><a href="{{ page.url }}#too-much-details">Details</a></li>
-    <li><a href="{{ page.url }}#blending-colours">Blending Colours</a></li>
-    <li><a href="{{ page.url }}#erase-colour-banding">Colour Banding</a></li>
-    <li><a href="{{ page.url }}#no-colour-chunk">No Large Single-Colour Areas</a></li>
-    <li><a href="{{ page.url }}#other-texture-as-base">Use Existing Textures as a Base</a></li>
-    <li><a href="{{ page.url }}#identical-when-upscaled">Exact when upscaled</a></li>
+    <li><a href="{{ url }}#mimic-vanilla">Mimic Vanilla Textures</a></li>
+    <li><a href="{{ url }}#1px-wide">One Pixel Lines</a></li>
+    <li><a href="{{ url }}#shading">Shading</a></li>
+    <li><a href="{{ url }}#meaning">Meaning</a></li>
+    <li><a href="{{ url }}#vanilla-colour-palette">Vanilla Colour Palette</a></li>
+    <li><a href="{{ url }}#too-much-details">Details</a></li>
+    <li><a href="{{ url }}#blending-colours">Blending Colours</a></li>
+    <li><a href="{{ url }}#erase-colour-banding">Colour Banding</a></li>
+    <li><a href="{{ url }}#no-colour-chunk">No Large Single-Colour Areas</a></li>
+    <li><a href="{{ url }}#other-texture-as-base">Use Existing Textures as a Base</a></li>
+    <li><a href="{{ url }}#identical-when-upscaled">Exact when upscaled</a></li>
   </ol>
   <ol>
     Tips
-    <li><a href="{{ page.url }}#mob-faces">Mob Faces</a></li>
-    <li><a href="{{ page.url }}#dithering-tip">Dithering</a></li>
-    <li><a href="{{ page.url }}#stairing-pixels">Stairing Pixels</a></li>
+    <li><a href="{{ url }}#mob-faces">Mob Faces</a></li>
+    <li><a href="{{ url }}#dithering-tip">Dithering</a></li>
+    <li><a href="{{ url }}#stairing-pixels">Stairing Pixels</a></li>
   </ol>
-  <li><a href="{{ page.url }}#part-3-material-and-shape-reference-list">Part 3: Material and Shape Reference List</a></li>
+  <li><a href="{{ url }}#part-3-material-and-shape-reference-list">Part 3: Material and Shape Reference List</a></li>
   <ul>
     Materials
-    <li><a href="{{ page.url }}#smooth-metal">Smooth Metal</a></li>
-    <li><a href="{{ page.url }}#rought-metal">Rough Metal</a></li>
-    <li><a href="{{ page.url }}#gems">Gemstones</a></li>
-    <li><a href="{{ page.url }}#contiguous-stones">Contiguous Stones</a></li>
-    <li><a href="{{ page.url }}#polished-stones">Polished Stones</a></li>
-    <li><a href="{{ page.url }}#rocky-materials">Rocky Materials</a></li>
-    <li><a href="{{ page.url }}#wood">Wood</a></li>
-    <li><a href="{{ page.url }}#flowers">Flowers</a></li>
-    <li><a href="{{ page.url }}#corals">Corals</a></li>
-    <li><a href="{{ page.url }}#sands">Sand & Powder</a></li>
-    <li><a href="{{ page.url }}#bee-nests">Bee Nests</a></li>
-    <li><a href="{{ page.url }}#honey">Honey & Slime</a></li>
-    <li><a href="{{ page.url }}#terracotta">Glazed Terracotta</a></li>
-    <li><a href="{{ page.url }}#glass">Glass</a></li>
-    <li><a href="{{ page.url }}#bones">Bones</a></li>
-    <li><a href="{{ page.url }}#cloth-paper">Cloth & Paper</a></li>
-    <li><a href="{{ page.url }}#skin">Skin</a></li>
-    <li><a href="{{ page.url }}#creepers">Creepers</a></li>
-    <li><a href="{{ page.url }}#fur-hair">Fur & Hair</a></li>
-    <li><a href="{{ page.url }}#fish">Fish Entity</a></li>
+    <li><a href="{{ url }}#smooth-metal">Smooth Metal</a></li>
+    <li><a href="{{ url }}#rought-metal">Rough Metal</a></li>
+    <li><a href="{{ url }}#gems">Gemstones</a></li>
+    <li><a href="{{ url }}#contiguous-stones">Contiguous Stones</a></li>
+    <li><a href="{{ url }}#polished-stones">Polished Stones</a></li>
+    <li><a href="{{ url }}#rocky-materials">Rocky Materials</a></li>
+    <li><a href="{{ url }}#wood">Wood</a></li>
+    <li><a href="{{ url }}#flowers">Flowers</a></li>
+    <li><a href="{{ url }}#corals">Corals</a></li>
+    <li><a href="{{ url }}#sands">Sand & Powder</a></li>
+    <li><a href="{{ url }}#bee-nests">Bee Nests</a></li>
+    <li><a href="{{ url }}#honey">Honey & Slime</a></li>
+    <li><a href="{{ url }}#terracotta">Glazed Terracotta</a></li>
+    <li><a href="{{ url }}#glass">Glass</a></li>
+    <li><a href="{{ url }}#bones">Bones</a></li>
+    <li><a href="{{ url }}#cloth-paper">Cloth & Paper</a></li>
+    <li><a href="{{ url }}#skin">Skin</a></li>
+    <li><a href="{{ url }}#creepers">Creepers</a></li>
+    <li><a href="{{ url }}#fur-hair">Fur & Hair</a></li>
+    <li><a href="{{ url }}#fish">Fish Entity</a></li>
     Shapes
-    <li><a href="{{ page.url }}#cylinders">Cylinders</a></li>
+    <li><a href="{{ url }}#cylinders">Cylinders</a></li>
 
   </ul>
-  <li><a href="{{ page.url }}#part-4-fixing-jappas-mistakes-and-things-hes-forgotten">Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten</a></li>
-  <li><a href="{{ page.url }}#conclusion">Conclusion</a></li>
-  <li><a href="{{ page.url }}#final-note">Final Note</a></li>
-  <li><a href="{{ page.url }}#credits">Credits</a></li>
+  <li><a href="{{ url }}#part-4-fixing-jappas-mistakes-and-things-hes-forgotten">Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten</a></li>
+  <li><a href="{{ url }}#conclusion">Conclusion</a></li>
+  <li><a href="{{ url }}#final-note">Final Note</a></li>
+  <li><a href="{{ url }}#credits">Credits</a></li>
 </ul>
 </div>
 ___

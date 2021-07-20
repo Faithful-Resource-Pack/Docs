@@ -13,9 +13,47 @@ deprecated: false
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/header.png">
 
+
+<div class="table-of-content">
+<h2>Table of Contents</h2>
+
+{% assign url = page.url | remove: ".html" %}
+
+<ul>
+  <li><a href="{{ url }}#introduction">Introduction</a></li>
+  <li><a href="{{ url }}#requirements">Requirements</a></li>
+  <li><a href="{{ url }}#part-0-controls--hotkeys">Part 0: Controls & Hotkeys</a></li>
+  <ul>
+    <li><a href="{{ url }}#blockbench">Blockbench</a></li>
+    <li><a href="{{ url }}#blender">Blender</a></li>
+    <li><a href="{{ url }}#-what-if-i-dont-have-a-3rd-button-mousenumpad">No 3rd mouse Numpad</a></li>
+  </ul>
+  <li><a href="{{ url }}#part-1-modelling">Part 1: Modelling</a></li>
+  <ol class="closing-bracket">
+    <li><a href="{{ url }}#1-prepare-a-texture">Prepare a texture</a></li>
+    <li><a href="{{ url }}#2-extrude-texture-in-blockbench">Extrude texture in Blockbench</a></li>
+    <li><a href="{{ url }}#3-export-the-model-as-obj">Export the model as OBJ</a></li>
+    <li><a href="{{ url }}#4-import-the-model-into-blender">Import the model into Blender</a></li>
+    <li><a href="{{ url }}#5-set-up-a-material">Set up a material</a></li>
+    <li><a href="{{ url }}#6-position-and-scale-your-model">Position & Scale your model</a></li>
+    <li><a href="{{ url }}#7-export-your-model-as-fbx">Export your model as FBX</a></li>
+  </ol>
+  <li><a href="{{ url }}#part-2-rendering">Part 2: Rendering</a></li>
+  <ol class="closing-bracket">
+    <li><a href="{{ url }}#1-import-your-model">Import your model</a></li>
+    <li><a href="{{ url }}#2-set-up-a-material-again">Set up a material (again)</a></li>
+    <li><a href="{{ url }}#3-add-a-light">Add a light</a></li>
+    <li><a href="{{ url }}#4-set-up-a-camera">Set up a camera</a></li>
+    <li><a href="{{ url }}#5-configure-output-and-render">Configure & Render</a></li>
+  </ol>
+</ul>
+</div>
+
+## Introduction
+
 When making a mod for Minecraft: Dungeons, it is important to know that most weapons, melee and ranged, are not like items in Java or Bedrock Edition - their model is not generated from their texture, but rather it's made to fit it. This tutorial will show you how to make and render models for your own, custom item textures. Never worked with any 3D modelling software of any kind? Not to worry, this tutorial will show you exactly what to do, without any need for previous 3D modelling knowledge! Let's get started:
 
-## You will need
+## Requirements
 
 - [Blockbench 3.6.6+](https://blockbench.net/)
 - [Blender 2.80+](https://www.blender.org/)
@@ -45,7 +83,7 @@ Here's how to do it:
 By default, `alt`+`LMB` will be registered as `MMB`. If you emulate the numpad, you can access the numpad hotkeys by pressing numbers in the top row of the keyboard (do NOT press shift!). The emulation will overide some existing hotkeys placed on the numerical row, but we don't need them anyway, so don't worry about that.
 
 Additionally, if you've got an Apple Magic Mouse, on top of having to emulate a 3 button mouse the view controls are a bit different:  
-<img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/hotkey-mac.png">
+<img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/hotkey_mac.png">
 > All other controls are the same.
 
 ## PART 1: Modelling
@@ -191,7 +229,7 @@ Congratulations! You've made it through the entire modelling process and now hav
 <p class="red-text">This is the end of the tutorial for those of you that are making items like the apple health drop, which do not require a render. But if you're making a model of a weapon - or just need to make a render - get ready for the next part:  </p>
 
 ## PART 2: Rendering
-### 0) Import your model
+### 1) Import your model
 
 > if you've followed the tutorial up to this part, you can skip this step.  
 
@@ -207,7 +245,7 @@ Now you can import the default model by going to File > Import, selecting Skelet
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/rendering-import-model-3.png">
 
-### 1) Set up a material (again)
+### 2) Set up a material (again)
 First, check if the Use Nodes button in the red checkered circle tab is blue. If it's not, click on it to make it blue.  
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/set-up-a-material-again-1.png">
@@ -225,7 +263,7 @@ TO connect two nodes together just click and drag from one point (as seen above)
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/set-up-a-material-again-4.png">
 
-### 2) Add a light
+### 3) Add a light
 
 First of all, your model is probably HUGE because Minecraft: Dungeons scales it down. This can cause some issues with lightning, so make your model smaller before doing anything.
 Next, delete any lights that might've been added by Blender when you created the model. Just select them, right click and select Delete. They look like this:  
@@ -249,7 +287,7 @@ When you're done you should get something that matches the default view and ligh
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/add-a-light-5.png">
 
-### 3) Set up a camera
+### 4) Set up a camera
 
 For Blender to actually know what to render, we need to set up a camera.
 First, we will enable an add-on that will make handling the camera easier. To do it, go to Edit > Preferences, open the Add-ons tab, find the add-on called "3D View: Stored views" and enable it like so:  
@@ -274,7 +312,7 @@ Now rotate your view around so you get a view that looks the most like the defau
 
 Now press Numpad 0 to switch to camera view.  
 
-### 4) Configure output and render
+### 5) Configure output and render
 
 We're almost done! The only thing left to do is to configure the resolution and transparency of the output render.
 You can make the output transparent by going to this tab in the menu on the right side, opening the Film tab and checking the Transparent box.  
@@ -302,5 +340,7 @@ When the render is finished, you can save it by going to Image > Save as.
 And there you have it! You have made yourself a model and render that is usable in Minecraft: Dungeons!  
 
 <img class="center" src="{{ site.baseurl }}/images/pages/dungeons/items-tutorial/configure-and-render-5.png">
+
+---
 
 <p style="text-align: center;"><em>Thank you so much for reading this tutorial, and good luck with your mod!</em></p>

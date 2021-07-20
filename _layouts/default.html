@@ -36,7 +36,7 @@
 				{%- for page in sorted_pages -%}
 					{%- unless page.title == "Home" -%}
 						{%- if page.type == item -%}
-							<a class="nav-link {{ type }}" href="{{ site.baseurl }}{{ page.url }}">
+							<a class="nav-link {{ type }}" href='{{ site.baseurl }}{{ page.url | remove: ".html"}}'>
 								{{ page.title }}<br>
 								<span class="new-badge keepTag" data-date="{{ page.date }}" style="margin-right: 5px;">NEW</span>
 								{%- if page.deprecated -%}<span class="deprecated-badge">DEPRECATED</span>{%- endif -%}
