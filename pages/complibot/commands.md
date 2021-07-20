@@ -88,6 +88,8 @@ list:
   </tr>
 </table>
 
+<a href="https://github.com/Compliance-Resource-Pack/Discord-Bot/issues/new?assignees=&labels=/{{ command | first }},bug&template=bug_report.md" class="new-issue-btn">Report Issue</a>
+
 <h3 id="{{ command | first }}-syntax">Syntax</h3>
 
 {% for syntaxes in command.syntax %}
