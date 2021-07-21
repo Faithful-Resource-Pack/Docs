@@ -5,13 +5,13 @@ title: Home
   <img src="{{ site.baseurl }}/images/logo.png" alt="Logo">
 </p>
 
-<h1>Welcome to the docs</h1>
-<p align="justify">On this site you will find documentation and guides related to the Compliance Team such as: Compliance Resources Packs, the Discord Bot and much more...</p>
+<h1>Welcome to The Docs.</h1>
+<p align="justify">Here you will find documentation and guides related to the Compliance Project, including the Compliance Resources Packs, the Discord Bots and the website.</p>
 
-<h2>Tags meaning</h2>
+<h2>Tags</h2>
 <ul class="no-heads">
-  <li><span class="new-badge">NEW</span> : This Doc is recent! Go check-it out!</li>
-  <li><span class="deprecated-badge">DEPRECATED</span> : This Doc is old it might be not accurate and will change in a near future!</li>
+  <li><span class="new-badge">NEW</span>: This is a recently released article.</li>
+  <li><span class="deprecated-badge">DEPRECATED</span>: This article has old and/or inacurate information, and needs to be reviewed and updated.</li>
 </ul>
 
 <h2>Table of Contents</h2>
