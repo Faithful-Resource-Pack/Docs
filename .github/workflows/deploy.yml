@@ -23,7 +23,7 @@ jobs:
           cd "$TMP_DIR"
           git init
           git remote add origin https://github.com/${{ github.repository }}.git
-          git pull origin master
+          git pull origin main
           bundle install
           bundle exec jekyll build
           rsync -av ./_site/ /var/www/html/docs.compliancepack.net
