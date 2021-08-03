@@ -1,3 +1,5 @@
+url: "https://docs.compliancepack.net/"
+
 defaults:
   - scope:
       path: ""
