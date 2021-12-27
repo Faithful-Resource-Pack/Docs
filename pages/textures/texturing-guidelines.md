@@ -373,7 +373,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 <p class="center"><i><b>Picture 36:</b> Examples of skin textures.</i></p>
 
 <br id="creepers">
-**Creepers** are quite mind boggling. The texture was originally made from the leaves texture used in Alpha, but since a lot of noise has been overlaid on top, the texture no longer looks anything close to leaves, not to mention Alpha leaves barely resemble leaves in the first place. Basically, nobody knows how to shade this chaos of a material properly, so we just made the texture a jumbled noisy mess of pixels and went with that. Worked surprisingly well.
+**Creepers** are quite mind boggling. The texture was originally made from the leaves texture used in Alpha, but since a lot of noise has been overlaid on top, the texture no longer looks anything close to leaves, not to mention Alpha leaves barely resemble leaves in the first place. Basically, nobody knows how to shade this chaos of a material properly, so we just indexed the texture and used a combination of all the techniques listed here to create a chaotic material that doesn't really represent anything. Worked surprisingly well.
 
 <br id="fur-hair">
 **Fur and hair** should employ linear dithering, but in such a way that it creates visible strands of hair. Some regular dithering and anti-aliasing can also come in handy. This applies to wool on sheep as well.
