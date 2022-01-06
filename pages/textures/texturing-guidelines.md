@@ -431,6 +431,6 @@ ___
 
 ## Credits
 Written by Pomi108 for use in the Compliance project
-<br>Edited by Cituation, Juknum and Billy Apicella
-<br>Images compiled by Cituation and Pomi108
+<br>Edited by Anonymous, Juknum and Billy Apicella
+<br>Images compiled by Anonymous and Pomi108
 <br>Credit for images goes to various Compliance and Faithful contributors, Mojang Studios and Google Images
