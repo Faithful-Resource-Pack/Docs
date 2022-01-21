@@ -5,3 +5,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+sass:
+  sass_dir: css
+  sourcemap: never
+  style: compressed
