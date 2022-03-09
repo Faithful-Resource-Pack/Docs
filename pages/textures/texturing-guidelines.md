@@ -251,7 +251,7 @@ ___
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Compliance.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
   <p class="red-text" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
 </ol>
-<li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them. Some examples of bugs that are allowed to be fixed include, unused/misaligned pixels or textures, Jappafication errors, or parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game which saves us time.  
+<li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include, unused/misaligned pixels or textures, Jappafication errors, or parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game which saves us time.</li>
 
 **Tips**
 
