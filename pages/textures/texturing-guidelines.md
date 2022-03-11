@@ -137,8 +137,8 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
-      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material.
-      <br>Special cases include chainmail and sand (in small amounts). It looks like, well, a checkerboard of two colours.</li>
+      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (AKA checkering/checkerboarding) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material.
+      <br>Special cases include chainmail and sand (in small amounts). It looks like a checkerboard of two colours.</li>
       <br>
       <img src="{{ site.baseurl }}/images/pages/textures/5.png" alt="checkerboard dithering transition" class="center" loading="lazy">
       <p class="center"><i><b>Picture 4:</b> Checkerboard dithering used as a transition between two colours.</i></p>
@@ -146,7 +146,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
       <img src="{{ site.baseurl }}/images/pages/textures/6.png" alt="checkerboard dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 5:</b> Example of checkerboard dithering in a texture.</i></p>
       <br>
-      <li id="regular-dithering"><b>Regular dithering</b> is the single most used dithering method, as it can be utilised in the largest array of cases, and the vast majority of Compliance textures, be it in high or low levels. The technique consists of placing displaced pixels around the colour border (which look random, but oftentimes are cleverly laid out to avoid visual issues) in such a way that little to no checkerboarding is created. Displaced pixels usually take the shape of a single 1px square or a 2x1px rectangle, but never full-on intentional lines. Regular dithering doesn’t convey any sense of directionality!</li>
+      <li id="regular-dithering"><b>Regular dithering</b> is the single most used dithering method, as it can be utilised in the largest array of cases, and the vast majority of Compliance textures, be it in high or low levels. The technique consists of placing displaced pixels around the colour border (which look random, but oftentimes are cleverly laid out to avoid visual issues) in such a way that little to no checkerboarding/checkering is created. Displaced pixels usually take the shape of a single 1px square or a 2x1px rectangle, but never full-on intentional lines. Regular dithering doesn’t convey any sense of directionality!</li>
       <br>
       <img src="{{ site.baseurl }}/images/pages/textures/7.png" alt="regular dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 6:</b> Example of regular dithering in a texture.</i></p>
@@ -225,7 +225,7 @@ ___
   <img src="{{ site.baseurl }}/images/pages/textures/19.png" alt="correct upscaling" class="center" loading="lazy">
   <p class="center"><i><b>Picture 17:</b> Top: Vanilla texture. Bottom left: Incorrect upscale. Bottom right: Correct interpretation (note the individual leaves, which are required in double the resolution but aren’t possible to be depicted in the vanilla resolution).</i></p>
   <br>
-  <li id="vanilla-colour-palette"><b>Textures should stick to the vanilla colour palette.</b> Self-explanatory; try to only use the colours that the vanilla texture uses. If you’re trying to blend two colours together using anti-aliasing, you can usually re-use a colour from elsewhere in the texture. In particularly puzzling predicaments you can add colours to help you, but most of the time, one or two is enough. If the texture you’re upscaling already has many colours, you can use that to your advantage, but you should still keep the palette limited to more or less than 10 colours. Additionally, never change existing colours from the vanilla palette! If a vanilla texture uses 5 specific colours, make sure your texture uses these exact ones.
+  <li id="vanilla-colour-palette"><b>Textures should stick to the vanilla colour palette.</b> Self-explanatory; try to only use the colours that the vanilla texture uses. If you’re trying to blend two colours together using anti-aliasing, you can usually re-use a colour from elsewhere in the texture. In difficult circumstances you can add colours to help you, but most of the time, one or two is enough. If the texture you’re upscaling already has many colours, you can use that to your advantage, but you should still keep the palette limited to more or less than 10 colours. Additionally, never change existing colours from the vanilla palette! If a vanilla texture uses 5 specific colours, make sure your texture uses these exact ones.
   <br>This rule does not apply to animated textures that used to be generated procedurally in the past: e.g. water, lava, nether portal, fire and soul fire.</li>
   <br>
   <li id="too-much-details"><b>Do not make up features/details that are not clearly present in the vanilla texture and don’t add them to your texture, unless not having them makes absolutely no sense in double the resolution.</b> While upscaling a texture, one might have the tendency to add significant elements that are not present in vanilla. This is discouraged, as it makes a texture look too distant from the vanilla look most of the time. This also applies to various details in a texture: If appropriate, a normal amount is encouraged, but don’t overdo it.</li>
