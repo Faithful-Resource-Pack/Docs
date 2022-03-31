@@ -22,7 +22,7 @@ deprecated: false
 2. Select a file path to clone it on your computer (you can place it everywhere)  
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-desktop-clone.png" alt="github desktop asking new cloned repository path" class="center" loading="lazy">
 
-3. Then select the branch version for which you want to add textures (if the branch doesn't exist yet, see [here]({{ site.baseurl }}/pages/mods/add-new-version.html)). Your local repository will update itself to the branch content (it has the content of the `main` branch by default → if you cloned the repository from the main branch).  
+3. Then select the branch version for which you want to add textures (if the branch doesn't exist yet, see [here]({{ site.baseurl }}/pages/mods/add-new-version)). Your local repository will update itself to the branch content (it has the content of the `main` branch by default → if you cloned the repository from the main branch).  
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-desktop-select-branch.png" alt="github desktop choosing branch mc version" class="center" loading="lazy">
 
 4. Then go to your local repository folder and move your new/modified files in the `assets/` folder (like in any default resource pack).

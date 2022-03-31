@@ -8,13 +8,13 @@ deprecated: false
 <h1 align="center"> How to customize the loader cube from Minecraft Dungeons </h1>
 
 ## Sources
-All needed files for this tutorial can be found [here](https://github.com/Compliance-Dungeons/Resource-Pack/tree/master/Tools/loader).
+All needed files for this tutorial can be found [here](https://github.com/Compliance-Resource-Pack/Compliance-Dungeons-32x/tree/dungeons-latest/Tools/loader).
 
 ## Requirements
 - [Blender](https://www.blender.org/)  
 - [Python 3.8+](https://www.python.org/)  
     - And Pillow module  
-- [Unreal Engine 4](https://www.unrealengine.com/en-US/?sessionInvalidated=true) version 4.22.x  
+- [Unreal Engine 4](https://www.unrealengine.com/) version 4.22.x  
 
 ## Step by step: Blender  
 > Huge Thanks for [@CCCode](https://github.com/EvenTorset) for creating this model  

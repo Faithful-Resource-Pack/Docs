@@ -21,7 +21,7 @@ deprecated: false
 
 1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Compliance-Mods) **and** on our [Compliance Website](https://compliancepack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center" loading="lazy">
-> See [here]({{ site.baseurl }}/pages/mods/add-textures.html) if the mod repository already exists.
+> See [here]({{ site.baseurl }}/pages/mods/add-textures) if the mod repository already exists.
 
 2.  If the mod does not have any repository, then create a repository in your `own` profile (if you have access to the Compliance Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center" loading="lazy">
@@ -31,7 +31,7 @@ deprecated: false
 > The `main` branch needs to be set as the **default branch**! Do not merge others branches to the main branch!  
 > If you made your repository before the 1st October 2020, rename your `master` branch to `main`. ([Discover Why?](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/))  
 
-4.  Upload your textures in each branch (see how [here]({{ site.baseurl }}/pages/mods/add-textures.html)).
+4.  Upload your textures in each branch (see how [here]({{ site.baseurl }}/pages/mods/add-textures)).
 
 5.  Your repository now should look like this:
 - **The pack.png and pack.mcmeta are not needed anymore, because that process is now automated.**

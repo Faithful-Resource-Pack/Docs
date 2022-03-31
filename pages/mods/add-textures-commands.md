@@ -10,7 +10,7 @@ deprecated: true
 
 - You need to have a [GitHub](https://github.com/) account first.  
 - You need to have [`git`](https://github.com/git-guides/install-git) installed on your machine.
-- You need to be logged to `git` with your GitHub account, see how [here](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/caching-your-github-credentials-in-git).
+- You need to be logged to `git` with your GitHub account, see how [here](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
 
 ## Step by Step:
 
