@@ -26,4 +26,4 @@ jobs:
           git pull origin main
           bundle install
           bundle exec jekyll build
-          rsync -av ./_site/ /var/www/html/docs.compliancepack.net
+          rsync -av ./_site/ /var/www/html/docs.faithfulpack.net
