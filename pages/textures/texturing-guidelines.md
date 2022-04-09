@@ -1,7 +1,7 @@
 ---
-title: "Compliance Guidelines"
+title: "Faithful Texturing Guidelines"
 type: "Textures"
-date: "19/07/2021"
+date: "19/03/2022"
 deprecated: false
 ---
 
@@ -11,7 +11,7 @@ deprecated: false
   }
 </style>
 
-# Compliance Texturing Rules and Guidelines
+# Faithful Texturing Rules and Guidelines
 
 <div class="table-of-content">
 <h2>Table of Contents</h2>
@@ -102,12 +102,12 @@ ___
 
 ## Introduction
 
-<i>Compliance was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Compliance.
+<i>Faithful was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Faithful.
 But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.
 Initially, we tried to have minimal, ambiguous guidelines so as to not limit people’s creativity too much, in the hopes that artists would stick to approximately the same style. This proved to be too optimistic, and as the pack expanded, textures with increasing degrees of stylistic variety were added, hindering the overall consistency of the pack.
 <br>Whenever a texture that was borderline rule-breaking was made, it always led to controversy and a huge debate that would drag on for hours, and would never come to a clear conclusion.
 <br>The truth is, nobody really expressed a clear enough idea on what the pack’s style should be, nor were the preceding guidelines ever enforced heavily.
-<br>These new rules and guidelines aim to fix all of these problems, and will try to outline Compliance’s stylistic direction with as much attention to detail and as much clarity as possible.</i>
+<br>These new rules and guidelines aim to fix all of these problems, and will try to outline Faithful's stylistic direction with as much attention to detail and as much clarity as possible.</i>
 
 ___
 
@@ -132,9 +132,9 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <p class="center"><i><b>Picture 2:</b> A line with no anti-aliasing compared to a line with anti-aliasing applied to it.</i></p>
     <img src="{{ site.baseurl }}/images/pages/textures/3.png" alt="anti-aliasing" class="center" loading="lazy">
     <img src="{{ site.baseurl }}/images/pages/textures/4.png" alt="anti-aliasing" class="center" loading="lazy">
-    <p class="center"><i><b>Picture 3:</b> Example of anti-aliasing used in a texture featured in Compliance.</i></p>
+    <p class="center"><i><b>Picture 3:</b> Example of anti-aliasing used in a texture featured in Faithful.</i></p>
     <br>
-    <li id="dithering"><b>Dithering</b> is perhaps the most used texturing term in the Compliance servers. The word describes a method used very commonly for the many textures of raw, unprocessed materials found in Minecraft, such as stone, wood and others. To achieve dithering, one is required to displace the pixels of a colour border in such a way that said border is no longer as defined and has parts protruding in and out of the other colour.
+    <li id="dithering"><b>Dithering</b> is perhaps the most used texturing term in the Faithful servers. The word describes a method used very commonly for the many textures of raw, unprocessed materials found in Minecraft, such as stone, wood and others. To achieve dithering, one is required to displace the pixels of a colour border in such a way that said border is no longer as defined and has parts protruding in and out of the other colour.
     <br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
@@ -147,7 +147,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
       <img src="{{ site.baseurl }}/images/pages/textures/6.png" alt="checkerboard dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 5:</b> Example of checkerboard dithering in a texture.</i></p>
       <br>
-      <li id="regular-dithering"><b>Regular dithering</b> is the single most used dithering method, as it can be utilised in the largest array of cases, and the vast majority of Compliance textures, be it in high or low levels. The technique consists of placing displaced pixels around the colour border (which look random, but oftentimes are cleverly laid out to avoid visual issues) in such a way that little to no checkerboarding/checkering is created. Displaced pixels usually take the shape of a single 1px square or a 2x1px rectangle, but never full-on intentional lines. Regular dithering doesn’t convey any sense of directionality!</li>
+      <li id="regular-dithering"><b>Regular dithering</b> is the single most used dithering method, as it can be utilised in the largest array of cases, and the vast majority of Faithful textures, be it in high or low levels. The technique consists of placing displaced pixels around the colour border (which look random, but oftentimes are cleverly laid out to avoid visual issues) in such a way that little to no checkerboarding/checkering is created. Displaced pixels usually take the shape of a single 1px square or a 2x1px rectangle, but never full-on intentional lines. Regular dithering doesn’t convey any sense of directionality!</li>
       <br>
       <img src="{{ site.baseurl }}/images/pages/textures/7.png" alt="regular dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 6:</b> Example of regular dithering in a texture.</i></p>
@@ -174,7 +174,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="{{ site.baseurl }}/images/pages/textures/12.png" alt="indexing" class="center" loading="lazy">
   <p class="center"><i><b>Picture 10:</b> Left: An example of a texture with too many colours. Right: The same texture, with indexed colours.</i></p>
   <br>
-  <li id="upscaling-a-texture"><b>Upscaling (a texture)</b> in Compliance’s context refers to redrawing a vanilla-resolution texture in a higher resolution (32x or 64x) according to these guidelines. In other contexts, it can refer to an image whose resolution has been increased for example, all 1x1 pixels become 2x2 colour areas using an image editing program, and/or with an AI.</li>
+  <li id="upscaling-a-texture"><b>Upscaling (a texture)</b> in Faithful's context refers to redrawing a vanilla-resolution texture in a higher resolution (32x or 64x) according to these guidelines. In other contexts, it can refer to an image whose resolution has been increased for example, all 1x1 pixels become 2x2 colour areas using an image editing program, and/or with an AI.</li>
   <br>
   <li id="jappa"><b>JAPPA,</b> or Jasper Boerstra, is Minecraft’s current lead art director and pixel artist and has been working on the game since 2017.</li>
   <br>
@@ -206,12 +206,12 @@ ___
 ## Part 2: General Rules and Tips
 
 **Rules**
-<br>These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Compliance.
+<br>These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Faithful.
 
 <ol>
   <li id="mimic-vanilla"><b>Textures need to mimic vanilla Minecraft textures, and should be heavily based upon them.</b> This probably goes without saying, but it’s good to have it specified nonetheless. While you are not required to make your texture by directly editing the vanilla one, it is heavily recommended and usually helps your texture look better and closer to the default texture.</li>
   <br>
-  <li id="1px-wide"><b>Outlines, dividing lines and the like that would end up being 2 pixels wide when upscaled to double the resolution should almost always be 1 pixel wide.</b> Pretty straight-forward, most lines in Compliance should be 1 pixel wide (examples: glass, gold block, iron ingot, diamond). There are exceptions to this, especially if a line is not an outline/dividing line,  and/or is curvy, or would be off-centre if it was 1 pixel wide. In these cases it’s acceptable to make the line wider.</li>
+  <li id="1px-wide"><b>Outlines, dividing lines and the like that would end up being 2 pixels wide when upscaled to double the resolution should almost always be 1 pixel wide.</b> Pretty straight-forward, most lines in Faithful should be 1 pixel wide (examples: glass, gold block, iron ingot, diamond). There are exceptions to this, especially if a line is not an outline/dividing line,  and/or is curvy, or would be off-centre if it was 1 pixel wide. In these cases it’s acceptable to make the line wider.</li>
   <br>
   <img src="{{ site.baseurl }}/images/pages/textures/17.png" alt="outlines" class="center" loading="lazy">
   <p class="center"><i><b>Picture 15:</b> Top: Vanilla texture. Bottom left: Incorrect interpretation of lines present in the vanilla texture. Bottom right: Correct interpretation.</i></p>
@@ -234,7 +234,7 @@ ___
   <img src="{{ site.baseurl }}/images/pages/textures/20.png" alt="texture details" class="center" loading="lazy">
   <p class="center"><i><b>Picture 18:</b> Top: Vanilla texture. Bottom left: A texture with too many added details. Bottom right: A texture with just enough details and features.</i></p>
   <br>
-  <li id="blending-colours"><b>When blending colour using anti-aliasing or dithering, make sure that darkest colours never directly border the lightest ones and vice versa.</b> Dirt is an example of this. Always have a transition colour in between the colours. In some cases this is desired, but not in many. If you’re a beginner Compliance contributor, always follow this rule.</li>
+  <li id="blending-colours"><b>When blending colour using anti-aliasing or dithering, make sure that darkest colours never directly border the lightest ones and vice versa.</b> Dirt is an example of this. Always have a transition colour in between the colours. In some cases this is desired, but not in many. If you’re a beginner Faithful contributor, always follow this rule.</li>
   <br>
   <img src="{{ site.baseurl }}/images/pages/textures/21.png" alt="colour borders" class="center" loading="lazy">
   <p class="center"><i><b>Picture 19:</b> Left: Improper colour borders. Note the very harsh-looking colour borders caused by the lack of a transition colour. Right: Correct colour transitions.</i></p>
@@ -243,12 +243,12 @@ ___
   <br>
   <li id="no-colour-chunk"><b>Unless it’s intentional and makes sense to have, there should never be large single-colour areas in your texture.</b> This applies especially to raw materials like stone or wood. You can always break these areas up by using dithering or other methods.</li>
   <br>
-  <li id="other-texture-as-base"><b>If a texture uses another texture as a base, use the already existing Compliance rendition of it, if available.</b> An example of this would be stone and ores. Don’t make stone from scratch just for the ore texture. Make your life simpler and re-use existing textures when you can.</li>
+  <li id="other-texture-as-base"><b>If a texture uses another texture as a base, use the already existing Faithful rendition of it, if available.</b> An example of this would be stone and ores. Don’t make stone from scratch just for the ore texture. Make your life simpler and re-use existing textures when you can.</li>
   <br>
   <img src="{{ site.baseurl }}/images/pages/textures/22.png" alt="already existing texture" class="center" loading="lazy">
   <p class="center"><i><b>Picture 20:</b> An ore texture. Note how the already existing stone texture is used in the background.</i></p>
   <br>
-  <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Compliance.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
+  <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
   <p class="red-text" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
 </ol>
 <li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include, unused/misaligned pixels or textures, Jappafication errors, or parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game which saves us time.</li>
@@ -402,19 +402,19 @@ ___
 
 ## Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten
 
-Compliance extends its field of expertise to correcting Jappa’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
+Faithful extends its field of expertise to correcting Jappa’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
 
 <img src="{{ site.baseurl }}/images/pages/textures/42.png" alt="forgotten texture" class="center" loading="lazy">
 <p class="center"><i><b>Picture 40:</b> Pre-1.17 vanilla oak sign texture</i></p>
 
 <br>
-It is obvious that this texture uses the programmer art oak planks and bark. This is not viable for Compliance, as the pack strives for consistency, and as such it has been decided to use the already existing jappa plank and bark textures instead. Besides the sign, many more textures requiring this treatment exist. Some uncertainties about this have emerged though, so after all this time we are finally defining the replaceable textures properly:
+It is obvious that this texture uses the programmer art oak planks and bark. This is not viable for Faithful, as the pack strives for consistency, and as such it has been decided to use the already existing jappa plank and bark textures instead. Besides the sign, many more textures requiring this treatment exist. Some uncertainties about this have emerged though, so after all this time we are finally defining the replaceable textures properly:
 
 **Only replace programmer art textures (or textures that weren’t changed in the texture update) if it’s absolutely obvious what they should be changed to.**
 
-Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the jappa planks in order to make a viable Compliance texture.
+Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the jappa planks in order to make a viable Faithful texture.
 
-On the contrary, a texture that should NOT be “jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Compliance artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
+On the contrary, a texture that should NOT be “jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
 
 <img src="{{ site.baseurl }}/images/pages/textures/43.png" alt="texture should not be jappafied" class="center" loading="lazy">
 <p class="center"><i><b>Picture 41:</b> Blaze powder, an example of a texture that should not be “jappafied”.</i></p>
@@ -432,7 +432,7 @@ These rules and guidelines are subject to change at any time. All changes to thi
 ___
 
 ## Credits
-Written by Pomi108 for use in the Compliance project
+Written by Pomi108 for use in the Faithful project
 <br>Edited by Anonymous, Juknum and Fred figglehorn
 <br>Images compiled by Anonymous and Pomi108
-<br>Credit for images goes to various Compliance and Faithful contributors, Mojang Studios and Google Images
+<br>Credit for images goes to various Faithful and Faithful contributors, Mojang Studios and Google Images
