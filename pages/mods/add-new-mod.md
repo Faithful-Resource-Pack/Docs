@@ -19,7 +19,7 @@ deprecated: false
 
 ## Step by step: 
 
-1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Compliance-Mods) **and** on our [Compliance Website](https://compliancepack.net/mods) by typing the name of the mod or its assets folder name.
+1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://faithfulpack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center" loading="lazy">
 > See [here]({{ site.baseurl }}/pages/mods/add-textures) if the mod repository already exists.
 
@@ -38,7 +38,7 @@ deprecated: false
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center" loading="lazy">  
 > **You need to create an `assets` folder and place your textures inside!**
 
-6.  Then make a pull request on the [JSON repository](https://github.com/Compliance-Resource-Pack/JSON) modifying [this file](https://github.com/Compliance-Resource-Pack/JSON/blob/main/mods/mods.json) following this setup:
+6.  Then make a pull request on the [JSON repository](https://github.com/Faithful-Resource-Pack/JSON) modifying [this file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) following this setup:
 
 ```json
 [
@@ -47,7 +47,7 @@ deprecated: false
 	},
 	{
 		"name": {
-			// Name displayed on https://compliancepack.net/mods
+			// Name displayed on https://faithfulpack.net/mods
 			"displayName": "Example Mod",
 			// Can be left empty if there is no aliases
 			"aliases": [ "(EM)", "Example Mod 2" ]

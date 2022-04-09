@@ -14,12 +14,12 @@ deprecated: true
 
 ## Step by Step:
 
-1.  Firstly find your Mod repository in our [organization](https://github.com/Compliance-Mods), then find the repository `HTTPS` and use those commands in a shell: 
+1.  Firstly find your Mod repository in our [organization](https://github.com/Faithful-Mods), then find the repository `HTTPS` and use those commands in a shell: 
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures-commands/get-repository-https.png" alt="github get https" class="center" loading="lazy">
 ```shell
   $ git clone <git url>
 ```
-> Note: If the mod repository is not in the [Compliance Mods Organization](https://github.com/Compliance-Mods), check this [file](https://github.com/Compliance-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
+> Note: If the mod repository is not in the [Compliance Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
 
 2.  Change your local branch to the one you wants to add changes:
 ```shell
