@@ -16,6 +16,7 @@ deprecated: false
 
 *If you’re reading this, you’ve most likely decided to help Faithful out and make a texture! For that, we sincerely thank you. Faithful is a fully community-run pack, and wouldn’t be able to exist without volunteers like yourself!*
 Now, let's get started.
+
 ___
 ## Creating Textures
 Before you begin, we highly recommend reading our guidelines [here](https://docs.compliancepack.net/pages/textures/texturing-guidelines.html), as every texture in Faithful needs to follow them. The Guidelines also contain a lot of handy texturing tips that you might find useful later down the path.
