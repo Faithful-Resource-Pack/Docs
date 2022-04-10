@@ -19,7 +19,7 @@ Minecraft Dungeons is known to use textures with invisible or half-visible pixel
 
 ## Sources
 
-All scripts are available [here](https://github.com/Faithful-Resource-Pack/Compliance-Dungeons-32x/tree/dungeons-latest/Tools/alpha%20textures).  
+All scripts are available [here](https://github.com/Faithful-Resource-Pack/Faithful-Dungeons-32x/tree/dungeons-latest/Tools/alpha%20textures).  
 _If you find any bugs, please post a new issue on GitHub._
 
 ## Requirements

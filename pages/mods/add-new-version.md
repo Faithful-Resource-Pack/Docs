@@ -4,7 +4,7 @@ type: "Mods"
 date: "02/12/2020"
 deprecated: false
 ---
-{% assign organization_name = 'Compliance-Resource-Pack' %}
+{% assign organization_name = 'Faithful-Resource-Pack' %}
 {% assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' %}
 {% assign organization_website_repo_name = 'Website' %}
 {% assign organization_website_repo_url = github_organization_url | append: organization_website_repo_name %}

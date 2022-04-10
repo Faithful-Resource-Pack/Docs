@@ -19,7 +19,7 @@ deprecated: true
 ```shell
   $ git clone <git url>
 ```
-> Note: If the mod repository is not in the [Compliance Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
+> Note: If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
 
 2.  Change your local branch to the one you wants to add changes:
 ```shell

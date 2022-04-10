@@ -2,11 +2,11 @@
 title: Home
 ---
 <p align="center">
-  <img src="{{ site.baseurl }}/images/logo.png" alt="Logo">
+  <img src="https://database.faithfulpack.net/images/branding/wordmarks/outlined/flat/faithful_flat_border.png" alt="Wordmark">
 </p>
 
 <h1>Welcome to The Docs.</h1>
-<p align="justify">Here you will find documentation and guides related to the Compliance Project, including the Compliance Resources Packs, the Discord Bots and the website.</p>
+<p align="justify">Here you will find documentation and guides related to the Faithful Project, including the Faithful Resources Packs, Discord bots and website.</p>
 
 <h2>Tags</h2>
 <ul class="no-heads">

@@ -15,7 +15,7 @@ deprecated: false
 ## Step by Step:
 
 1. Firstly find your Mod repository in our organization, then clone it by clicking the green button `Code` and selecting `Open with GitHub Desktop`.  
-> If the mod repository is not in the [Compliance Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
+> If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
 
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-clone.png" alt="github clone repository" class="center" loading="lazy">
 

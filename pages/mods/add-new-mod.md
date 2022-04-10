@@ -4,11 +4,11 @@ type: "Mods"
 date: "11/04/2021"
 deprecated: false
 ---
-{%- assign organization_name = 'Compliance-Resource-Pack' -%}
+{%- assign organization_name = 'Faithful-Resource-Pack' -%}
 {%- assign github_organization_url = 'https://github.com/' | append: organization_name | append: '/' -%}
 {%- assign organization_website_repo_name = 'Website' -%}
 {%- assign organization_website_repo_url = github_organization_url | append: organization_website_repo_name -%}
-{%- assign project_name = 'Compliance Mods' -%}
+{%- assign project_name = 'Faithful Mods' -%}
 
 # Add an entirely **new** Mod:
 
@@ -19,11 +19,11 @@ deprecated: false
 
 ## Step by step: 
 
-1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Compliance Website](https://faithfulpack.net/mods) by typing the name of the mod or its assets folder name.
+1.  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Faithful Website](https://faithfulpack.net/mods) by typing the name of the mod or its assets folder name.
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center" loading="lazy">
 > See [here]({{ site.baseurl }}/pages/mods/add-textures) if the mod repository already exists.
 
-2.  If the mod does not have any repository, then create a repository in your `own` profile (if you have access to the Compliance Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
+2.  If the mod does not have any repository, then create a repository in your `own` profile (if you have access to the Faithful Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
 <img src="{{ site.baseurl }}/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center" loading="lazy">
 
 3.  Keep the `main` branch with only one file: `initialcommit` **(without any extension)** and make a new branch for each supported Minecraft version, _don't forget to delete the initialcommit **in branches you have created**._  
@@ -66,7 +66,7 @@ deprecated: false
 		
 		/*
 		* ONLY ONE OF THEM: depends where the repository is located
-		* Inside Compliance Mods Organization -> orgRepo
+		* Inside Faithful Mods Organization -> orgRepo
 		* Everywhere else -> extRepo: https://github.com/{{ username }}/{{ repository }}
 		*/
 		"orgRepo": "examplemod"

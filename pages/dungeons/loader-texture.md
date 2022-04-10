@@ -8,7 +8,7 @@ deprecated: false
 <h1 align="center"> How to customize the loader cube from Minecraft Dungeons </h1>
 
 ## Sources
-All needed files for this tutorial can be found [here](https://github.com/Faithful-Resource-Pack/Compliance-Dungeons-32x/tree/dungeons-latest/Tools/loader).
+All needed files for this tutorial can be found [here](https://github.com/Faithful-Resource-Pack/Faithful-Dungeons-32x/tree/dungeons-latest/Tools/loader).
 
 ## Requirements
 - [Blender](https://www.blender.org/)  
