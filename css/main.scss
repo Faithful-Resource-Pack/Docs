@@ -137,10 +137,9 @@ nav.nav-open {
 	height: calc(630px / 3.5);
 	margin: 0 0 16px 0;
 	font-size: 0;
-	
 	background-image: url(../images/nav_image_logo.png), url(../images/bg_light.png);
-  background-repeat: no-repeat, repeat;
-  background-position: center, center;
+	background-repeat: no-repeat, repeat;
+	background-position: center, center;
 	background-size: 100% 100%, contain;
 }
 .nav-link {
@@ -205,10 +204,8 @@ pre::-webkit-scrollbar {
 
 pre {
 	overflow-x: scroll;
-
 	-ms-overflow-style: none;
 	scrollbar-width: none;
-
 	background-color: var(--code-blocks-background-color);
 	color: var(--code-blocks-main-text-color);
 	padding: 10px;
