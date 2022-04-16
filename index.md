@@ -6,7 +6,7 @@ title: Home
 </p>
 
 <h1>Welcome to The Docs.</h1>
-<p align="justify">Here you will find documentation and guides related to the Faithful Project, including the Faithful Resources Packs, Discord bots and website.</p>
+<p align="justify">Here you will find documentation and guides related to the Faithful Project, including the Faithful Resource Packs, Discord bots and website.</p>
 
 <h2>Tags</h2>
 <ul class="no-heads">
