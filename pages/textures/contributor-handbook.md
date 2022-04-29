@@ -23,8 +23,8 @@ ___
 Before you begin, we highly recommend reading our guidelines [here](https://docs.compliancepack.net/pages/textures/texturing-guidelines.html), as every texture in Faithful needs to follow them. The Guidelines also contain a lot of handy texturing tips that you might find useful later down the path.
 If you’re looking for a good program for pixel art, here’s what some of our best artists use:
 - **Aseprite (paid, but free if you compile it from source yourself – [useful tool](https://github.com/TheLiteCrafter/AsepriteTool/releases/), [video tutorial](https://youtu.be/4amv2bAWJAA))** – Made specifically for pixel art. Offers useful options like several tiling modes and easy palette manipulation.
-- **Paint.net (also known as PDN; free)** – An all-purpose image manipulation program, easy to learn.
-- **GIMP (free)** – More capable than Paint.net, but harder to learn for beginners.
+- **Paint.net (also known as PDN; free)** – An all-purpose image manipulation program, easy to learn, but only works on Windows.
+- **GIMP (free)** – More capable than Paint.net, doesn't require Windows, but harder to learn for beginners.
 - **Photoshop (paid)** – Expensive without an already existing license, however this works for basically everything.
 
 To help you choose a texture to make, use the `/missing` command in [#complibot](https://ptb.discord.com/channels/773983706582482946/794137845408595978) to list textures that Faithful is lacking for a given version. Those are needed the most, but you can, of course, edit or re-make an existing texture as well if you so please.
@@ -43,15 +43,15 @@ Additionally, if you’ve collaborated with someone else while making the textur
 You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, then click the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message the Administrators and they will remove your texture.
 
 Finally, please know that by submitting a texture, you agree to allow:
-- The texture to be used in any public or development version of Faithful
+- The texture to be used in any public or development version of Faithful.
 - The texture to be used directly or in a modified state in other projects under Faithful’s administration (Faithful Dungeons, Faithful Tweaks/Add-ons etc.)
-- The texture to be used in/as a base for other textures meant for Faithful
+- The texture to be used in/as a base for other textures meant for Faithful.
 - Others to edit your texture without any required prior notice, and allow them to submit the edited texture to Faithful, with appropriate credit.
 
 ## Voting on Textures and the Texture Approval Process
 Whether a texture makes it into Faithful or not is determined by a voting process. It consists of two stages:
 1. **Public voting**
-This period lasts for 3 days and is open to everybody. To vote on a submission, simply click on the check mark (✔) or cross (X) button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
+This period lasts for 3 days and is open to everybody. To vote on a submission, simply click on the check mark (✓) or cross (X) button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
     - **Clearly view the texture**
     You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to actually view. Thankfully, the bot is equipped with tools that you can use to get a better view of the texture. Clicking the third button next to the voting buttons should pop open a tool menu. To magnify the texture and see it better, click the magnifying glass. You should now be able to see the texture up close. This button is also a command in the form of `/magnify`.
 
@@ -65,10 +65,10 @@ This period lasts for 3 days and is open to everybody. To vote on a submission, 
         **REMEMBER: Never vote based on how many votes a texture already has! You’ve got your own opinion, vote based on that.**
 
 2. **Art director council voting**
-When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 3-day period), it enters a 1-day phase of council voting, during which the Art directors talk about the submission in private, and vote to determine whether the texture fits the stylistic direction of Faithful. 
-A texture passes council voting if it’s got more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
+When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 3-day period), it enters a 1-day phase of council voting, during which the council talk about the submission in private, and vote to determine whether the texture fits the stylistic direction of Faithful. 
+A texture passes council voting if its got more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
 
-Besides the upvote and downvote options regular users get, there are 2 other options that the Art directors and Admins have:
+Besides the upvote and downvote options regular users get, there are 2 other options that the council and administrators have:
 1. **Instapass**
 An instapass is when a texture immediately gets added into the pack without needing to go through the voting process. These textures usually get instapassed for reasons such as being recolours of another texture, consistency fixes for textures that are outdated, or even bugs that needed fixing.
 
