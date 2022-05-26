@@ -1,4 +1,4 @@
-<img src="https://database.faithfulpack.net/images/branding/logos/transparent/512/f32_logo.png" alt="Faithful Logo" align="right" height="256px">
+<img src="https://database.faithfulpack.net/images/branding/logos/transparent/256/plain_logo.png" alt="Faithful Logo" align="right">
 <div align="center">
   <h1>Faithful Docs</h1>
   <h3>The official site with documentation and guides related to Faithful</h3>
