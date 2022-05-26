@@ -6,6 +6,9 @@
 ![RepoSize](https://img.shields.io/github/repo-size/Faithful-Resource-Pack/Docs)
 ![Issues](https://img.shields.io/github/issues/Faithful-Resource-Pack/Docs)
 ![PullRequests](https://img.shields.io/github/issues-pr/Faithful-Resource-Pack/Docs)
+
+![Status](https://status.faithfulpack.net/api/badge/3/status)
+![Uptime](https://status.faithfulpack.net/api/badge/3/uptime/24?label=24h%20&labelSuffix=Uptime)
 </div>
 
 ---
