@@ -274,6 +274,14 @@ button {
 blockquote {
 	border-left: solid var(--blockquote-bar-color);
 	padding-left: 10px;
+
+	:first-child {
+		margin-bottom: 0;
+	}
+
+	> ul {
+		margin-top: 0;
+	}
 }
 .language-plaintext {
 	background: var(--code-quote-text-background-color);
@@ -502,4 +510,17 @@ img[src$=".png"], img[src$=".gif"] {
 	-moz-user-drag: none;
 	-o-user-drag: none;
 	user-drag: none
+}
+
+kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+	line-height: 10px;
+	color: var(--text-color);
+	vertical-align: middle;
+	border: solid 1px var(--text-color);
+	border-bottom-color: var(--text-color);
+	border-radius: 6px;
+	box-shadow: inset 0 -1px 0 var(--text-color);
 }

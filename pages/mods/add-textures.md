@@ -5,17 +5,18 @@ date: "02/12/2020"
 deprecated: false
 ---
 
-# Add textures to an **existing** Mod:
+# Add textures to an **existing** Mod
 
-## Prerequisites:
+## Prerequisites
 
 - You need to have a [GitHub](https://github.com/) account first.  
 - You **need** to have downloaded [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
 
-## Step by Step:
+## Step by Step
 
 1. Firstly find your Mod repository in our organization, then clone it by clicking the green button `Code` and selecting `Open with GitHub Desktop`.  
-> If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
+> If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://api.faithfulpack.net/v2/mods/raw) to see where is the repository located <kbd>CTRL</kbd> + <kbd>F</kbd> is the best way to find it.  
+> If you can't find the repository, it may not exist yet, refer to [this]({{ site.baseurl }}/pages/mods/add-new-mod) article then.
 
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-clone.png" alt="github clone repository" class="center" loading="lazy">
 
@@ -27,16 +28,18 @@ deprecated: false
 
 4. Then go to your local repository folder and move your new/modified files in the `assets/` folder (like in any default resource pack).
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/folder-example.png" alt="local repository" class="center" loading="lazy">
+
 > We recently made `pack.png` & `pack.mcmeta` dynamically generated, they are no longer used and can be removed if they are still in the repository.
 
 5. When you have placed all new files into the `assets/` file, go back to GitHub Desktop and you will see all new files on the left tab:
+
 - ![(+)]({{ site.baseurl }}/images/pages/mods/add-textures/file-added.png) File added
 - ![(o)]({{ site.baseurl }}/images/pages/mods/add-textures/file-modified.png) File modified
 - ![(-)]({{ site.baseurl }}/images/pages/mods/add-textures/file-deleted.png) File deleted
 - ![(→)]({{ site.baseurl }}/images/pages/mods/add-textures/file-moved.png) File moved
 
-6.  You can now add a title and a description to your commit (on the bottom left in GitHub Desktop) and press `Commit to <branch>`.  
+6. You can now add a title and a description to your commit (on the bottom left in GitHub Desktop) and press `Commit to <branch>`.  
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-desktop-commit.png" alt="github desktop commit" class="center" loading="lazy">
 
-7.  Finally: click on the `Push origin` button to send your commit to GitHub. You can now make a post in our [Discord](https://discord.com/invite/QF2CAX7) to make an annoucement about what you changed!  
+7. Finally: click on the `Push origin` button to send your commit to GitHub. You can now make a post in our [Discord](https://discord.com/invite/QF2CAX7) to make an annoucement about what you changed!  
 <img src="{{ site.baseurl }}/images/pages/mods/add-textures/github-desktop-push.png" alt="github desktop push commit" class="center" loading="lazy">
