@@ -1,6 +1,11 @@
 ---
 ---
 
+@font-face {
+  font-family: Faithful;
+  src: url("/fonts/Faithful.ttf") format("truetype");
+}
+
 :root {
 	--accent-color: #4285f4;
 	--accent-color-dark: #2467D6;
@@ -98,12 +103,24 @@ header {
 	background: rgba(0, 0, 0, 0) url(../images/ic_menu.svg) no-repeat;
 	background-size: 100% 100%;
 }
-header, .header-shadow {
+.header-shadow {
 	box-shadow: 0 0 8px var(--shadow-black-50-color);
 }
 #DarkMode:hover {
   background-color: var(--shadow-black-30-color);
 }
+
+$main-padding: 16px;
+
+#nav-swipe {
+	position: fixed;
+	display: block;
+	width: $main-padding;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
 #nav-bg {
 	display: none;
 	position: fixed;
@@ -179,18 +196,45 @@ p, ul, ol, li, td {
 	line-height: 1.5;
 	color: var(--secondary-text-color);
 }
+
+
 header h1 {
-	height:100%;
+	height: 100%;
 	display: inline-block;
 	padding-right: 56px;
-	font-size: 1.17em;
-	color: var(--secondary-text-color);
-	line-height: 56px;
+	font-size: 1.5em;
+	color: var(--text-color);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	line-height: 0.7em; // linked to faithful font
 	margin: 0;
+
+	&, & * {
+		font-family: Faithful;
+	}
+
+	& > * {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	& > .height {
+		height: 100%;
+	}
+
+	& > span {
+		margin-top: 2px;
+	}
 }
+header h1.small-display {
+	& > img {
+		height: 32px;
+		margin-right: 2px;
+	}
+}
+
 main {
 	max-width: 1080px;
-	padding: 16px;
+	padding: $main-padding;
 	margin: 56px auto 0;
 	animation: fadeIn .8s;
 }

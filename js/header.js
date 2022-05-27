@@ -1,6 +1,6 @@
 const navBg  = document.getElementById('nav-bg');
 const nav    = document.getElementsByTagName('NAV');
-const header = document.getElementsByTagName('HEADER');
+const header = document.getElementsByTagName('HEADER')[0];
 var i;
 
 function openMenu() {
@@ -18,9 +18,24 @@ function closeMenu() {
 }
 navBg.addEventListener('click', closeMenu);
 
+let shadow = false;
 function handleScroll() {
-  for (i = 0; i < header.length; i++) {
-    header[i].classList.toggle('header-shadow', window.pageYOffset > 0);
+  if(shadow) {
+    if(window.scrollY < 5) {
+      shadow = false;
+      header.classList.remove('header-shadow')
+    }
+  } else {
+    if(window.scrollY > 0) {
+      shadow = true;
+      header.classList.add('header-shadow')
+    }
   }
 }
 document.addEventListener('scroll', handleScroll);
+
+document.addEventListener("DOMContentLoaded", () => {
+  Hammer(document.getElementById('nav-swipe')).on('swiperight', function() {
+    openMenu();
+  });
+})

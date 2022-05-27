@@ -15,9 +15,10 @@
 <body>
 	<header>
 		<button id="menuBtn" class="header-button" type="button" onclick="openMenu()">Menu</button>
-		<h1 class="small-display">DOCS</h1>
-		<h1 class="big-display">FAITHFUL PACK DOCS</h1>
+		<h1 class="small-display"><span class="height"></span><img src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F" /><span>DOCS</span></h1>
+		<h1 class="big-display"><span class="height"></span><span>FAITHFUL PACK DOCS</span></h1>
 	</header>
+	<div id="nav-swipe"></div>
 	<div id="nav-bg"></div>
 	<nav>
 		<div id="nav-img">Logo</div>
@@ -57,6 +58,7 @@
 	<main>
 		{{ content }}
 	</main>
+	<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js" integrity="sha256-eVNjHw5UeU0jUqPPpZHAkU1z4U+QFBBY488WvueTm88=" crossorigin="anonymous"></script>
 	<script src="{{ site.baseurl }}/js/header.js" async></script>
 	<script src="{{ site.baseurl }}/js/darktheme.js" async></script>
 	<script src="{{ site.baseurl }}/js/collapse.js" async></script>
