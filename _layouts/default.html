@@ -28,9 +28,9 @@
 		{%- endunless -%}
 
 		{%- assign sorted_pages = site.pages | sort: "type" -%}
-		{%- assign items = "CompliBot, Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
+		{%- assign items = "API, CompliBot, Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
 		{%- assign type = "peer" -%}
-	
+
 		{%- for item in items -%}
 			<button class="collapsible">{{ item | upcase}}</button>
 			<div class="content">

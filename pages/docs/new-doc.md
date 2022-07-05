@@ -22,7 +22,7 @@ date: 'dd/mm/yyyy'
 ```
 
 ## Add a new type of docs:
-Currently, documents ``type`` could be: ``CompliBot``, ``Docs``, ``Dungeons``, ``Modpacks``, ``Mods``, ``Textures``.  
+Currently, documents ``type`` could be: ``API``, ``CompliBot``, ``Docs``, ``Dungeons``, ``Modpacks``, ``Mods``, ``Textures``.  
 If you want to add a new type, please modify this [line](https://github.com/Faithful-Resource-Pack/Docs/blob/main/_layouts/default.html#L34).
 
 ## Markdown

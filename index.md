@@ -21,7 +21,7 @@ title: Home
 
 {% assign sorted_pages = site.pages | sort:"title" %}
 {%- assign sorted_pages = site.pages | sort: "type" -%}
-{%- assign items = "CompliBot, Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
+{%- assign items = "API, CompliBot, Docs, Dungeons, Modpacks, Mods, Textures" | split: ", " -%}
 
 {%- for item in items -%}
 <li><h3>{{ item }}</h3></li>
