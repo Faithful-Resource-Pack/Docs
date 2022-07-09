@@ -12,7 +12,7 @@ const config = {
 			postcss: true,
 
 			scss: {
-				prependData: '@use "src/variables.scss" as *;'
+				prependData: '@use "src/css/variables.scss" as *;'
 			}
 		}),
 		mdsvex({
