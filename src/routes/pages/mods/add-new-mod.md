@@ -16,18 +16,18 @@ deprecated: false
 
 *  If you want to add a new mod to our project, firstly check the mod list in our [GitHub](https://github.com/Faithful-Mods) **and** on our [Faithful Website](https://faithfulpack.net/mods) by typing the name of the mod or its assets folder name.
 
-<img src="asdfasdf/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center" loading="lazy">
+<img src="/images/pages/mods/add-new-mod/github-research.png" alt="github-research.png" class="center" loading="lazy">
 
 > ℹ️ **Info**  
-> See [here](asdfasdf/pages/mods/add-textures) if the mod repository already exists.
+> See [here](/pages/mods/add-textures) if the mod repository already exists.
 
 *  If the mod does not have any repository, then create a repository in your **own** profile (if you have access to the Faithful Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
 
-<img src="asdfasdf/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center" loading="lazy">
+<img src="/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center" loading="lazy">
 
 *  Keep the `main` branch empty (you can add a `readme.md` / `license.md` stuff but **no textures** on that branch) and make a new branch for each supported Minecraft version.
 
-<img src="asdfasdf/images/pages/mods/add-new-mod/branches-list.png" alt="branches-list" class="center" loading="lazy">
+<img src="/images/pages/mods/add-new-mod/branches-list.png" alt="branches-list" class="center" loading="lazy">
 
 > ⚠️ **Warning**  
 > - The `main` branch needs to be set as the **default branch**! Do not merge others branches to the main branch!  
@@ -37,11 +37,11 @@ deprecated: false
 > - [If you made your repository before the 1st October 2020, rename your `master` branch to `main`](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/)  
 > - If you want to license your work, please consider a license that follow the [Faithful License](https://www.faithfulpack.net/license)
 
-* Upload your textures in each branch (see how [here](asdfasdf/pages/mods/add-textures)).
+* Upload your textures in each branch (see how [here](/pages/mods/add-textures)).
 
 * Your repository now should look like this:
 
-<img src="asdfasdf/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center" loading="lazy">  
+<img src="/images/pages/mods/add-new-mod/final-result.png" alt="final-result" class="center" loading="lazy">  
 
 
 > ℹ️ **Info**  
