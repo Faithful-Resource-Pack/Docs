@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Faithful;
-	src: url("fonts/Faithful.ttf") format("truetype");
+	src: url("/fonts/Faithful.ttf") format("truetype");
 }
 
 ::-webkit-scrollbar {
@@ -55,7 +55,7 @@ header {
 }
 #menuBtn {
 	float: left;
-	background: rgba(0, 0, 0, 0) url(images/menu.svg) no-repeat;
+	background: rgba(0, 0, 0, 0) url(/images/menu.svg) no-repeat;
 	background-size: 100% 100%;
 }
 .header-shadow {
@@ -109,7 +109,7 @@ nav.nav-open {
 	height: calc(630px / 3.5);
 	margin: 0 0 16px 0;
 	font-size: 0;
-	background-image: url(../images/nav_image_logo.png), url(../images/bg_light.png);
+	background-image: url(/images/nav_image_logo.png), url(/images/bg_light.png);
 	background-repeat: no-repeat, repeat;
 	background-position: center, center;
 	background-size: 100% 100%, contain;
@@ -504,11 +504,7 @@ ol.roman {
 }
 
 img[src$=".png"], img[src$=".gif"] {
-	-webkit-user-drag: none;
-	-khtml-user-drag: none;
-	-moz-user-drag: none;
-	-o-user-drag: none;
-	user-drag: none
+	-webkit-user-drag: none
 }
 
 kbd {
