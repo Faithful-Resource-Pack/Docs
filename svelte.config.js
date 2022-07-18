@@ -6,13 +6,7 @@ import { mdsvex } from 'mdsvex';
 const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [
-		preprocess({
-			postcss: true,
-
-			scss: {
-				prependData: '@use "src/css/variables.scss" as *;'
-			}
-		}),
+		preprocess(),
 		mdsvex({
 			extensions: ['.md'],
 			layout: "./src/routes/layout.svelte"

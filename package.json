@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@egjs/hammerjs": "^2.0.17"
+		"@egjs/hammerjs": "^2.0.17",
+		"svelte-hammer": "^0.1.7"
 	}
 }

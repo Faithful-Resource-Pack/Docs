@@ -6,9 +6,7 @@ const config = {
 
 	css: {
 		preprocessorOptions: {
-			scss: {
-				additionalData: '@use "src/css/variables.scss" as *;'
-			}
+			scss: {}
 		}
 	}
 };
