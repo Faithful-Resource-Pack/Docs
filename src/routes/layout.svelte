@@ -2,7 +2,6 @@
 	import { browser } from '$app/env';
 	import Header from '../components/header.svelte';
 	import '../css/app.scss';
-	import "../css/variables.scss";
 	export let title;
 
 	import { theme } from "../lib/stores";
