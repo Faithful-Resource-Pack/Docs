@@ -4,12 +4,12 @@ title: Home
 
 <script context="module">
 	export const load = async ({ fetch }) => {
-		const posts = await fetch('/api/posts.json');
-		const allPosts = await posts.json();
+		var posts = await fetch('/api/posts.json');
+		posts = await posts.json();
 
 		return {
 			props: {
-				posts: allPosts
+				posts: posts
 			}
 		};
 	};
@@ -17,7 +17,7 @@ title: Home
 
 <script>
 	export let posts;
-	let categories = [];
+	export let categories = [];
 
 	for (let i = 0; i < posts.length; i++) {
 		if (!categories.includes(posts[i].meta.type)) {
