@@ -8,6 +8,16 @@ declare namespace App {
 		userid: string;
 	}
 
+	interface Post {
+		meta: {
+			title: string,
+			deprecated: bool?,
+			type: string,
+			date: string,
+		},
+		path: string,
+	}
+
 	// interface Platform {}
 
 	// interface Session {}

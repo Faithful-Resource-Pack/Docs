@@ -1,26 +1,13 @@
 <script lang="ts">
 	import { browser } from "$app/env";
-
 	import { page } from "$app/stores";
 	import { onDestroy, onMount } from "svelte";
 	import { theme_index, theme, theme_html, menu_opened } from "../lib/stores";
+	import Collapsible from "./collapsible.svelte";
 
-	const ITEMS = [
-		"API",
-		"CompliBot",
-		"Docs",
-		"Dungeons",
-		"Modpacks",
-		"Mods",
-		"Textures"
-	];
-
-	const PAGES = [{
-		type: "API",
-		url: "example-page",
-		title: "Example title",
-		date: "1999-10-22"
-	}];
+	import { getContext } from 'svelte';
+	const posts: App.Post[] = getContext('posts');
+	const categories: string[] = getContext('categories');
 
 	let nav_class = menu_opened ? 'nav-open' : '';
   const unsubscribe = menu_opened.subscribe((value) => {
@@ -57,13 +44,8 @@
 			});
 		}
 	})
-
-	/**
-	 * Defines class based on number
-	 * @param {number} i
-	 */
-	const peer = (i: number) => i%2===0 ? 'peer' : 'odd';
 </script>
+
 <header class={nav_class + ' ' + shadow_class}>
 	<button id="menuBtn" class="header-button" type="button" on:click={() => $menu_opened = true}>Menu</button>
 	<h1 class="small-display"><span class="height"></span><img src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F" /><span>DOCS</span></h1>
@@ -78,19 +60,8 @@
 			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="/">HOME</a>
 		{/if}
 
-		{#each ITEMS as item}
-			<button class="collapsible">{item.toUpperCase()}</button>
-			<div class="content">
-				{#each PAGES as page, i}
-					{#if page.type == item }
-						<a class="nav-link {peer(i)}" href='/{ page.url.slice(0, -5)}}'>
-							{page.title}<br>
-							<span class="new-badge keepTag" data-date="{ page.date }" style="margin-right: 5px;">NEW</span>
-							{#if 'deprecated' in page}<span class="deprecated-badge">DEPRECATED</span>{/if}
-						</a>
-					{/if}
-				{/each}
-			</div>
+		{#each categories as item}
+			<Collapsible name={item} posts={posts.filter(p => p.meta.type === item)} />
 		{/each}
 	</nav>
 </header>
