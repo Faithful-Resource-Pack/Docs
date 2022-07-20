@@ -125,22 +125,13 @@ nav.nav-open {
 	text-align: left;
 	color: var(--text-color) !important;
 	background-color: var(--nav-background-color);
+
+	&:hover {
+		background-color: var(--shadow-black-30-color)
+	}
 }
 div.content > a.nav-link {
 	padding: 0 34px 0;
-}
-
-.peer {
-	background-color: var(--peer-color);
-}
-.peer:hover {
-	background-color: var(--peer-color-hover);
-}
-.odd {
-	background-color: var(--odd-color);
-}
-.odd:hover {
-	background-color: var(--odd-color-hover);
 }
 
 h1, h2, h3, h4, h5, h6, th {

@@ -7,7 +7,7 @@
 	import { theme } from "../lib/stores";
 
 	// mdsvex title prop
-	export let title: String;
+	export let title;
 </script>
 
 <svelte:head>
