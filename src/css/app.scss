@@ -332,10 +332,6 @@ blockquote {
 	margin-left: 5px;
 }
 
-li > h3 {
-	display: inline;
-}
-
 ul.no-heads {
 	margin-block-start: 0;
 	padding-inline-start: 10px;
@@ -353,28 +349,25 @@ ul.no-heads > li {
 .table-of-content {
 	background-color: var(--peer-color-hover);
 	padding: 20px;
-	text-align: left !important;
+	text-align: left;
 	border-radius: 10px;
 	position: absolute;
 	left: 2.5%;
 	max-width: 350px;
-}
 
-.table-of-content > h2 {
-	margin-top: 0;
-	text-align: center;
-}
-.table-of-content > ul {
-	margin-block-start: 0;
-	padding-inline-start: 10px;
-}
-.table-of-content > ul > li {
-	list-style: none;
-	padding-top: 10px;
-	font-size: large
-}
-.table-of-content > ul > * {
-	font-size: medium
+	& > h3 {
+		display: inline;
+		padding-top: 10px;
+		font-size: large;
+	}
+
+	& > ul {
+		margin: 0;
+	}
+
+	& > * {
+		font-size: medium;
+	}
 }
 
 @media (max-width: 1850px) {

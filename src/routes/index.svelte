@@ -25,22 +25,16 @@
 	<h2>Table of Contents</h2>
 	<div class="table-of-content" style="position: inherit;">
 		{#each categories as category}
-		<ul>
-			<li>
-				<h3>{ category }</h3>
-			</li>
+			<h3>{ category }</h3>
 			<ul>
-			{#each posts as post}
-				{#if post.meta.type == category}
-					<li>
-							<a href={post.path}>
-							{post.meta.title}
-						</a>
-					</li>
-				{/if}
+			{#each posts.filter(f => f.meta.type === category) as post}
+				<li>
+					<a href={post.path}>
+						{post.meta.title}
+					</a>
+				</li>
 			{/each}
 			</ul>
-		</ul>
 		{/each}
 	</div>
 </Layout>
