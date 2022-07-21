@@ -10,7 +10,7 @@
 
 <Layout title="Home">
 	<p style="text-align: center;">
-		<img src="https://database.faithfulpack.net/images/branding/wordmarks/outlined/flat/faithful_flat_border.png" alt="Wordmark">
+		<img src="https://database.faithfulpack.net/images/branding/wordmarks/outlined/flat/faithful_flat_border.png" alt="Wordmark" width="100%" height="100%">
 	</p>
 
 	<h1>Welcome to The Docs.</h1>

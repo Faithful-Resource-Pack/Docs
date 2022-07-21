@@ -50,7 +50,7 @@
 	<button id="menuBtn" class="header-button" type="button" on:click={() => $menu_opened = true}>Menu</button>
 	<h1 class="small-display">
 		<span class="height" /><a href="/">
-			<img src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F"
+			<img height="32" width="32" src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F"
 			 /><span>DOCS</span>
 		</a>
 	</h1>

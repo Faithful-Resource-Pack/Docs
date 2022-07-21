@@ -1,6 +1,9 @@
 @font-face {
 	font-family: Faithful;
+  font-style: normal;
+  font-weight: 400;
 	src: url("/fonts/Faithful.ttf") format("truetype");
+	font-display: swap;
 }
 
 ::-webkit-scrollbar {
