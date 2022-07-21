@@ -48,8 +48,16 @@
 
 <header class={nav_class + ' ' + shadow_class}>
 	<button id="menuBtn" class="header-button" type="button" on:click={() => $menu_opened = true}>Menu</button>
-	<h1 class="small-display"><span class="height"></span><img src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F" /><span>DOCS</span></h1>
-	<h1 class="big-display"><span class="height"></span><span>FAITHFUL PACK DOCS</span></h1>
+	<h1 class="small-display">
+		<span class="height" /><a href="/">
+			<img src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F"
+			 /><span>DOCS</span>
+		</a>
+	</h1>
+	<h1 class="big-display">
+		<span class="height" /><span>
+			<a href="/">FAITHFUL PACK DOCS</a>
+		</span></h1>
 	<div id="nav-swipe"></div>
 	<div id="nav-bg" class={nav_class} on:click={() => $menu_opened = false}></div>
 	<nav class={nav_class}>
