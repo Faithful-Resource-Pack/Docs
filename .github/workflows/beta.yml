@@ -42,5 +42,5 @@ jobs:
         KEY: ${{ secrets.SSH }}
         script: |
           cd /var/www/html/beta-docs.faithfulpack.net/
-          pm2 restart "BETA-DOCS" || PORT=5050 pm2 start --name "BETA-DOCS" "node ."
+          pm2 restart "BETA-DOCS" || pm2 start --name "BETA-DOCS" "PORT=5050 node build/"
       
