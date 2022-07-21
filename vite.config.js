@@ -7,7 +7,8 @@ const config = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				additionalData: '@use "src/css/variables.scss" as *;'
+				additionalData: '@use "src/css/variables.scss" as *;',
+				outputStyle: "compressed"
 			}
 		}
 	}

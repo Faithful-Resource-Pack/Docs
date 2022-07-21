@@ -10,7 +10,8 @@ const config = {
 			postcss: true,
 
 			scss: {
-				prependData: '@use "src/css/variables.scss" as *;'
+				prependData: '@use "src/css/variables.scss" as *;',
+				outputStyle: "compressed"
 			}
 		}),
 		mdsvex({
