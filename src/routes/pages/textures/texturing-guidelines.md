@@ -96,16 +96,19 @@ deprecated: false
   <li><a href="#credits">Credits</a></li>
 </ul>
 </div>
+
 ___
 
 ## Introduction
 
-<i>Faithful was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Faithful.
-But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.
-Initially, we tried to have minimal, ambiguous guidelines so as to not limit people’s creativity too much, in the hopes that artists would stick to approximately the same style. This proved to be too optimistic, and as the pack expanded, textures with increasing degrees of stylistic variety were added, hindering the overall consistency of the pack.
-<br>Whenever a texture that was borderline rule-breaking was made, it always led to controversy and a huge debate that would drag on for hours, and would never come to a clear conclusion.
-<br>The truth is, nobody really expressed a clear enough idea on what the pack’s style should be, nor were the preceding guidelines ever enforced heavily.
-<br>These new rules and guidelines aim to fix all of these problems, and will try to outline Faithful's stylistic direction with as much attention to detail and as much clarity as possible.</i>
+<p>
+  <i>Faithful was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Faithful.
+  But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.
+  Initially, we tried to have minimal, ambiguous guidelines so as to not limit people’s creativity too much, in the hopes that artists would stick to approximately the same style. This proved to be too optimistic, and as the pack expanded, textures with increasing degrees of stylistic variety were added, hindering the overall consistency of the pack.
+  <br>Whenever a texture that was borderline rule-breaking was made, it always led to controversy and a huge debate that would drag on for hours, and would never come to a clear conclusion.
+  <br>The truth is, nobody really expressed a clear enough idea on what the pack’s style should be, nor were the preceding guidelines ever enforced heavily.
+  <br>These new rules and guidelines aim to fix all of these problems, and will try to outline Faithful's stylistic direction with as much attention to detail and as much clarity as possible.</i>
+</p>
 
 ___
 
@@ -247,7 +250,7 @@ ___
   <p class="center"><i><b>Picture 20:</b> An ore texture. Note how the already existing stone texture is used in the background.</i></p>
   <br>
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
-  <p class="red-text" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
+  <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
 </ol>
 <li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, Jappafication errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
 
@@ -278,34 +281,40 @@ ___
 This section goes into detail about how to draw and shade specific materials and shapes.
 
 <br>
+
 ### Materials
 There exists a correlation between the roughness and shininess of a material and the colour blending method. Generally, the rougher a material is, the more dithering you should use. The same applies to high-contrast colours and minimal colour blending for shiny materials.
 
 <br id="smooth-metal">
+
 **Smooth metal** should only use anti-aliasing as a colour blending method, or no blending at all. The colour palette should be limited and contrasty. In some cases mild linear dithering is acceptable if it’s required to keep the texture from looking like plastic. Additionally, in item textures, faces of an object which are in the shade should have a lighter outline (as well as the item outline itself) to simulate light reflection.
 
 <img src="/images/pages/textures/26.png" alt="smooth metal textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 24:</b> Examples of various smooth metal textures.</i></p>
 
 <br id="rough-metal">
+
 **Rough metals** such as raw ore blocks, netherite, anvils and even iron golems should follow the same lighting logic as regular metals while being dithered. Regular dithering should be used as the preferred method.
 
 <img src="/images/pages/textures/27.png" alt="rough metal textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 25:</b> Examples of rough metal textures.</i></p>
 
 <br id="gems">
+
 **Diamonds and other gemstones** in Minecraft’s context should be shaded like reflective rocks more than anything – they usually don’t let much light pass through, unlike their real-life counterparts. Only anti-aliasing should be used here. For faces in the shade in item textures, the same shading logic as on smooth metal textures applies.
 
 <img src="/images/pages/textures/28.png" alt="gemstone textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 26:</b> Examples of gemstone textures.</i></p>
 
 <br id="contiguous-stones">
+
 **Contiguous stones** that are not broken up into smaller rocks are very rough, so they should use dithering as much as possible. For textures with a linear pattern (stone, dripstone), it is recommended to use a mixture of linear and regular dithering to emphasise the material even more. Anti-aliasing can be used here, but only when the material is smoother than usual, like with dripstone.
 
 <img src="/images/pages/textures/29.png" alt="raw stone textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 27:</b> Examples of contiguous raw stone textures.</i></p>
 
 <br id="polished-stones">
+
 **Polished stones** should use dithering (linear when applicable) a bit, but not nearly as much as raw stones. Instead, anti-aliasing should be used in heavier amounts to express the smoothness of the material.
 Smooth stone is a special case however, as it directly reuses regular stone’s texture pattern (which you should do as well, as per rule 10).
 
@@ -313,84 +322,101 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 <p class="center"><i><b>Picture 28:</b> Examples of polished stone textures.</i></p>
 
 <br id="rocky-materials">
+
 **Rocky materials** such as cobblestone and netherrack should be dithered as much as raw stones, but unless the rocks are arranged in a clear linear pattern (like in the deepslate texture), linear dithering should never be used.
 
 <img src="/images/pages/textures/31.png" alt="rocky material textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 29:</b> Examples of rocky material textures.</i></p>
 
 <br id="wood">
+
 **Wood** should use a lot of linear dithering and very minimal amounts of regular dithering. To smooth colour transitions, anti-aliasing can be used if it looks good.
 
 <img src="/images/pages/textures/32.png" alt="wood textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 30:</b> Examples of wood textures.</i></p>
 
 <br id="flowers">
+
 **Most flowers, foliage, and other plant matter** can use dithering (linear or regular) depending on the general roughness/smoothness of the surface. While flower petals can employ this shading method, genuine leaves should never use dithering. 
 
 <img src="/images/pages/textures/33.png" alt="plant textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 31:</b> Examples of plant textures.</i></p>
 
 <br id="corals">
+
 **Corals** should mainly use anti-aliasing, but regular dithering is also acceptable.
 
 <img src="/images/pages/textures/34.png" alt="coral textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 32:</b> Examples of coral textures.</i></p>
 
 <br id="sands">
+
 **Sand and other powdery materials** should be heavily dithered: there should be no large contiguous area of a single colour. Even checkerboard dithering can be used in this case, in small amounts. Anti-aliasing is encouraged to a smaller degree. This also applies to gravel, where the individual rocks that make up the material are clearly visible.
 
 <img src="/images/pages/textures/35.png" alt="powdery textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 33:</b> Examples of powdery textures.</i></p>
 
 <br id="bee-nests">
+
 **Bee nests** are to be shaded the same way wood is.
 
 <br id="honey">
+
 **Honey and slime** should not feature any dithering at all, only using anti-aliasing to smooth the colours.
 
 <br id="terracotta">
+
 **Glazed terracotta** should only use minimal amounts of anti-aliasing when required, otherwise no colour blending should be present.
 
 <img src="/images/pages/textures/36.png" alt="glazed terracotta textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 34:</b> Examples of glazed terracotta textures.</i></p>
 
 <br id="glass">
+
 **Glass** can use small amounts of dithering for the frame. This does not apply to items.
 
 <br id="bones">
+
 **Bones** (including skeletons) should ideally mainly use anti-aliasing, with a bit of occasional linear dithering sprinkled in, near colour transitions. This applies to tusks as well.
 
 <img src="/images/pages/textures/37.png" alt="bone textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 35:</b> Examples of bone textures.</i></p>
 
 <br id="cloth-paper">
+
 **Cloth and paper** should both be shaded approximately the same way, with the only difference being that cloth should have more linearity. Anti-aliasing should be the main colour blending method for these materials.
 
 <br id="skin">
+
 **Skin (in mob textures) and leather** should mainly use anti-aliasing. Not using many colour blending methods can lead to heavy colour banding and looking plasticky, so this is a reminder to try and eliminate that if possible. Depending on the roughness of a specific skin type, linear and regular dithering can also be used to communicate the feel of the material.
 
 <img src="/images/pages/textures/38.png" alt="skin textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 36:</b> Examples of skin textures.</i></p>
 
 <br id="creepers">
+
 **Creepers** are quite mind boggling. The texture was originally made from the leaves texture used in Alpha, but since a lot of noise has been overlaid on top, the texture no longer looks anything close to leaves, not to mention Alpha leaves barely resemble leaves in the first place. Basically, nobody knows how to shade this chaos of a material properly, so we just indexed the texture and used a combination of all the techniques listed here to create a chaotic material that doesn't really represent anything. Worked surprisingly well.
 
 <br id="fur-hair">
+
 **Fur and hair** should employ linear dithering, but in such a way that it creates visible strands of hair. Some regular dithering and anti-aliasing can also come in handy. This applies to wool on sheep as well.
 
 <img src="/images/pages/textures/39.png" alt="fur/hair textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 37:</b> Examples of fur/hair textures.</i></p>
 
 <br id="fish">
+
 **Fish entities** should have clearly visible scales present where appropriate (don’t just draw a checkerboard!). Basically all colour blending methods can be used here.
 
 <img src="/images/pages/textures/40.png" alt="fish texture" class="center" loading="lazy">
 <p class="center"><i><b>Picture 38:</b> Example of a fish texture.</i></p>
 
 <br>
+
 ### Shapes
 
 <br id="cylinders">
+
 **Cylindrical type objects** such as iron bars, individual dynamite sticks that make up TNT and metal railings should have visible shades along both sides and a highlight on the side near the centre like so:
 
 <img src="/images/pages/textures/41.png" alt="cylindrical type objects" class="center" loading="lazy">
@@ -406,6 +432,7 @@ Faithful extends its field of expertise to correcting Jappa’s mistakes. One su
 <p class="center"><i><b>Picture 40:</b> Pre-1.17 vanilla oak sign texture</i></p>
 
 <br>
+
 It is obvious that this texture uses the programmer art oak planks and bark. This is not viable for Faithful, as the pack strives for consistency, and as such it has been decided to use the already existing jappa plank and bark textures instead. Besides the sign, many more textures requiring this treatment exist. Some uncertainties about this have emerged though, so after all this time we are finally defining the replaceable textures properly:
 
 **Only replace programmer art textures (or textures that weren’t changed in the texture update) if it’s absolutely obvious what they should be changed to.**
@@ -430,7 +457,9 @@ These rules and guidelines are subject to change at any time. All changes to thi
 ___
 
 ## Credits
-Written by Pomi108 for use in the Faithful project
-<br>Edited by Anonymous, Juknum and Fred figglehorn
-<br>Images compiled by Anonymous and Pomi108
-<br>Credit for images goes to various Faithful and Faithful contributors, Mojang Studios and Google Images
+<p>
+  Written by Pomi108 for use in the Faithful project
+  <br>Edited by Anonymous, Juknum and Fred figglehorn
+  <br>Images compiled by Anonymous and Pomi108
+  <br>Credit for images goes to various Faithful and Faithful contributors, Mojang Studios and Google Images
+</p>
