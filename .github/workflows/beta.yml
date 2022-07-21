@@ -24,10 +24,6 @@ jobs:
       run: pnpm install
     - name: Build
       run: pnpm build
-
-  copy_and_deploy:
-    needs: build
-    steps:
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
