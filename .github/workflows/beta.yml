@@ -3,6 +3,7 @@ name: Svelte site CI
 on:
   push:
     branches: [ SvelteKit ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,7 +28,7 @@ jobs:
   copy_and_deploy:
     needs: build
     steps:
-     - name: copy file via ssh password
+    - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.HOST }}
