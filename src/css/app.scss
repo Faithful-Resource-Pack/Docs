@@ -180,8 +180,8 @@ header h1.small-display {
 
 main {
 	max-width: 1080px;
-	padding: $main-padding;
-	margin: 56px auto 0;
+	padding: 56px $main-padding calc($main-padding + 50px);
+	margin: 0 auto;
 	animation: fadeIn .8s;
 }
 img {
@@ -509,4 +509,23 @@ kbd {
 	border-bottom-color: var(--text-color);
 	border-radius: 6px;
 	box-shadow: inset 0 -1px 0 var(--text-color);
+}
+
+// Footer related styles
+html, body {
+	height: 100%;
+	margin: 0;
+}
+main {
+	min-height: 100%;
+}
+footer {
+	text-align: center;
+  height: 50px;
+  margin-top: -50px;
+
+	& > p {
+		margin: 0;
+		padding: 10px 0;
+	}
 }

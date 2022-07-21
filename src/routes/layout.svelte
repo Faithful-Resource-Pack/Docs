@@ -8,6 +8,8 @@
 
 	// mdsvex title prop
 	export let title;
+
+	$: year = new Date().getFullYear().toString();
 </script>
 
 <svelte:head>
@@ -25,3 +27,9 @@
 <main>
 	<slot />
 </main>
+
+<footer>
+	<p>
+		&copy; Faithful Team { year }
+	</p>
+</footer>
