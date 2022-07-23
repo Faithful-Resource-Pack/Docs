@@ -1,4 +1,6 @@
-<!-- Recognized as layout so you can call loader here -->
+<!--
+    uhh lets just hope we don't get any other error than 404 lol
+-->
 
 <script context="module">
 	export const load = ({ url }) => {
@@ -18,16 +20,14 @@
 	import Header from "../components/header.svelte";
 	import "../css/app.scss";
 	import { theme } from "../lib/stores";
-	import { fade } from "svelte/transition";
+    import { fade } from "svelte/transition";
 
-	// mdsvex title prop
-	export let title;
-	export let currentRoute;
+    export let currentRoute;
 
-	$: domain = $page.url.hostname;
-	$: full_title = `Faithful Pack Docs - ${title}`;
+    $: domain = $page.url.hostname;
+	$: full_title = `Faithful Pack Docs - 404`;
 	$: year = new Date().getFullYear().toString();
-	$: url = $page.url.href;
+    $: url = $page.url.href;
 </script>
 
 <svelte:head>
@@ -47,13 +47,15 @@
 	{/if}
 </svelte:head>
 
-<!-- Give posts back to layout -->
 <Header />
 
 {#key currentRoute}
-	<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-		<slot />
-	</main>
+    <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
+        <h1 class="center">Are you lost in The End?</h1>
+    	<p class="center">
+    		Unfortunately the page you requested doesn't exist!<br>We recommand you to check the spelling or go to the <strong><a href="/">main page</a></strong> to find what you were looking for.
+    	</p>
+    </main>
 {/key}
 
 <footer>
@@ -61,3 +63,13 @@
 		&copy; Faithful Team { year }
 	</p>
 </footer>
+
+<style>
+    h1, p {
+        color: #ccc;
+    }
+
+    main {
+        background: #120E19 url(/images/the_end.jpg) no-repeat center;
+    }
+</style>
