@@ -207,7 +207,8 @@ ___
 ## Part 2: General Rules and Tips
 
 **Rules**
-<br>These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Faithful.
+<br>
+These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Faithful.
 
 <ol>
   <li id="mimic-vanilla"><b>Textures need to mimic vanilla Minecraft textures, and should be heavily based upon them.</b> This probably goes without saying, but it’s good to have it specified nonetheless. While you are not required to make your texture by directly editing the vanilla one, it is heavily recommended and usually helps your texture look better and closer to the default texture.</li>

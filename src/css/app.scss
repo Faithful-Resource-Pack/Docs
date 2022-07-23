@@ -7,7 +7,6 @@
 }
 
 ::-webkit-scrollbar {
-	width: 8px;
 	height: 8px;
 }
 ::-webkit-scrollbar-track {
@@ -124,7 +123,7 @@ nav {
 	/* height: 36px; */
 	width: 350px;
 	padding: 0 16px 0;
-	line-height: 24px;
+	line-height: 36px;
 	text-decoration: none;
 	text-align: left;
 	color: var(--text-color) !important;
@@ -136,6 +135,7 @@ nav {
 }
 div.content > a.nav-link {
 	padding: 0 34px 0;
+
 }
 
 h1, h2, h3, h4, h5, h6, th {

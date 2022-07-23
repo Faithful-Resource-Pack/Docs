@@ -39,7 +39,7 @@
   <div class="content" style={collapsed_style} bind:this={content_el}>
     {#each posts as post}
       <a class="nav-link" href={ post.path }>
-        {post.meta.title}<br>
+        {post.meta.title}
         {#if isNew(post.meta.date) }<span class="new-badge keepTag" style="margin-right: 5px;">NEW</span>{/if}
         {#if 'deprecated' in post.meta && post.meta.deprecated}<span class="deprecated-badge">DEPRECATED</span>{/if}
       </a>
