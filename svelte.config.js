@@ -1,6 +1,8 @@
 import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
+import rehypeSlug from 'rehype-slug'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +17,11 @@ const config = {
 		}),
 		mdsvex({
 			extensions: ['.md'],
-			layout: "./src/routes/layout.svelte"
+			layout: "./src/routes/layout.svelte",
+			rehypePlugins: [
+				rehypeSlug,
+				rehypeAutolinkHeadings
+			]
 		})
 	],
 

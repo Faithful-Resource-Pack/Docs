@@ -512,3 +512,21 @@ footer {
 		padding: 10px 0;
 	}
 }
+
+:where(h1, h2, h3, h4, h5, h6) {
+	.icon-link {
+		position: relative;
+
+		&::before {
+			content: '#';
+			position: absolute;
+			left: -1.2ch;
+			opacity: 0;
+			text-decoration: underline;
+		}
+	}
+  
+	&:hover .icon-link::before {
+		opacity: 1;
+	}
+}

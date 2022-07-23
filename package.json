@@ -37,6 +37,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-slug": "^5.0.1",
 		"svelte-hammer": "^0.1.7"
 	}
 }
