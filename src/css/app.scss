@@ -190,7 +190,6 @@ main {
 	max-width: 1080px;
 	padding: 56px $main-padding calc($main-padding + 50px);
 	margin: 0 auto;
-	animation: fadeIn .8s;
 }
 img {
 	max-width: 100%;
@@ -244,12 +243,6 @@ button {
 	}
 	.small-display {
 		display: none;
-	}
-}
-@keyframes fadeIn {
-	0%{
-		opacity: 0;
-		transform: translateY(+25px);
 	}
 }
 blockquote {
