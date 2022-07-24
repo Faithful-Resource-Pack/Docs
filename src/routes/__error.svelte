@@ -18,6 +18,7 @@
 	import { browser } from "$app/env";
 	import { page } from "$app/stores";
 	import Header from "../components/header.svelte";
+	import Footer from "../components/footer.svelte";
 	import "../css/app.scss";
 	import { theme } from "../lib/stores";
     import { fade } from "svelte/transition";
@@ -26,7 +27,6 @@
 
     $: domain = $page.url.hostname;
 	$: full_title = `Faithful Pack Docs - 404`;
-	$: year = new Date().getFullYear().toString();
     $: url = $page.url.href;
 </script>
 
@@ -58,11 +58,7 @@
     </main>
 {/key}
 
-<footer>
-	<p>
-		&copy; Faithful Team { year }
-	</p>
-</footer>
+<Footer />
 
 <style>
     h1, p {
