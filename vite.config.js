@@ -1,4 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import path from 'path';
 
 /** @type {import('vite').UserConfig} */
 const config = {
@@ -9,6 +10,12 @@ const config = {
 			scss: {
 				additionalData: '@use "src/css/variables.scss" as *;'
 			}
+		}
+	},
+
+	resolve: {
+		alias: {
+			"@src": path.resolve('./src/')
 		}
 	}
 };
