@@ -26,7 +26,7 @@
     export let currentRoute;
 
     $: domain = $page.url.hostname;
-	$: full_title = `Faithful Pack Docs - 404`;
+	$: full_title = `404 - Faithful Pack Docs`;
     $: url = $page.url.href;
 </script>
 

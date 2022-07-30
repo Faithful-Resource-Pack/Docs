@@ -11,7 +11,6 @@
     export let srcset = "";
     export let srcsetWebp = "";
     export let ratio = "100%";
-    export let blur = true;
     export let sizes = "(max-width: 1000px) 100vw, 1000px";
     export let offset = 0;
     export let threshold = 1.0;
@@ -51,23 +50,14 @@
       will-change: opacity;
     }
   
-    .blur {
-      filter: blur(15px);
-      transition: opacity 1200ms;
-    }
-  
     .placeholder {
       opacity: 1;
       width: 100%;
       height: 100%;
-      transition: opacity 1200ms ease-out;
-      transition-delay: 0.4s;
     }
   
     .main {
       opacity: 0;
-      transition: opacity 1200ms ease-out;
-      transition-delay: 0.4s;
     }
   
     .loaded .placeholder {
@@ -91,7 +81,7 @@
         {#if blurhash && blurhashSize}
           <canvas class="placeholder" use:decodeBlurhash width={blurhashSize.width} height={blurhashSize.height} />
         {:else}
-          <img class="placeholder {placeholderClass}" class:blur {src} {alt} />
+          <img class="placeholder {placeholderClass}" {src} {alt} />
         {/if}
         <picture>
           <source type="image/webp" srcset="{srcsetWebp}" {sizes} />

@@ -26,7 +26,7 @@
 	export let currentRoute;
 
 	$: domain = $page.url.hostname;
-	$: full_title = `Faithful Pack Docs - ${title}`;
+	$: full_title = `${title} - Faithful Pack Docs`;
 	$: url = $page.url.href;
 </script>
 
