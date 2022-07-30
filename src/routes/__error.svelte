@@ -67,5 +67,6 @@
 
     main {
         background: #120E19 url(/images/the_end.jpg) no-repeat center;
+		max-width: 100%;
     }
 </style>
