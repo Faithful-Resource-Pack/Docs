@@ -44,6 +44,10 @@
 		<style lang="scss">
 			@use "../css/dark.scss";
 		</style>
+	{:else if $theme === 'light' || ($theme === 'auto' && browser && window.matchMedia('(prefers-color-scheme: light)').matches)}
+		<style lang="scss">
+			@use "../css/light.scss";
+		</style>
 	{/if}
 </svelte:head>
 
