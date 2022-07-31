@@ -63,9 +63,11 @@ When making a mod for Minecraft: Dungeons, it is important to know that most wea
 <img class="center" src="/images/pages/dungeons/items-tutorial/hotkey_blockbench.png" alt="hotkey blockbench" loading="lazy">
 <h3 id="blender">Blender:</h3>
 <img class="center" src="/images/pages/dungeons/items-tutorial/hotkey_blender.png" alt="hotkey blender" loading="lazy">
+
 > If you are on Mac: use `Cmd` instead of `Ctrl`
 
 <h3 id="-what-if-i-dont-have-a-3rd-button-mousenumpad">* What if I don't have a 3rd button mouse/numpad?</h3>
+
 > you can skip this part if you've got a normal keyboard & mouse.
 
 That's no problem! Blender allows you to emulate both of these, allowing you to access the controls you need.
@@ -81,6 +83,7 @@ By default, `alt`+`LMB` will be registered as `MMB`. If you emulate the numpad, 
 
 Additionally, if you've got an Apple Magic Mouse, on top of having to emulate a 3 button mouse the view controls are a bit different:  
 <img class="center" src="/images/pages/dungeons/items-tutorial/hotkey_mac.png" alt="hotkey mac" loading="lazy">
+
 > All other controls are the same.
 
 <h2 id="part-1-modelling">PART 1: Modelling</h2>
@@ -133,6 +136,7 @@ You can do that by going to `File > Export` and then selecting `Export OBJ Model
 Save the OBJ file somewhere you can find it - you'll need it in the next step:
 
 <h3 id="4-import-the-model-into-blender">4) Import the model into Blender</h3>
+
 > Time to get our hands dirty in Blender!
 
 Upon opening you should see small window pop up - don't change anything in there, just clicl away so the window disappears.  
