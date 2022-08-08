@@ -2,7 +2,9 @@ import { browser } from '$app/env';
 import { derived, writable } from 'svelte/store'
 
 const THEME_DEFAULT = '0'
-const THEME_INITIAL = Number.parseInt(browser ? window.localStorage.getItem('theme') ?? THEME_DEFAULT : THEME_DEFAULT, 10);
+var THEME_INITIAL = Number.parseInt(browser ? window.localStorage.getItem('theme') ?? THEME_DEFAULT : THEME_DEFAULT, 10);
+// hotfix for the old site's theme breaking the new site completely
+if (isNaN(THEME_INITIAL) ) THEME_INITIAL = THEME_DEFAULT
 const THEME_VALUES = [
   {
     value: 'auto',
