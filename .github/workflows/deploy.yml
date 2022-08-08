@@ -1,0 +1,46 @@
+name: Svelte site CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build the image
+      uses: pnpm/action-setup@v2.2.2
+      with:
+        version: 7
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16
+        cache: 'pnpm'
+    - name: Install dependencies
+      run: pnpm install
+    - name: Build
+      run: pnpm build
+    - name: copy file via ssh password
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key:  ${{ secrets.SSH }}
+        source: "build,node_modules,package.json"
+        target: "/var/www/html/docs.faithfulpack.net/"
+    
+    - name: Executing remote command
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PORT: ${{ secrets.PORT }}
+        KEY: ${{ secrets.SSH }}
+        script: |
+          cd /var/www/html/docs.faithfulpack.net/
+          pm2 restart "DOCS" || pm2 start --name "DOCS" "PORT=5050 node build/"
+      
