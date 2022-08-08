@@ -1,0 +1,21 @@
+:root {
+	--text-color: #c9d1d9;
+	--secondary-text-color: #c9d1d9;
+
+	--nav-background-color: #161B22;
+	--background-white-color: #161B22;
+
+	--code-quote-text-background-color: rgba(255,255,255,.1);
+
+	--scrollbar-track-color: #0E0E0E;
+	--scrollbar-thumb-color: #3E3E3E;
+	--scrollbar-thumb-hover-color: #575757;
+}
+
+#nav-img {
+  background-image: url(/images/nav_image_logo.png), url(/images/bg_dark.png);
+}
+
+header h1 {
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+}

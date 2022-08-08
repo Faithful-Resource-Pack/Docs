@@ -1,0 +1,39 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+:root {
+	--accent-color: #4285f4;
+	--accent-color-dark: #2467D6;
+
+	--text-color: #212529;
+	--text-color-red: #AC2F2F;
+	--secondary-text-color-red: #6E1E1E;
+	--secondary-text-color: #212529;
+
+	--shadow-black-50-color: rgba(0,0,0,.5);
+	--shadow-black-30-color: rgba(0,0,0,.3);
+	--shadow-black-10-color: rgba(0,0,0,.1);
+
+	--nav-background-color: #EEE;
+	--background-white-color: #fff;
+
+	--code-blocks-main-text-color: snow;
+	--code-blocks-background-color: #272822;
+	--code-blocks-comment-text-color: #75715E;
+	--code-blocks-key-text-color: #66D9EF;
+	--code-blocks-string-value-color: #CFCFC2;
+	--code-blocks-number-value-color: #AE76C6;
+	--code-blocks-yaml-key-color: #F92658;
+	--code-blocks-yaml-value-color: #DADB67;
+	--code-blocks-shell-regex: #F92665;
+	--code-blocks-shell-string: #E6DB74;
+	--code-blocks-shell-key-color: #66D9EF;
+
+	--code-quote-text-background-color: rgba(0,0,0,.1);
+
+	--blockquote-bar-color: #666666;
+
+	--scrollbar-track-color: #F1F1F1;
+	--scrollbar-thumb-color: #C1C1C1;
+	--scrollbar-thumb-hover-color: #A8A8A8;
+	
+	--link-color: #3E9BF5;
+}
