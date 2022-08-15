@@ -2,7 +2,7 @@
 
 ## Requirements
 - NodeJS 16+ https://nodejs.org
-- pnpm - `corepack enable` + `corepack prepare pnpm@latest --activate`
+- pnpm (`corepack enable` + `corepack prepare pnpm@latest --activate`)
 
 ## Running
 
