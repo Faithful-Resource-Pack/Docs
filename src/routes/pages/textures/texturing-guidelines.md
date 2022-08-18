@@ -207,7 +207,7 @@ ___
 ## Part 2: General Rules and Tips
 
 **Rules**
-<br>
+
 These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Faithful.
 
 <ol>
