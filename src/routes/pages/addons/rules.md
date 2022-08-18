@@ -15,6 +15,7 @@ ___
     (If you forget to do any of these nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.)
     iv. **Avoid using the word “Better” in the name! Be creative — Describe your pack more precisely.**
     v. **No obscenities or swear words.**
+    vi. **Don’t use the word “Faithful” in the title unless absolutely necessary.** It’s already evident that your pack is made for Faithful, since, you know, it’s on the Faithful website.
 5. **The add-on description must characterise what the add-on does and what it’s like. More is better than less.**
 6. **No NSFW or NSFL content.** (As in pornography, over-the-top gore and other questionable stuff.)
 7. **Please use the built-in tags to let people know whether OptiFine is required or not, and what edition/Faithful resolution your add-on is made for.** Don’t specify that in the title.
