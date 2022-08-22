@@ -1,6 +1,6 @@
 ---
 title: "Classic Faithful 32x Texturing Guidelines"
-type: "Textures"
+type: "Classic Faithful"
 date: "22/08/2022"
 deprecated: false
 ---
@@ -414,8 +414,12 @@ The majority of additional techniques for upscaling blurry textures are shared w
   <br>
 </ol>
 
+___
+
 ## Part 6: Conclusion and Credits
 Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it’s done behind the scenes. If you have any questions or want something changed, make sure to let us know in our [Discord Server](https://discord.gg/KSEhCVtg4J).
+
+___
 
 ### **Credits go to…**
 <p>
