@@ -1,5 +1,5 @@
 ---
-title: "Faithful Texturing Guidelines"
+title: "Faithful 32x Texturing Guidelines"
 type: "Textures"
 date: "19/03/2022"
 deprecated: false
@@ -11,7 +11,7 @@ deprecated: false
   }
 </style>
 
-# Faithful Texturing Rules and Guidelines
+# Faithful 32x Texturing Rules and Guidelines
 
 <div class="table-of-content">
 <h2>Table of Contents</h2>
