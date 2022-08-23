@@ -147,7 +147,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <p class="center"><i><b>Picture 3:</b> Example of antialiasing used in a texture featured in Classic Faithful.</i></p>
     <br>
     <li id="dithering"><b>Dithering</b> is where pixels of a color border are displaced in such a way that said border is no longer as sharply defined and has parts protruding in and out of the other color. Places where these can be used will be explained further in the material reference list, however in most cases using it gives it an overly noisy or sharp appearance which isn’t desirable most of the time.
-    <br>Dithering can be done in multiple ways:</li>
+    <br><br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
       <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks like, well, a checkerboard of two colors.</li>
