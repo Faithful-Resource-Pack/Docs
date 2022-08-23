@@ -30,13 +30,110 @@ ___
 
 ___
 
+<div class="table-of-content">
+<h2>Table of Contents</h2>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#part-1-terms-and-definitions">Part 1: Terms and Definitions</a></li>
+  <ol>
+    <li><a href="#blending">(Color) Blending</a></li>
+    <ol class="lettered">
+      <li><a href="#no-blending">No Blending</a></li>
+      <li><a href="#antialiasing">Antialiasing (AA)</a></li>
+      <li><a href="#dithering">Dithering</a></li>
+      <ol class="roman">
+        <li><a href="#checkerboard-dithering">Checkerboard Dithering</a></li>
+        <li><a href="#regular-dithering">Regular Dithering</a></li>
+        <li><a href="#linear-dithering">Linear Dithering (LD)</a></li>
+      </ol>
+      <li><a href="#color-banding">Color Banding</a></li>
+    </ol>
+    <li><a href="#upscaling-textures">Upscaling (a texture)</a></li>
+    <li><a href="#limited-palettes">Limited Palettes</a></li>
+    <li><a href="#noise">Noise</a></li>
+    <li><a href="#jappa">Jasper “JAPPA” Boerstra</a></li>
+    <li><a href="#prog-art">Programmer Art</a></li>
+    <li><a href="#jappa-textures">Jappa Textures</a></li>
+    <li><a href="#vattic">Vattic</a></li>
+    <li><a href="#false-lines">False Lines</a></li>
+    <li><a href="#mixels">Mixels</a></li>
+    <li><a href="#contrast">Contrast</a></li>
+    <li><a href="#depth-shading">Depth Shading</a></li>
+    <li><a href="#stairing">Stairing</a></li>
+  </ol>
+  <li><a href="#part-2-general-rules-and-tips">Part 2: General Rules and Tips</a></li>
+  <ol>
+    Rules
+    <li><a href="#follow-default">Follow Default</a></li>
+    <li><a href="#reference-vattic">Reference Vattic's Work</a></li>
+    <li><a href="#less-is-more">Don't Overdetail</a></li>
+    <li><a href="#palette">Keep a Vanilla-ish Color Palette</a></li>
+    <li><a href="#1px-items">Thin out Item Borders</a></li>
+    <li><a href="#outdated-textures">Keep Vanilla Mistakes</a></li>
+    <li><a href="#reuse-textures">Reuse Existing Textures</a></li>
+    <li><a href="#useless-textures">Don't Upscale Useless Textures</a></li>
+  </ol>
+  <ol>
+    Tips
+    <li><a href="#mob-faces">Mob Faces</a></li>
+    <li><a href="#jaggies-bad">Smooth Jagged Lines</a></li>
+    <li><a href="#overuse-2px">Don't Overuse Thick Lines</a></li>
+    <li><a href="#cross-reference">Cross Reference Similar Textures</a></li>
+
+  </ol>
+  <li><a href="#part-3-material-reference-list">Part 3: Material Reference List</a></li>
+  <ul>
+    <li><a href="#conventional">Conventional Upscaling</a></li>
+    <li><a href="#gem-and-metals">Gem and Metal Textures</a></li>
+    <li><a href="#contiguous-stones">Contiguous Stones</a></li>
+    <li><a href="#distinct-stones">Rocky Materials</a></li>
+    <li><a href="#tiles">Small Bricks and Tiles</a></li>
+    <li><a href="#large-bricks">Large Bricks</a></li>
+    <li><a href="#polished-stones">Polished Stone/Wood</a></li>
+    <li><a href="#logs-and-stems">Tree Bark and Mushroom Stems</a></li>
+    <li><a href="#refined-wood">Refined Wood</a></li>
+    <li><a href="#large-plants">Leaves and Larger Plants</a></li>
+    <li><a href="#foliage">Flowers and Foliage</a></li>
+    <li><a href="#grass-fungi">Grass and Certain Fungi</a></li>
+    <li><a href="#sand">Sand and Other Powders</a></li>
+    <li><a href="#sandstone">Sandstone</a></li>
+    <li><a href="#prismarine">Prismarine</a></li>
+    <li><a href="#contrasty">Contrasty Textures</a></li>
+    <li><a href="#ice-glass">Ice and Glass</a></li>
+    <li><a href="#fur-fabric">Fur and Fabric</a></li>
+    <li><a href="#door-trapdoor">Doors and Trapdoors</a></li>
+  </ul>
+  <li><a href="#part-4-about-classic-faithful-32x-pa">Part 4: About Classic Faithful 32x PA</a></li>
+  <li><a href="#part-5-upscaling-noise-and-blurriness">Part 5: Upscaling Noise and Blurriness</a></li>
+  <ol>
+    Noisy Textures
+    <li><a href="#tiling-with-edits">Tiling with Edits</a></li>
+    <li><a href="#jumbling">Jumbling</a></li>
+    <li><a href="#tiled-detail">Tiled Detail</a></li>
+    <li><a href="#softening">Softening</a></li>
+    <li><a href="#indexing">Indexing</a></li>
+    <li><a href="#native-upscale">Natively Upscaling</a></li>
+  </ol>
+  <ol>
+    Blurry Textures
+    <li><a href="#ai-upscale">AI Upscaling</a></li>
+  </ol>
+  <li><a href="#conclusion">Conclusion</a></li>
+  <li><a href="#credits-go-to">Credits go to…</a></li>
+</ul>
+</div>
+
+___
+
 ## Part 1: Terms and Definitions
 
 Over time, our community has adopted and come up with numerous terms regarding pixel art, texturing and art techniques. Since these guidelines use these terms extensively, a definitive dictionary must be made for the layman.
 
 <ol>
-  <li id="blending"><b>(Color) Blending refers to the method of transitioning one color into another. It mostly occurs around the border between these two colors.</b>
-  <br><br>There are many types of blending. The most important ones in the context of Classic Faithful are listed here:</li>
+  <li id="blending"><b>(Color) Blending</b> refers to the method of transitioning one color into another. It mostly occurs around the border between these two colors.
+  <br>
+  <br>There are many types of blending. The most important ones in the context of Classic Faithful are listed here:</li>
   <ol class="lettered">
     <br>
     <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, where other blending methods are added later on. However, this tends to have a “plasticky” or flat effect on the texture, which in most cases is undesirable.</li>
@@ -44,7 +141,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <img src="/images/pages/textures/classicfaithful/1.png" alt="no blending" class="center" loading="lazy">
     <p class="center"><i><b>Picture 1:</b> Picture 1: Example of a border between two colors, with no blending applied.</i></p>
     <br>
-    <li id="anti-aliasing"><b>Antialiasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colors. It uses an additional in-between color to provide a smoother transition. You can use this in limited amounts, particularly with the usage of added colors which will be covered more in depth later on.</li>
+    <li id="antialiasing"><b>Antialiasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colors. It uses an additional in-between color to provide a smoother transition. You can use this in limited amounts, particularly with the usage of added colors which will be covered more in depth later on.</li>
     <br>
     <img src="/images/pages/textures/classicfaithful/2.png" alt="aliased and antialiased" class="center" loading="lazy">
     <p class="center"><i><b>Picture 2:</b> A line with no antialiasing compared to a line with antialiasing applied to it.</i></p>
@@ -55,7 +152,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
-      <li id="checkerboard-dithering"><b>Checkerboard dithering</b>Checkerboard dithering (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks like, well, a checkerboard of two colors.</li>
+      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks like, well, a checkerboard of two colors.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/4.png" alt="checkerboard dithering transition" class="center" loading="lazy">
       <p class="center"><i><b>Picture 4:</b> Checkerboard dithering used as a transition between two colors.</i></p>
@@ -88,10 +185,10 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="/images/pages/textures/classicfaithful/9.png" alt="indexed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 9:</b> Left: A “limited palette” texture. Middle: A blurry texture. Right: A noisy texture.</i></p>
   <br>
-  <li id="noise"><b>Noise</b> as opposed to limited palette, is when there are a lot of colors that mean nothing and don’t have any reasoning for being there, usually made with a program automatically. In other contexts, it can mean a texture with no “definition”, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
+  <li id="noise"><b>Noise</b> as opposed to limited palette is a filter which randomly brightens and darkens pixels to give a grainer look, oftentimes used by novice pixel artists. In other contexts, it can mean a texture with no “definition”, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/10.png" alt="noise" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 10:</b> Left: A “noisy” texture with a large palette for no real reason. Right: A “noisy” texture with no definition and just a random mess of pixels.</i></p>
+  <p class="center"><i><b>Picture 10:</b> Left: A “noisy” texture with an excessively large palette. Right: A “noisy” texture with no definition and just a random mess of pixels.</i></p>
   <br>
   <li id="jappa"><b>Jasper “JAPPA” Boerstra</b> is Minecraft’s current lead art director and pixel artist, and has been working on the game’s art since 2017. In addition, he was mostly responsible for the 1.14 texture update.</li>
   <br>
@@ -159,7 +256,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
   <p class="center"><i><b>Picture 20:</b> Right: Examples of constructive added color usage. Left: Their vanilla counterpart.</i></p>
   <br>
-  <li id="vanilla-colour-palette"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated, which is not good. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
+  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated, which is not good. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
   <img src="/images/pages/textures/classicfaithful/21.png" alt="thinned outlines" class="center" loading="lazy">
   <p class="center"><i><b>Picture 21:</b> Left: Examples of textures with two pixel wide outlines. Right: Textures with one pixel wide outlines.</i></p>
@@ -171,7 +268,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/classicfaithful/22.png" alt="reusing textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 22:</b> A texture that directly references another. Note the identical plank background on the crafting table.</i></p>
   <br>
-  <li id="blending-colours"><b>Don’t upscale useless textures.</b> If a texture would end up looking identical to vanilla when upscaled, is unused, or is already so high resolution that there’s no real need to upscale it, then just don’t do it. It just bloats the file size of the pack and wastes your effort, pretty self explanatory.</li>
+  <li id="useless-textures"><b>Don’t upscale useless textures.</b> If a texture would end up looking identical to vanilla when upscaled, is unused, or is already so high resolution that there’s no real need to upscale it, then just don’t do it. It just bloats the file size of the pack and wastes your effort, pretty self explanatory.</li>
 </ol>
 
 ### **Tips**
@@ -189,7 +286,7 @@ These are less specific ways to improve your textures, and unlike rules are more
   <img src="/images/pages/textures/classicfaithful/24.png" alt="jaggies vs not jaggies" class="center" loading="lazy">
   <p class="center"><i><b>Picture 24:</b> Left: Examples of jagged edges and curves. Right: Examples of smooth edges and curves.</i></p>
   <br>
-  <li id="stairing-pixels"><b>Don’t overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also has a very flat effect on the texture. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
+  <li id="overuse-2px"><b>Don’t overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also has a very flat effect on the texture. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/25.png" alt="stairing pixels" class="center" loading="lazy">
   <p class="center"><i><b>Picture 25:</b> Left: Left: Incorrect interpretation of textures. Right: A much better interpretation of said textures.</i></p>
@@ -201,7 +298,7 @@ These are less specific ways to improve your textures, and unlike rules are more
 
 ___
 
-## Part 3: Material and Shape Reference List
+## Part 3: Material Reference List
 This section goes into detail about how to shade materials that you shouldn’t shade in the “normal” way. If a material is not on this list, refer to the first entry. 
 
 <br id="conventional">
@@ -227,7 +324,7 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="distinct-stones">
 
-**Rocky materials and distinct stones** should first use added colors to define what is a rock and what is a gap before doing anything else. After this, upscale normally while ensuring that the gaps and the rocks are visibly separated and don’t overly blend into each other using added colors. Always shape based on the rocks, and the gaps will follow based on the rocks and look natural as a result. Otherwise, the rocks won’t look anything like rocks!
+**Rocky materials with distinct stones** should first use added colors to define what is a rock and what is a gap before doing anything else. After this, upscale normally while ensuring that the gaps and the rocks are visibly separated and don’t overly blend into each other using added colors. Always shape based on the rocks, and the gaps will follow based on the rocks and look natural as a result. Otherwise, the rocks won’t look anything like rocks!
 
 <img src="/images/pages/textures/classicfaithful/29.png" alt="rocky textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 29:</b> Examples of textures with distinct rocks. Note the visible separation of the rounded rocks and gaps through added colors, particularly in comparison to their vanilla counterparts.</i></p>
@@ -260,26 +357,26 @@ This section goes into detail about how to shade materials that you shouldn’t 
 <img src="/images/pages/textures/classicfaithful/33.png" alt="log and stem textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 33:</b> Examples of heavily motion blurred logs. Note the usage of added colors going in the direction of the texture’s linearity.</i></p>
 
-<br id="corals">
+<br id="refined-wood">
 
 **Planks and other refined wood** should be upscaled with a lot of linear dithering and small amounts of antialiasing, to accurately portray a wood grain material. Another method of doing this which is useful for planks involves stretching the vanilla texture, tiling it downwards, and fixing any awkward areas. Alternatively, if it cannot work well, simply extend out the detail to portray a linear look.
 
 <img src="/images/pages/textures/classicfaithful/34.png" alt="refined wood textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 34:</b> Examples of refined wood. Note the detailed and linear look.</i></p>
 
-<br id="greenery">
+<br id="large-plants">
 
-**Leaves and other greenery** can use small amounts of dithering on the branches mixed in with a slightly increased usage of antialiasing and/or added colors. With thicker plants like cacti or bamboo, don’t use any dithering and upscale conventionally.
+**Leaves and larger plants** can use small amounts of dithering on the branches mixed in with a slightly increased usage of antialiasing and/or added colors. With thicker plants like cacti or bamboo, don’t use any dithering and upscale conventionally.
 
-<img src="/images/pages/textures/classicfaithful/35.png" alt="foliage textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 35:</b> Examples of foliage. Note the lack of any blending method on stalks and stems.</i></p>
+<img src="/images/pages/textures/classicfaithful/35.png" alt="larger plant textures" class="center" loading="lazy">
+<p class="center"><i><b>Picture 35:</b> Examples of larger plants. Note the lack of any blending method on stalks and stems.</i></p>
 
-<br id="flowers-vines">
+<br id="foliage">
 
-**Flowers and vines** can use dithering more heavily than leaves or stalks. Similar to rocky stones, ensure that flowers have a defined shape and don’t overly blend into the stems or leaves, and depending on the flower type either dither or antialias. For plant stems, antialias heavily and thin them out. Vines should be evenly conventionally dithered throughout the entire texture, and use heavy amounts of antialiasing in addition.
+**Flowers and other foliage** can use dithering more heavily than leaves or stalks. Similar to rocky stones, ensure that flowers have a defined shape and don’t overly blend into the stems or leaves, and depending on the flower type either dither or antialias. For plant stems, antialias heavily and thin them out. Vines should be evenly conventionally dithered throughout the entire texture, and use heavy amounts of antialiasing in addition.
 
-<img src="/images/pages/textures/classicfaithful/36.png" alt="flower textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 36:</b> Examples of flowers and vines. Note the usage of dithering on the vines and on certain flowers, and how the flower stems were thinned out.</i></p>
+<img src="/images/pages/textures/classicfaithful/36.png" alt="foliage textures" class="center" loading="lazy">
+<p class="center"><i><b>Picture 36:</b> Examples of general foliage. Note the usage of dithering on the vines and on certain flowers, and how the flower stems were thinned out.</i></p>
 
 <br id="grass-fungi">
 
@@ -292,15 +389,15 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 **Sand and other powdery materials** should tile the block in a 2x2 grid, then cut out random sections and rotate and/or flip them randomly to remove repetitions that stops the texture from looking just tiled on its own.
 
-<img src="/images/pages/textures/classicfaithful/38.png" alt="sandy textures" class="center" loading="lazy">
+<img src="/images/pages/textures/classicfaithful/38.png" alt="powdery textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 38:</b> Examples of powdery materials. Note the fine detail and how it looks almost tiled but isn’t.</i></p>
 
 <br id="sandstone">
 
-**Sandstone based textures** should have large amounts of dithering present, a jumble tool may also suffice if necessary. Thin out natural gaps a lot more than otherwise, to give a more slate-like appearance. For more refined textures such as cut or chiseled sandstone antialiasing can also be used to properly convey smoothness.
+**Sandstone** should have large amounts of dithering present, a jumble tool may also suffice if necessary. Thin out natural gaps a lot more than otherwise, to give a more slate-like appearance. For more refined textures such as cut or chiseled sandstone antialiasing can also be used to properly convey smoothness.
 
 <img src="/images/pages/textures/classicfaithful/39.png" alt="sandstone textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 39:</b> Examples of sandstone based textures. Note the heavy usage of dithering, and heavy usage of antialiasing on polished blocks.</i></p>
+<p class="center"><i><b>Picture 39:</b> Examples of sandstone textures. Note the heavy usage of dithering, and heavy usage of antialiasing on polished blocks.</i></p>
 
 <br id="prismarine">
 
@@ -365,9 +462,10 @@ That being said, here’s a section to help upscale any of the most different as
 ___
 
 ## Part 5: Upscaling Noise and Blurriness
+
 This is a very useful skill for anyone interested in programmer art to learn, and an essential for working on Classic Faithful 32x PA. Programmer art palette sizes oftentimes make conventional upscaling near-impossible by hand, and cutting corners is usually necessary to produce textures in a timely manner.
 
-### **Noise**
+### **Noisy Textures**
 Noise is usually present on textures because they are an original, programmer art texture, or are placeholder visuals for a snapshot texture. The reason for noise in textures is generally due to a programmer having no idea how to properly draw pixel art and hiding whatever they made behind a mess of darker and lighter pixels to make it harder to see.
 
 <ol>
@@ -386,18 +484,18 @@ Noise is usually present on textures because they are an original, programmer ar
   <img src="/images/pages/textures/classicfaithful/48.png" alt="tiled detail" class="center" loading="lazy">
   <p class="center"><i><b>Picture 48:</b> Left: An AI upscaled base. Middle: The vanilla texture tiled. Right: The two overlaid on top of each other.</i></p>
   <br>
-  <li id="softening"><b>Softening</b> is effectively the opposite effect of tiled detail, in that rather than making it more contrasty and grainy, it makes it less so. Basically, rather than tiling default on top you put a heavily blurred version of the texture on top at a very low opacity, decreasing the contrast on the colors and softening the overall texture to look less sharp.<li>
+  <li id="softening"><b>Softening</b> is effectively the opposite effect of tiled detail, in that rather than making it more contrasty and grainy, it makes it less so. Basically, rather than tiling default on top you put a heavily blurred version of the texture on top at a very low opacity, decreasing the contrast on the colors and softening the overall texture to look less sharp.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/49.png" alt="softening" class="center" loading="lazy">
   <p class="center"><i><b>Picture 49:</b> Left: A base upscale. Middle: The base upscale blurred. Right: The two overlaid on top of each other.</i></p>
   <br>
-  <li id="indexing"><b>Indexing and re-adding noise</b> is a method where you index the palette down to a more reasonable size, upscale like normal or however the material should be shaded, then adding noise back and approximating the palette to something similar to what it originally was. On textures with defined gaps or other visible structures this is oftentimes the most viable option.<li>
+  <li id="indexing"><b>Indexing and re-adding noise</b> is a method where you index the palette down to a more reasonable size, upscale like normal or however the material should be shaded, then adding noise back and approximating the palette to something similar to what it originally was. On textures with defined gaps or other visible structures this is oftentimes the most viable option.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/50.png" alt="indexing" class="center" loading="lazy">
   <p class="center"><i><b>Picture 50:</b> Top right: The default vanilla texture. Top left: Indexed down to essential colors. Bottom Left: An upscale of the indexed version. Bottom right: Added noise back in, finished version.</i></p>
   <br>
-  <li id="native-upscale"><b>Natively upscaling</b> is pretty much exactly what it sounds like, and by far the most difficult on this list. Simply upscale the texture as usual, while keeping the noise present and avoiding mixelly areas.<li>
-  <br>  
+  <li id="native-upscale"><b>Natively upscaling</b> is pretty much exactly what it sounds like, and by far the most difficult on this list. Simply upscale the texture as usual, while keeping the noise present and avoiding mixelly areas.</li>
+  <br>
 </ol>
 
 **Many of the techniques listed here can work in conjunction with each other. You can even crop out certain areas of a texture and upscale them separately, effectively isolating areas of a texture from each other to make palette sizes more manageable and localized.**
@@ -406,25 +504,28 @@ Noise is usually present on textures because they are an original, programmer ar
 The majority of additional techniques for upscaling blurry textures are shared with noise.
 
 <ol>
-  <li id="tiling-with-edits"><b>AI upscaling</b>, such as a bilinear or bicubic upscaling filter rather than nearest neighbor and doing it by hand can oftentimes do the trick. As it tends to add a lot of additional transition tones, it fits blurry textures very well.</li>
+  <li id="ai-upscale"><b>AI upscaling</b>, such as a bilinear or bicubic upscaling filter rather than nearest neighbor and doing it by hand can oftentimes do the trick. As it tends to add a lot of additional transition tones, it fits blurry textures very well.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/51.png" alt="indexing" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 51:</b> Left: The programmer art bone block. Right: A bilinear upscale of said bone block.
-</i></p>
-  <br>
+  <p class="center"><i><b>Picture 51:</b> Left: The programmer art bone block. Right: A bilinear upscale of said bone block.</i></p>
 </ol>
 
 ___
 
-## Part 6: Conclusion and Credits
-Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it’s done behind the scenes. If you have any questions or want something changed, make sure to let us know in our [Discord Server](https://discord.gg/KSEhCVtg4J).
+## Conclusion
+
+<p>
+  <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it’s done behind the scenes. If you have any questions or want something changed, make sure to let us know in our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
+</p>
 
 ___
 
-### **Credits go to…**
+## Credits go to…
 <p>
-  The Faithful 32x guidelines by Pomi108, which this document took heavy inspiration and sections from.
-  <br>Written by Evorp.
-  <br>Edits by ZapPack.
+  The <a href="https://docs.faithfulpack.net/pages/textures/texturing-guidelines">Faithful 32x guidelines</a> by <a href="https://github.com/Pomi108">Pomi108</a>, which this document took heavy inspiration and sections from.
+  <br>Written by <a href="https://github.com/3vorp">Evorp</a>.
+  <br>Edits by <a href="https://www.twitch.tv/zappack_">ZapPack</a>.
   <br>Images by various Classic Faithful contributors and Mojang Studios.
 </p>
+
+___
