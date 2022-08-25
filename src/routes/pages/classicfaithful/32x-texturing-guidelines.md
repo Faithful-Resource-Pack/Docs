@@ -134,12 +134,12 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <br>There are many types of blending. The most important ones in the context of Classic Faithful are listed here:</li>
   <ol class="lettered">
     <br>
-    <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, where other blending methods are added later on. However, this tends to have a “plasticky” or flat effect on the texture, which in most cases is undesirable.</li>
+    <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, as other blending methods are usually added later on. However, this tends to have a “plasticky” or flat effect on the texture, which in most cases is undesirable.</li>
     <br>
     <img src="/images/pages/textures/classicfaithful/1.png" alt="no blending" class="center" loading="lazy">
     <p class="center"><i><b>Picture 1:</b> Picture 1: Example of a border between two colors, with no blending applied.</i></p>
     <br>
-    <li id="antialiasing"><b>Antialiasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colors. It uses an additional in-between color to provide a smoother transition. You can use this in limited amounts, particularly with the usage of added colors which will be covered more in depth later on.</li>
+    <li id="antialiasing"><b>Antialiasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colors. It uses an additional in-between color to provide a smoother transition. This is particularly useful for smoother textures or getting rid of harsh color borders that may form.</li>
     <br>
     <img src="/images/pages/textures/classicfaithful/2.png" alt="aliased and antialiased" class="center" loading="lazy">
     <p class="center"><i><b>Picture 2:</b> A line with no antialiasing compared to a line with antialiasing applied to it.</i></p>
@@ -160,14 +160,14 @@ Over time, our community has adopted and come up with numerous terms regarding p
       <img src="/images/pages/textures/classicfaithful/5.png" alt="regular dithering textures" class="center" loading="lazy">
       <p class="center"><i><b>Picture 5:</b> Examples of regular dithering being used on certain materials.</i></p>
       <br>
-      <li id="linear-dithering"><b>Linear dithering (LD)</b> is where color blobs have lines added to them (almost like if regular dithering was stretched in a particular direction), giving an almost streaky look to the texture. This is useful particularly for wood textures, where the texture of wood grain matches up quite well.</li>
+      <li id="linear-dithering"><b>Linear dithering (LD)</b> is where color blobs have lines added to them (almost like if regular dithering was stretched in a particular direction), giving an streaky and directional look to the texture. This is useful particularly for wood textures, where the texture of wood grain matches up quite well.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/6.png" alt="linear dithering textures" class="center" loading="lazy">
       <p class="center"><i><b>Picture 6:</b> Example of linear dithering in a texture.</i></p>
       <br>
     </ol>
     <p>Do note that these methods can be mixed and matched in certain amounts to get a material looking as it should.</p>
-    <li id="color-banding"><b>Color banding</b> describes the phenomenon of noticeable stripes of a single color appearing as a result of using multiple colors for a transition. This goes hand in hand with having no blending methods being employed, and just like using no blending it generally has a flat and ugly look which is undesirable. This can be prevented in many ways, such as through the usage of added colors, antialiasing, or simply reducing the amount or size of bands.</li>
+    <li id="color-banding"><b>Color banding</b> describes the phenomenon of noticeable stripes of a single color appearing as a result of using multiple colors for a transition. This goes hand in hand with having no blending methods being employed, and just like using no blending it has a flat look which is generally undesirable. This can be prevented in many ways, such as through the usage of added colors, antialiasing, or simply reducing the amount or size of bands.</li>
     <br>
     <img src="/images/pages/textures/classicfaithful/7.png" alt="color banding" class="center" loading="lazy">
     <p class="center"><i><b>Picture 7:</b> Left: An example of noticeable color banding. Right: Most of the color banding removed.</i></p>
