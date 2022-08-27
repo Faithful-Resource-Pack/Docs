@@ -181,7 +181,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <li id="limited-palettes"><b>Limiting palettes or indexing textures</b> is when the amount of colors in a texture are reduced to only the necessary shades, and as a result colors are reused throughout the texture.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/9.png" alt="indexed textures" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 9:</b> Left: A “limited palette” texture. Middle: A blurry texture. Right: A noisy texture.</i></p>
+  <p class="center"><i><b>Picture 9:</b> Left: A “limited palette” texture. Center: A blurry texture. Right: A noisy texture.</i></p>
   <br>
   <li id="noise"><b>Noise</b> as opposed to limited palette is a filter which randomly brightens and darkens pixels to give a grainer look, oftentimes used by novice pixel artists. In other contexts, it can mean a texture with no “definition”, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
   <br>
@@ -252,7 +252,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a “plasticky” flat look, however don’t overdo it by making it completely nonvanilla or blurry. Generally, between 1-3 added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. Specific exceptions to this rule will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 20:</b> Right: Examples of constructive added color usage. Left: Their vanilla counterpart.</i></p>
+  <p class="center"><i><b>Picture 20:</b>Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
   <br>
   <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated, which is not good. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
@@ -480,12 +480,12 @@ Noise is usually present on textures because they are an original, programmer ar
   <li id="tiled-detail"><b>Tiled detail</b>, which contrasty stone and dirt textures also use, however just without the contrast reduction. After doing a cursory upscale, likely using another method on this list such as bilinear or indexing, tile the same vanilla 16x texture you’re upscaling on top of the texture at a low opacity using a different layer. This works best on dirty or very detailed textures however, as it has a very grainy appearance, similar to jumbling but even more detailed.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/48.png" alt="tiled detail" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 48:</b> Left: An AI upscaled base. Middle: The vanilla texture tiled. Right: The two overlaid on top of each other.</i></p>
+  <p class="center"><i><b>Picture 48:</b> Left: An AI upscaled base. Center: The vanilla texture tiled. Right: The two overlaid on top of each other.</i></p>
   <br>
   <li id="softening"><b>Softening</b> is effectively the opposite effect of tiled detail, in that rather than making it more contrasty and grainy, it makes it less so. Basically, rather than tiling default on top you put a heavily blurred version of the texture on top at a very low opacity, decreasing the contrast on the colors and softening the overall texture to look less sharp.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/49.png" alt="softening" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 49:</b> Left: A base upscale. Middle: The base upscale blurred. Right: The two overlaid on top of each other.</i></p>
+  <p class="center"><i><b>Picture 49:</b> Left: A base upscale. Center: The base upscale blurred. Right: The two overlaid on top of each other.</i></p>
   <br>
   <li id="indexing"><b>Indexing and re-adding noise</b> is a method where you index the palette down to a more reasonable size, upscale like normal or however the material should be shaded, then adding noise back and approximating the palette to something similar to what it originally was. On textures with defined gaps or other visible structures this is oftentimes the most viable option.</li>
   <br>
