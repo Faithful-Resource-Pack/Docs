@@ -252,7 +252,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a “plasticky” flat look, however don’t overdo it by making it completely nonvanilla or blurry. Generally, between 1-3 added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. Specific exceptions to this rule will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 20:</b>Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
+  <p class="center"><i><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
   <br>
   <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated, which is not good. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
