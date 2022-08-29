@@ -153,7 +153,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
       <img src="/images/pages/textures/7.png" alt="regular dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 6:</b> Example of regular dithering in a texture.</i></p>
       <br>
-      <li id="linear-dithering"><b>Linear dithering</b> is just like dithering, but with displaced pixels taking the shape of (usually) 1px wide lines that all go in the same direction, most of the time vertically or horizontally. This method is best used for textures that already have a linear pattern in vanilla, such as stone or wood.</li>
+      <li id="linear-dithering"><b>Linear dithering (LD)</b> is just like dithering, but with displaced pixels taking the shape of (usually) 1px wide lines that all go in the same direction, most of the time vertically or horizontally. This method is best used for textures that already have a linear pattern in vanilla, such as stone or wood.</li>
       <br>
       <img src="/images/pages/textures/8.png" alt="linear dithering texture" class="center" loading="lazy">
       <p class="center"><i><b>Picture 7:</b> Example of linear dithering in a texture.</i></p>
