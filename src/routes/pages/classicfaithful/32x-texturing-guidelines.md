@@ -249,7 +249,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/classicfaithful/19.png" alt="overdetailed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 19:</b> Left: A texture with just enough detail. Right: An overdetailed texture.</i></p>
   <br>
-  <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a “plasticky” flat look, however don’t overdo it by making it completely nonvanilla or blurry. Generally, between 1-3 added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. Specific exceptions to this rule will be covered later on.</li>
+  <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a “plasticky” flat look, however don’t overdo it by making it completely nonvanilla or blurry. Generally, between 1-3 added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
   <p class="center"><i><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
@@ -357,7 +357,7 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="refined-wood">
 
-**Planks and other refined wood** should be upscaled with a lot of linear dithering and small amounts of antialiasing, to accurately portray a wood grain material. Another method of doing this which is useful for planks involves stretching the vanilla texture, tiling it downwards, and fixing any awkward areas. Alternatively, if it cannot work well, simply extend out the detail to portray a linear look.
+**Planks and other refined wood** should be upscaled with a lot of linear dithering and small amounts of antialiasing, to accurately portray a wood grain material. A method of doing this which is useful for planks involves stretching the vanilla texture, tiling it downwards, and fixing any awkward areas. Alternatively, if this method does not work well, simply extend out the detail to portray a linear look. Do not add colors unless absolutely necessary, and preserve default's contrast where possible.
 
 <img src="/images/pages/textures/classicfaithful/34.png" alt="refined wood textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 34:</b> Examples of refined wood. Note the detailed and linear look.</i></p>
@@ -461,7 +461,7 @@ ___
 
 ## Part 5: Upscaling Noise and Blurriness
 
-This is a very useful skill for anyone interested in programmer art to learn, and an essential for working on Classic Faithful 32x PA. Programmer art palette sizes oftentimes make conventional upscaling near-impossible by hand, and cutting corners is usually necessary to produce textures in a timely manner.
+This is a very useful skill for anyone interested in programmer art to learn, and an essential for working on Classic Faithful 32x PA. Programmer art palette sizes oftentimes make conventional upscaling near-impossible by hand, and cutting corners is usually necessary to produce textures in a timely manner. These types of textures are also generally exceptions to the palette rule, in that you can add a significant number of colors, as color counts weren't really considered during the creation of vanilla programmer art textures.
 
 ### **Noisy Textures**
 Noise is usually present on textures because they are an original, programmer art texture, or are placeholder visuals for a snapshot texture. The reason for noise in textures is generally due to a programmer having no idea how to properly draw pixel art and hiding whatever they made behind a mess of darker and lighter pixels to make it harder to see.
