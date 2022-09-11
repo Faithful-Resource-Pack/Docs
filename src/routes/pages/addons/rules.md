@@ -24,5 +24,6 @@ ___
 8. **Your pack must comply with our [license](https://faithfulpack.net/license).** That means crediting Faithful and linking back to https://faithfulpack.net when listing your pack anywhere except the Faithful website. Also, refrain from using any monetisation sites such as adf.ly.
 9. **Your add-on can’t be the same as an already existing one. If you want to make updates or changes to an existing add-on, contact its creator.** If they don’t respond within a reasonable timeframe, contact one of the Managers to ask for editing permissions. If you want to make an add-on with the same purpose as an existing one but done in a different way, that’s fine, but please use a different title.
 10. **All download links must be direct.** No linking to posts on other sites. Ideally, clicking on the download button should directly download the pack file, but linking to services such as MediaFire or Mega is also fine.
+11. **The add-on needs to be zipped properly.** Users shouldn't be required to unzip the pack and fiddle with the folders to get your add-on working. Just make sure that your zip works in-game.
 
 Lastly, the managers reserve the right to correct small grammar/spelling mistakes in your add-on’s description, should they find any.
