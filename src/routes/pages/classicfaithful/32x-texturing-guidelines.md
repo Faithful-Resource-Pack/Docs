@@ -178,7 +178,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="/images/pages/textures/classicfaithful/8.png" alt="upscaled texture" class="center" loading="lazy">
   <p class="center"><i><b>Picture 8:</b> Left: The vanilla 16x texture. Right: A 32x upscale of said texture.</i></p>
   <br>
-  <li id="limited-palettes"><b>Limiting palettes (LP), indexing textures, or color quantizing</b> are names for the concept of reducing the amount of colors in a texture to only the necessary shades.This can either be done by hand or automatically using a program like GIMP or Aseprite. Limited palette textures generally have colors reused throughout the texture and noticeable color transitions, as opposed to a blurry texture where color transitions are fuzzy and hard to make out or noisy textures which will be covered directly below.</li>
+  <li id="limited-palettes"><b>Limiting palettes (LP), indexing textures, or color quantizing</b> are names for the concept of reducing the amount of colors in a texture to only the necessary shades. This can either be done by hand or automatically using a program like GIMP or Aseprite. Limited palette textures generally have colors reused throughout the texture and noticeable color transitions, as opposed to a blurry texture where color transitions are fuzzy and hard to make out or noisy textures which will be covered directly below.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/9.png" alt="indexed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 9:</b> Left: A “limited palette” texture. Center: A blurry texture. Right: A noisy texture.</i></p>
