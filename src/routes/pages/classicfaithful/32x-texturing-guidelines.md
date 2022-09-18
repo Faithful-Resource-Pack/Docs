@@ -178,12 +178,12 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="/images/pages/textures/classicfaithful/8.png" alt="upscaled texture" class="center" loading="lazy">
   <p class="center"><i><b>Picture 8:</b> Left: The vanilla 16x texture. Right: A 32x upscale of said texture.</i></p>
   <br>
-  <li id="limited-palettes"><b>Limiting palettes or indexing textures</b> is when the amount of colors in a texture are reduced to only the necessary shades, and as a result colors are reused throughout the texture.</li>
+  <li id="limited-palettes"><b>Limiting palettes (LP), indexing textures, or color quantizing</b> are names for the concept of reducing the amount of colors in a texture to only the necessary shades.This can either be done by hand or automatically using a program like GIMP or Aseprite. Limited palette textures generally have colors reused throughout the texture and noticeable color transitions, as opposed to a blurry texture where color transitions are fuzzy and hard to make out or noisy textures which will be covered directly below.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/9.png" alt="indexed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 9:</b> Left: A “limited palette” texture. Center: A blurry texture. Right: A noisy texture.</i></p>
   <br>
-  <li id="noise"><b>Noise</b> as opposed to limited palette is a filter which randomly brightens and darkens pixels to give a grainer look, oftentimes used by novice pixel artists. In other contexts, it can mean a texture with no “definition”, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
+  <li id="noise"><b>Noise</b>, as opposed to limited palette is a filter which randomly brightens and darkens pixels to give a grainer look, oftentimes used by novice pixel artists. In other contexts, it can mean a texture with no “definition”, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/10.png" alt="noise" class="center" loading="lazy">
   <p class="center"><i><b>Picture 10:</b> Left: A “noisy” texture with an excessively large palette. Right: A “noisy” texture with no definition and just a random mess of pixels.</i></p>
