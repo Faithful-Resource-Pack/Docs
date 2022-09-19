@@ -442,7 +442,7 @@ ___
 
 These guidelines have been heavily focused on the 32x Jappa pack. However, the Classic Faithful 32x Programmer Art pack follows a similar enough style and logic to not merit an entirely separate doc.
 
-As new programmer art in the sense of art by developers of the game with little to no stylistic cohesion is no longer being developed, explaining how to upscale these types of textures in the same level of detail as the Jappa pack is unnecessary, given the pack being done in the first place. In addition, upscaling programmer art is very similar to upscaling Jappa, just dealing with larger palette sizes and questionable texturing decisions to take into account.
+As new programmer art in the sense of art by developers of the game with little to no stylistic cohesion is no longer being developed, explaining how to upscale these types of textures in the same level of detail as the Jappa pack is unnecessary, given the pack being done in the first place. In addition, upscaling programmer art is very similar to upscaling Jappa, just dealing with larger palette sizes and taking questionable texturing decisions into account.
 
 To get around this constraint of programmer art simply not being made anymore, the 32x Programmer Art pack is designed around the built-in vanilla programmer art resource pack, meaning any texture without a programmer art equivalent just reuses its Jappa counterpart. This solves the majority of problems surrounding how to interpret newer textures, by just using the texture that already exists.
 
