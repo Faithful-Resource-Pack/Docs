@@ -36,21 +36,21 @@ Once you’re done with your texture, submit it by uploading a PNG file whose na
 If you’re submitting a texture with a name that is present more than once in the vanilla files (such as `acacia.png`, which is both a sign texture and a boat texture), please hold for a bit after sending your message – the bot will ask you to clarify which texture you’re submitting. Choose the correct one by reacting to the bot message.
 You can attach a comment to your submission by sending a text message with the texture.
 
-If you use ANY part of an existing Faithful texture in your submission, credit EVERYBODY who made the texture by pinging them in the submission comment! (This includes `[author name redacted]`! This is a former Faithful contributor who asked to have their name redacted, but it’s still necessary for us to have them registered in our database.) You can find out exactly who made which texture by searching for it using the `/texture` command or by using our web app gallery. If you see a string of numbers in place of the author name in the `/texture` embed, contact a Manager to find out who that is. Most of the time these are people who have left the server – to credit those, mention them in the comment without pinging. This won’t add them as authors automatically, but provides a note for the Administrators so they can fix it manually later.
+If you use ANY part of an existing Faithful texture in your submission, credit EVERYBODY who made the texture by pinging them in the submission comment! (This includes `[author name redacted]`! This is a former Faithful contributor who asked to have their name redacted, but it’s still necessary for us to have them registered in our database.) You can find out exactly who made which texture by searching for it using the `/texture` command or by using our web app gallery. If you see a string of numbers in place of the author name in the `/texture` embed, contact a Manager to find out who that is. Most of the time these are people who have left the server – to credit those, mention them in the comment without pinging. This won’t add them as authors automatically, but provides a note for the Managers so they can fix it manually later.
 If credits for a texture are missing, don’t worry about any of this.
 Additionally, if you’ve collaborated with someone else while making the texture, credit the co-author(s) as well.
 
-You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, then click the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message the Administrators and they will remove your texture.
+You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, then click the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message the Managers and they will remove your texture.
 
 Finally, please know that by submitting a texture, you agree to allow:
 - The texture to be used in any public or development version of Faithful.
-- The texture to be used directly or in a modified state in other projects under Faithful’s administration (Faithful Dungeons, Faithful Tweaks/Add-ons etc.)
+- The texture to be used directly or in a modified state in other projects under the Faithful project. (Classic Faithful, Faithful Tweaks/Add-ons etc.)
 - The texture to be used in/as a base for other textures meant for Faithful.
 - Others to edit your texture without any required prior notice, and allow them to submit the edited texture to Faithful, with appropriate credit.
 
 ## Voting on Textures and the Texture Approval Process
 Whether a texture makes it into Faithful or not is determined by a voting process. It consists of two stages:
-1. **Public voting**
+1. **Public Voting**
 This period lasts for 3 days and is open to everybody. To vote on a submission, simply click on the check mark (✓) or cross (X) button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
     - **Clearly view the texture**
     You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to actually view. Thankfully, the bot is equipped with tools that you can use to get a better view of the texture. Clicking the third button next to the voting buttons should pop open a tool menu. To magnify the texture and see it better, click the magnifying glass. You should now be able to see the texture up close. This button is also a command in the form of `/magnify`.
@@ -64,11 +64,11 @@ This period lasts for 3 days and is open to everybody. To vote on a submission, 
     
         **REMEMBER: Never vote based on how many votes a texture already has! You’ve got your own opinion, vote based on that.**
 
-2. **Art director council voting**
+2. **Art Director Council Voting**
 When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 3-day period), it enters a 1-day phase of council voting, during which the council talk about the submission in private, and vote to determine whether the texture fits the stylistic direction of Faithful. 
 A texture passes council voting if its got more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
 
-Besides the upvote and downvote options regular users get, there are 2 other options that the council and administrators have:
+Besides the upvote and downvote options regular users get, there are 2 other options that the council and Managers have:
 1. **Instapass**
 An instapass is when a texture immediately gets added into the pack without needing to go through the voting process. These textures usually get instapassed for reasons such as being recolours of another texture, consistency fixes for textures that are outdated, or even bugs that needed fixing.
 
