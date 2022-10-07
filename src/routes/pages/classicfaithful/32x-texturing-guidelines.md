@@ -163,7 +163,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
       <li id="linear-dithering"><b>Linear dithering (LD)</b> is exactly like regular dithering, but the displaced pixels are longer and face in a particular direction, as if regular dithering was stretched. This gives a streaky look to the texture in question, which is particularly useful for refined wood textures and certain types of stone.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/6.png" alt="linear dithering textures" class="center" loading="lazy">
-      <p class="center"><i><b>Picture 6:</b> Example of linear dithering in a texture.</i></p>
+      <p class="center"><i><b>Picture 6:</b> Examples of linear dithering in wood and stone textures.</i></p>
       <br>
     </ol>
     <p>Do note that these methods can be mixed and matched in certain amounts to get a material looking as it should.</p>
