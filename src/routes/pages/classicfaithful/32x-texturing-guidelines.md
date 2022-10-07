@@ -150,17 +150,17 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <br><br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
-      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks like, well, a checkerboard of two colors.</li>
+      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply “checkerboarding”) is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks, exactly as you'd expect, like a checkerboard of two colors.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/4.png" alt="checkerboard dithering transition" class="center" loading="lazy">
       <p class="center"><i><b>Picture 4:</b> Checkerboard dithering used as a transition between two colors.</i></p>
       <br>
-      <li id="regular-dithering"><b>Regular dithering</b> (sometimes called “conventional dithering” or simply “dithering”) consists of displacing pixels around the color border in such a way that little to no checkerboarding is created. These displaced pixels may look random, but oftentimes are cleverly laid out to avoid visual issues. Displaced pixels usually take the shape of a single 1x1 pixel wide square or a 2x1 pixel rectangle, but never full intentional lines. Regular dithering shouldn’t convey any sense of directionality!</li>
+      <li id="regular-dithering"><b>Regular dithering</b> (sometimes called “conventional dithering” or simply “dithering”) consists of displacing pixels around the color border in such a way that little to no checkerboarding is created. These displaced pixels may look random, but oftentimes are cleverly laid out to avoid visual issues. Displaced pixels are usually a single pixel or sometimes a small cluster, but regular dithering should never convey any sense of directionality.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/5.png" alt="regular dithering textures" class="center" loading="lazy">
       <p class="center"><i><b>Picture 5:</b> Examples of regular dithering being used on certain materials.</i></p>
       <br>
-      <li id="linear-dithering"><b>Linear dithering (LD)</b> is where color blobs have lines added to them (almost like if regular dithering was stretched in a particular direction), giving an streaky and directional look to the texture. This is useful particularly for wood textures, where the texture of wood grain matches up quite well.</li>
+      <li id="linear-dithering"><b>Linear dithering (LD)</b> is exactly like regular dithering, but the displaced pixels are longer and face in a particular direction, as if regular dithering was stretched. This gives a streaky look to the texture in question, which is particularly useful for refined wood textures and certain types of stone.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/6.png" alt="linear dithering textures" class="center" loading="lazy">
       <p class="center"><i><b>Picture 6:</b> Example of linear dithering in a texture.</i></p>
