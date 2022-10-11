@@ -48,4 +48,4 @@ deprecated: false
 > - You need to create an `assets` folder and place your textures inside!
 > - The `pack.png` and `pack.mcmeta` are not needed anymore, because that process is now automated.
 
-* Final step: ask Juknum#0001 on the [Faithful Extra Discord](https://discord.gg/qVeDfZw) to add the mods to the website
+* Final step: ask Juknum#0001 on the [Faithful Discord](https://discord.gg/sN9YRQbBv7) to add the mods to the website
