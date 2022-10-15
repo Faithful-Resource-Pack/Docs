@@ -2,7 +2,7 @@
 title: "Loader Texture"
 type: "Dungeons"
 date: "09/08/2020"
-deprecated: false
+deprecated: true
 ---
 
 <h1 align="center"> How to customize the loader cube from Minecraft Dungeons </h1>

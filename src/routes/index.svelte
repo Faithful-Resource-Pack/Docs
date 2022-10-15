@@ -19,7 +19,7 @@
 	<h2>Tags</h2>
 	<ul class="no-heads">
 		<li><span class="new-badge">NEW</span>: This is a recently released article.</li>
-		<li><span class="deprecated-badge">DEPRECATED</span>: This article has old and/or inacurate information, and needs to be reviewed and updated.</li>
+		<li><span class="deprecated-badge">DEPRECATED</span>: This article is no longer being updated and may contain outdated information.</li>
 	</ul>
 
 	<h2>Table of Contents</h2>
