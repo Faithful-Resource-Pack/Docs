@@ -29,7 +29,7 @@ deprecated: false
 4. Then go to your local repository folder and move your new/modified files in the `assets/` folder (like in any default resource pack).
 <img src="/images/pages/mods/add-textures/folder-example.png" alt="local repository" class="center" loading="lazy">
 
-> We recently made `pack.png` & `pack.mcmeta` dynamically generated, they are no longer used and can be removed if they are still in the repository.
+> We recently made `pack.png` & `pack.mcmeta` dynamically generated, so they are no longer used and can be removed if they are still in the repository.
 
 5. When you have placed all new files into the `assets/` file, go back to GitHub Desktop and you will see all new files on the left tab:
 

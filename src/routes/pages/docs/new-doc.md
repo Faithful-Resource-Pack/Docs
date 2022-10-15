@@ -6,7 +6,7 @@ deprecated: false
 ---
 # How to write a new documentation article
 
-You can add a new article ba creating a new file in the `src/routes/pages` directory or any of its subdirectories.
+You can add a new article by creating a new file in the `src/routes/pages` directory or any of its subdirectories.
 Please only use markdown files and do not change anything on the existing HTML, CSS or JavaScript.
 
 ## Front Matter

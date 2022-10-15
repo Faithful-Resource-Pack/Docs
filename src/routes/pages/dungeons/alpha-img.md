@@ -15,7 +15,7 @@ deprecated: true
 
 ## Introduction
 
-Minecraft Dungeons is known to use textures with invisible or half-visible pixels, that's an issue when your software do not allow you to save pixel with alpha value set to 0. Here come handy scripts to help you making those tricky texture!
+Minecraft Dungeons is known to use textures with invisible or half-visible pixels. This can be an issue when your software do not allow you to save pixels with their alpha value set to 0. There are a bunch of handy scripts to help you making these tricky textures!
 
 ## Sources
 

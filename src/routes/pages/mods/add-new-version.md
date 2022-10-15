@@ -14,7 +14,7 @@ deprecated: false
 
 ## Step by Step:
 
-1.  Firstly, check if the branch already exists, if not create a new one :
+1.  Firstly, check if the branch already exists, if not create a new one:
 
 	#### **Using GitHub Website:**
 

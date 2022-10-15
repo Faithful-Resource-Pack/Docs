@@ -21,7 +21,7 @@ deprecated: false
 > ℹ️ **Info**  
 > See [here](/pages/mods/add-textures) if the mod repository already exists.
 
-*  If the mod does not have any repository, then create a repository in your **own** profile (if you have access to the Faithful Mods organisation, then create it there), the repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
+*  If the mod does not have any repository, then create a repository in your **own** profile (if you have access to the Faithful Mods organisation, then create it there). The repository needs to have the same name as the `assets` folder file (ex: `Actually Additions` mod repository would be named: `actuallyadditions`).
 
 <img src="/images/pages/mods/add-new-mod/new-repo-img.png" alt="new-repo-img" class="center" loading="lazy">
 
@@ -30,14 +30,14 @@ deprecated: false
 <img src="/images/pages/mods/add-new-mod/branches-list.png" alt="branches-list" class="center" loading="lazy">
 
 > ⚠️ **Warning**  
-> - The `main` branch needs to be set as the **default branch**! Do not merge others branches to the main branch!  
-> - Only textures files should be inside minecraft branches, `readme.md` & `license.md` files shouldn't be there!  
+> - The `main` branch needs to be set as the **default branch**! Do not merge other branches into the main branch!  
+> - Only texture files should be inside minecraft branches, `readme.md` & `license.md` files shouldn't be there!  
 
 > ℹ️ **Info**  
 > - [If you made your repository before the 1st October 2020, rename your `master` branch to `main`](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/)  
 > - If you want to license your work, please consider a license that follow the [Faithful License](https://www.faithfulpack.net/license)
 
-* Upload your textures in each branch (see how [here](/pages/mods/add-textures)).
+* Upload your textures to each branch (see how [here](/pages/mods/add-textures)).
 
 * Your repository now should look like this:
 
