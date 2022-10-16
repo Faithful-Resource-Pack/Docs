@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { parse, walk } from "svelte/compiler";
+import path from "path";
 
 /** 
  * @param {string[]} extensions Image file extensions allowed
  * @returns {import('svelte/types/compiler/preprocess').PreprocessorGroup[]} <img /> to <Image /> preprocessors */
 const preprocessors = function(extensions) {
   return [{
-    markup: async function({ content }) {
+    markup: async function({ content, filename }) {
+      filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
+      console.info(`[${filename}] Entering <img/> markup preprocessor...`);
       let ast;
       /** @type {import("svelte/types/compiler/interfaces").Element[]} */
       const imageNodes = [];
@@ -57,16 +60,20 @@ const preprocessors = function(extensions) {
       });
       new_content.push(content.substring(last_end));
   
+      console.info(`[${filename}] Entering <img/> markup preprocessor...`);
       return {
         code: new_content.join("")
       }
     },
-    script: function({ content, attributes, markup }) {
+    script: function({ content, attributes, markup, filename }) {
+    filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
+    console.info(`[${filename}] Entering <img/> script preprocessor...`);
       if(attributes.context === "module") return;
 
       if(markup.includes('<Image'))
         content = "\nimport Image from '@src/components/Image.svelte';" + content;
       
+      console.info(`[${filename}] Entering <img/> script preprocessor...`);
       return {
         code: content
       }

@@ -621,11 +621,14 @@ async function replaceImages(content) {
  * @param {string} pathFromStatic
  */
 async function processImage(pathFromStatic) {
+  let filename = path.normalize(pathFromStatic).replace(path.normalize(process.cwd()), '');
+  console.info(`[${filename}] Entering Image script preprocessor...`);
   const paths = getPathsObject(pathFromStatic);
   await optimize(paths);
   if (options.processFoldersSizes) {
     await createSizes(paths);
   }
+  console.info(`[${filename}] Exiting Image script preprocessor...`);
   return;
 }
 
