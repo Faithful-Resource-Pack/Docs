@@ -251,7 +251,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <p class="center"><i><b>Picture 20:</b> An ore texture. Note how the already existing stone texture is used in the background.</i></p>
   <br>
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
-  <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
+  <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Art Director Council approves it.</b></p>
   <br>
   <li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, Jappafication errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
 </ol>
