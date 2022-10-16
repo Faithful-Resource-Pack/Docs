@@ -54,8 +54,8 @@ deprecated: false
     <li><a href="#erase-colour-banding">Colour Banding</a></li>
     <li><a href="#no-colour-chunk">No Large Single-Colour Areas</a></li>
     <li><a href="#other-texture-as-base">Use Existing Textures as a Base</a></li>
-    <li><a href="#identical-when-upscaled">Exact when upscaled</a></li>
-    <li><a href="#bugs-in-textures">Bugs</a></li>
+    <li><a href="#identical-when-upscaled">Don't Upscale Useless Textures</a></li>
+    <li><a href="#bugs-in-textures">Fix Vanilla Bugs</a></li>
   </ol>
   <ol>
     Tips
@@ -252,8 +252,9 @@ These requirements apply to all textures unless specified otherwise and must all
   <br>
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
   <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Texture Supervision Council approves it.</b></p>
+  <br>
+  <li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, Jappafication errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
 </ol>
-<li id="bugs-in-textures"><b>If a texture has issues noted as a bug on the Mojira website, Mojang's offical Bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, Jappafication errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
 
 **Tips**
 
