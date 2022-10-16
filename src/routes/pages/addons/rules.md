@@ -16,7 +16,7 @@ ___
     <br>(If you forget to do any of these nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.)</li>
     <li><b>Avoid using the word “Better” in the name! Be creative — Describe your pack more precisely. (This can be tolerated in some cases if the header image shows what the add-on does clearly, but we'd still prefer more creative names for your add-ons.)</b></li>
     <li><b>No obscenities or swear words.</b></li>
-    <li><b>Don’t use the word “Faithful” in the title unless absolutely necessary.</b> It’s already evident that your pack is made for Faithful, since, you know, it’s on the Faithful website.</li>
+    <li><b>Don’t use the word “Faithful” in the title unless absolutely necessary.</b> It’s already evident that your pack is made for Faithful, since, you know, it’s on the Faithful website. The same goes for the resolution – don't include it in your title, it's displayed right above it anyway.</li>
     </ol>
 5. **The add-on description must characterise what the add-on does and what it’s like. More is better than less.**
 6. **No NSFW or NSFL content.** (As in pornography, over-the-top gore and other questionable stuff.)
