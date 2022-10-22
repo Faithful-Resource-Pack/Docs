@@ -40,6 +40,7 @@
 	<ul class="no-heads">
 		<li><span class="new-badge">NEW</span>: This is a recently released article.</li>
 		<li><span class="deprecated-badge">DEPRECATED</span>: This article is no longer being updated and may contain outdated information.</li>
+		<li><span class="archived-badge">ARCHIVED</span>: This article is no longer updated and content has beeen archived</li>
 	</ul>
 
 	<h2>Table of Contents</h2>
@@ -53,6 +54,7 @@
 						{post.meta.title}
 						{#if isNew(post.meta.date) }<span class="new-badge keepTag" style="margin-right: 5px;">NEW</span>{/if}
 						{#if 'deprecated' in post.meta && post.meta.deprecated}<span class="deprecated-badge">DEPRECATED</span>{/if}
+                        {#if 'archived' in post.meta && post.meta.archived}<span class="archived-badge">ARCHIVED</span>{/if}
 					</a>
 				</li>
 			{/each}

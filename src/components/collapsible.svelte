@@ -42,6 +42,7 @@
         {post.meta.title}
         {#if isNew(post.meta.date) }<span class="new-badge keepTag" style="margin-right: 5px;">NEW</span>{/if}
         {#if 'deprecated' in post.meta && post.meta.deprecated}<span class="deprecated-badge">DEPRECATED</span>{/if}
+        {#if 'archived' in post.meta && post.meta.archived}<span class="archived-badge">ARCHIVED</span>{/if}
       </a>
     {/each}
   </div>

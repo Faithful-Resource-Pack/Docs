@@ -20,6 +20,7 @@ title: 'Your title here'
 type: 'Docs'
 date: 'dd/mm/yyyy'
 deprecated: false
+archived: false
 ---
 ```
 

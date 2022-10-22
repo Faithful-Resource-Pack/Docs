@@ -12,6 +12,7 @@ declare namespace App {
 		meta: {
 			title: string,
 			deprecated: bool?,
+			archived: bool?,
 			type: string,
 			date: string,
 		},

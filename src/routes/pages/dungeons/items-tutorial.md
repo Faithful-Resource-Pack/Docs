@@ -2,7 +2,7 @@
 title: "Items Tutorial"
 type: "Dungeons"
 date: "09/09/2020"
-deprecated: true
+archived: true
 ---
 
 <style>

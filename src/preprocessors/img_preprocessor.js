@@ -8,8 +8,8 @@ import path from "path";
 const preprocessors = function(extensions) {
   return [{
     markup: async function({ content, filename }) {
-      filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
-      console.info(`[${filename}] Entering <img/> markup preprocessor...`);
+    //   filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
+    //   console.info(`[${filename}] Entering <img/> markup preprocessor...`);
       let ast;
       /** @type {import("svelte/types/compiler/interfaces").Element[]} */
       const imageNodes = [];
@@ -60,20 +60,20 @@ const preprocessors = function(extensions) {
       });
       new_content.push(content.substring(last_end));
   
-      console.info(`[${filename}] Entering <img/> markup preprocessor...`);
+    //   console.info(`[${filename}] Entering <img/> markup preprocessor...`);
       return {
         code: new_content.join("")
       }
     },
     script: function({ content, attributes, markup, filename }) {
-    filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
-    console.info(`[${filename}] Entering <img/> script preprocessor...`);
+    // filename = path.normalize(filename).replace(path.normalize(process.cwd()), '');
+    // console.info(`[${filename}] Entering <img/> script preprocessor...`);
       if(attributes.context === "module") return;
 
       if(markup.includes('<Image'))
         content = "\nimport Image from '@src/components/Image.svelte';" + content;
       
-      console.info(`[${filename}] Entering <img/> script preprocessor...`);
+    //   console.info(`[${filename}] Entering <img/> script preprocessor...`);
       return {
         code: content
       }
