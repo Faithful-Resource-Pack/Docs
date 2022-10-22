@@ -40,7 +40,7 @@
 	<ul class="no-heads">
 		<li><span class="new-badge">NEW</span>: This is a recently released article.</li>
 		<li><span class="deprecated-badge">DEPRECATED</span>: This article is no longer being updated and may contain outdated information.</li>
-		<li><span class="archived-badge">ARCHIVED</span>: This article is no longer updated and content has beeen archived</li>
+		<li><span class="archived-badge">ARCHIVED</span>: This article is no longer relevant to Faithful, but is staying up for archival purposes.</li>
 	</ul>
 
 	<h2>Table of Contents</h2>
