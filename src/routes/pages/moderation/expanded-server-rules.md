@@ -110,7 +110,7 @@ Template for adding new entries if you're lazy like me
         <li>Will depend on context, but can range between a verbal warning and ban.</li>
     </ol>
     <br>
-    <li><b>Spreading misinformation</b> is when a user tntentionally makes up or mixes up information for the purposes of creating a reaction.</li>
+    <li><b>Spreading misinformation</b> is when a user intentionally makes up or mixes up information for the purposes of creating a reaction.</li>
      <ol class="lettered">
         <li>If accidental, tell the user to edit/delete their original message as to not confuse others.</li>
         <li>If intentional, warn and scale up appropriately for repeat offenses.</li>
@@ -211,7 +211,7 @@ Template for adding new entries if you're lazy like me
 ## Rule 7: Avoid NSFW and NSFL Content
 *This includes, but is not limited to pornography, gore, overly gross content, etc. If you think it’s against the rules it probably will be, DM a moderator for approval if you’re very unsure.*
 <ol>
-    <li><b>NSFW / NSFL content</b> - This is literally a Minecraft server, post that sort of thing elsewhere. Examples can be found directly above in the rule description, just use common sense and you'll be fine.</li>
+    <li><b>NSFW / NSFL content</b> - This is literally a Minecraft art server, post that sort of thing elsewhere. Examples can be found directly above in the rule description, just use common sense and you'll be fine.</li>
     <ol class="lettered">
         <li>Depending on severity, ranges from a verbal warn/message deletion to a ban and report.</li>
         <li>Slightly questionable content will be punished less than full on gore.</li>
