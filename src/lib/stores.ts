@@ -1,24 +1,42 @@
 import { browser } from '$app/env';
-import { derived, writable } from 'svelte/store'
+import { derived, writable, type Writable } from 'svelte/store'
 
 const THEME_DEFAULT = '0'
-var THEME_INITIAL = Number.parseInt(browser ? window.localStorage.getItem('theme') ?? THEME_DEFAULT : THEME_DEFAULT, 10);
+let THEME_INITIAL = Number.parseInt(browser ? window.localStorage.getItem('theme') ?? THEME_DEFAULT : THEME_DEFAULT, 10);
 // hotfix for the old site's theme breaking the new site completely
-if (isNaN(THEME_INITIAL) ) THEME_INITIAL = THEME_DEFAULT
+if (isNaN(THEME_INITIAL) ) THEME_INITIAL = THEME_DEFAULT as unknown as number
 const THEME_VALUES = [
   {
     value: 'auto',
-    html: 'THEME: AUTO'
+    html: 'Theme: auto'
   },
   {
     value: 'dark',
-    html: 'THEME: DARK'
+    html: 'Theme: dark'
   },
   {
     value: 'light',
-    html: 'THEME: LIGHT'
+    html: 'Theme: light'
   }
 ]
+
+function createStore<T, V>(key: string, default_value: T, parse: (v: string) => T, obj: (v: Writable<T>) => V): V {
+    let initial: T;
+    if(browser) {
+        const val = window.localStorage.getItem(key);
+        initial = val ? parse(val) : default_value;
+    } else {
+        initial = default_value;
+    }
+
+    const my_writable = writable(initial);
+    my_writable.subscribe(v => {
+        if (browser) {
+            window.localStorage.setItem(key, String(v));
+        }
+    });
+    return obj(my_writable);
+}
 
 function createTheme() {
 	const { subscribe, update } = writable(THEME_INITIAL);
@@ -49,4 +67,14 @@ export const theme_html = derived(
   $i => THEME_VALUES[$i].html
 )
 
-export const menu_opened = writable(false);
+export const menu_opened = createStore('menu_opened', false, v => v === 'true', writable => {
+    const { subscribe, update, set } = writable;
+
+    return {
+        subscribe,
+        toggle: () => update(v => !v),
+        open: () => set(true),
+        close: () => set(false),
+        set
+    }
+})

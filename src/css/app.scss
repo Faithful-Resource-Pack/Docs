@@ -63,8 +63,11 @@ header {
 .header-shadow {
 	box-shadow: 0 0 8px var(--shadow-black-50-color);
 }
-#DarkMode:hover {
-  background-color: var(--shadow-black-30-color);
+#DarkMode.nav-link {
+    text-transform: uppercase;
+    &:hover {
+        background-color: var(--shadow-black-30-color);
+    }
 }
 
 $main-padding: 16px;
@@ -92,12 +95,15 @@ $main-padding: 16px;
 		display: block;
 	}
 }
+
+$menu_width: 350px;
+
 nav {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	left: -350px;
-	width: 350px;
+	left: -$menu_width;
+	width: $menu_width;
 	background: var(--background-white-color);
 	box-shadow: 0 0 8px var(--shadow-black-50-color);
 	overflow: hidden auto;
@@ -105,9 +111,10 @@ nav {
 	z-index: 100;
 
 	&.nav-open {
-		transform: translate3d(350px, 0px, 0px);
+		transform: translate3d($menu_width, 0px, 0px);
 	}
 }
+
 #nav-img {
 	height: calc(630px / 3.5);
 	margin: 0 0 16px 0;
@@ -245,6 +252,27 @@ button {
 		display: none;
 	}
 }
+
+@media (min-width: 650px) {
+
+    header, header + main, header + main + footer {
+        transition: all .5s;
+    }
+    header.nav-open{
+        & + main, {
+            padding-left: $menu_width;
+        }
+
+        &,  & + main + footer {
+            padding-left: $menu_width;
+        }
+    }
+
+    #nav-bg, #nav-bg.nav-open {
+        display: none;
+    }
+}
+
 blockquote {
 	border-left: solid var(--blockquote-bar-color);
 	padding-left: 10px;
@@ -300,20 +328,22 @@ blockquote {
 .home:after {
 	content: '\1F3E1';
 }
-.light:after {
+#DarkMode.light:after {
 	content: '\2600\FE0F';
 }
-.dark:after {
+#DarkMode.dark:after {
 	content: '\1F319';
 }
-.auto:after {
+#DarkMode.auto:after {
 	content: '\1F317';
 }
-.collapsible:after, .home:after, .light:after, .dark:after, .auto:after {
+.collapsible:after, .home:after, #DarkMode.light:after, #DarkMode.dark:after, #DarkMode.auto:after {
+}
+.collapsible:after, .home:after, #DarkMode.nav-link:after {
 	font-size: 13px;
+	margin-left: 5px;
 	color: var(--text-color);
 	float: right;
-	margin-left: 5px;
 }
 
 ul.no-heads {
@@ -520,8 +550,7 @@ footer {
 	margin-top: -50px;
 
 	& > p {
-		margin: 0;
-		padding: 10px 0;
+		margin: 10px 0;
 	}
 }
 

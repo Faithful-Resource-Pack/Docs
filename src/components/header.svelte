@@ -1,20 +1,17 @@
 <script lang="ts">
 	import { browser } from "$app/env";
 	import { page } from "$app/stores";
-	import { onDestroy, onMount } from "svelte";
-	import { theme_index, theme, theme_html, menu_opened } from "../lib/stores";
+	import { onMount } from "svelte";
+	import { menu_opened } from "../lib/stores";
 	import Collapsible from "./collapsible.svelte";
 
 	import { getContext } from 'svelte';
+	import ThemeButton from "./themeButton.svelte";
+	import { derived } from "svelte/store";
 	const posts: App.Post[] = getContext('posts');
 	const categories: string[] = getContext('categories');
 
-	let nav_class = menu_opened ? 'nav-open' : '';
-  const unsubscribe = menu_opened.subscribe((value) => {
-    nav_class = value ? 'nav-open' : '';
-  });
-  onDestroy(unsubscribe);
-
+	let nav_class = derived(menu_opened, $value => $value ? 'nav-open' : '');
 	let shadow = false;
 	$: shadow_class = shadow ? 'header-shadow' : '';
 
@@ -46,8 +43,8 @@
 	})
 </script>
 
-<header class={nav_class + ' ' + shadow_class}>
-	<button id="menuBtn" class="header-button" type="button" on:click={() => $menu_opened = true}>Menu</button>
+<header class={$nav_class + ' ' + shadow_class}>
+	<button id="menuBtn" class="header-button" type="button" on:click={ menu_opened.toggle }>Menu</button>
 	<h1 class="small-display">
 		<span class="height" /><a href="/">
 			<img height="32" width="32" src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F"
@@ -59,10 +56,10 @@
 			<a href="/">FAITHFUL PACK DOCS</a>
 		</span></h1>
 	<div id="nav-swipe"></div>
-	<div id="nav-bg" class={nav_class} on:click={() => $menu_opened = false}></div>
-	<nav class={nav_class}>
+	<div id="nav-bg" class={$nav_class} on:click={() => $menu_opened = false}></div>
+	<nav class={$nav_class}>
 		<div id="nav-img">Logo</div>
-		<button id="DarkMode" on:click="{ theme_index.next }" style="height: 36px;" class="nav-link {$theme}">{ $theme_html }</button>
+		<ThemeButton navLink />
 
 		{#if new URL($page.url).pathname !== '/'}
 			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="/">HOME</a>

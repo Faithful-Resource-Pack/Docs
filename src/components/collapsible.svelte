@@ -2,12 +2,12 @@
   export let name: string;
   export let posts: App.Post[];
 
-  let collapsed = true;
+  let collapsed = false;
 
   let content_el: HTMLElement;
 
   $: collapsed_class = collapsed ? "" : " active";
-  $: collapsed_style = collapsed ? "" : `max-height: ${content_el.scrollHeight}px`;
+  $: collapsed_style = collapsed ? "" : `max-height: none`;
 
   let isNew = (date: string) => {
     if(date === undefined) return false;
