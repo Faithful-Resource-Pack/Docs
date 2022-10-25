@@ -152,6 +152,7 @@ Template for adding new entries if you're lazy like me
     <li><b>Minimodding</b> - This means acting as a moderator without the authority to act as one. It is incredibly annoying for everyone involved, can lead to misinformation, and undermines the authority of the staff team. Use <code>e!modping</code> or directly ping an online moderator if rules are being broken.</li>
     <ol class="lettered">
         <li>Verbal warn to stop and let a moderator take over, if continued short mute the user.</li>
+    </ol>
     <br>
     <li><b>Excessive swearing</b> - While swearing is usually allowed, there is a line to not cross.</li>
     <ol class="lettered">
