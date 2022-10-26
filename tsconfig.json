@@ -22,5 +22,8 @@
 		"rootDirs": [
 			"."
 		],
-	}
+	},
+    "exclude": [
+        "./src/routes/layout.svelte"
+    ]
 }

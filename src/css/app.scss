@@ -193,7 +193,7 @@ header h1.small-display {
 	}
 }
 
-main {
+main #container {
 	max-width: 1080px;
 	padding: 56px $main-padding calc($main-padding + 50px);
 	margin: 0 auto;

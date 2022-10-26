@@ -1,6 +1,7 @@
 <!-- Recognized as layout so you can call loader here -->
 
 <script context="module">
+    // @ts-ignore
 	export const load = ({ url }) => {
 		const currentRoute = url.pathname;
 
@@ -22,10 +23,13 @@
 	import { fade } from "svelte/transition";
 
 	// mdsvex title prop
+	// @ts-ignore
 	export let title;
+	// @ts-ignore
 	export let currentRoute;
 
 	$: domain = $page.url.hostname;
+	// @ts-ignore
 	$: full_title = `${title} - Faithful Pack Docs`;
 	$: url = $page.url.href;
 </script>
@@ -56,7 +60,9 @@
 
 {#key currentRoute}
 	<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-		<slot />
+        <div id="container">
+            <slot />
+        </div>
 	</main>
 {/key}
 
