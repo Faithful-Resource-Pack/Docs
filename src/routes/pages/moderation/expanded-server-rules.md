@@ -113,7 +113,7 @@ Template for adding new entries if you're lazy like me
     <li><b>Spreading misinformation</b> is when a user intentionally makes up or mixes up information for the purposes of creating a reaction.</li>
      <ol class="lettered">
         <li>If accidental, tell the user to edit/delete their original message as to not confuse others.</li>
-        <li>If intentional, warn and scale up appropriately for repeat offenses.</li>
+        <li>If intentional, bot warn and scale up appropriately for repeat offenses.</li>
     </ol>
 </ol>
 
@@ -129,7 +129,7 @@ Template for adding new entries if you're lazy like me
     <br>
     <li><b>Intentionally speaking another language as a joke</b> - When done in a joking context without the intent to exclude people from understanding (e.g. an inside joke).</li>
     <ol class="lettered">
-        <li>A verbal warning, if continued escalate punishments as best seen fit.</li>
+        <li>Verbal warn to stop, if continued escalate punishments as best seen fit.</li>
     </ol>
     <br>
     <li><b>Speaking a different language in order to talk behind people’s backs in a rude or disrespectful way</b> - Exactly the same as the previous point but this time with malicious intent.</li>
@@ -147,6 +147,11 @@ Template for adding new entries if you're lazy like me
     <ol class="lettered">
         <li>Verbal warn initially to let the user know what constitutes good feedback.</li>
         <li>If the user keeps being rude over other's creations, escalate as best seen fit.</li>
+    </ol>
+    <br>
+    <li><b>Minimodding</b> - This means acting as a moderator without the authority to act as one. It is incredibly annoying for everyone involved, can lead to misinformation, and undermines the authority of the staff team. Use <code>e!modping</code> or directly ping an online moderator if rules are being broken.</li>
+    <ol class="lettered">
+        <li>Verbal warn to stop and let a moderator take over, if continued short mute the user.</li>
     </ol>
     <br>
     <li><b>Excessive swearing</b> - While swearing is usually allowed, there is a line to not cross.</li>
