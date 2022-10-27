@@ -194,7 +194,8 @@ header h1.small-display {
 }
 
 main #container {
-	max-width: 1080px;
+	width: 1080px;
+	max-width: 100%;
 	padding: 56px $main-padding calc($main-padding + 50px);
 	margin: 0 auto;
 }
@@ -270,6 +271,35 @@ button {
 
     #nav-bg, #nav-bg.nav-open {
         display: none;
+    }
+}
+
+$toc_width: 370px;
+
+@media (min-width: 1600px) {
+    body.toc main {
+        display: flex;
+    }
+
+    body.toc > header {
+        & + main, & + main + footer {
+            padding-right: calc($toc_width + 20px);
+        }
+    }
+
+    body.toc main {
+        .table-of-content {
+            position: fixed;
+
+            border-left: 1px solid var(--line-color);
+
+            top: 56px;
+            margin: 10px;
+            bottom: 0;
+            height: auto;
+            width: $toc_width;
+            right: 10px;
+        }
     }
 }
 
@@ -362,13 +392,14 @@ ul.no-heads {
 }
 
 .table-of-content {
-	background-color: var(--shadow-black-10-color);
-	padding: 20px;
+	background-color: var(--background-white-color);
+	padding: 8px 0 8px 8px;
 	text-align: left;
-	border-radius: 10px;
-	position: absolute;
-	left: 2.5%;
-	max-width: 370px;
+	overflow-y: auto;
+
+	& > h2:first-child {
+		margin-top: 0;
+	}
 
 	& > h3 {
 		display: inline;

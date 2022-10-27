@@ -21,6 +21,7 @@
 	import "../css/app.scss";
 	import { theme } from "../lib/stores";
 	import { fade } from "svelte/transition";
+	import { onMount } from "svelte";
 
 	// mdsvex title prop
 	// @ts-ignore
@@ -32,6 +33,14 @@
 	// @ts-ignore
 	$: full_title = `${title} - Faithful Pack Docs`;
 	$: url = $page.url.href;
+
+    onMount(() => {
+        const toc = document.getElementsByClassName('table-of-content')[0];
+        if(!toc) return;
+        if(location.pathname === '/') return;
+        
+        document.body.classList.add("toc");
+    })
 </script>
 
 <svelte:head>
