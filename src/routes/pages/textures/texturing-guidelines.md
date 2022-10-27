@@ -65,7 +65,7 @@ deprecated: false
   </ol>
   <li><a href="#part-3-material-and-shape-reference-list">Part 3: Material and Shape Reference List</a></li>
   <ul>
-    Materials
+    <li><a href="#materials">Materials</a></li>
     <li><a href="#smooth-metal">Smooth Metal</a></li>
     <li><a href="#rought-metal">Rough Metal</a></li>
     <li><a href="#gems">Gemstones</a></li>
@@ -86,7 +86,7 @@ deprecated: false
     <li><a href="#creepers">Creepers</a></li>
     <li><a href="#fur-hair">Fur & Hair</a></li>
     <li><a href="#fish">Fish Entity</a></li>
-    Shapes
+    <li><a href="#shapes">Shapes</a></li>
     <li><a href="#cylinders">Cylinders</a></li>
 
   </ul>
