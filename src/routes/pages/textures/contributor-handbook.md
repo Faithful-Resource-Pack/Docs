@@ -20,7 +20,7 @@ Now, let's get started.
 
 ___
 ## Creating Textures
-Before you begin, we highly recommend reading our guidelines [here](https://docs.compliancepack.net/pages/textures/texturing-guidelines.html) (for Faithful 32x) or [here](https://docs.faithfulpack.net/pages/classicfaithful/32x-texturing-guidelines) (for Classic Faithful 32x), as every texture in Faithful needs to follow them. The Guidelines also contain a lot of handy texturing tips that you might find useful later down the path.
+Before you begin, we highly recommend reading our guidelines [here](https://docs.faithfulpack.net/pages/textures/texturing-guidelines) (for Faithful 32x) or [here](https://docs.faithfulpack.net/pages/classicfaithful/32x-texturing-guidelines) (for Classic Faithful 32x), as every texture in Faithful needs to follow them. The Guidelines also contain a lot of handy texturing tips that you might find useful later down the path.
 If you’re looking for a good program for pixel art, here’s what some of our best artists use:
 - **Aseprite (paid, but free if you compile it from source yourself – [useful tool](https://github.com/TheLiteCrafter/AsepriteTool/releases/), [video tutorial](https://youtu.be/4amv2bAWJAA))** – Made specifically for pixel art. Offers useful options like several tiling modes and easy palette manipulation.
 - **Paint.net (also known as PDN; free)** – An all-purpose image manipulation program, easy to learn, but only works on Windows.
