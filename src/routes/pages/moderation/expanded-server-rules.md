@@ -109,7 +109,7 @@ Template for adding new entries if you're lazy like me
         <li>If it is done to cause harm ban and report the user.</li>
     </ol>
     <br>
-    <li><b>Jokes about tragedies or other sensitive topics</b> - This includes both past and ongoing events.</li>
+    <li><b>Jokes about tragedies, suicides, or other sensitive topics</b> - This includes both past and ongoing events.</li>
     <ol class="lettered">
         <li>Will depend on context, but can range between a verbal warning and ban.</li>
     </ol>
@@ -208,7 +208,7 @@ Template for adding new entries if you're lazy like me
         <li>Verbal warn to move to #bot-commands, if spam persists use a bot warn.</li>
     </ol>
     <br>
-    <li><b>Spamming</b> - Any meaningless garbage that contributes nothing to a discussion, including emoji/sticker spam and chat chains. Not only does it bury actual messages, but are also a pain to clean up for the moderators.</li>
+    <li><b>Spamming</b> - Any meaningless garbage that contributes nothing to a discussion, including emoji/sticker spam, "copypastas", and chat chains. Not only does it bury actual messages, but are also a pain to clean up for the moderators.</li>
     <ol class="lettered">
         <li>If intentionally done to cause havoc and to annoy others, long mute and potentially ban depending on severity and context. Messages will be purged.</li>
         <li>If part of a chat chain, meming, etc, verbal warn the users involved to not continue, and short mute if continued.</li>
