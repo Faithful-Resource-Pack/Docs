@@ -105,7 +105,7 @@ Template for adding new entries if you're lazy like me:
     <br>
     <li><b>Using hate speech or slurs</b> - This includes, but is not limited to: general derogatory names, racial slurs, fatphobia, slurs against disabilities or religion, homophobia, transphobia, and other slurs related to one’s identity.</li>
     <ol class="lettered">
-        <li>If it is used as hyperbole/not seriously, verbally warn the user that these terms are not allowed and delete the messages in question. Ban for repeated offences.</li>
+        <li>If it is used as hyperbole/not seriously, verbally warn the user that these terms are not allowed and delete the messages in question. Ban for repeated offenses.</li>
         <li>If it is done to cause harm, ban and report the user.</li>
     </ol>
     <br>
