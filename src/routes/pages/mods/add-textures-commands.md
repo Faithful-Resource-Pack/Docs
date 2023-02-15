@@ -6,29 +6,29 @@ deprecated: true
 ---
 
 # Add textures to an **existing** Mod - With Commands:
-## Prerequisites:  
+## Prerequisites:
 
-- You need to have a [GitHub](https://github.com/) account first.  
+- You need to have a [GitHub](https://github.com/) account first.
 - You need to have [`git`](https://github.com/git-guides/install-git) installed on your machine.
 - You need to be logged to `git` with your GitHub account, see how [here](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
 
 ## Step by Step:
 
-1.  Firstly find your Mod repository in our [organization](https://github.com/Faithful-Mods), then find the repository `HTTPS` and use those commands in a shell: 
+1.  Firstly find your Mod repository in our [organization](https://github.com/Faithful-Mods), then find the repository `HTTPS` and use those commands in a shell:
 <img src="/images/pages/mods/add-textures-commands/get-repository-https.png" alt="github get https" class="center" loading="lazy">
 ```shell
   $ git clone <git url>
 ```
-> Note: If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.  
+> Note: If the mod repository is not in the [Faithful Mods Organization](https://github.com/Faithful-Mods), check this [file](https://github.com/Faithful-Resource-Pack/JSON/blob/main/mods/mods.json) to see where is the repository located.
 
 2.  Change your local branch to the one you wants to add changes:
 ```shell
   $ git checkout <branch>
 ```
-> Note: Be aware to be in the right folder when checking the branch, move to the cloned repository using `cd ./<repository name>`  
-> Note: If the branch doesn't exist, create a new one using `git branch <new-branch>` first, the new branch will be based on the actual branch  
+> Note: Be aware to be in the right folder when checking the branch, move to the cloned repository using `cd ./<repository name>`
+> Note: If the branch doesn't exist, create a new one using `git branch <new-branch>` first, the new branch will be based on the actual branch
 
-3.  Your local repository should now looks like the image below, you can now edit/add textures locally.  
+3.  Your local repository should now looks like the image below, you can now edit/add textures locally.
 <img src="/images/pages/mods/add-textures-commands/folder-example.png" alt="folder result" class="center" loading="lazy">
 
 4.  Once you are done with editing/adding textures, you can commit and push your changes to the online repository:
@@ -41,9 +41,9 @@ deprecated: true
   $ git push -u origin <branch>
 ```
 
-5.  See changements applied to the GitHub repository, Enjoy!
+5.  See changes applied to the GitHub repository, Enjoy!
 
-6.  Some usefull `git` commands:
+6.  Some useful `git` commands:
 ```shell
   # show the difference between your local files and git ones
   $ git status

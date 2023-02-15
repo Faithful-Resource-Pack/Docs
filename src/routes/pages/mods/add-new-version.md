@@ -9,7 +9,7 @@ deprecated: false
 
 ## Prerequisites:
 
-- You need to have a [GitHub](https://github.com/) account first.  
+- You need to have a [GitHub](https://github.com/) account first.
 - It is recommended to download [GitHub Desktop](https://desktop.github.com/) for easier file and branch management.
 
 ## Step by Step:
@@ -30,6 +30,6 @@ deprecated: false
 
 	2. Add those files to your new branch:
 		- **The pack.png and pack.mcmeta are not needed anymore, because that process is now automated. If you still find them, just delete them.**
-		- An `assets` folder with the mod's textures inside, following this path: `assets/<modassetname>/textures/.../<modassetname>`  
+		- An `assets` folder with the mod's textures inside, following this path: `assets/<modassetname>/textures/.../<modassetname>`
 
-3. If the default file from the main branch (the file named: `initialcommit`) is present, remove it. Then if you are not a member of our organization, make a pull request (**do not merge the branch: never**) & post a message in our [Discord](https://discord.com/invite/QF2CAX7).
+3. If the default file from the main branch (the file named: `initialcommit`) is present, remove it. Then if you are not a member of our organization, make a pull request (**do not merge the branch: never**) & post a message in our [Discord](https://discord.gg/sN9YRQbBv7).
