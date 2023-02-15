@@ -90,7 +90,7 @@ deprecated: false
     <li><a href="#cylinders">Cylinders</a></li>
 
   </ul>
-  <li><a href="#part-4-fixing-jappas-mistakes-and-things-hes-forgotten">Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten</a></li>
+  <li><a href="#part-4-fixing-jappas-mistakes-and-things-hes-forgotten">Part 4: Fixing JAPPA’s Mistakes and Things He’s Forgotten</a></li>
   <li><a href="#conclusion">Conclusion</a></li>
   <li><a href="#final-note">Final Note</a></li>
   <li><a href="#credits">Credits</a></li>
@@ -179,9 +179,9 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <br>
   <li id="jappa"><b>JAPPA,</b> or Jasper Boerstra, is Minecraft’s current lead art director and pixel artist and has been working on the game since 2017.</li>
   <br>
-  <li id="prog-art"><b>Programmer art</b> (often colloquially referred to as “progart”) is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren’t made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn’t coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features. Which is what the pre-1.14 textures basically are, since most of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
+  <li id="prog-art"><b>Programmer art</b> (often colloquially referred to as “progart”) is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren’t made by JAPPA, or any real artist, but by the developers of the game. Note that this term wasn’t coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features. Which is what the pre-1.14 textures basically are, since most of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
   <br>
-  <li id="jappa-textures"><b>JAPPA textures</b> directly oppose Programmer Art. They were made by a single artist – Jappa – and they have a consistent art style. They are featured in all versions after 1.14 inclusive.</li>
+  <li id="jappa-textures"><b>Jappa textures</b> directly oppose Programmer Art. They were made by a single artist – JAPPA – and they have a consistent art style. They are featured in all versions after 1.14 inclusive.</li>
   <br>
   <img src="/images/pages/textures/13.png" alt="Jappa textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 11:</b> Left: Programmer art oak planks. Right: Jappa oak planks.</i></p>
@@ -253,7 +253,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <li id="identical-when-upscaled"><b>If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.</b> Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.</li>
   <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Art Director Council approves it.</b></p>
   <br>
-  <li id="bugs-in-textures"><b>If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, Jappafication errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
+  <li id="bugs-in-textures"><b>If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, “Jappafication” errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
 </ol>
 
 **Tips**
@@ -339,7 +339,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 
 <br id="flowers">
 
-**Most flowers, foliage, and other plant matter** can use dithering (linear or regular) depending on the general roughness/smoothness of the surface. While flower petals can employ this shading method, genuine leaves should never use dithering. 
+**Most flowers, foliage, and other plant matter** can use dithering (linear or regular) depending on the general roughness/smoothness of the surface. While flower petals can employ this shading method, genuine leaves should never use dithering.
 
 <img src="/images/pages/textures/33.png" alt="plant textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 31:</b> Examples of plant textures.</i></p>
@@ -428,7 +428,7 @@ ___
 
 ## Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten
 
-Faithful extends its field of expertise to correcting Jappa’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
+Faithful extends its field of expertise to correcting JAPPA’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
 
 <img src="/images/pages/textures/42.png" alt="forgotten texture" class="center" loading="lazy">
 <p class="center"><i><b>Picture 40:</b> Pre-1.17 vanilla oak sign texture</i></p>
@@ -439,12 +439,12 @@ It is obvious that this texture uses the programmer art oak planks and bark. Thi
 
 **Only replace programmer art textures (or textures that weren’t changed in the texture update) if it’s absolutely obvious what they should be changed to.**
 
-Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the jappa planks in order to make a viable Faithful texture.
+Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the Jappa planks in order to make a viable Faithful texture.
 
-On the contrary, a texture that should NOT be “jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
+On the contrary, a texture that should NOT be “Jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
 
 <img src="/images/pages/textures/43.png" alt="texture should not be jappafied" class="center" loading="lazy">
-<p class="center"><i><b>Picture 41:</b> Blaze powder, an example of a texture that should not be “jappafied”.</i></p>
+<p class="center"><i><b>Picture 41:</b> Blaze powder, an example of a texture that should not be “Jappafied”.</i></p>
 
 ___
 
@@ -454,14 +454,14 @@ Wow, this turned out way longer than we expected it to be. Would you believe tha
 ___
 
 ## Final Note
-These rules and guidelines are subject to change at any time. All changes to this document will be announced publicly. More images may be added in the future.
+These rules and guidelines are subject to change at any time. Significant changes to this document will be announced publicly.
 
 ___
 
 ## Credits
 <p>
   Written by Pomi108 for use in the Faithful project
-  <br>Edited by Anonymous, Juknum and Fred figglehorn
+  <br>Edited by Anonymous, Juknum, and Fred figglehorn
   <br>Images compiled by Anonymous and Pomi108
   <br>Credit for images goes to various Faithful and Faithful contributors, Mojang Studios and Google Images
 </p>
