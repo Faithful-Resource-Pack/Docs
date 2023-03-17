@@ -358,15 +358,6 @@ blockquote {
 .home:after {
 	content: '\1F3E1';
 }
-#DarkMode.light:after {
-	content: '\2600\FE0F';
-}
-#DarkMode.dark:after {
-	content: '\1F319';
-}
-#DarkMode.auto:after {
-	content: '\1F317';
-}
 .collapsible:after, .home:after, #DarkMode.light:after, #DarkMode.dark:after, #DarkMode.auto:after {
 }
 .collapsible:after, .home:after, #DarkMode.nav-link:after {

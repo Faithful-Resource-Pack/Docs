@@ -38,12 +38,15 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.3.0",
+		"@fortawesome/free-solid-svg-icons": "^6.3.0",
 		"axios": "0.27.2",
 		"blurhash": "1.1.5",
 		"potrace": "^2.1.8",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.1.0",
 		"sharp": "^0.31.3",
+		"svelte-fa": "^3.0.3",
 		"svelte-hammer": "^0.1.7",
 		"svelte-waypoint": "^0.1.4",
 		"svgo": "^2.8.0"
