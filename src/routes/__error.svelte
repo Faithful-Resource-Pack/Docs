@@ -51,22 +51,43 @@
 
 {#key currentRoute}
     <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-        <h1 class="center">Are you lost in The End?</h1>
-    	<p class="center">
-    		Unfortunately, the page you requested doesn't exist!<br>Try checking your spelling or going to the <a href="/">main page</a> to find what you were looking for.
-    	</p>
+		<div id="content">
+			<div>
+				<h1 class="center">Are you lost in The End?</h1>
+				<p class="center">
+					Unfortunately, the page you requested doesn't exist!<br>Try checking your spelling or going to the <a href="/">main page</a> to find what you were looking for.
+				</p>
+			</div>
+		</div>
     </main>
 {/key}
 
 <Footer />
 
-<style>
+<style lang="scss">
     h1, p {
         color: #ccc;
     }
 
-    main {
+	main {
+		display: flex;
+		align-items: stretch;
+	}
+
+    main #content {
+		width: 100%;
         background: #120E19 url(/images/the_end.jpg) no-repeat center;
-		max-width: 100%;
+		padding-top: 56px;
     }
+
+	:global {
+		header:not(.header-shadow) .maintitle {
+			color: #c9d1d9;
+			text-shadow: 2px 2px 2px rgba(0,0,0,.75);
+		}
+
+		header:not(.header-shadow) {
+			background: transparent !important;
+		}
+	}
 </style>

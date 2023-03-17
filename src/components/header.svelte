@@ -45,13 +45,13 @@
 
 <header class={$nav_class + ' ' + shadow_class}>
 	<button id="menuBtn" class="header-button" type="button" on:click={ menu_opened.toggle }>Menu</button>
-	<h1 class="small-display">
+	<h1 class="small-display maintitle">
 		<span class="height" /><a href="/">
 			<img height="32" width="32" src="https://database.faithfulpack.net/images/branding/site/favicon.ico" alt="F"
 			 /><span>DOCS</span>
 		</a>
 	</h1>
-	<h1 class="big-display">
+	<h1 class="big-display maintitle">
 		<span class="height" /><span>
 			<a href="/">FAITHFUL PACK DOCS</a>
 		</span></h1>
