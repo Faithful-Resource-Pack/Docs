@@ -35,11 +35,11 @@
 
 	<meta property="og:title" content={full_title}>
 	<meta property="og:url" content={url}>
-	
+
 	<meta name="twitter:title" content={full_title}>
 	<meta property="twitter:domain" content={domain}>
 	<meta property="twitter:url" content={url}>
-	
+
 	{#if $theme === 'dark' || ($theme === 'auto' && browser && window.matchMedia('(prefers-color-scheme: dark)').matches)}
 		<style lang="scss">
 			@use "../css/dark.scss";
@@ -53,7 +53,7 @@
     <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
         <h1 class="center">Are you lost in The End?</h1>
     	<p class="center">
-    		Unfortunately the page you requested doesn't exist!<br>We recommand you to check the spelling or go to the <strong><a href="/">main page</a></strong> to find what you were looking for.
+    		Unfortunately, the page you requested doesn't exist!<br>Try checking your spelling or going to the <a href="/">main page</a> to find what you were looking for.
     	</p>
     </main>
 {/key}
