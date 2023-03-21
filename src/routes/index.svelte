@@ -33,8 +33,8 @@
 		<img src="https://database.faithfulpack.net/images/branding/wordmarks/outlined/flat/faithful_flat_border.png" alt="Wordmark" width="100%" height="100%">
 	</p>
 
-	<h1>Welcome to The Docs.</h1>
-	<p style="text-align: justify;">Here you will find documentation and guides related to the Faithful Project, including the Faithful Resource Packs, Discord bots and website.</p>
+	<h1>Welcome to the Docs.</h1>
+	<p style="text-align: justify;">Here you will find documentation and guides related to the Faithful Project for texture making, moderation, and more.</p>
 
 	<h2>Tags</h2>
 	<ul class="no-heads">
