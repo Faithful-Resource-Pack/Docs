@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"clear": "del-cli --force node_modules/.vite .svelte-kit/ build/",
+		"clear": "del-cli --force node_modules/.vite .svelte-kit/ build/ static/g/",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
@@ -42,6 +42,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.3.0",
 		"axios": "0.27.2",
 		"blurhash": "1.1.5",
+		"image-hash": "^5.3.1",
 		"potrace": "^2.1.8",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.1.0",

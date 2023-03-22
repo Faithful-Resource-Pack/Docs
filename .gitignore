@@ -16,6 +16,7 @@ localhost*.html
 
 # thumbnails location
 static/g/
+imageHash.json
 
 ### VisualStudioCode ###
 .vscode/*

@@ -2,12 +2,14 @@ import * as svelte from "svelte/compiler";
 import sharp from "sharp";
 import path from "path";
 import util from "util";
-import fs from "fs";
+import fs, { existsSync } from "fs";
+import { readFile, writeFile } from "fs/promises";
 import crypto from "crypto";
 import axios from "axios";
 import blurhash from 'blurhash';
 import svgo from 'svgo';
 import potrace from 'potrace';
+import { imageHash } from 'image-hash';
 
 const defaults = {
   optimizeAll: true, // optimize all images discovered in img tags
@@ -89,8 +91,102 @@ const defaults = {
 
   // Add image sizes to this array to create different asset sizes for any image
   // that is processed using `processFolders`
-  processFoldersSizes: false
+  processFoldersSizes: false,
+
+  // gives the path to the file storing image hashes
+  hashLogPath: "./imageHash.json"
 };
+
+const CWD = process.cwd();
+
+let HASHES = {};
+/**
+ * Reads image hash file into HASHES
+ * @param {string} hashLogPath input image hash file
+ */
+async function readImageHashes(hashLogPath) {
+  if(!existsSync(hashLogPath)) return {};
+  console.log('reading file "' + hashLogPath + '"...')
+  return readFile(hashLogPath, "utf-8")
+    .then(txt => new Promise((resolve, reject) => {
+        try {
+          console.log("file conent is '" + txt + "'")
+          resolve(JSON.parse(txt))
+        } catch(err) {
+          reject(err)
+        }
+      })
+    )
+    .then(json => {
+      HASHES = json;
+    })
+}
+
+/**
+ * Writes image hash file from HASHES
+ * @param {string} hashLogPath input image hash file
+ */
+async function writeImageHashes(hashLogPath) {
+  mkdirp(path.dirname(hashLogPath));
+  console.log('Writing file "' + hashLogPath + '"...')
+  return writeFile(hashLogPath, JSON.stringify(HASHES, null, 2))
+}
+
+/**
+ * Updates table
+ * @param {string} inPath input path for image (url or path)
+ * @param {string} hash image hash
+ */
+function updateHash(inPath, hash) {
+  HASHES[inPath] = hash;
+}
+
+async function getImageHash(inPath) {
+  return HASHES[inPath] || Math.random().toString();
+}
+
+/**
+ * @typedef {Object} ImageDifferentResult
+ * @property {boolean} isDifferent true if image different
+ * @property {string} newHash value of new hash if different
+ */
+
+/**
+ * Gives if image different
+ * @param {string} inPath input path for image (url or path)
+ * @returns {Promise<ImageDifferentResult>} result
+ */
+async function isImageDifferent(inPath) {
+  return readImageHashes(options.hashLogPath)
+  .then(() => new Promise((resolve, reject) => {
+    imageHash(inPath, 16, true, (error, data) => {
+      if(error) reject(error)
+      else resolve(data)
+    })
+  })).then((hash) => {
+    console.trace(getCwdPath(inPath), hash)
+    return {
+      isDifferent: getImageHash(inPath) != hash,
+      newHash: hash
+    }
+  })
+  .catch((err) => {
+    console.error(err)
+    return {
+      isDifferent: true,
+      newHash: Math.random().toString()
+    }
+  })
+  .then((res) => {
+    if(res.isDifferent) {
+      updateHash(inPath, res.newHash)
+    }
+    return res;
+  })
+  .finally(() => {
+    return writeImageHashes(options.hashLogPath);
+  })
+}
 
 /**
  * @type {typeof defaults}
@@ -99,10 +195,10 @@ let options = JSON.parse(JSON.stringify(defaults))
 
 async function downloadImage(url, folder = ".") {
   const hash = crypto.createHash("sha1").update(url).digest("hex");
-  const existing = fs.readdirSync(folder).find((e) => e.startsWith(hash));
+  /* const existing = fs.readdirSync(folder).find((e) => e.startsWith(hash));
   if (existing) {
     return existing;
-  }
+  } */
 
   const { headers } = await axios.head(url);
 
@@ -112,7 +208,8 @@ async function downloadImage(url, folder = ".") {
   const filename = `${hash}.${ext}`;
   const saveTo = path.resolve(folder, filename);
 
-  if (fs.existsSync(saveTo)) return filename;
+  // always redownload images from the web
+  // if (fs.existsSync(saveTo)) return filename;
 
   const writer = fs.createWriteStream(saveTo);
   const response = await axios({
@@ -312,6 +409,10 @@ function getBasename(p) {
   return path.basename(p, path.extname(p));
 }
 
+function getCwdPath(p) {
+  return path.relative(CWD, p);
+}
+
 function getRelativePath(p) {
   return path.relative(options.publicDir, p);
 }
@@ -358,14 +459,17 @@ async function resize(size, paths, meta = null) {
 
   ensureOutDirExists(paths.outDir);
 
-  if (options.webp && !fs.existsSync(outPathWebp)) {
+  // get difference
+  const { isDifferent } = await isImageDifferent(paths.inPath);
+
+  if (options.webp && (!fs.existsSync(outPathWebp) || isDifferent)) {
     await sharp(paths.inPath)
       .resize({ width: size, withoutEnlargement: true })
       .webp(options.webpOptions)
       .toFile(outPathWebp);
   }
 
-  if (fs.existsSync(outPath)) {
+  if (fs.existsSync(outPath) && !isDifferent) {
     return {
       ...meta,
       filename: outUrl,
@@ -543,7 +647,10 @@ async function optimize(paths) {
 
   ensureOutDirExists(paths.outDir);
 
-  if (!fs.existsSync(paths.outPath)) {
+  // get difference
+  const { isDifferent } = await isImageDifferent(paths.inPath);
+
+  if (isDifferent || !fs.existsSync(paths.outPath)) {
     await sharp(paths.inPath)
       .jpeg({ quality: options.quality, progressive: false, force: false })
       .webp({ quality: options.quality, lossless: true, force: false })
