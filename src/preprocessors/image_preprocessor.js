@@ -106,11 +106,9 @@ let HASHES = {};
  */
 async function readImageHashes(hashLogPath) {
   if(!existsSync(hashLogPath)) return {};
-  console.log('reading file "' + hashLogPath + '"...')
   return readFile(hashLogPath, "utf-8")
     .then(txt => new Promise((resolve, reject) => {
         try {
-          console.log("file conent is '" + txt + "'")
           resolve(JSON.parse(txt))
         } catch(err) {
           reject(err)
@@ -128,7 +126,6 @@ async function readImageHashes(hashLogPath) {
  */
 async function writeImageHashes(hashLogPath) {
   mkdirp(path.dirname(hashLogPath));
-  console.log('Writing file "' + hashLogPath + '"...')
   return writeFile(hashLogPath, JSON.stringify(HASHES, null, 2))
 }
 
@@ -164,7 +161,6 @@ async function isImageDifferent(inPath) {
       else resolve(data)
     })
   })).then((hash) => {
-    console.trace(getCwdPath(inPath), hash)
     return {
       isDifferent: getImageHash(inPath) != hash,
       newHash: hash
