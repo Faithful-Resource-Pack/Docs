@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6, th {
 	color: var(--text-color);
 	font-weight: normal;
 }
-p, ul, ol, li, td {
+#{$texts} {
 	line-height: 1.5;
 	color: var(--secondary-text-color);
 }
@@ -257,7 +257,7 @@ button {
 @media (min-width: 650px) {
 
     header, header + main, header + main + footer {
-        transition: all .5s;
+        @include menu-transition();
     }
     header.nav-open{
         & + main, {
@@ -568,10 +568,11 @@ main {
 }
 footer {
 	padding-top: 20px;
+	padding: 0 10px;
 	text-align: center;
 
 	& > p {
-		margin: 10px 0;
+		margin: 16px 0;
 	}
 }
 

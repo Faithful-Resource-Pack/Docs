@@ -69,25 +69,50 @@
         color: #ccc;
     }
 
-	main {
-		display: flex;
-		align-items: stretch;
+	main #content {
+		padding-top: 56px;
+		position: relative;
 	}
 
-    main #content {
-		width: 100%;
+    main #content::after {
+		content: "";
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
         background: #120E19 url(/images/the_end.jpg) no-repeat center;
-		padding-top: 56px;
     }
 
+	@media (min-width: 650px) {
+		main #content::after {
+			@include menu-transition(left);
+		}
+		.nav-open + main #content::after {
+			left: 350px;
+		}
+	}
+
 	:global {
+		body {
+			background: transparent;
+		}
+		$text-color: #c9d1d9;
 		header:not(.header-shadow) .maintitle {
-			color: #c9d1d9;
+			color: $text-color;
 			text-shadow: 2px 2px 2px rgba(0,0,0,.75);
 		}
 
 		header:not(.header-shadow) {
 			background: transparent !important;
+		}
+
+		footer {
+			#{$texts} {
+				color: $text-color;
+			}
 		}
 	}
 </style>

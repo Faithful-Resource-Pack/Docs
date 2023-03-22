@@ -38,3 +38,9 @@
 	
 	--link-color: #3E9BF5;
 }
+
+$texts: 'p, ul, ol, li, td';
+
+@mixin menu-transition($elements: all) {
+	transition: $elements .5s;
+}
