@@ -66,7 +66,7 @@ ___
     <li><a href="#follow-default">Follow Default</a></li>
     <li><a href="#reference-vattic">Reference Vattic's Work</a></li>
     <li><a href="#less-is-more">Don't Overdetail</a></li>
-    <li><a href="#palette">Keep a Vanilla-ish Color Palette</a></li>
+    <li><a href="#palette">Don’t overly change the vanilla palette.</a></li>
     <li><a href="#1px-items">Thin out Item Borders</a></li>
     <li><a href="#outdated-textures">Keep Vanilla Mistakes</a></li>
     <li><a href="#reuse-textures">Reuse Existing Textures</a></li>
@@ -134,7 +134,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <br>There are many types of blending. The most important ones in the context of Classic Faithful are listed here:</li>
   <ol class="lettered">
     <br>
-    <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, as other blending methods are usually added later on. However, this tends to have a "plasticky" or flat effect on the texture, which in most cases is undesirable.</li>
+    <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, as other blending methods are usually added later on. However, this tends to have a "plasticky" effect or look flat, which is undesirable in most cases.</li>
     <br>
     <img src="/images/pages/textures/classicfaithful/1.png" alt="no blending" class="center" loading="lazy">
     <p class="center"><i><b>Picture 1:</b> Picture 1: Example of a border between two colors, with no blending applied.</i></p>
@@ -249,12 +249,12 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/classicfaithful/19.png" alt="overdetailed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 19:</b> Left: A texture with just enough detail. Right: An overdetailed texture.</i></p>
   <br>
-  <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a "plasticky" flat look, however don’t overdo it by making it completely nonvanilla or blurry. Generally, between 1-3 added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
+  <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a "plasticky" flat look, but don’t overdo it by making the texture completely nonvanilla or blurry. Generally, between one and three added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
   <p class="center"><i><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
   <br>
-  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated, which is not good. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
+  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
   <img src="/images/pages/textures/classicfaithful/21.png" alt="thinned outlines" class="center" loading="lazy">
   <p class="center"><i><b>Picture 21:</b> Left: Examples of textures with two pixel wide outlines. Right: Textures with one pixel wide outlines.</i></p>
@@ -284,10 +284,10 @@ These are less specific ways to improve your textures, and unlike rules are more
   <img src="/images/pages/textures/classicfaithful/24.png" alt="jaggies vs not jaggies" class="center" loading="lazy">
   <p class="center"><i><b>Picture 24:</b> Left: Examples of jagged edges and curves. Right: Examples of smooth edges and curves.</i></p>
   <br>
-  <li id="overuse-2px"><b>Don’t overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also has a very flat effect on the texture. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
+  <li id="overuse-2px"><b>Don’t overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also makes the texture look flat. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/25.png" alt="stairing pixels" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 25:</b> Left: Left: Incorrect interpretation of textures. Right: A much better interpretation of said textures.</i></p>
+  <p class="center"><i><b>Picture 25:</b> Left: Incorrect interpretation of textures. Right: A much better interpretation of said textures.</i></p>
   <br>
   <li id="cross-reference"><b>Cross reference other similar textures.</b> his is one of the most important tips; to make textures look like they fit in the pack in the first place. You don't just have to reference Vattic's art, but other pre-existing Classic Faithful textures as well. More information about how to shade specific materials can be found below, but this tip in particular will not only help you improve at getting the general style of Classic Faithful down, but improve at pixel art in general over time.</li>
 </ol>
