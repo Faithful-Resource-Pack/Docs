@@ -97,7 +97,7 @@
 
 	:global {
 		body {
-			background: transparent;
+			background-color: transparent !important;
 		}
 		$text-color: #c9d1d9;
 		header:not(.header-shadow) .maintitle {
