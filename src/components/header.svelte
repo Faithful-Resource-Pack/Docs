@@ -8,6 +8,10 @@
 	import { getContext } from 'svelte';
 	import ThemeButton from "./themeButton.svelte";
 	import { derived } from "svelte/store";
+
+	import Fa from "svelte-fa";
+	import { faHome } from "@fortawesome/free-solid-svg-icons";
+
 	const posts: App.Post[] = getContext('posts');
 	const categories: string[] = getContext('categories');
 
@@ -62,7 +66,7 @@
 		<ThemeButton navLink />
 
 		{#if new URL($page.url).pathname !== '/'}
-			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="/">HOME</a>
+			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="/">HOME <span class="icon-right"><Fa icon={faHome} /></span></a>
 		{/if}
 
 		{#each categories as item}
@@ -70,3 +74,9 @@
 		{/each}
 	</nav>
 </header>
+
+<style lang="scss">
+	.nav-link .icon-right {
+		float: right;
+	}
+</style>

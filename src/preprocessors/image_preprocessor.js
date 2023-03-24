@@ -130,21 +130,31 @@ async function writeImageHashes(hashLogPath) {
 }
 
 /**
+ * Gives JSON KEY for input path
+ * @param {string} inPath input path for image (url or path)
+ * @return HASHES table key
+ */
+function inPathToKey(inPath) {
+  return path.relative(CWD, inPath).replaceAll('/', '-').replaceAll('\\', '-')
+}
+
+/**
  * Updates table
  * @param {string} inPath input path for image (url or path)
  * @param {string} hash image hash
  */
 function updateHash(inPath, hash) {
-  HASHES[inPath] = hash;
+  HASHES[inPathToKey(inPath)] = hash;
 }
 
 async function getImageHash(inPath) {
-  return HASHES[inPath] || Math.random().toString();
+  return HASHES[inPathToKey(inPath)] || Math.random().toString()+"noh";
 }
 
 /**
  * @typedef {Object} ImageDifferentResult
  * @property {boolean} isDifferent true if image different
+ * @property {string?} reason Given reason is different
  * @property {string} newHash value of new hash if different
  */
 
@@ -160,22 +170,27 @@ async function isImageDifferent(inPath) {
       if(error) reject(error)
       else resolve(data)
     })
-  })).then((hash) => {
+  })).then(async (hash) => {
+    const existingHash = await getImageHash(inPath);
+    const generatedHash = hash;
+    const isDifferent = existingHash != generatedHash;
     return {
-      isDifferent: getImageHash(inPath) != hash,
+      isDifferent,
+      reason: `Different hash: ${existingHash} != ${generatedHash}`,
       newHash: hash
     }
   })
-  .catch((err) => {
-    console.error(err)
-    return {
-      isDifferent: true,
-      newHash: Math.random().toString()
-    }
-  })
+  .catch(() => ({
+    isDifferent: true,
+    reason: 'Failed to read hash',
+    newHash: Math.random().toString()+"ftr"
+  }))
   .then((res) => {
     if(res.isDifferent) {
       updateHash(inPath, res.newHash)
+      console.log(`Image '${inPathToKey(inPath)}' is different for given reason: ${res.reason}`)
+    } else {
+      console.log(`Using cached image of '${inPathToKey(inPath)}'`)
     }
     return res;
   })
@@ -403,10 +418,6 @@ async function getProcessingPathsForNode(node) {
 
 function getBasename(p) {
   return path.basename(p, path.extname(p));
-}
-
-function getCwdPath(p) {
-  return path.relative(CWD, p);
 }
 
 function getRelativePath(p) {

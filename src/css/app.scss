@@ -345,18 +345,9 @@ blockquote {
 	&:hover {
 		background-color: var(--shadow-black-30-color) !important;
 	}
-	&:after {
-		content: '\02795';
-	}
-}
-.active:after {
-	content: '\2796';
 }
 .home:hover {
 	background-color: var(--shadow-black-30-color) !important;
-}
-.home:after {
-	content: '\1F3E1';
 }
 .collapsible:after, .home:after, #DarkMode.light:after, #DarkMode.dark:after, #DarkMode.auto:after {
 }
