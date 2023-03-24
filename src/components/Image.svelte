@@ -69,6 +69,7 @@
     }
   </style>
   
+<div style="width: {width}px; max-width: 100%; aspect-ratio: {width}/{height}; margin: 0 auto;">
   <Waypoint
     once
     {threshold}
@@ -97,4 +98,5 @@
       </div>
     </div>
   </Waypoint>
+</div>
   
