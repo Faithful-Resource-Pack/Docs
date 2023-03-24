@@ -31,7 +31,7 @@
 </script>
 
 <div>
-  <div on:click={() => collapsed = !collapsed}>
+  <div on:click={() => collapsed = !collapsed} on:keydown={() => {}}>
     <button class="collapsible{collapsed_class}">
       {name.toUpperCase()}
     </button>

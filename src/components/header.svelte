@@ -56,7 +56,7 @@
 			<a href="/">FAITHFUL PACK DOCS</a>
 		</span></h1>
 	<div id="nav-swipe"></div>
-	<div id="nav-bg" class={$nav_class} on:click={() => $menu_opened = false}></div>
+	<div id="nav-bg" class={$nav_class} on:click={() => $menu_opened = false} on:keydown={() => {}}></div>
 	<nav class={$nav_class}>
 		<div id="nav-img">Logo</div>
 		<ThemeButton navLink />
