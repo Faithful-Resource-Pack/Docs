@@ -19,10 +19,10 @@ ___
 
 <p>
   <i>Classic Faithful was made as a tribute to the original creator of the Faithful 32x32 resource pack, Vattic, and to all his hard work to build the Faithful community to what it is now, all the way back when it was just one person running everything.
-  <br><br>Initially named "Emulated Vattic Textures", or "EM" for short, the pack was designed to fix the stylistic shift that came under the leadership of Kraineff and later the Compliance / Faithful Administration. The main Faithful pack’s art direction shifted to something quite different to the original work Vattic had made, opting instead for a much more detailed, modern style to go along with the new textures the texture artist Jappa had made starting versions 1.14 inclusive. However, this style completely replaced the old one with no real alternative for those who preferred the old style. This is where we come in, as the spiritual successor to Vattic's Faithful, maintaining the original style of the packs.
-  <br><br>However, contributions ended up being few and far between even though the project was intended to be community run and managed similarly to the main Faithful packs. This was both due to the project never being the main focus of Faithful, and the rapidly increasing and changing standards deterring anyone who wanted to try. Contributors had to walk the very tight line of achieving the same look and feel of Vattic’s original work while maintaining Jappa’s newer ideologies more reminiscent of traditional pixel art, which was no easy feat. As well as this, when a programmer art variant was started later on, contributors had to learn how to deal with excessive palette sizes and a number of other issues that plagued the original textures, while also upscaling using Vattic methods. All of this contributed to the project always being somewhat inactive and usually one to two people doing all the work for any given pack.
-  <br><br>These guidelines are designed to formalize the unspoken procedures that were formed over time to recreate Vattic’s style today, and to lay down some actual instructions for any aspiring artists rather than vague advice that rarely works.
-  <br><br>With all of that being said, let’s start with the basics.
+  <br><br>Initially named "Emulated Vattic Textures", or "EM" for short, the pack was designed to fix the stylistic shift that came under the leadership of Kraineff and later the Compliance / Faithful Administration. The main Faithful pack's art direction shifted to something quite different to the original work Vattic had made, opting instead for a much more detailed, modern style to go along with the new textures the texture artist Jappa had made starting versions 1.14 inclusive. However, this style completely replaced the old one with no real alternative for those who preferred the old style. This is where we come in, as the spiritual successor to Vattic's Faithful, maintaining the original style of the packs.
+  <br><br>However, contributions ended up being few and far between even though the project was intended to be community run and managed similarly to the main Faithful packs. This was both due to the project never being the main focus of Faithful, and the rapidly increasing and changing standards deterring anyone who wanted to try. Contributors had to walk the very tight line of achieving the same look and feel of Vattic's original work while maintaining Jappa's newer ideologies more reminiscent of traditional pixel art, which was no easy feat. As well as this, when a programmer art variant was started later on, contributors had to learn how to deal with excessive palette sizes and a number of other issues that plagued the original textures, while also upscaling using Vattic methods. All of this contributed to the project always being somewhat inactive and usually one to two people doing all the work for any given pack.
+  <br><br>These guidelines are designed to formalize the unspoken procedures that were formed over time to recreate Vattic's style today, and to lay down some actual instructions for any aspiring artists rather than vague advice that rarely works.
+  <br><br>With all of that being said, let's start with the basics.
   </i>
 </p>
 
@@ -66,7 +66,7 @@ ___
     <li><a href="#follow-default">Follow Default</a></li>
     <li><a href="#reference-vattic">Reference Vattic's Work</a></li>
     <li><a href="#less-is-more">Don't Overdetail</a></li>
-    <li><a href="#palette">Don’t overly change the vanilla palette.</a></li>
+    <li><a href="#palette">Use a Vanilla-ish Palette</a></li>
     <li><a href="#1px-items">Thin out Item Borders</a></li>
     <li><a href="#outdated-textures">Keep Vanilla Mistakes</a></li>
     <li><a href="#reuse-textures">Reuse Existing Textures</a></li>
@@ -126,7 +126,7 @@ ___
 
 ## Part 1: Terms and Definitions
 
-Over time, our community has adopted and come up with numerous terms regarding pixel art, texturing and art techniques. Since these guidelines use these terms extensively, a definitive dictionary must be made for the layman.
+Over time, our community has adopted and come up with numerous terms regarding pixel art, texturing and the people involved in the process. Since these guidelines use these terms extensively, a definitive dictionary must be made for the layman.
 
 <ol>
   <li id="blending"><b>(Color) Blending</b> refers to the method of transitioning one color into another. It mostly occurs around the border between these two colors.
@@ -146,11 +146,11 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <img src="/images/pages/textures/classicfaithful/3.png" alt="aa-example" class="center" loading="lazy">
     <p class="center"><i><b>Picture 3:</b> Example of antialiasing used in a texture featured in Classic Faithful.</i></p>
     <br>
-    <li id="dithering"><b>Dithering</b> is where pixels of a color border are displaced in such a way that said border is no longer as sharply defined and has parts protruding in and out of the other color. Places where these can be used will be explained further in the material reference list, however in most cases using it gives it an overly noisy or sharp appearance which isn’t desirable most of the time.
+    <li id="dithering"><b>Dithering</b> is where pixels of a color border are displaced in such a way that said border is no longer as sharply defined and has parts protruding in and out of the other color. Places where these can be used will be explained further in the material reference list, however in most cases using it gives it an overly noisy or sharp appearance which isn't desirable most of the time.
     <br><br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
-      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply "checkerboarding") is not recommended in most cases, because it is too repetitive and usually doesn’t fit the material. Special cases include chainmail and some particle effects. It looks, exactly as you'd expect, like a checkerboard of two colors.</li>
+      <li id="checkerboard-dithering"><b>Checkerboard dithering</b> (also known as simply "checkerboarding") is not recommended in most cases, because it is too repetitive and usually doesn't fit the material. Special cases include chainmail and some particle effects. It looks, exactly as you'd expect, like a checkerboard of two colors.</li>
       <br>
       <img src="/images/pages/textures/classicfaithful/4.png" alt="checkerboard dithering transition" class="center" loading="lazy">
       <p class="center"><i><b>Picture 4:</b> Checkerboard dithering used as a transition between two colors.</i></p>
@@ -188,16 +188,16 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="/images/pages/textures/classicfaithful/10.png" alt="noise" class="center" loading="lazy">
   <p class="center"><i><b>Picture 10:</b> Left: A "noisy" texture with an excessively large palette. Right: A "noisy" texture with no definition and just a random mess of pixels.</i></p>
   <br>
-  <li id="jappa"><b>Jasper "JAPPA" Boerstra</b> is Minecraft’s current lead art director and pixel artist, and has been working on the game’s art since 2017. In addition, he was mostly responsible for the 1.14 texture update.</li>
+  <li id="jappa"><b>Jasper "JAPPA" Boerstra</b> is the current art director for Minecraft, formerly working on the game's art from 2017 to 2022. In addition, he was mostly responsible for the 1.14 texture update.</li>
   <br>
-  <li id="prog-art"><b>Programmer art</b> (often colloquially referred to as "progart" or "PA") is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren’t made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn’t coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features, which is what the pre-1.14 textures basically are, since many of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
+  <li id="prog-art"><b>Programmer art</b> (often colloquially referred to as "progart" or "PA") is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren't made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn't coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features, which is what the pre-1.14 textures basically are, since many of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
   <br>
   <li id="jappa-textures"><b>Jappa textures</b> directly oppose Programmer Art. They were made by dedicated pixel artists like Jappa and they have a consistent art style. They are featured in all versions after 1.14 inclusive.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/11.png" alt="jappa textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 11:</b> Left: Programmer art oak planks. Right: Jappa's oak planks.</i></p>
   <br>
-  <li id="vattic"><b>Vattic</b> is the original creator of the Faithful 32x32 texture pack in 2010. In the following years, the pack exploded in popularity, but in 2016, Vattic disappeared from the internet following some unfortunate IRL circumstances, leaving his pack discontinued at the peak of its popularity. After being found again in 2020, he authorized the Faithful project to continue the pack officially. Classic Faithful is built on upscaling textures based on Vattic’s original principles, and to emulate his original style with both the new, Jappa textures and updating legacy versions of the pack with later programmer art textures. All of Vattic’s original art can be found unmodified in the <a href="https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Wayback Archive.</a></li>
+  <li id="vattic"><b>Vattic</b> is the original creator of the Faithful 32x32 texture pack in 2010. In the following years, the pack exploded in popularity, but in 2016, Vattic disappeared from the internet following some unfortunate IRL circumstances, leaving his pack discontinued at the peak of its popularity. After being found again in 2020, he authorized the Faithful project to continue the pack officially. Classic Faithful is built on upscaling textures based on Vattic's original principles, and to emulate his original style with both the new, Jappa textures and updating legacy versions of the pack with later programmer art textures. All of Vattic's original art can be found unmodified in the <a href="https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Wayback Archive.</a></li>
   <br>
   <li id="false-lines"><b>False lines</b> are the occurrence of several elements and/or color areas of a texture lining up in such a way that they create an illusion of a straight line, even when there is none in reality.</li>
   <br>
@@ -234,70 +234,70 @@ ___
 These requirements apply to all textures unless specified otherwise and must all be met for a texture to be considered viable for Classic Faithful.
 
 <ol>
-  <li id="follow-default"><b>Textures need to follow vanilla Minecraft textures whenever possible.</b> This goes without saying, but textures have to keep the same proportions, general coloration, and while transition tones can be added, its similarity with vanilla should always come first. A good rule of thumb is checking how the texture looks from far away compared with vanilla. If the texture doesn’t look very different, that’s a good thing.</li>
+  <li id="follow-default"><b>Textures need to follow vanilla Minecraft textures whenever possible.</b> This should go without saying, but textures have to keep the same proportions, general coloration, and representation as vanilla. A good rule of thumb is to check how the texture looks from far away compared with vanilla; the less difference, the better.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/17.png" alt="default vs cf" class="center" loading="lazy">
   <p class="center"><i><b>Picture 17:</b> Right: A texture with vanilla color placement, proportions, and overall structure. Left: Its vanilla counterpart.</i></p>
   <br>
-  <li id="reference-vattic"><b>When applicable, always reference <a href="https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Vattic's art</a>.</b> Another self explanatory one given the entire purpose of the pack, if the texture has a programmer art equivalent or just generally fits into a similar material as one, always reference Vattic’s original art when drawing textures. Not only does it make texturing much easier, but it also helps keep the stylistic cohesion of looking like Vattic’s original Faithful 32x32.</li>
+  <li id="reference-vattic"><b>When applicable, always reference <a href="https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Vattic's art</a>.</b> Another self explanatory one given the entire purpose of the pack. If the texture has a programmer art equivalent, or just generally fits into a similar material as one, always reference Vattic's original art when drawing textures. Not only does it make texturing much easier, but it also helps keep the stylistic cohesion of looking like Vattic's original Faithful 32x32.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/18.png" alt="vattic vs cf" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 18:</b> Left: Vattic’s bricks. Right: Its Jappa equivalent.</i></p>
+  <p class="center"><i><b>Picture 18:</b> Left: Vattic's bricks. Right: Its Jappa equivalent.</i></p>
   <br>
-  <li id="less-is-more"><b>Keep an overall minimum amount of detail while not looking flat or ugly.</b> Don’t add details that aren’t present in default, and try to keep the level of detail generally basic. Don’t overdo dithering or any blending methods in general, rather use the bare minimum to make the texture not feel plasticky or an undefined mess. In general, less is usually more!</li>
+  <li id="less-is-more"><b>With detailing, less is more.</b> Don’t overdo dithering or antialiasing, use the minimal amount of detail to keep textures from looking flat or ugly. Always ask yourself "could Jappa have done this in a 16x canvas" before adding additional detail; if large details are not present in vanilla there's probably a reason for it. If something genuinely could not fit in the vanilla texture and makes no sense to not add, such as gravel not containing actual rocks, then it can be acceptable to add. However, always get feedback before changing anything noticeable about any texture.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/19.png" alt="overdetailed textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 19:</b> Left: A texture with just enough detail. Right: An overdetailed texture.</i></p>
   <br>
-  <li id="palette"><b>Don’t overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a "plasticky" flat look, but don’t overdo it by making the texture completely nonvanilla or blurry. Generally, between one and three added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
+  <li id="palette"><b>Don't overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a "plasticky" flat look, but don't overdo it by making the texture completely nonvanilla or blurry. Generally, between one and three added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/20.png" alt="constructive color use" class="center" loading="lazy">
   <p class="center"><i><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i></p>
   <br>
-  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like. Two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn’t have a clear outline or the vanilla texture itself doesn’t use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
+  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like; two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn't have a clear outline or the vanilla texture itself doesn't use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
   <img src="/images/pages/textures/classicfaithful/21.png" alt="thinned outlines" class="center" loading="lazy">
   <p class="center"><i><b>Picture 21:</b> Left: Examples of textures with two pixel wide outlines. Right: Textures with one pixel wide outlines.</i></p>
   <br>
   <li id="outdated-textures"><b>If a vanilla texture references an outdated texture, use the outdated texture as a base in the Classic Faithful counterpart.</b> Examples of this include the observer top using an outdated furnace base, the end crystal using an outdated bedrock texture, and smooth stone using an outdated stone texture.</li>
   <br>
-  <li id="reuse-textures"><b>If a texture uses another texture as a base, use the already existing Classic Faithful rendition of it, if available.</b> An example of this would be planks and the crafting table. Don’t make planks from scratch just for the crafting table texture, as not only would this cause inconsistencies if the two are used in conjunction, but it would also waste a lot of effort.</li>
+  <li id="reuse-textures"><b>If a texture uses another texture as a base, use the already existing Classic Faithful rendition of it, if available.</b> An example of this would be planks and the crafting table. Don't make planks from scratch just for the crafting table texture, as not only would this cause inconsistencies if the two are used in conjunction, but it would also waste a lot of effort.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/22.png" alt="reusing textures" class="center" loading="lazy">
   <p class="center"><i><b>Picture 22:</b> A texture that directly references another. Note the identical plank background on the crafting table.</i></p>
   <br>
-  <li id="useless-textures"><b>Don’t upscale useless textures.</b> If a texture would end up looking identical to vanilla when upscaled, is unused, or is already so high resolution that there’s no real need to upscale it, then just don’t do it. It just bloats the file size of the pack and wastes your effort, pretty self explanatory.</li>
+  <li id="useless-textures"><b>Don't upscale useless textures.</b> If a texture would end up looking identical to vanilla when upscaled, is unused, or is already so high resolution that there's no real need to upscale it, then just don't do it. It just bloats the file size of the pack and wastes your effort, pretty self explanatory.</li>
 </ol>
 
 ### **Tips**
 
-These are less specific ways to improve your textures, and unlike rules are more subject to interpretation.
+These are less specific ways to improve your textures, and unlike rules can be subject to interpretation.
 
 <ol>
   <li id="mob-faces"><b>Mob faces</b> can be difficult to interpret. If making eyes, try to blend the corner of the eye into the next color over using an added color. This can be seen on a number of mob textures, as Vattic employed this method a lot. Try to upscale other features unless you cannot make it work (or it creates your new sleep paralysis demon), in which case leaving it the same as default is fine (a "mixel" face).</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/23.png" alt="mob faces" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 23:</b> Left and center: Examples of "demixelled" mob faces. Right: A texture with a mixel face, due to the reference 16x texture being ambiguous as to how to upscale it.</i></p>
+  <p class="center"><i><b>Picture 23:</b> Left and center: Examples of "demixelled" mob faces. Right: A hard to interpret face left as mixels.</i></p>
   <br>
-  <li id="jaggies-bad"><b>Smooth jagged lines whenever possible.</b> When upscaling lines and curves in a texture, you have to ensure jagged or lumpy edges (oftentimes referred to as "jaggies") do not form. Essentially, you want to ensure differing lengths of pixels within the curve don’t alternate or repeat, rather curving it in a more natural way where the lengths of each section get longer or shorter consistently.</li>
+  <li id="jaggies-bad"><b>Smooth jagged lines whenever possible.</b> When upscaling lines and curves in a texture, you have to ensure jagged or lumpy edges (oftentimes referred to as "jaggies") do not form. Essentially, you want to ensure differing lengths of pixels within the curve don't alternate or repeat, rather curving it in a more natural way where the lengths of each section get longer or shorter consistently.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/24.png" alt="jaggies vs not jaggies" class="center" loading="lazy">
   <p class="center"><i><b>Picture 24:</b> Left: Examples of jagged edges and curves. Right: Examples of smooth edges and curves.</i></p>
   <br>
-  <li id="overuse-2px"><b>Don’t overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also makes the texture look flat. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
+  <li id="overuse-2px"><b>Don't overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also makes the texture look flat. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/25.png" alt="stairing pixels" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 25:</b> Left: Incorrect interpretation of textures. Right: A much better interpretation of said textures.</i></p>
+  <p class="center"><i><b>Picture 25:</b> Left: Improper interpretation of textures. Right: Utilizing the larger canvas size to remove unnecessarily thick lines.</i></p>
   <br>
-  <li id="cross-reference"><b>Cross reference other similar textures.</b> his is one of the most important tips; to make textures look like they fit in the pack in the first place. You don't just have to reference Vattic's art, but other pre-existing Classic Faithful textures as well. More information about how to shade specific materials can be found below, but this tip in particular will not only help you improve at getting the general style of Classic Faithful down, but improve at pixel art in general over time.</li>
+  <li id="cross-reference"><b>Cross reference other similar textures.</b> This is one of the most important tips to make textures look like they fit in the pack in the first place. You don't just have to reference Vattic's art, but other pre-existing Classic Faithful textures as well. More information about how to shade specific materials can be found below, but this tip in particular will not only help you improve at getting the general style of Classic Faithful down, but improve at pixel art in general over time.</li>
 </ol>
 
-**And most importantly,** **_always get feedback from others while upscaling a texture!_** **It will help you improve in ways you wouldn’t even have thought of.**
+**And most importantly,** **_always get feedback from others while upscaling a texture!_** **It will help you improve in ways you wouldn't even have thought of.**
 
 ___
 
 ## Part 3: Material Reference List
-This section goes into detail about how to shade materials that you shouldn’t shade in the "normal" way. If a material is not on this list, refer to the first entry.
+This section goes into detail about how to shade materials that you shouldn't shade in the "normal" way. If a material is not on this list, refer to the first entry.
 
 <br id="conventional">
 
@@ -315,14 +315,14 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="contiguous-stones">
 
-**Contiguous stones** that are not broken up into defined shapes should not have any added colors, and should be upscaled in a highly "painted" style, meaning that blobs of color shouldn’t have definition added to them where none exists, and it should be upscaled in a very literal sense of being closer to a simple "demixelling" pass. However, avoiding jagged edges and keeping cohesion present with the rest of the textures is still key.
+**Contiguous stones** that are not broken up into defined shapes should not have any added colors, and should be upscaled in a highly "painted" style, meaning that blobs of color shouldn't have definition added to them where none exists, and it should be upscaled in a very literal sense of being closer to a simple "demixelling" pass. However, avoiding jagged edges and keeping stylistic cohesion present with the rest of the textures is still important.
 
 <img src="/images/pages/textures/classicfaithful/28.png" alt="contiguous stone textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 28:</b> Examples of contiguous stone textures. Note the lack of added detail and the plasticky look.</i></p>
 
 <br id="distinct-stones">
 
-**Rocky materials with distinct stones** should first use added colors to define what is a rock and what is a gap before doing anything else. After this, upscale normally while ensuring that the gaps and the rocks are visibly separated and don’t overly blend into each other using added colors. Always shape based on the rocks, and the gaps will follow based on the rocks and look natural as a result. Otherwise, the rocks won’t look anything like rocks!
+**Rocky materials with distinct stones** should first use added colors to define what is a rock and what is a gap before doing anything else. After this, upscale normally while ensuring that the gaps and the rocks are visibly separated and don't overly blend into each other using added colors. Always shape based on the rocks, and the gaps will follow based on the rocks and look natural as a result. Otherwise, the rocks won't look anything like rocks!
 
 <img src="/images/pages/textures/classicfaithful/29.png" alt="rocky textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 29:</b> Examples of textures with distinct rocks. Note the visible separation of the rounded rocks and gaps through added colors, particularly in comparison to their vanilla counterparts.</i></p>
@@ -350,10 +350,10 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="logs-and-stems">
 
-**Tree bark and mushroom stems** should have heavy amounts of antialiasing in the direction the texture goes added manually using added colors. This is primarily done to preserve the aesthetic of Vattic’s original logs, which had an extremely glossy, almost motion blurred appearance and had no real reasoning for being so.
+**Tree bark and mushroom stems** should have heavy amounts of antialiasing in the direction the texture goes added manually using added colors. This is primarily done to preserve the aesthetic of Vattic's original logs, which had an extremely glossy, almost motion blurred appearance and had no real reasoning for being so.
 
 <img src="/images/pages/textures/classicfaithful/33.png" alt="log and stem textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 33:</b> Examples of heavily motion blurred logs. Note the usage of added colors going in the direction of the texture’s linearity.</i></p>
+<p class="center"><i><b>Picture 33:</b> Examples of heavily motion blurred logs. Note the usage of added colors going in the direction of the texture's linearity.</i></p>
 
 <br id="refined-wood">
 
@@ -364,21 +364,21 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="large-plants">
 
-**Leaves and larger plants** can use small amounts of dithering on the branches mixed in with a slightly increased usage of antialiasing and/or added colors. With thicker plants like cacti or bamboo, don’t use any dithering and upscale conventionally.
+**Leaves and larger plants** can use small amounts of dithering on the branches mixed in with a slightly increased usage of antialiasing and/or added colors. With thicker plants like cacti or bamboo, don't use any dithering and upscale conventionally.
 
 <img src="/images/pages/textures/classicfaithful/35.png" alt="larger plant textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 35:</b> Examples of larger plants. Note the lack of any blending method on stalks and stems.</i></p>
 
 <br id="foliage">
 
-**Flowers and other foliage** can use dithering more heavily than leaves or stalks. Similar to rocky stones, ensure that flowers have a defined shape and don’t overly blend into the stems or leaves, and depending on the flower type either dither or antialias. For plant stems, antialias heavily and thin them out. Vines should be evenly conventionally dithered throughout the entire texture, and use heavy amounts of antialiasing in addition.
+**Flowers and other foliage** can use dithering more heavily than leaves or stalks. Similar to rocky stones, ensure that flowers have a defined shape and don't overly blend into the stems or leaves, and depending on the flower type either dither or antialias. For plant stems, antialias heavily and thin them out. Vines should be evenly conventionally dithered throughout the entire texture, and use heavy amounts of antialiasing in addition.
 
 <img src="/images/pages/textures/classicfaithful/36.png" alt="foliage textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 36:</b> Examples of general foliage. Note the usage of dithering on the vines and on certain flowers, and how the flower stems were thinned out.</i></p>
 
 <br id="grass-fungi">
 
-**Grassy textures and certain fungi** should use a "jumble" or "scramble" filter if your editing program has that, with a few edits to fix mixels and other visual issues. If it doesn’t, manually dither it to give it a coarse texture. Keep the palette as close to vanilla as possible to preserve the contrast, sometimes you may want to use additional effects and index it back to the vanilla palette.
+**Grassy textures and certain fungi** should use a "jumble" or "scramble" filter if your editing program has that, with a few edits to fix mixels and other visual issues. If it doesn't, manually dither it to give it a coarse texture. Keep the palette as close to vanilla as possible to preserve the contrast, sometimes you may want to use additional effects and index it back to the vanilla palette.
 
 <img src="/images/pages/textures/classicfaithful/37.png" alt="grassy textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 37:</b> Examples of grassy textures. Note the usage of patchy dithering.</i></p>
@@ -388,7 +388,7 @@ This section goes into detail about how to shade materials that you shouldn’t 
 **Sand and other powdery materials** should tile the block in a 2x2 grid, then cut out random sections and rotate and/or flip them randomly to remove repetitions that stops the texture from looking just tiled on its own.
 
 <img src="/images/pages/textures/classicfaithful/38.png" alt="powdery textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 38:</b> Examples of powdery materials. Note the fine detail and how it looks almost tiled but isn’t.</i></p>
+<p class="center"><i><b>Picture 38:</b> Examples of powdery materials. Note the fine detail and how it looks almost tiled but isn't.</i></p>
 
 <br id="sandstone">
 
@@ -427,14 +427,14 @@ This section goes into detail about how to shade materials that you shouldn’t 
 
 <br id="door-trapdoor">
 
-**Doors and trapdoors** should be upscaled like what they are made of. However, doors should always use one pixel wide borders, while trapdoors can use two pixel wide blended outlines for the outer border. This discrepancy is due to Vattic’s original wooden door and trapdoor having this inconsistency present.
+**Doors and trapdoors** should be upscaled like what they are made of. However, doors should always use one pixel wide borders, while trapdoors can use two pixel wide blended outlines for the outer border. This discrepancy is due to Vattic's original wooden door and trapdoor having this inconsistency present.
 
 <img src="/images/pages/textures/classicfaithful/44.png" alt="door and trapdoor textures" class="center" loading="lazy">
 <p class="center"><i><b>Picture 44:</b> Examples of doors and trapdoors. Note the usage of depth shading on the trapdoors and one pixel wide lines on the doors.</i></p>
 
 <br>
 
-**And above all, always reference [Vattic’s art](https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/) or other similar textures if possible first.** **_Use these material guidelines only if there is no good reference point or equivalent!_**
+**And above all, always reference [Vattic's art](https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/) or other similar textures if possible first.** **_Use these material guidelines only if there is no good reference point or equivalent!_**
 
 ___
 
@@ -450,12 +450,12 @@ While vanilla programmer art is deprecated and no longer updated, therefore lead
 
 **Newer textures are not "progartified" to match older ones unless there is a direct reference and it is an obvious choice what to do, such as nylium using Jappa netherrack as a base.**
 
-Even though newer Jappa textures have a distinct style from programmer art, the exact way a developer would have gone about making a certain texture can’t ever be known for sure, and it is not up to us to interpret. The aforementioned nylium and netherrack issue has a clear solution, to replace the Jappa netherrack with programmer art netherrack. However, a texture like blackstone has no clear programmer art equivalent, and as such shouldn’t be touched and reuse the Jappa texture.
+Even though newer Jappa textures have a distinct style from programmer art, the exact way a developer would have gone about making a certain texture can't ever be known for sure, and it is not up to us to interpret. The aforementioned nylium and netherrack issue has a clear solution, to replace the Jappa netherrack with programmer art netherrack. However, a texture like blackstone has no clear programmer art equivalent, and as such shouldn't be touched and reuse the Jappa texture.
 
 <img src="/images/pages/textures/classicfaithful/45.png" alt="progartification" class="center" loading="lazy">
 <p class="center"><i><b>Picture 45:</b> Left: Nylium, an example of a texture that should be "progartified" to fix an obvious oversight in the vanilla programmer art resource pack. Right: Blackstone, an example of a texture with no clear programmer art equivalent and as such should not be changed from its Jappa base.</i></p>
 
-That being said, here’s a section to help upscale any of the most different aspects of programmer art and Jappa art.
+That being said, here's a section to help upscale any of the most different aspects of programmer art and Jappa art.
 
 ___
 
@@ -467,7 +467,7 @@ This is a very useful skill for anyone interested in programmer art to learn, an
 Noise is usually present on textures because they are an original, programmer art texture, or are placeholder visuals for a snapshot texture. The reason for noise in textures is generally due to a programmer having no idea how to properly draw pixel art and hiding whatever they made behind a mess of darker and lighter pixels to make it harder to see.
 
 <ol>
-  <li id="tiling-with-edits"><b>Tiling with edits</b> works very well if the texture is powdery or grainy, particularly when the texture is too chaotic and noisy to do it by hand. However, the most important part is to edit the texture after it's been tiled, or tiling repetitions will occur and it won’t look good as a result.</li>
+  <li id="tiling-with-edits"><b>Tiling with edits</b> works very well if the texture is powdery or grainy, particularly when the texture is too chaotic and noisy to do it by hand. However, the most important part is to edit the texture after it's been tiled, or tiling repetitions will occur and it won't look good as a result.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/46.png" alt="tiling repetitions" class="center" loading="lazy">
   <p class="center"><i><b>Picture 46:</b> Left: The default texture. Center: The default texture tiled in a 2x2 grid. Right: Tiling repetitions removed.</i></p>
@@ -477,7 +477,7 @@ Noise is usually present on textures because they are an original, programmer ar
   <img src="/images/pages/textures/classicfaithful/47.png" alt="jumbling" class="center" loading="lazy">
   <p class="center"><i><b>Picture 47:</b> Examples of texture upscaling via jumbling.</i></p>
   <br>
-  <li id="tiled-detail"><b>Tiled detail</b>, which contrasty stone and dirt textures also use, however just without the contrast reduction. After doing a cursory upscale, likely using another method on this list such as bilinear or indexing, tile the same vanilla 16x texture you’re upscaling on top of the texture at a low opacity using a different layer. This works best on dirty or very detailed textures however, as it has a very grainy appearance, similar to jumbling but even more detailed.</li>
+  <li id="tiled-detail"><b>Tiled detail</b>, which contrasty stone and dirt textures also use, however just without the contrast reduction. After doing a cursory upscale, likely using another method on this list such as bilinear or indexing, tile the same vanilla 16x texture you're upscaling on top of the texture at a low opacity using a different layer. This works best on dirty or very detailed textures however, as it has a very grainy appearance, similar to jumbling but even more detailed.</li>
   <br>
   <img src="/images/pages/textures/classicfaithful/48.png" alt="tiled detail" class="center" loading="lazy">
   <p class="center"><i><b>Picture 48:</b> Left: An automatically upscaled base. Center: The vanilla texture tiled. Right: The two overlaid on top of each other.</i></p>
@@ -513,7 +513,7 @@ ___
 ## Conclusion
 
 <p>
-  <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it’s done behind the scenes. If you have any questions or want something changed, make sure to let us know in our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
+  <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it's done behind the scenes. If you have any questions or want something changed, make sure to let us know in our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
 </p>
 
 ___

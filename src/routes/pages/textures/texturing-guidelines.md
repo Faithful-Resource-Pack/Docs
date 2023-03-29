@@ -177,7 +177,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <br>
   <li id="upscaling-a-texture"><b>Upscaling (a texture)</b> in Faithful's context refers to redrawing a vanilla-resolution texture in a higher resolution (32x or 64x) according to these guidelines. In other contexts, it can refer to an image whose resolution has been increased for example, all 1x1 pixels become 2x2 colour areas using an image editing program, and/or with an AI.</li>
   <br>
-  <li id="jappa"><b>JAPPA,</b> or Jasper Boerstra, is Minecraft’s current lead art director and pixel artist and has been working on the game since 2017.</li>
+  <li id="jappa"><b>JAPPA,</b> or Jasper Boerstra is the current art director for Minecraft, formerly working on the game's art from 2017 to 2022.</li>
   <br>
   <li id="prog-art"><b>Programmer art</b> (often colloquially referred to as “progart”) is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren’t made by JAPPA, or any real artist, but by the developers of the game. Note that this term wasn’t coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features. Which is what the pre-1.14 textures basically are, since most of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
   <br>
@@ -426,7 +426,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 
 ___
 
-## Part 4: Fixing Jappa’s Mistakes and Things He’s Forgotten
+## Part 4: Fixing JAPPA’s Mistakes and Things He’s Forgotten
 
 Faithful extends its field of expertise to correcting JAPPA’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
 
