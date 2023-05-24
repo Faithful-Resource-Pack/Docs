@@ -68,7 +68,7 @@ When making a mod for Minecraft: Dungeons, it is important to know that most wea
 
 <h3 id="-what-if-i-dont-have-a-3rd-button-mousenumpad">* What if I don't have a 3rd button mouse/numpad?</h3>
 
-> you can skip this part if you've got a normal keyboard & mouse.
+> You can skip this part if you've got a normal keyboard & mouse.
 
 That's no problem! Blender allows you to emulate both of these, allowing you to access the controls you need.
 Here's how to do it:
@@ -213,7 +213,7 @@ You can export your model into the FBX format by going to File > Export and then
 
 <img class="center" src="/images/pages/dungeons/items-tutorial/export-as-fbx-1.png" alt="export as fbx 1" loading="lazy">
 
-In the window that pops up you can navigate to your desired file location. That's not all tough - we'll also need to change some settings in the tab on the right side. Set the scale in the Transform tab to 0.01 and then, in the Geometry tab, set Smoothing to Face.
+In the window that pops up you can navigate to your desired file location. That's not all though - we'll also need to change some settings in the tab on the right side. Set the scale in the Transform tab to 0.01 and then, in the Geometry tab, set Smoothing to Face.
 
 <img class="center" src="/images/pages/dungeons/items-tutorial/export-as-fbx-2.png" alt="export as fbx 2" loading="lazy">
 
