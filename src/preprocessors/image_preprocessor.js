@@ -11,6 +11,12 @@ import svgo from 'svgo';
 import potrace from 'potrace';
 import { imageHash } from 'image-hash';
 
+const mylog = new console.Console(
+  fs.createWriteStream("image_processor.log", {
+    autoClose: true
+  }),
+);
+
 const defaults = {
   optimizeAll: true, // optimize all images discovered in img tags
 
@@ -188,9 +194,9 @@ async function isImageDifferent(inPath) {
   .then((res) => {
     if(res.isDifferent) {
       updateHash(inPath, res.newHash)
-      console.log(`Image '${inPathToKey(inPath)}' is different for given reason: ${res.reason}`)
+      mylog.log(`Image '${inPathToKey(inPath)}' is different for given reason: ${res.reason}`)
     } else {
-      console.log(`Using cached image of '${inPathToKey(inPath)}'`)
+      mylog.log(`Using cached image of '${inPathToKey(inPath)}'`)
     }
     return res;
   })
@@ -303,7 +309,7 @@ function getSrc(node) {
   try {
     return getProp(node, "src") || [{}];
   } catch (err) {
-    console.log("Was unable to retrieve image src", err);
+    mylog.log("Was unable to retrieve image src", err);
     return [{}];
   }
 }

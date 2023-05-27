@@ -9,6 +9,7 @@ node_modules
 .vercel
 .output
 .pnpm-debug.log
+/*.log
 
 # unlighthouse analysis
 .unlighthouse
