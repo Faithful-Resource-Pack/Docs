@@ -140,7 +140,7 @@ nav {
 		background-color: var(--shadow-black-30-color)
 	}
 }
-div.content > a.nav-link {
+div.content > .nav-link, nav div.content > * {
 	padding: 0 34px 0;
 
 }
@@ -271,35 +271,6 @@ button {
 
     #nav-bg, #nav-bg.nav-open {
         display: none;
-    }
-}
-
-$toc_width: 370px;
-
-@media (min-width: 1600px) {
-    body.toc main {
-        display: flex;
-    }
-
-    body.toc > header {
-        & + main, & + main + footer {
-            padding-right: calc($toc_width + 20px);
-        }
-    }
-
-    body.toc main {
-        .table-of-content {
-            position: fixed;
-
-            border-left: 1px solid var(--line-color);
-
-            top: 56px;
-            margin: 10px;
-            bottom: 0;
-            height: auto;
-            width: $toc_width;
-            right: 10px;
-        }
     }
 }
 

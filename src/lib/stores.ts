@@ -78,18 +78,3 @@ export const menu_opened = createStore('menu_opened', false, v => v === 'true', 
         set
     }
 })
-
-const TOC_CLASS = "toc"
-const create_toc_store = () => {
-  const { subscribe, set } = writable(false)
-
-  return {
-    subscribe,
-    update: (target: Element | undefined, url: URL) => {
-      console.log("target", target)
-      set(target !== undefined && url.pathname !== '/')
-    },
-    class: TOC_CLASS
-  }
-}
-export const toc = create_toc_store();
