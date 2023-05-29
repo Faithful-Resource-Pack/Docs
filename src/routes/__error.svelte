@@ -22,12 +22,26 @@
 	import "../css/app.scss";
 	import { theme } from "../lib/stores";
     import { fade } from "svelte/transition";
+	import { afterNavigate } from "$app/navigation";
+	import { onMount } from "svelte";
 
     export let currentRoute;
 
     $: domain = $page.url.hostname;
 	$: full_title = `404 - Faithful Pack Docs`;
     $: url = $page.url.href;
+
+	//@ts-ignore
+	let body: HTMLElement | this;
+
+	onMount(() => {
+		body = document.body;
+		body.classList.add('error');
+
+		return () => {
+			body.classList.remove('error');
+		};
+	})
 </script>
 
 <svelte:head>
@@ -96,22 +110,39 @@
 	}
 
 	:global {
-		body {
+		body.error {
 			background-color: transparent !important;
-		}
-		$text-color: #c9d1d9;
-		header:not(.header-shadow) .maintitle {
-			color: $text-color;
-			text-shadow: 2px 2px 2px rgba(0,0,0,.75);
-		}
 
-		header:not(.header-shadow) {
-			background: transparent !important;
-		}
-
-		footer {
-			#{$texts} {
+			$text-color: #c9d1d9;
+			header:not(.header-shadow) .maintitle {
 				color: $text-color;
+				text-shadow: 2px 2px 2px rgba(0,0,0,.75);
+			}
+
+			header:not(.header-shadow) {
+				background: transparent !important;
+			}
+
+			footer {
+				#{$texts} {
+					color: $text-color;
+				}
+			}
+
+			$text-color: #c9d1d9;
+			header:not(.header-shadow) .maintitle {
+				color: $text-color;
+				text-shadow: 2px 2px 2px rgba(0,0,0,.75);
+			}
+
+			header:not(.header-shadow) {
+				background: transparent !important;
+			}
+
+			footer {
+				#{$texts} {
+					color: $text-color;
+				}
 			}
 		}
 	}
