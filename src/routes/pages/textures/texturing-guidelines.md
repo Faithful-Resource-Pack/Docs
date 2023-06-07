@@ -67,7 +67,7 @@ deprecated: false
   <ul>
     <li><a href="#materials">Materials</a></li>
     <li><a href="#smooth-metal">Smooth Metal</a></li>
-    <li><a href="#rought-metal">Rough Metal</a></li>
+    <li><a href="#rough-metal">Rough Metal</a></li>
     <li><a href="#gems">Gemstones</a></li>
     <li><a href="#contiguous-stones">Contiguous Stones</a></li>
     <li><a href="#polished-stones">Polished Stones</a></li>
