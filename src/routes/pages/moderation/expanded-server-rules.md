@@ -90,7 +90,7 @@ Template for adding new entries if you're lazy like me:
 ---
 
 ## Rule 2: Use Common Sense
-*This is the generic “don’t be an idiot” rule. Other prohibited actions include raiding or brigading other servers, using hate speech or slurs, jokes about tragedies or other sensitive topics, and spreading misinformation.*
+*This is the generic "don’t be an idiot" rule. Prohibited actions include raiding or brigading other servers, using hate speech or slurs, joking about tragedies or other sensitive topics, and spreading misinformation.*
 <ol>
     <li><b>Being rude or annoying</b> - This is the generic “don’t be an asshole“ rule — just be polite to others and you'll be fine. This includes mocking or making fun of people, toxic/degrading "jokes", snarky comments that make fun of anybody in any way, or being unable to take feedback.</li>
     <ol class="lettered">
@@ -167,7 +167,7 @@ Template for adding new entries if you're lazy like me:
 ---
 
 ## Rule 5: Try to Not Annoy Others
-*This includes overly (reply) pinging, sending loud audio or seizure-inducing videos without a spoiler/disclaimer, and abusing nicknames, reactions, or spoilers. Don’t [ask to ask](https://dontasktoask.com/), (e.g. I have a question), just ask your question directly to save everybody time.*
+*This includes overly (reply) pinging, sending loud audio or seizure-inducing videos without a spoiler/disclaimer, and abusing nicknames, reactions, or spoilers. Don’t [ask to ask](https://dontasktoask.com/), instead just ask your question directly to save everybody time.*
 <ol>
     <li><b>Overly pinging people</b> - This includes abuse of reply pinging. Constantly spamming someone with notifications can be very annoying for said user, they really do not need to be pinged for every new message you send.</li>
     <ol class="lettered">
@@ -196,7 +196,7 @@ Template for adding new entries if you're lazy like me:
 ---
 
 ## Rule 6: Don't Clutter Chats
-*While short tangents are fine, we have multiple chats for a reason, so please use them as intended. Spamming random things, including emojis and stickers, or starting a chat chain contributes nothing to a conversation and causes a mess.*
+*While short tangents are fine, we have multiple channels for a reason, so please use them as intended. Spamming random things, including emojis and stickers, or starting a chat chain contributes nothing to a conversation and only causes a mess.*
 <ol>
     <li><b>Going off-topic</b> - Keep messages/topics to their respective channels, when in doubt use #off-topic. This also includes putting memes in #off-topic — when someone is having a discussion, flooding the channel with gifs and videos suddenly can be annoying for the users in question.</li>
     <ol class="lettered">
@@ -218,9 +218,9 @@ Template for adding new entries if you're lazy like me:
 ---
 
 ## Rule 7: Avoid NSFW and NSFL Content
-*This includes, but is not limited to pornography, gore, overly gross content, etc. If you think it’s against the rules it probably will be, DM a moderator for approval if you’re very unsure.*
+*This includes, but is not limited to pornography, gore, and overly gross content; if you think it’s against the rules it probably will be, DM a moderator for approval if you’re very unsure.*
 <ol>
-    <li><b>NSFW / NSFL content</b> - This is literally a Minecraft art community, post that sort of thing elsewhere. Examples can be found directly above in the rule description, just use common sense and you'll be fine.</li>
+    <li><b>NSFW/NSFL content</b> - This is literally a Minecraft art community, post that sort of thing elsewhere. Examples can be found directly above in the rule description, just use common sense and you'll be fine.</li>
     <ol class="lettered">
         <li>Depending on severity, ranges from a verbal warn/message deletion to a ban and report.</li>
         <li>Slightly questionable content will be punished less than full on gore.</li>
@@ -229,17 +229,17 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 8: Stay Civil around Controversial Topics
-*While topics surrounding politics, religion, firearms, etc, aren’t entirely prohibited, don't start arguments for the sake of it. When having productive discussions, ensure that it doesn't become a fight and that a moderator is available.*
+## Rule 8: Stay Away From Political Discussion
+*General discussion about real-life events is still allowed from a more neutral perspective. If you really want to discuss politics, take it to a DM or another server.*
 <ol>
-    <li><b>Starting an argument over a controversial topic</b> - This would include posting "shock" content, or just generally sending inflammatory messages designed to cause harm.</li>
+    <li><b>Intentionally provoking a political discussion</b> - This would include posting "shock" content, or just generally sending inflammatory messages designed to cause harm.</li>
     <ol class="lettered">
         <li>Give a bot warn and a short mute to the user who incited the argument.</li>
     </ol>
     <br>
-    <li><b>Discussion turning into an argument</b> - It's entirely possible to have a productive discussion about a controversial topic, but discussions can devolve into an argument.</li>
+    <li><b>An unrelated discussion becoming political</b> - Politics can easily get involved in a related but allowed topic like religion.</li>
     <ol class="lettered">
-        <li>Verbal warn all users involved to stop the argument, if it proceeds warn and short mute.</li>
+        <li>Verbal warn all users involved to stop, if it proceeds warn and short mute.</li>
     </ol>
 </ol>
 
