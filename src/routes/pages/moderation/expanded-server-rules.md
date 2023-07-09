@@ -92,7 +92,7 @@ Template for adding new entries if you're lazy like me:
 ## Rule 2: Use Common Sense
 *This is the generic "don’t be an idiot" rule. Prohibited actions include raiding or brigading other servers, using hate speech or slurs, joking about tragedies or other sensitive topics, and spreading misinformation.*
 <ol>
-    <li><b>Being rude or annoying</b> - This is the generic “don’t be an asshole“ rule — just be polite to others and you'll be fine. This includes mocking or making fun of people, toxic/degrading "jokes", snarky comments that make fun of anybody in any way, or being unable to take feedback.</li>
+    <li><b>Being rude or annoying</b> - This is the generic “don’t be an asshole“ rule — just be polite to others and you'll be fine. This includes mocking or making fun of people, toxic or degrading "jokes", snarky comments that make fun of anybody in any way, or being unable to take feedback.</li>
     <ol class="lettered">
         <li>This is one of the rules that highly depends on frequency.</li>
         <li>For the most part verbal warns are used, unless it's becoming a real problem with a particular user, in which case escalate punishments proportionally to frequency.</li>
@@ -103,10 +103,15 @@ Template for adding new entries if you're lazy like me:
         <li>Generally report, however it can depend on damage caused.</li>
     </ol>
     <br>
-    <li><b>Using hate speech or slurs</b> - This includes, but is not limited to: general derogatory names, racial slurs, fatphobia, slurs against disabilities or religion, homophobia, transphobia, and other slurs related to one’s identity.</li>
+    <li><b>Using hate speech or slurs</b> - This includes, but is not limited to: general derogatory names, racial slurs, fatphobia, slurs against disabilities or religion, homophobia, transphobia, and other slurs related to one’s identity. This additionally includes using religion as a vehicle to justify harassment or hate speech.</li>
     <ol class="lettered">
-        <li>If it is used as hyperbole/not seriously, verbally warn the user that these terms are not allowed and delete the messages in question. Ban for repeated offenses.</li>
-        <li>If it is done to cause harm, ban and report the user.</li>
+        <li>If done as hyperbole/not seriously, verbally warn the user that these terms are not allowed and delete the messages in question. Ban for repeated offenses.</li>
+        <li>If done to cause harm, ban and report the user.</li>
+    </ol>
+    <br>
+    <li><b>Being unable to respect people's identity</b> - Intentional misgendering, inflammatory comments, and generally rude comments towards one's identity — even those that aren't outright hate speech — are disallowed under all circumstances.</li>
+    <ol class="lettered">
+        <li>Between a short mute and ban depending on context and the severity of actions.</li>
     </ol>
     <br>
     <li><b>Jokes about tragedies, suicides, or other sensitive topics</b> - This includes both past and ongoing events.</li>
@@ -198,7 +203,7 @@ Template for adding new entries if you're lazy like me:
 ## Rule 6: Don't Clutter Chats
 *While short tangents are fine, we have multiple channels for a reason, so please use them as intended. Spamming random things, including emojis and stickers, or starting a chat chain contributes nothing to a conversation and only causes a mess.*
 <ol>
-    <li><b>Going off-topic</b> - Keep messages/topics to their respective channels, when in doubt use #off-topic. This also includes putting memes in #off-topic — when someone is having a discussion, flooding the channel with gifs and videos suddenly can be annoying for the users in question.</li>
+    <li><b>Going off-topic</b> - Keep messages/topics to their respective channels; when in doubt use #off-topic. This also includes putting memes in #off-topic — when someone is having a discussion, flooding the channel with gifs and videos suddenly can be annoying for the users in question.</li>
     <ol class="lettered">
         <li>Verbal warn everyone involved to move to #off-topic or #memes, if discussion persists use a bot warn.</li>
     </ol>
@@ -251,6 +256,7 @@ Template for adding new entries if you're lazy like me:
     <li><b>Advertising without context</b> - Resource packs are allowed within reason, however don't overdo it.</li>
     <ol class="lettered">
         <li>Delete the offending content and verbal warn the user not to do it again. Repeat offenses will lead to a mute and ban.</li>
+        <li>This includes doing transactions with real-life money — take these topics to DMs or a more suitable place.</li>
     </ol>
     <br>
     <li><b>Spamming/DM advertising</b> - This also includes any sort of inappropriate advertising or scams.</li>
