@@ -32,8 +32,8 @@ Finally, during the creation of your texture, we recommend that you share your p
 ## Formatting a Submission
 Once you’re done with your texture, submit it by uploading a PNG file in the proper channel. Make sure the file name is exactly the same as the name of the texture in the game files! If you're looking for which channel submits to which project, here's a handy guide:
 
-- [#32x-submit-textures](https://ptb.discord.com/channels/773983706582482946/773987409993793546) – Faithful 32x
-- [#64x-submit-textures](https://ptb.discord.com/channels/773983706582482946/931887174977208370) – Faithful 64x
+- [#32x-submit-textures](https://discord.com/channels/773983706582482946/773987409993793546) – Faithful 32x
+- [#64x-submit-textures](https://discord.com/channels/773983706582482946/931887174977208370) – Faithful 64x
 - [#32x-submit-jappa](https://discord.com/channels/814198513847631944/814201529032114226) – Classic Faithful 32x Jappa
 - [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x PA
 - [#64x-submit-jappa](https://discord.com/channels/814198513847631944/814209343502286899) – Classic Faithful 64x
@@ -48,9 +48,7 @@ If you’re submitting a texture with a name that is present more than once in t
 
 ANY reused part of an existing Faithful texture should be credited in your submission. Additionally, if you’ve collaborated with someone else while making the texture, credit the co-author(s) as well. Ping all co-authors in your submission comment for the bot to add them automatically. You can find out exactly who made which texture by searching for it using the `/texture` command or by using our web app gallery.
 
-If you see plain text rather than a Discord ping in the `/texture` embed, this is a user who is no longer in the Discord server. To credit them, you can surround their name in curly brackets, so the bot can detect you're trying to add this user as a co-author. For example, "Fixed a false line. Credit to {Author} for the original texture." would credit Author. This syntax also works for users who are in the server, but it's usually easier to just directly ping them.
-
-However, if credits for a texture are missing, you don’t need to worry about any of this.
+If you see plain text rather than a Discord ping in the `/texture` embed, this is a user who is no longer in the Discord server. To credit them, you can surround their name in curly brackets, so the bot can detect you're trying to add this user as a co-author. For example, "Fixed a false line. Credit to {Author} for the original texture." would credit Author. This syntax also works for users who are in the server, but it's usually easier to just directly ping them (if credits for a texture are missing, you don’t need to worry about any of this).
 
 You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, then click the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message the Managers and they will remove your texture.
 
@@ -64,11 +62,9 @@ Finally, please know that by submitting a texture, you agree to allow:
 Whether a texture makes it into Faithful or not is determined by a voting process. It consists of two stages:
 1. **Community Voting:**
     On the main Discord, this period lasts for 2 days and is open to everybody. For Classic Faithful, this period lasts one day. To vote on a submission, simply click on the check mark ✅ or cross ❌ button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
-    - **Clearly view the texture:** You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to actually view. Thankfully, the bot is equipped with tools that you can use to get a better view of the texture. Clicking the third button next to the voting buttons should pop open a tool menu. To magnify the texture and see it better, click the magnifying glass. You should now be able to see the texture up close. This button is also a command in the form of `/magnify`.
+    - **Clearly view the texture:** You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to actually view. Thankfully, the bot is equipped with tools that you can use to get a better view of the texture. You can click on the magnifying glass button to view the texture more closely (this button is also a command in the form of `/magnify`).
 
-    - **Compare different resolutions:** When evaluating, you shouldn’t just look at the texture that was submitted. Of course, with this being a higher resolution resource pack of the base textures, it’s important that the texture is consistent to the original. Always compare textures with their vanilla equivalents when evaluating them.
-
-        The bot has another tool dedicated to comparing textures to other resolutions in submissions. This tool is called the `/compare` command. When clicking on the white arrow next to the voting icons, find the symbol of 2 arrows stacked on top of each other. An image should pop up with textures side by side. When comparing, try to look for consistency issues such as incorrect color placement, incorrect shape sizes, and even detail not present in the original.
+    - **Compare different resolutions:** When evaluating, you shouldn’t just look at the texture that was submitted. Of course, with this being a higher resolution resource pack of the base textures, it’s important that the texture is consistent to the original. Using the comparison image inside the submission embed, try to look for consistency issues such as incorrect color placement, incorrect shape sizes, and even detail not present in the original.
 
     - **Communicate issues to the author:** Communication to the author is a crucial part of the evaluation process. If at any point, you find issues through your evaluation of a texture, try to explain to the original author what issues the texture has, and try to give advice on how to fix it. Remember, constructive criticism is key – simply saying that “a texture is bad” is no help whatsoever.
 
@@ -76,7 +72,7 @@ Whether a texture makes it into Faithful or not is determined by a voting proces
 
 2. **Art Director Council Voting**: When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 2 day period), it enters a 1-day phase of council voting. During this phase, council members talk about the submission in private and vote to determine whether the texture fits the stylistic direction of Faithful. For Classic Faithful, the results from community voting directly go to results, without a council phase.
 
-    A texture passes council voting if its got more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
+    A texture passes council voting if it has more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
 
 Besides the upvote and downvote options regular users get, there are 2 other options that the council and Managers have:
 
