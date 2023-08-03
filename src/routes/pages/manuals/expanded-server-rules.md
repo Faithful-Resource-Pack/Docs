@@ -1,6 +1,6 @@
 ---
 title: "Expanded Server Rules"
-type: "Moderation"
+type: "Manuals"
 date: "23/10/2022"
 deprecated: false
 ---
@@ -21,7 +21,7 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Introduction
+<h2 id="introduction">Introduction</h2>
 
 <p>
     <i>
@@ -62,7 +62,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 1: Read & Follow Discord's Terms of Service and Community Guidelines
+<h2 id="1">Rule 1: Read & Follow Discord's Terms of Service and Community Guidelines</h2>
+
 *This includes misuse of client modifications (e.g. message loggers) and discussion or promotion of illegal activity.*
 <ol>
     <li><b>Breaking Discord's Terms of Service</b> - <a href="https://discord.com/terms">https://discord.com/terms</a></li>
@@ -89,7 +90,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 2: Use Common Sense
+<h2 id="2">Rule 2: Use Common Sense</h2>
+
 *This is the generic "don’t be an idiot" rule. Prohibited actions include raiding or brigading other servers, using hate speech or slurs, joking about tragedies or other sensitive topics, and spreading misinformation.*
 <ol>
     <li><b>Being rude or annoying</b> - This is the generic “don’t be an asshole“ rule — just be polite to others and you'll be fine. This includes mocking or making fun of people, toxic or degrading "jokes", snarky comments that make fun of anybody in any way, or being unable to take feedback.</li>
@@ -128,7 +130,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 3: Speak English
+<h2 id="3">Rule 3: Speak English</h2>
+
 *People and by extension moderators can't know what you're saying otherwise, as this is an English-speaking server. Please use a [translator](https://deepl.com) if you cannot fluently understand English.*
 <ol>
     <li><b>Speaking a non-English language in general</b> - This would include not knowing English well or not knowing about this rule.</li>
@@ -149,7 +152,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 4: Be Constructive and Polite
+<h2 id="4">Rule 4: Be Constructive and Polite</h2>
+
 *Give constructive criticism people can use to improve their work, not just say that something is ugly or bad. Swearing is allowed within reason, however don’t cross the line into harassment.*
 <ol>
     <li><b>Not giving constructive feedback on work</b> - If you wouldn't want to hear it said towards your own creations, don't say it; simple as that.</li>
@@ -171,7 +175,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 5: Try to Not Annoy Others
+<h2 id="5">Rule 5: Try to Not Annoy Others</h2>
+
 *This includes overly (reply) pinging, sending loud audio or seizure-inducing videos without a spoiler/disclaimer, and abusing nicknames, reactions, or spoilers. Don’t [ask to ask](https://dontasktoask.com/), instead just ask your question directly to save everybody time.*
 <ol>
     <li><b>Overly pinging people</b> - This includes abuse of reply pinging. Constantly spamming someone with notifications can be very annoying for said user, they really do not need to be pinged for every new message you send.</li>
@@ -200,7 +205,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 6: Don't Clutter Chats
+<h2 id="6">Rule 6: Don't Clutter Chats</h2>
+
 *While short tangents are fine, we have multiple channels for a reason, so please use them as intended. Spamming random things, including emojis and stickers, or starting a chat chain contributes nothing to a conversation and only causes a mess.*
 <ol>
     <li><b>Going off-topic</b> - Keep messages/topics to their respective channels; when in doubt use #off-topic. This also includes putting memes in #off-topic — when someone is having a discussion, flooding the channel with gifs and videos suddenly can be annoying for the users in question.</li>
@@ -222,7 +228,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 7: Avoid NSFW and NSFL Content
+<h2 id="7">Rule 7: Avoid NSFW and NSFL Content</h2>
+
 *This includes, but is not limited to pornography, gore, and overly gross content; if you think it’s against the rules it probably will be, DM a moderator for approval if you’re very unsure.*
 <ol>
     <li><b>NSFW/NSFL content</b> - This is literally a Minecraft art community, post that sort of thing elsewhere. Examples can be found directly above in the rule description, just use common sense and you'll be fine.</li>
@@ -234,7 +241,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 8: Stay Away From Political Discussion
+<h2 id="8">Rule 8: Stay Away From Political Discussion</h2>
+
 *General discussion about real-life events is still allowed from a more neutral perspective. If you really want to discuss politics, take it to a DM or another server.*
 <ol>
     <li><b>Intentionally provoking a political discussion</b> - This would include posting "shock" content, or just generally sending inflammatory messages designed to cause harm.</li>
@@ -250,7 +258,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 9: No Unsolicited Promoting or Advertising
+<h2 id="9">Rule 9: No Unsolicited Promoting or Advertising</h2>
+
 *Any sort of advertising that is not in context or clearly solicited is disallowed. Spamming or DM messaging advertisements will get you reported to Discord and banned from the servers.*
 <ol>
     <li><b>Advertising without context</b> - Resource packs are allowed within reason, however don't overdo it.</li>
@@ -267,7 +276,8 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## Rule 10: Don’t Leak Private Information
+<h2 id="10">Rule 10: Don’t Leak Private Information</h2>
+
 *What happens in private channels stays in those channels; keep any confidential information you may have private. Doxxing will get you reported to Discord and banned from the servers.*
 <ol>
     <li><b>Leaking private information</b> - This applies to all users, not just staff. Always get permission before leaking information.</li>
@@ -283,7 +293,7 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-## About Appeals
+<h2 id="appeals">About Appeals</h2>
 
 Oftentimes, moderation action is required immediately and a debate over punishments isn't possible, which can lead to sub-optimal decisions being made by staff. In addition, people can change for the better and having your past looming over you isn't the best way to get a clean slate.
 
@@ -295,19 +305,19 @@ The "grace period" between punishment and appeal can last anywhere from a few da
 
 ---
 
-## Conclusion
+<h2 id="conclusion">Conclusion</h2>
 
 _Well, you made it to the end. If you somehow read all the rules, hopefully you now understand our thought process into enforcing our policies with our Discord servers. If you don't, that's fine too — let us know what we can change to improve clarity and readability on our main [Discord Server](https://discord.gg/sN9YRQbBv7). None of these rules are set in stone, and if a lot of people disagree with a policy it can always be altered._
 
 _As with many things, nothing can be applied completely, as there will always be gray areas. This is why these punishment guidelines tend to have ranges of punishment and nothing concrete within them, because there will always be exceptions to the rules and we can't cover every possible edge case. After all, they're just guidelines in the end._
 
-## And finally…
+<h2 id="footnote">And finally…</h2>
 
 Our golden rule of moderation: **"If a post is not done with malicious intent and people don’t seem to care, don’t give permanent punishments."**
 
 ---
 
-## Credits
+<h2 id="credits">Credits</h2>
 <p>
     Concept by <a href="https://www.reddit.com/user/Pythagoras_314">Pythagoras_314</a>.
     <br>Written by <a href="https://github.com/3vorp">Evorp</a>.

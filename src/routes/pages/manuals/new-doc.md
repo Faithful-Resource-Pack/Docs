@@ -1,6 +1,6 @@
 ---
 title: "Write a Doc"
-type: "Docs"
+type: "Manuals"
 date: "19/07/2021"
 deprecated: false
 ---
@@ -26,9 +26,9 @@ archived: false
 
 ## Markdown
 
-Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004.  
-You can find a useful cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).  
-You can find a useful online editor for it [here](https://hackmd.io/) (click the blue button saying: ``use for free``).  
+Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004.
+You can find a useful cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+You can find a useful online editor for it [here](https://hackmd.io/) (click the blue button saying: ``use for free``).
 
 ## Other programming/markup languages
 
