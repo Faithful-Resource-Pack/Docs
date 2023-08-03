@@ -10,7 +10,7 @@ deprecated: false
 </script>
 
 # The Faithful Contributor's Handbook
-### A step-by-step guide on how to create and submit textures for Faithful, and vote on them afterwards.
+#### *A step-by-step guide on how to create and submit textures for Faithful, and vote on them afterwards*
 
 *If you’re reading this, you’ve most likely decided to help Faithful out and make a texture! For that, we sincerely thank you. Faithful is a fully community-run project, and wouldn’t be able to exist without volunteers like yourself!*
 
