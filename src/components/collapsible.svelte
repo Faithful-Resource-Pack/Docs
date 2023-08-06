@@ -12,7 +12,7 @@
 
   $: collapsed_icon  = collapsed ? faPlus : faMinus;
   $: collapsed_class = collapsed ? "" : " active";
-  $: collapsed_style = collapsed ? "" : `max-height: none`;
+  $: collapsed_style = collapsed ? "" : `max-height: none; --nav-background-color: rgba(0,0,0,0.1)`;
 </script>
 
 <div>
@@ -21,7 +21,7 @@
       {name.toUpperCase()} <span class="icon-right"><Fa icon={collapsed_icon} /></span>
     </button>
   </div>
-  <div class="content" style={collapsed_style} bind:this={content_el}>
+  <div class="content" style={collapsed_style} class:expanded={!collapsed} bind:this={content_el}>
     {#each posts as post}
       <NavItem {post} />
     {/each}
@@ -32,4 +32,8 @@
 	.collapsible .icon-right {
 		float: right;
 	}
+
+  .expanded {
+    background-color: rgba(0,0,0,0.1);
+  }
 </style>

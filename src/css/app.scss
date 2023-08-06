@@ -60,9 +60,6 @@ header {
 	background: rgba(0, 0, 0, 0) url(/images/menu.svg) no-repeat;
 	background-size: 100% 100%;
 }
-.header-shadow {
-	box-shadow: 0 0 8px var(--shadow-black-50-color);
-}
 #DarkMode.nav-link {
     text-transform: uppercase;
     &:hover {
@@ -97,15 +94,13 @@ $main-padding: 16px;
 }
 
 $menu_width: 350px;
-
 nav {
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: -$menu_width;
 	width: $menu_width;
-	background: var(--background-white-color);
-	box-shadow: 0 0 8px var(--shadow-black-50-color);
+	background: var(--nav-panel-color);
 	overflow: hidden auto;
 	transition: .5s;
 	z-index: 100;
@@ -116,13 +111,14 @@ nav {
 }
 
 #nav-img {
-	height: calc(630px / 3.5);
-	margin: 0 0 16px 0;
-	font-size: 0;
-	background-image: url(/images/nav_image_logo.png);
-	background-repeat: no-repeat, repeat;
-	background-position: center, center;
-	background-size: 100% 100%, contain;
+	padding-left: 10px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+
+	&:global( > button) {
+		flex-grow: 1;
+	}
 }
 .nav-link {
 	display: block;
@@ -133,7 +129,7 @@ nav {
 	line-height: 36px;
 	text-decoration: none;
 	text-align: left;
-	color: var(--text-color) !important;
+	color: var(--nav-text-color, inherit);
 	background-color: var(--nav-background-color);
 
 	&:hover {
@@ -311,7 +307,7 @@ blockquote {
 	line-height: 36px;
 	padding: 0 16px 0;
 	background-color: #0000 !important;
-	color: var(--text-color);
+	color: var(--nav-text-color, inherit);
 
 	&:hover {
 		background-color: var(--shadow-black-30-color) !important;
@@ -325,7 +321,7 @@ blockquote {
 .collapsible:after, .home:after, #DarkMode.nav-link:after {
 	font-size: 13px;
 	margin-left: 5px;
-	color: var(--text-color);
+	color: var(--nav-text-color, inherit);
 	float: right;
 }
 
@@ -534,8 +530,21 @@ footer {
 	text-align: center;
 
 	& > p {
-		margin: 16px 0;
+		margin: 8px 0;
+
+		&:first-child {
+			margin-top: 16px;
+		}
+
+		#DarkMode {
+			margin-bottom: -8px;
+		}
+
+		&:last-child {
+			margin-bottom: 16px;
+		}
 	}
+
 }
 
 :where(h1, h2, h3, h4, h5, h6) {
@@ -544,8 +553,7 @@ footer {
 
 		&::before {
 			content: '#';
-			position: absolute;
-			left: -1.2ch;
+			margin-left: 0.5ch;
 			opacity: 0;
 			text-decoration: underline;
 		}

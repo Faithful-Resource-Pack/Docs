@@ -33,10 +33,12 @@
 
 	// after content rendered to the DOM
 	onMount(async () => {
-  	const Hammer = await import("svelte-hammer")
+		// swipe event import
+  		const Hammer = await import("svelte-hammer")
 
 		// ensure client-side code
 		if(browser) {
+			handleScroll(); // make sure at startup
 			document.addEventListener('scroll', handleScroll);
 
 			// nav-swipe is not null
@@ -47,7 +49,7 @@
 	})
 </script>
 
-<header class={$nav_class + ' ' + shadow_class}>
+<header class={$nav_class + ' ' + shadow_class} class:border={shadow}>
 	<button id="menuBtn" class="header-button" type="button" on:click={ menu_opened.toggle }>Menu</button>
 	<h1 class="small-display maintitle">
 		<span class="height" /><a href="/">
@@ -62,21 +64,87 @@
 	<div id="nav-swipe"></div>
 	<div id="nav-bg" class={$nav_class} on:click={() => $menu_opened = false} on:keydown={() => {}}></div>
 	<nav class={$nav_class}>
-		<div id="nav-img">Logo</div>
-		<ThemeButton navLink />
+		<div id="nav-img" class:border={shadow}>
+			<a href="/">
+				<img height="48" width="48" src="https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/logos/transparent/64/plain_logo.png" alt="F">
+				<Fa id="icon" icon={faHome} size="xs" />
+			</a>
+			<ThemeButton inline={true} />
+		</div>
 
-		{#if new URL($page.url).pathname !== '/'}
-			<a class="nav-link home" style="height: 36px; line-height: 36px;" href="/">HOME <span class="icon-right"><Fa icon={faHome} /></span></a>
-		{/if}
-
-		{#each categories as item}
-			<Collapsible name={item} posts={posts.filter(p => p.meta.type === item)} />
-		{/each}
+		<div id="nav-list">
+			{#each categories as item}
+				<Collapsible name={item} posts={posts.filter(p => p.meta.type === item)} />
+			{/each}
+		</div>
 	</nav>
 </header>
 
 <style lang="scss">
 	.nav-link .icon-right {
 		float: right;
+	}
+
+	$border-color: var(--header-border-color, rgba(0,0,0,0.5));
+	// Header little border
+	header {
+		@include little-border(transparent);
+
+		&.border {
+			@include little-border-color($border-color);
+		}
+	}
+
+	#nav-img {
+		position: relative;
+		@include little-border(transparent);
+
+		&.border {
+			@include little-border-color($border-color);
+		}
+	}
+
+	#nav-img {
+		a {
+			margin: 4px 0;
+			padding-right: 10px;
+			color: inherit;
+
+			& :global( > *) {
+				display: inline-block;
+				vertical-align: middle;
+				transition: opacity 0.2s ease;
+			}
+
+			// opacity effect
+			& :global( > div) {
+				opacity: 0.8;
+			}
+			& :global( > div + svg) {
+				margin-left: 3px;
+				opacity: 0.7;
+			}
+			&:hover :global( > *) {
+				opacity: 1;
+			}
+		}
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		color: var(--nav-text-color, inherit);
+
+		#nav-list {
+			flex-grow: 1;
+			overflow-y: auto;
+			padding-top: 3px;
+		}
+
+		& :global {
+			ol, ul, li {
+				color: var(--nav-text-color, inherit);
+			}
+		}
 	}
 </style>

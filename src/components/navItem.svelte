@@ -2,7 +2,6 @@
 	import Fa from "svelte-fa";
 	import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 	import { page } from "$app/stores";
-	import { onMount } from "svelte";
 
 	export let post: App.Post;
 
@@ -28,7 +27,8 @@
 
   $: hasToc = post.toc !== null;
   $: showToc = hasToc && $page.url.pathname == post.path;
-  $: adaptedToc = post.toc !== null ? post.toc.replaceAll('href="#', `href="${post.path}/#`) : post.toc;
+
+  $: adaptedToc = showToc && post.toc !== null ? post.toc.replaceAll('href="#', `href="${post.path}/#`) : post.toc;
 
   let collapsed = true;
   $: collapsed_icon  = collapsed ? faPlus : faMinus;
@@ -72,7 +72,7 @@
   }
 
   a, .toc :global(a) {
-    color: inherit !important;
+    color: var(--nav-text-color, inherit) !important;
   }
 
   .nav-text {
@@ -86,6 +86,7 @@
   }
 
   .toc-collapse {
+    color: var(--nav-text-color, inherit);
     background: transparent;
     padding-left: 16px;
     padding-right: 16px;
