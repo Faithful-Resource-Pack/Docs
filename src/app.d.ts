@@ -17,6 +17,7 @@ declare namespace App {
 			date: string,
 		},
 		path: string,
+		toc: string | null
 	}
 
 	// interface Platform {}

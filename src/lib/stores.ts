@@ -5,7 +5,7 @@ const THEME_DEFAULT = '0'
 let THEME_INITIAL = Number.parseInt(browser ? window.localStorage.getItem('theme') ?? THEME_DEFAULT : THEME_DEFAULT, 10);
 // hotfix for the old site's theme breaking the new site completely
 if (isNaN(THEME_INITIAL) ) THEME_INITIAL = THEME_DEFAULT as unknown as number
-const THEME_VALUES = [
+export const THEME_VALUES = [
   {
     value: 'auto',
     html: 'Theme: auto'
@@ -78,18 +78,3 @@ export const menu_opened = createStore('menu_opened', false, v => v === 'true', 
         set
     }
 })
-
-const TOC_CLASS = "toc"
-const create_toc_store = () => {
-  const { subscribe, set } = writable(false)
-
-  return {
-    subscribe,
-    update: (target: Element | undefined, url: URL) => {
-      console.log("target", target)
-      set(target !== undefined && url.pathname !== '/')
-    },
-    class: TOC_CLASS
-  }
-}
-export const toc = create_toc_store();

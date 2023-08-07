@@ -63,8 +63,10 @@ const config = {
 			layout: "./src/routes/layout.svelte",
 			rehypePlugins: [
 				rehypeSlug,
-				rehypeAutolinkHeadings
-			]
+				() => rehypeAutolinkHeadings({
+					behavior: "append"
+				})
+			],
 		})
 	]),
 

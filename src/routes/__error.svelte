@@ -58,6 +58,10 @@
 		<style lang="scss">
 			@use "../css/dark.scss";
 		</style>
+	{:else if $theme === 'light' || ($theme === 'auto' && browser && window.matchMedia('(prefers-color-scheme: light)').matches)}
+		<style lang="scss">
+			@use '../css/light.scss';
+		</style>
 	{/if}
 </svelte:head>
 
@@ -76,12 +80,16 @@
     </main>
 {/key}
 
-<Footer />
+<Footer absolute />
 
 <style lang="scss">
     h1, p {
         color: #ccc;
     }
+
+	:global(body) {
+		position: relative;
+	}
 
 	main #content {
 		padding-top: 56px;

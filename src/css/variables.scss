@@ -44,3 +44,22 @@ $texts: 'p, ul, ol, li, td';
 @mixin menu-transition($elements: all) {
 	transition: $elements .5s;
 }
+
+@mixin little-border($color: rgba(0,0,0,0.3)) {
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: $color;
+		transition: all .5s;
+		height: 2px;
+	}
+}
+@mixin little-border-color($color: rgba(0,0,0,0.3)) {
+	&::after {
+		background-color: $color;
+	}
+}
