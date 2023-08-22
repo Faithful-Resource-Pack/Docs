@@ -44,3 +44,6 @@ imageHash.json
 # Ignore code-workspaces
 *.code-workspace
 
+
+# some temporary vite config gile
+vite.config.*.mjs
