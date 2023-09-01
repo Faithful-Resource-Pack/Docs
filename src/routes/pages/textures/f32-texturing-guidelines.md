@@ -255,7 +255,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <br>
   <li id="bugs-in-textures"><b>If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, “Jappafication” errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
   <br>
-  <li id="noise"><b>Noise</b> that was clearly generated using a filter is only to be kept if removing it would alter the general look of the texture too significantly. If noise is upscaled, its palette should be reduced to a minimum.
+  <li id="noise"><b>Noise</b> that was clearly generated using a filter is only to be kept if removing it would alter the general look of the texture too significantly. If noise is upscaled, its palette should be reduced to a minimum.</li>
   <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/22_1.png" alt="when to remove noise" class="center" loading="lazy">
   <p class="center"><i><b>Picture 21:</b> In this particular texture, the noise is contrasty and visible enough to be kept and upscaled.</i></p>
