@@ -56,6 +56,7 @@ deprecated: false
     <li><a href="#other-texture-as-base">Use Existing Textures as a Base</a></li>
     <li><a href="#identical-when-upscaled">Don't Upscale Useless Textures</a></li>
     <li><a href="#bugs-in-textures">Fix Vanilla Bugs</a></li>
+    <li><a href="#noise">Dealing with Noise</a></li>
   </ol>
   <ol>
     Tips
@@ -254,6 +255,13 @@ These requirements apply to all textures unless specified otherwise and must all
   <br>
   <li id="bugs-in-textures"><b>If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.</b> Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, “Jappafication” errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.</li>
   <br>
+  <li id="noise"><b>Noise</b> that was clearly generated using a filter is only to be kept if removing it would alter the general look of the texture too significantly. If noise is upscaled, its palette should be reduced to a minimum.
+  <br>
+  <img src="/images/pages/textures/f32-texturing-guidelines/22_1.png" alt="when to remove noise" class="center" loading="lazy">
+  <p class="center"><i><b>Picture 21:</b> In this particular texture, the noise is contrasty and visible enough to be kept and upscaled.</i></p>
+  <br>_
+  <img src="/images/pages/textures/f32-texturing-guidelines/22_2.png" alt="texture with noise removed" class="center" loading="lazy">
+  <p class="center"><i><b>Picture 22:</b> The Shulker Box is an example of a texture where the noise is barely visible, and therefore should be removed.</i></p>
   <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Art Director Council approves it.</b></p>
 </ol>
 
@@ -263,17 +271,17 @@ These requirements apply to all textures unless specified otherwise and must all
   <li id="mob-faces"><b>Mob faces</b> can be particularly hard to interpret in only double the resolution. If all attempts at upscaling the face end up looking bad, it is acceptable to use a “mixel-face” – just keeping the vanilla mob face, without any edits, on an upscaled background.</li>
   <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/23.png" alt="acceptable mob face" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 21:</b> An acceptable mob face.</i></p>
+  <p class="center"><i><b>Picture 23:</b> An acceptable mob face.</i></p>
   <br>
   <li id="dithering-tip"><b>Dithering</b> should not be overdone, unless you’re re-drawing a particularly noisy texture (e.g. sand). Also while dithering, try to avoid lone pixels, as in the ones that do not border other ones of the same colour.</li>
   <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/24.png" alt="overdone dithering" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 22:</b> A close-up of a colour transition with lone pixels, which should be avoided.</i></p>
+  <p class="center"><i><b>Picture 24:</b> A close-up of a colour transition with lone pixels, which should be avoided.</i></p>
   <br>
   <li id="stairing-pixels"><b>Try to minimise the occurrence of stairing pixels</b>, an example of which is shown below.</li>
   <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/25.png" alt="stairing pixels" class="center" loading="lazy">
-  <p class="center"><i><b>Picture 23:</b> Left: Example of a colour transition featuring stairing pixels. Right: The same transition, with the stairing removed.</i></p>
+  <p class="center"><i><b>Picture 25:</b> Left: Example of a colour transition featuring stairing pixels. Right: The same transition, with the stairing removed.</i></p>
 </ol>
 
 **And most importantly, always get feedback from others while drawing a texture! It will help you improve in ways you wouldn’t even have thought of.**
@@ -293,28 +301,28 @@ There exists a correlation between the roughness and shininess of a material and
 **Smooth metal** should only use anti-aliasing as a colour blending method, or no blending at all. The colour palette should be limited and contrasty. In some cases mild linear dithering is acceptable if it’s required to keep the texture from looking like plastic. Additionally, in item textures, faces of an object which are in the shade should have a lighter outline (as well as the item outline itself) to simulate light reflection.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/26.png" alt="smooth metal textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 24:</b> Examples of various smooth metal textures.</i></p>
+<p class="center"><i><b>Picture 26:</b> Examples of various smooth metal textures.</i></p>
 
 <br id="rough-metal">
 
 **Rough metals** such as raw ore blocks, netherite, anvils and even iron golems should follow the same lighting logic as regular metals while being dithered. Regular dithering should be used as the preferred method.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/27.png" alt="rough metal textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 25:</b> Examples of rough metal textures.</i></p>
+<p class="center"><i><b>Picture 27:</b> Examples of rough metal textures.</i></p>
 
 <br id="gems">
 
 **Diamonds and other gemstones** in Minecraft’s context should be shaded like reflective rocks more than anything – they usually don’t let much light pass through, unlike their real-life counterparts. Only anti-aliasing should be used here. For faces in the shade in item textures, the same shading logic as on smooth metal textures applies.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/28.png" alt="gemstone textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 26:</b> Examples of gemstone textures.</i></p>
+<p class="center"><i><b>Picture 28:</b> Examples of gemstone textures.</i></p>
 
 <br id="contiguous-stones">
 
 **Contiguous stones** that are not broken up into smaller rocks are very rough, so they should use dithering as much as possible. For textures with a linear pattern (stone, dripstone), it is recommended to use a mixture of linear and regular dithering to emphasise the material even more. Anti-aliasing can be used here, but only when the material is smoother than usual, like with dripstone.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/29.png" alt="raw stone textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 27:</b> Examples of contiguous raw stone textures.</i></p>
+<p class="center"><i><b>Picture 29:</b> Examples of contiguous raw stone textures.</i></p>
 
 <br id="polished-stones">
 
@@ -322,42 +330,42 @@ There exists a correlation between the roughness and shininess of a material and
 Smooth stone is a special case however, as it directly reuses regular stone’s texture pattern (which you should do as well, as per rule 10).
 
 <img src="/images/pages/textures/f32-texturing-guidelines/30.png" alt="polished stone textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 28:</b> Examples of polished stone textures.</i></p>
+<p class="center"><i><b>Picture 30:</b> Examples of polished stone textures.</i></p>
 
 <br id="rocky-materials">
 
 **Rocky materials** such as cobblestone and netherrack should be dithered as much as raw stones, but unless the rocks are arranged in a clear linear pattern (like in the deepslate texture), linear dithering should never be used.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/31.png" alt="rocky material textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 29:</b> Examples of rocky material textures.</i></p>
+<p class="center"><i><b>Picture 31:</b> Examples of rocky material textures.</i></p>
 
 <br id="wood">
 
 **Wood** should use a lot of linear dithering and very minimal amounts of regular dithering. To smooth colour transitions, anti-aliasing can be used if it looks good.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/32.png" alt="wood textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 30:</b> Examples of wood textures.</i></p>
+<p class="center"><i><b>Picture 32:</b> Examples of wood textures.</i></p>
 
 <br id="flowers">
 
 **Most flowers, foliage, and other plant matter** can use dithering (linear or regular) depending on the general roughness/smoothness of the surface. While flower petals can employ this shading method, genuine leaves should never use dithering.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/33.png" alt="plant textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 31:</b> Examples of plant textures.</i></p>
+<p class="center"><i><b>Picture 33:</b> Examples of plant textures.</i></p>
 
 <br id="corals">
 
 **Corals** should mainly use anti-aliasing, but regular dithering is also acceptable.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/34.png" alt="coral textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 32:</b> Examples of coral textures.</i></p>
+<p class="center"><i><b>Picture 34:</b> Examples of coral textures.</i></p>
 
 <br id="sands">
 
 **Sand and other powdery materials** should be heavily dithered: there should be no large contiguous area of a single colour. Even checkerboard dithering can be used in this case, in small amounts. Anti-aliasing is encouraged to a smaller degree. This also applies to gravel, where the individual rocks that make up the material are clearly visible.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/35.png" alt="powdery textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 33:</b> Examples of powdery textures.</i></p>
+<p class="center"><i><b>Picture 35:</b> Examples of powdery textures.</i></p>
 
 <br id="bee-nests">
 
@@ -372,7 +380,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 **Glazed terracotta** should only use minimal amounts of anti-aliasing when required, otherwise no colour blending should be present.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/36.png" alt="glazed terracotta textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 34:</b> Examples of glazed terracotta textures.</i></p>
+<p class="center"><i><b>Picture 36:</b> Examples of glazed terracotta textures.</i></p>
 
 <br id="glass">
 
@@ -383,7 +391,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 **Bones** (including skeletons) should ideally mainly use anti-aliasing, with a bit of occasional linear dithering sprinkled in, near colour transitions. This applies to tusks as well.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/37.png" alt="bone textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 35:</b> Examples of bone textures.</i></p>
+<p class="center"><i><b>Picture 37:</b> Examples of bone textures.</i></p>
 
 <br id="cloth-paper">
 
@@ -394,7 +402,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 **Skin (in mob textures) and leather** should mainly use anti-aliasing. Not using many colour blending methods can lead to heavy colour banding and looking plasticky, so this is a reminder to try and eliminate that if possible. Depending on the roughness of a specific skin type, linear and regular dithering can also be used to communicate the feel of the material.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/38.png" alt="skin textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 36:</b> Examples of skin textures.</i></p>
+<p class="center"><i><b>Picture 38:</b> Examples of skin textures.</i></p>
 
 <br id="creepers">
 
@@ -405,14 +413,14 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 **Fur and hair** should employ linear dithering, but in such a way that it creates visible strands of hair. Some regular dithering and anti-aliasing can also come in handy. This applies to wool on sheep as well.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/39.png" alt="fur/hair textures" class="center" loading="lazy">
-<p class="center"><i><b>Picture 37:</b> Examples of fur/hair textures.</i></p>
+<p class="center"><i><b>Picture 39:</b> Examples of fur/hair textures.</i></p>
 
 <br id="fish">
 
 **Fish entities** should have clearly visible scales present where appropriate (don’t just draw a checkerboard!). Basically all colour blending methods can be used here.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/40.png" alt="fish texture" class="center" loading="lazy">
-<p class="center"><i><b>Picture 38:</b> Example of a fish texture.</i></p>
+<p class="center"><i><b>Picture 40:</b> Example of a fish texture.</i></p>
 
 <br>
 
@@ -423,7 +431,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 **Cylindrical type objects** such as iron bars, individual dynamite sticks that make up TNT and metal railings should have visible shades along both sides and a highlight on the side near the centre like so:
 
 <img src="/images/pages/textures/f32-texturing-guidelines/41.png" alt="cylindrical type objects" class="center" loading="lazy">
-<p class="center"><i><b>Picture 39:</b> An example showing how to shade cylindrical type objects</i></p>
+<p class="center"><i><b>Picture 41:</b> An example showing how to shade cylindrical type objects</i></p>
 
 ___
 
@@ -432,7 +440,7 @@ ___
 Faithful extends its field of expertise to correcting JAPPA’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
 
 <img src="/images/pages/textures/f32-texturing-guidelines/42.png" alt="forgotten texture" class="center" loading="lazy">
-<p class="center"><i><b>Picture 40:</b> Pre-1.17 vanilla oak sign texture</i></p>
+<p class="center"><i><b>Picture 42:</b> Pre-1.17 vanilla oak sign texture</i></p>
 
 <br>
 
@@ -445,7 +453,7 @@ Let’s take the sign texture mentioned above as an example. It is clear that it
 On the contrary, a texture that should NOT be “Jappafied” is blaze powder, for instance. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classed as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrastive should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
 
 <img src="/images/pages/textures/f32-texturing-guidelines/43.png" alt="texture should not be jappafied" class="center" loading="lazy">
-<p class="center"><i><b>Picture 41:</b> Blaze powder, an example of a texture that should not be “Jappafied”.</i></p>
+<p class="center"><i><b>Picture 43:</b> Blaze powder, an example of a texture that should not be “Jappafied”.</i></p>
 
 ___
 
