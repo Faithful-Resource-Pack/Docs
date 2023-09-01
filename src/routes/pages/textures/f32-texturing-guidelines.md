@@ -259,7 +259,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/22_1.png" alt="when to remove noise" class="center" loading="lazy">
   <p class="center"><i><b>Picture 21:</b> In this particular texture, the noise is contrasty and visible enough to be kept and upscaled.</i></p>
-  <br>_
+  <br>
   <img src="/images/pages/textures/f32-texturing-guidelines/22_2.png" alt="texture with noise removed" class="center" loading="lazy">
   <p class="center"><i><b>Picture 22:</b> The Shulker Box is an example of a texture where the noise is barely visible, and therefore should be removed.</i></p>
   <p class="red-text center" style="text-align: center;"><b>Special rules and/or exceptions can apply to specific textures if the Art Director Council approves it.</b></p>
