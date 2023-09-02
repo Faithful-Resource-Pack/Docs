@@ -417,7 +417,11 @@ a, a:hover, a:visited {
 
 /* colored text classes */
 .red-text {
-	color: var(--text-color-red); 
+	color: var(--text-color-red);
+}
+
+.green-text {
+	color: var(--text-color-green);
 }
 
 /* json coloration */
@@ -558,7 +562,7 @@ footer {
 			text-decoration: underline;
 		}
 	}
-  
+
 	&:hover .icon-link::before {
 		opacity: 1;
 	}
