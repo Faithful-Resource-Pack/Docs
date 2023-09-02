@@ -13,7 +13,7 @@
 		<br>
 		<ThemeButton inline />
 	</p>
-	<p><small>"Minecraft" is a trademark of Microsoft Corporation and not affiliated with this site. Visit the <a href="https://www.minecraft.net/">official site</a> to get the game!</small></p>
+	<p><small>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT</small></p>
 </footer>
 
 <style lang="scss">
