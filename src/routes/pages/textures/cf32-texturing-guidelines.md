@@ -520,7 +520,7 @@ ___
 
 ## Credits go to…
 <p>
-  The <a href="https://docs.faithfulpack.net/pages/textures/texturing-guidelines">Faithful 32x guidelines</a> by <a href="https://github.com/Pomi108">Pomi108</a>, which this document took heavy inspiration and sections from.
+  The <a href="/pages/textures/f32-texturing-guidelines">Faithful 32x guidelines</a> by <a href="https://github.com/Pomi108">Pomi108</a>, which this document took heavy inspiration and sections from.
   <br>Written by <a href="https://github.com/3vorp">Evorp</a>.
   <br>Edits by <a href="https://www.twitch.tv/zappack_">ZapPack</a>.
   <br>Images by various Classic Faithful contributors and Mojang Studios.

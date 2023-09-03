@@ -7,7 +7,7 @@ date: "13/8/2022"
 ___
 1. **Your pack must be based on the latest Faithful textures at the time of publishing.**
 2. **All images must accurately represent your add-on in its current state.** Don’t use any packs other than Faithful with your add-on applied while taking screenshots!
-3. **If at all applicable, all textures in your add-on must at least partially adhere to the [Faithful 32x Guidelines.](https://docs.faithfulpack.net/pages/textures/texturing-guidelines.html)** (Only goes for Faithful 32x add-ons, obviously)
+3. **If at all applicable, all textures in your add-on must at least partially adhere to the [Faithful 32x Guidelines.](/pages/textures/f32-texturing-guidelines)** (Only goes for Faithful 32x add-ons, obviously)
 4. **The title of your add-on must comply with these rules:**
     <ol class="roman">
     <li><b>It must be descriptive enough to give anybody a basic idea what your pack does.</b></li>
