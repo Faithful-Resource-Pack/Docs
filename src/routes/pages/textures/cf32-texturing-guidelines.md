@@ -137,7 +137,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <li id="no-blending"><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, as other blending methods are usually added later on. However, this tends to have a "plasticky" effect or look flat, which is undesirable in most cases.</li>
     <br>
     <img src="/images/pages/textures/cf32-texturing-guidelines/1.png" alt="no blending" class="center" loading="lazy">
-    <p class="center"><i><b>Picture 1:</b> Picture 1: Example of a border between two colors, with no blending applied.</i></p>
+    <p class="center"><i><b>Picture 1:</b> Example of a border between two colors, with no blending applied.</i></p>
     <br>
     <li id="antialiasing"><b>Antialiasing (AA)</b> is a technique used to smooth the jaggedness of a pixelated border between colors. It uses an additional in-between color to provide a smoother transition. This is particularly useful for smoother textures or getting rid of harsh color borders that may form.</li>
     <br>
