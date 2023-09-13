@@ -513,7 +513,7 @@ ___
 ## Conclusion
 
 <p>
-  <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it's done behind the scenes. If you have any questions or want something changed, make sure to let us know in our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
+  <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it's done behind the scenes. If you have any questions or want something changed, make sure to let us know on our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
 </p>
 
 ___
