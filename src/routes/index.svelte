@@ -29,7 +29,7 @@
 </script>
 
 <Layout title="Home">
-	<p style="text-align: center;">
+	<p>
 		<img src="https://database.faithfulpack.net/images/branding/wordmarks/outlined/flat/faithful_flat_border.png" alt="Wordmark" width="100%" height="100%">
 	</p>
 

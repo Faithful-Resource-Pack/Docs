@@ -5,12 +5,6 @@ date: "09/09/2020"
 archived: true
 ---
 
-<style>
-  li, p {
-    text-align: justify;
-  }
-</style>
-
 <img class="center" src="/images/pages/dungeons/items-tutorial/header.png" alt="header" loading="lazy">
 
 <div class="table-of-content">
