@@ -1,17 +1,7 @@
-import { defineConfig } from "vuepress/config";
+import { defineUserConfig } from "vuepress";
+import { searchPlugin } from "@vuepress/plugin-search";
 
-export default defineConfig({
-	themeConfig: {
-		smoothScroll: true,
-	},
-	markdown: {
-		pageSuffix: "/"
-	},
-	plugins: {
-		"vuepress-plugin-clean-urls": {
-			normalSuffix: "/",
-			indexSuffix: "/",
-			notFoundPath: "/404.html",
-		},
-	},
+export default defineUserConfig({
+	public: `static`,
+	plugins: [searchPlugin({})],
 });

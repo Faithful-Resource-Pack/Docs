@@ -7,7 +7,10 @@
 		"prettier": "prettier \"{,!(node_modules)/**/}*.ts\" --config .prettierrc --write"
 	},
 	"dependencies": {
-		"vuepress": "^1.9.10",
+		"@vuepress/client": "2.0.0-beta.67",
+		"@vuepress/plugin-search": "2.0.0-beta.67",
+		"vue": "^3.3.4",
+		"vuepress": "2.0.0-beta.67",
 		"vuepress-plugin-clean-urls": "^1.1.2"
 	},
 	"devDependencies": {
