@@ -5,12 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
   vuepress:
     specifier: ^1.9.10
     version: 1.9.10(prettier@3.0.3)
+
+devDependencies:
+  prettier:
+    specifier: ^3.0.3
+    version: 3.0.3
+  vuepress-plugin-clean-urls:
+    specifier: ^1.1.2
+    version: 1.1.2
 
 packages:
 
@@ -7166,7 +7171,6 @@ packages:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
 
   /pretty-error@2.1.2:
     resolution: {integrity: sha512-EY5oDzmsX5wvuynAByrmY0P0hcp+QpnAKbJng2A2MPjVKXCxrDSUkzghVJ4ZGPIv+JC4gX8fPUWscC0RtjsWGw==}
@@ -8909,6 +8913,10 @@ packages:
       util.promisify: 1.0.0
       webpack: 4.47.0
     dev: false
+
+  /vuepress-plugin-clean-urls@1.1.2:
+    resolution: {integrity: sha512-36r6XT9stybGSL9zHfFM6F+EBOF9rRDzGdNeias3AmU3AH5+DqsciMjRpHfecKXDKeVcc0PlNfG1Tf19CW5MzA==}
+    dev: true
 
   /vuepress-plugin-container@2.1.5:
     resolution: {integrity: sha512-TQrDX/v+WHOihj3jpilVnjXu9RcTm6m8tzljNJwYhxnJUW0WWQ0hFLcDTqTBwgKIFdEiSxVOmYE+bJX/sq46MA==}
