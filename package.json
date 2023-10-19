@@ -1,56 +1,15 @@
 {
-	"name": "docs",
-	"version": "0.0.1",
+	"name": "faithful-docs",
+	"version": "3.0.0",
 	"scripts": {
-		"dev": "vite dev",
-		"clear": "del-cli --force node_modules/.vite .svelte-kit/ build/ static/g/",
-		"build": "vite build",
-		"package": "svelte-kit package",
-		"preview": "vite preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs",
+		"prettier": "prettier \"{,!(node_modules)/**/}*.ts\" --config .prettierrc --write"
+	},
+	"dependencies": {
+		"vuepress": "^1.9.10"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "1.0.0-next.86",
-		"@sveltejs/kit": "1.0.0-next.405",
-		"@typescript-eslint/eslint-plugin": "^5.55.0",
-		"@typescript-eslint/parser": "^5.55.0",
-		"autoprefixer": "^10.4.14",
-		"cssnano": "^5.1.15",
-		"del-cli": "^5.0.0",
-		"eslint": "^8.36.0",
-		"eslint-config-prettier": "^8.7.0",
-		"eslint-plugin-svelte3": "^4.0.0",
-		"mdsvex": "^0.10.6",
-		"postcss": "^8.4.31",
-		"postcss-load-config": "^4.0.1",
-		"prettier": "^2.8.4",
-		"prettier-plugin-svelte": "^2.9.0",
-		"sass": "^1.59.3",
-		"svelte": "^3.57.0",
-		"svelte-check": "^2.10.3",
-		"svelte-preprocess": "^4.10.7",
-		"tslib": "^2.5.0",
-		"typescript": "^4.9.5",
-		"vite": "^3.2.7"
-	},
-	"type": "module",
-	"dependencies": {
-		"@fortawesome/free-brands-svg-icons": "^6.3.0",
-		"@fortawesome/free-solid-svg-icons": "^6.3.0",
-		"axios": "0.27.2",
-		"blurhash": "1.1.5",
-		"image-hash": "^5.3.1",
-		"jsdom": "^22.1.0",
-		"potrace": "^2.1.8",
-		"rehype-autolink-headings": "^6.1.1",
-		"rehype-slug": "^5.1.0",
-		"sharp": "^0.32.1",
-		"svelte-fa": "^3.0.3",
-		"svelte-hammer": "^0.1.7",
-		"svelte-waypoint": "^0.1.4",
-		"svgo": "^2.8.0"
+		"prettier": "^3.0.3"
 	}
 }
