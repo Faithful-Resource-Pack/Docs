@@ -50,7 +50,7 @@ Template for adding new entries if you're lazy like me:
     <br>
     <li><b>Short Mute</b> - The removal of a user’s ability to type/speak in channels for up to a week.</li>
     <br>
-    <li><b>Long Mute</b> - The removal of a user’s ability to type/speak in channels for over to a week.</li>
+    <li><b>Long Mute</b> - The removal of a user’s ability to type/speak in channels for over a week.</li>
     <br>
     <li><b>Ban</b> - The total removal of a user from the servers, generally reserved as a last resort.</li>
     <br>
