@@ -5,10 +5,6 @@ date: "23/03/2022"
 deprecated: false
 ---
 
-<script>
-    const Author = "{Author}"; // this is literally the only way it works
-</script>
-
 # The Faithful Contributor's Handbook
 #### *A step-by-step guide on how to create and submit textures for Faithful, and vote on them afterwards*
 

@@ -22,29 +22,31 @@ Faithful is the product of the community. If a community you rely on cannot unde
 
 This concept basically boils down to not using unnecessarily formal language. Certain settings may require more or less formal language than others (e.g. licenses and guides should be more professional than regular posts), but if the average person doesn't understand what you're talking about, you either need to add in some definitions or simplify your language a bit.
 
-<p>
-    <b class="green-text">Good:</b> Classic Faithful 32x goes all out on nostalgia!
-    <br>
-    <b class="red-text">Bad:</b> Classic Faithful, formerly named the Emulated Vattic Textures or "EM" project, attempts to answer the question "what if Vattic had never left Faithful".
-</p>
+::: tip Good:
+Classic Faithful 32x goes all out on nostalgia!
+:::
+
+::: danger Bad:
+Classic Faithful, formerly named the Emulated Vattic Textures or "EM" project, attempts to answer the question "what if Vattic had never left Faithful".
+:::
 
 To refer to the project as a whole, "Faithful Resource Pack" or "Faithful Project" is preferred when Faithful hasn't been already introduced. Once the Faithful name has been established, you can simply use "Faithful" from then on.
 
 For specific projects, use (division) Faithful (resolution)x (style) as the format for each specifier.
 
-<h3><b class="green-text">Good:</b></h3>
-
+::: tip Good:
 - Faithful Project
 - Faithful 32x
 - Classic Faithful 32x
 - Faithful
+:::
 
-<h3><b class="red-text">Bad:</b></h3>
-
+::: danger Bad:
 - Faithful x32
 - Faithful Classic
 - Faithful32x32
 - faithfull
+:::
 
 ## Part 2: Logos
 
