@@ -47,7 +47,7 @@
 		"potrace": "^2.1.8",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.1.0",
-		"sharp": "^0.32.1",
+		"sharp": "^0.32.6",
 		"svelte-fa": "^3.0.3",
 		"svelte-hammer": "^0.1.7",
 		"svelte-waypoint": "^0.1.4",
