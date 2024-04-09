@@ -1,19 +1,19 @@
 {
-	"name": "faithful-docs",
-	"version": "3.0.0",
-	"scripts": {
-		"dev": "vuepress dev docs",
-		"build": "vuepress build docs",
-		"prettier": "prettier \"{,!(node_modules)/**/}*.ts\" --config .prettierrc --write"
-	},
-	"dependencies": {
-		"@vuepress/client": "2.0.0-beta.67",
-		"@vuepress/plugin-search": "2.0.0-beta.67",
-		"vue": "^3.4.8",
-		"vuepress": "2.0.0-beta.67",
-		"vuepress-plugin-clean-urls": "^1.1.2"
-	},
-	"devDependencies": {
-		"prettier": "^3.1.1"
-	}
+  "name": "faithful-docs",
+  "description": "The official site with documentation and guides related to Faithful.",
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "prettier": "prettier \"{,!(node_modules)/**/}*.ts\" --config .prettierrc --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.2",
+    "yaml": "^2.4.1"
+  }
 }

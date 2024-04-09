@@ -21,7 +21,7 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-<h2 id="introduction">Introduction</h2>
+<h2>Introduction</h2>
 
 <p>
     <i>
@@ -41,7 +41,6 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-<div class="table-of-content">
 <h2>Definitions (in order of severity)</h2>
 <ul>
     <li><b>Verbal Warning</b> - A reminder from a moderator to avoid breaking and follow a particular rule. These have no repercussions if behavior improves.</li>
@@ -293,7 +292,7 @@ Template for adding new entries if you're lazy like me:
 
 ---
 
-<h2 id="appeals">About Appeals</h2>
+<h2>About Appeals</h2>
 
 Oftentimes, moderation action is required immediately and a debate over punishments isn't possible, which can lead to sub-optimal decisions being made by staff. In addition, people can change for the better and having your past looming over you isn't the best way to get a clean slate.
 
@@ -305,19 +304,19 @@ The "grace period" between punishment and appeal can last anywhere from a few da
 
 ---
 
-<h2 id="conclusion">Conclusion</h2>
+<h2>Conclusion</h2>
 
 _Well, you made it to the end. If you somehow read all the rules, hopefully you now understand our thought process into enforcing our policies with our Discord servers. If you don't, that's fine too — let us know what we can change to improve clarity and readability on our main [Discord Server](https://discord.gg/sN9YRQbBv7). None of these rules are set in stone, and if a lot of people disagree with a policy it can always be altered._
 
 _As with many things, nothing can be applied completely, as there will always be gray areas. This is why these punishment guidelines tend to have ranges of punishment and nothing concrete within them, because there will always be exceptions to the rules and we can't cover every possible edge case. After all, they're just guidelines in the end._
 
-<h2 id="footnote">And finally…</h2>
+<h2>And finally…</h2>
 
 Our golden rule of moderation: **"If a post is not done with malicious intent and people don’t seem to care, don’t give permanent punishments."**
 
 ---
 
-<h2 id="credits">Credits</h2>
+<h2>Credits</h2>
 <p>
     Concept by <a href="https://www.reddit.com/user/Pythagoras_314">Pythagoras_314</a>.
     <br>Written by <a href="https://github.com/3vorp">Evorp</a>.

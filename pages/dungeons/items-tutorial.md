@@ -7,44 +7,11 @@ archived: true
 
 <img class="center" src="/images/pages/dungeons/items-tutorial/header.png" alt="header" loading="lazy">
 
-<div class="table-of-content">
-<h2>Table of Contents</h2>
-
-<ul>
-  <li><a href="#introduction">Introduction</a></li>
-  <li><a href="#requirements">Requirements</a></li>
-  <li><a href="#part-0-controls--hotkeys">Part 0: Controls & Hotkeys</a></li>
-  <ul>
-    <li><a href="#blockbench">Blockbench</a></li>
-    <li><a href="#blender">Blender</a></li>
-    <li><a href="#-what-if-i-dont-have-a-3rd-button-mousenumpad">No 3rd mouse Numpad</a></li>
-  </ul>
-  <li><a href="#part-1-modelling">Part 1: Modelling</a></li>
-  <ol class="closing-bracket">
-    <li><a href="#1-prepare-a-texture">Prepare a texture</a></li>
-    <li><a href="#2-extrude-texture-in-blockbench">Extrude texture in Blockbench</a></li>
-    <li><a href="#3-export-the-model-as-obj">Export the model as OBJ</a></li>
-    <li><a href="#4-import-the-model-into-blender">Import the model into Blender</a></li>
-    <li><a href="#5-set-up-a-material">Set up a material</a></li>
-    <li><a href="#6-position-and-scale-your-model">Position & Scale your model</a></li>
-    <li><a href="#7-export-your-model-as-fbx">Export your model as FBX</a></li>
-  </ol>
-  <li><a href="#part-2-rendering">Part 2: Rendering</a></li>
-  <ol class="closing-bracket">
-    <li><a href="#1-import-your-model">Import your model</a></li>
-    <li><a href="#2-set-up-a-material-again">Set up a material (again)</a></li>
-    <li><a href="#3-add-a-light">Add a light</a></li>
-    <li><a href="#4-set-up-a-camera">Set up a camera</a></li>
-    <li><a href="#5-configure-output-and-render">Configure & Render</a></li>
-  </ol>
-</ul>
-</div>
-
-<h2 id="introduction">Introduction</h2>
+<h2>Introduction</h2>
 
 When making a mod for Minecraft: Dungeons, it is important to know that most weapons, melee and ranged, are not like items in Java or Bedrock Edition - their model is not generated from their texture, but rather it's made to fit it. This tutorial will show you how to make and render models for your own, custom item textures. Never worked with any 3D modelling software of any kind? Not to worry, this tutorial will show you exactly what to do, without any need for previous 3D modelling knowledge! Let's get started:
 
-<h2 id="requirements">Requirements</h2>
+<h2>Requirements</h2>
 
 - [Blockbench 3.6.6+](https://blockbench.net/)
 - [Blender 2.80+](https://www.blender.org/)
@@ -53,9 +20,9 @@ When making a mod for Minecraft: Dungeons, it is important to know that most wea
 
 <h2 id="part-0-controls--hotkeys">PART 0: Controls & Hotkeys</h2>
 
-<h3 id="blockbench">Blockbench:</h3>
+<h3>Blockbench:</h3>
 <img class="center" src="/images/pages/dungeons/items-tutorial/hotkey_blockbench.png" alt="hotkey blockbench" loading="lazy">
-<h3 id="blender">Blender:</h3>
+<h3>Blender:</h3>
 <img class="center" src="/images/pages/dungeons/items-tutorial/hotkey_blender.png" alt="hotkey blender" loading="lazy">
 
 > If you are on Mac: use `Cmd` instead of `Ctrl`
