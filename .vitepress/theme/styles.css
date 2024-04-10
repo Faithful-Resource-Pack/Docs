@@ -8,10 +8,12 @@
 
 	/* light is treated as "default" */
 	--vp-c-brand-soft: #efffe6;
+	scrollbar-color: #76C945 #ffffffbb;
 }
 
 .dark {
 	--vp-c-brand-soft: #2d4022;
+	scrollbar-color: #76C945 #191919bb;
 }
 
 .center {
@@ -37,4 +39,27 @@
 
 .roman {
 	list-style-type: upper-roman;
+}
+
+
+/* scrollbar stuff */
+
+/* firefox */
+* {
+	scrollbar-width: auto;
+}
+
+/* Chrome, Edge, and Safari */
+html::-webkit-scrollbar, html *::-webkit-scrollbar {
+	width: 12px;
+}
+
+html::-webkit-scrollbar-track, html *::-webkit-scrollbar-track {
+	background: #191919bb;
+}
+
+html::-webkit-scrollbar-thumb, html *::-webkit-scrollbar-thumb {
+	background-color: #76C945;
+	border-radius: 12px;
+	border: -1px solid #76C945;
 }
