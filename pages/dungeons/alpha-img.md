@@ -5,12 +5,6 @@ date: "03/08/2020"
 archived: true
 ---
 
-<style>
-  li, p {
-    text-align: justify;
-  }
-</style>
-
 # Make texture using full or half transparent pixels
 
 ## Introduction

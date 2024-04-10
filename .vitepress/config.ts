@@ -86,6 +86,15 @@ function generateSidebar() {
 export default defineConfig({
 	title: "Faithful Docs",
 	description: "The official site with documentation and guides related to Faithful.",
+	head: [
+		[
+			"link",
+			{
+				rel: "icon",
+				href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
+			}
+		]
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [{ text: "Home", link: "/" }],

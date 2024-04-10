@@ -6,15 +6,15 @@ deprecated: false
 ---
 # How to write a new documentation article
 
-You can add a new article by creating a new file in the `src/routes/pages` directory or any of its subdirectories.
-Please only use markdown files and do not change anything on the existing HTML, CSS or JavaScript.
+You can add a new article by creating a new file in the `docs/pages` directory or any of its subdirectories.
+Please only use markdown files and do not change anything on the existing CSS or TypeScript.
 
 ## Front Matter
 
-The article needs a front matter to get recognized automatically.
+The article needs a front matter to be added to the sidebar and be easily viewable.
 It has to be the first thing in the file and defines the title and other properties of your article.
 Below you can see an example.
-```yml
+```yaml
 ---
 title: 'Your title here'
 type: 'Docs'
@@ -36,4 +36,4 @@ We recommend only using markdown, but other languages can be used or included in
 - HTML
 - CSS (using the `style` html tag)
 - JavaScript (using the `script` html tag)
-- [SvelteKit logic blocks](https://svelte.dev/docs#template-syntax-if)
+- [Vue components](https://vitepress.dev/guide/using-vue)

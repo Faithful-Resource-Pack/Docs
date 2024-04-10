@@ -6,15 +6,12 @@ deprecated: false
 ---
 
 <!--
-
 Template for adding new entries if you're lazy like me:
-
     <br>
     <li><b></b> - </li>
     <ol class="lettered">
         <li></li>
     </ol>
-
 -->
 
 # Expanded Server Rules
@@ -57,7 +54,6 @@ Template for adding new entries if you're lazy like me:
     <br>
     <i>Escalating punishments means to progress down this list for each repeated offense.</i>
 </ul>
-</div>
 
 ---
 
