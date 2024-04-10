@@ -3,6 +3,9 @@
 	--secondary-brand: #00a2ff;
 	--vp-c-brand-1: var(--faithful-brand);
 	--vp-c-brand-2: #22a831;
+
+	--vp-sidebar-width: 300px;
+
 	/* light is treated as "default" */
 	--vp-c-brand-soft: #efffe6;
 }

@@ -11,6 +11,9 @@ import { useSidebarControl } from "vitepress/dist/client/theme-default/composabl
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue";
 import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue";
 
+const delayedDate = new Date();
+delayedDate.setMonth(delayedDate.getMonth() - 1);
+
 /**
  * Check if a DD/MM/YYYY date is older than one month
  * @author Juknum
@@ -19,9 +22,6 @@ import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue"
  */
 function isNew(date?: string) {
 	if (date === undefined) return false;
-
-	const delayedDate = new Date();
-	delayedDate.setMonth(delayedDate.getMonth() - 1);
 	const postDate = new Date();
 	const [day, month, year] = date.split("/").map((el) => Number.parseInt(el, 10));
 	postDate.setDate(day);
