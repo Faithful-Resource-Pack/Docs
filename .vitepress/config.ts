@@ -73,13 +73,16 @@ export default () => {
 		themeConfig: {
 			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
 			// https://vitepress.dev/reference/default-theme-config
-			nav: [{ text: "Home", link: "/" }, ...bars],
+			nav: [
+				{ text: "Home", link: "/" },
+				...bars,
+				{ text: "Main Site", link: "https://faithfulpack.net" },
+			],
 			sidebar: bars,
 			docFooter: {
 				prev: false,
 				next: false,
 			},
-			socialLinks: [{ icon: "github", link: "https://github.com/faithful-resource-pack" }],
 			footer: {
 				message:
 					"NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT",
