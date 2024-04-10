@@ -2,7 +2,6 @@
 title: "Faithful 32x Texturing Guidelines"
 type: "Textures"
 date: "19/03/2022"
-deprecated: false
 ---
 
 # Faithful 32x Texturing Rules and Guidelines

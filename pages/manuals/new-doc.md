@@ -2,7 +2,6 @@
 title: "Write a Doc"
 type: "Manuals"
 date: "19/07/2021"
-deprecated: false
 ---
 # How to write a new documentation article
 
@@ -19,8 +18,8 @@ Below you can see an example.
 title: 'Your title here'
 type: 'Docs'
 date: 'dd/mm/yyyy'
-deprecated: false
-archived: false
+deprecated: false # optional
+archived: false # optional
 ---
 ```
 

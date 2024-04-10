@@ -2,7 +2,6 @@
 title: "Faithful 64x Texturing Guidelines"
 type: "Textures"
 date: "27/09/2023"
-deprecated: false
 ---
 
 # Faithful 64x Guidelines

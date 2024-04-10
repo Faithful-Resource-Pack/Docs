@@ -2,7 +2,6 @@
 title: "Expanded Server Rules"
 type: "Manuals"
 date: "23/10/2022"
-deprecated: false
 ---
 
 <!--

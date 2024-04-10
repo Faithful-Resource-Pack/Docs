@@ -2,7 +2,6 @@
 title: "The Faithful Contributor's Handbook"
 type: "Manuals"
 date: "23/03/2022"
-deprecated: false
 ---
 
 # The Faithful Contributor's Handbook

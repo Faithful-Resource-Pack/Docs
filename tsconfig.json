@@ -1,0 +1,4 @@
+{
+	"exclude": ["node-modules"],
+	"include": [".vitepress"]
+}

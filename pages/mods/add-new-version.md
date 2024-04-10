@@ -2,7 +2,6 @@
 title: "Add new Minecraft version"
 type: "Mods"
 date: "02/12/2020"
-deprecated: false
 ---
 
 # Add a **new Minecraft version** support:

@@ -5,7 +5,7 @@ date: "09/08/2020"
 archived: true
 ---
 
-<h1 align="center"> How to customize the loader cube from Minecraft Dungeons </h1>
+<h1> How to customize the loader cube from Minecraft Dungeons</h1>
 
 ## Sources
 All needed files for this tutorial can be found [here](https://github.com/Faithful-Resource-Pack/Faithful-Dungeons-32x/tree/dungeons-latest/Tools/loader).
@@ -70,4 +70,4 @@ As said before, you will need the Pillow module, install it (if you haven't alre
 
 ---
 
-<p align="center"><em>Everything should be good, you now just have to package your files using the <a href="https://github.com/Dokucraft/Dungeons-Mod-Kit">Dokucraft Tool</a></em></p>
+<p class="center"><em>Everything should be good, you now just have to package your files using the <a href="https://github.com/Dokucraft/Dungeons-Mod-Kit">Dokucraft Tool</a></em></p>
