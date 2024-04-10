@@ -5,7 +5,7 @@ date: "19/07/2021"
 ---
 # How to write a new documentation article
 
-You can add a new article by creating a new file in the `docs/pages` directory or any of its subdirectories.
+You can add a new article by creating a new file in the `pages/` directory or any of its subdirectories.
 Please only use markdown files and do not change anything on the existing CSS or TypeScript.
 
 ## Front Matter
