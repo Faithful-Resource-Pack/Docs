@@ -29,7 +29,7 @@ hero:
 
 :root {
   --vp-home-hero-name-color: var(--vp-c-text-1);
-  --vp-home-hero-image-background-image: linear-gradient(45deg, #76c94599 50%, #00a2ff99 50%);
+  --vp-home-hero-image-background-image: linear-gradient(45deg, #76c94555 50%, #00a2ff55 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
