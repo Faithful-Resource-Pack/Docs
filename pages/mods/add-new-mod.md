@@ -1,7 +1,7 @@
 ---
 title: "Add new Mod"
 type: "Mods"
-date: "11/04/2021"
+date: "2021-04-11"
 ---
 
 # Add an entirely **new** Mod:

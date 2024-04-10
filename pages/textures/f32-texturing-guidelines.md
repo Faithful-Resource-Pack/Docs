@@ -1,7 +1,7 @@
 ---
 title: "Faithful 32x Texturing Guidelines"
 type: "Textures"
-date: "19/03/2022"
+date: "2022-03-19"
 ---
 
 # Faithful 32x Texturing Rules and Guidelines
@@ -17,7 +17,7 @@ date: "19/03/2022"
   <br>These new rules and guidelines aim to fix all of these problems, and will try to outline Faithful's stylistic direction with as much attention to detail and as much clarity as possible.</i>
 </p>
 
-___
+---
 
 ## Part 1: Terms and Definitions
 
@@ -109,7 +109,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <i class="center"><b>Picture 14:</b> Left: example of a texture with low contrast. Right: example of a texture with high contrast.</i>
 </ol>
 
-___
+---
 
 ## Part 2: General Rules and Tips
 
@@ -192,7 +192,7 @@ These requirements apply to all textures unless specified otherwise and must all
 
 **And most importantly, always get feedback from others while drawing a texture! It will help you improve in ways you wouldn’t even have thought of.**
 
-___
+---
 
 ## Part 3: Material and Shape Reference List
 This section goes into detail about how to draw and shade specific materials and shapes.
@@ -339,7 +339,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 <img src="/images/pages/textures/f32-texturing-guidelines/43.png" alt="cylindrical type objects" class="center" loading="lazy">
 <i class="center"><b>Picture 41:</b> An example showing how to shade cylindrical type objects</i>
 
-___
+---
 
 ## Part 4: Fixing JAPPA’s Mistakes and Things He’s Forgotten
 
@@ -361,17 +361,17 @@ On the contrary, a texture that should NOT be “Jappafied” is blaze powder, f
 <img src="/images/pages/textures/f32-texturing-guidelines/45.png" alt="texture should not be jappafied" class="center" loading="lazy">
 <i class="center"><b>Picture 43:</b> Blaze powder, an example of a texture that should not be “Jappafied”.</i>
 
-___
+---
 
 ## Conclusion
 Wow, this turned out way longer than we expected it to be. Would you believe that these guidelines were over a month in development? Well, we hope that you have found them useful and descriptive, and that they have cleared up any misbeliefs or doubts you might have had. If you have any questions, want to give feedback for this document or just post your textures, message us on our Discord server!
 
-___
+---
 
 ## Final Note
 These rules and guidelines are subject to change at any time. Significant changes to this document will be announced publicly.
 
-___
+---
 
 ## Credits
 <p>

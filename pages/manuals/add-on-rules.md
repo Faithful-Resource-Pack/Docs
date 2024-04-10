@@ -1,10 +1,10 @@
 ---
 title: "Rules for Add-ons"
 type: "Manuals"
-date: "13/8/2022"
+date: "2022-08-13"
 ---
 # Rules for Faithful Add-ons
-___
+---
 1. **Your pack must be based on the latest Faithful textures at the time of publishing.**
 2. **All images must accurately represent your add-on in its current state.** Don’t use any packs other than Faithful with your add-on applied while taking screenshots!
 3. **If at all applicable, all textures in your add-on must at least partially adhere to the [Faithful 32x Guidelines.](/pages/textures/f32-texturing-guidelines)** (Only goes for Faithful 32x add-ons, obviously)

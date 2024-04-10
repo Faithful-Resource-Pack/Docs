@@ -1,7 +1,7 @@
 ---
 title: "Faithful Branding Guidelines"
 type: "Manuals"
-date: "13/09/2023"
+date: "2023-09-13"
 ---
 
 # Faithful Branding Guidelines

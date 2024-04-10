@@ -1,7 +1,7 @@
 ---
 title: "Add textures"
 type: "Mods"
-date: "02/12/2020"
+date: "2020-12-02"
 ---
 
 # Add textures to an **existing** Mod

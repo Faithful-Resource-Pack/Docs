@@ -1,12 +1,12 @@
 ---
 title: "Faithful 64x Texturing Guidelines"
 type: "Textures"
-date: "27/09/2023"
+date: "2023-09-27"
 ---
 
 # Faithful 64x Guidelines
 
-___
+---
 
 ## Introduction
 

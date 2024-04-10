@@ -1,12 +1,12 @@
 ---
 title: "Classic Faithful 32x Texturing Guidelines"
 type: "Textures"
-date: "22/08/2022"
+date: "2022-08-22"
 ---
 
 # Classic Faithful 32x (Jappa and PA) Texturing Rules and Guidelines
 
-___
+---
 
 ## Introduction
 
@@ -19,7 +19,7 @@ ___
   </i>
 </p>
 
-___
+---
 
 ## Part 1: Terms and Definitions
 
@@ -122,7 +122,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <i class="center"><b>Picture 16:</b> Left: An example of stairing being overused on a texture. Right: Stairing being used in small amounts alongside thicker and thinner lines.</i>
 </ol>
 
-___
+---
 
 ## Part 2: General Rules and Tips
 
@@ -191,7 +191,7 @@ These are less specific ways to improve your textures, and unlike rules can be s
 
 **And most importantly,** **_always get feedback from others while upscaling a texture!_** **It will help you improve in ways you wouldn't even have thought of.**
 
-___
+---
 
 ## Part 3: Material Reference List
 This section goes into detail about how to shade materials that you shouldn't shade in the "normal" way. If a material is not on this list, refer to the first entry.
@@ -333,7 +333,7 @@ This section goes into detail about how to shade materials that you shouldn't sh
 
 **And above all, always reference [Vattic's art](https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/) or other similar textures if possible first.** **_Use these material guidelines only if there is no good reference point or equivalent!_**
 
-___
+---
 
 ## Part 4: About Classic Faithful 32x PA
 
@@ -354,7 +354,7 @@ Even though newer Jappa textures have a distinct style from programmer art, the 
 
 That being said, here's a section to help upscale any of the most different aspects of programmer art and Jappa art.
 
-___
+---
 
 ## Part 5: Upscaling Noise and Blurriness
 
@@ -405,7 +405,7 @@ The majority of additional techniques for upscaling blurry textures are shared w
   <i class="center"><b>Picture 51:</b> Left: The programmer art bone block. Right: A bilinear upscale of said bone block.</i>
 </ol>
 
-___
+---
 
 ## Conclusion
 
@@ -413,7 +413,7 @@ ___
   <i>Well, you did it and got through the whole thing. You should hopefully now have an actual idea of what Classic Faithful looks like and how it's done behind the scenes. If you have any questions or want something changed, make sure to let us know on our <a href="https://discord.gg/KSEhCVtg4J">Discord Server.</a></i>
 </p>
 
-___
+---
 
 ## Credits go to…
 <p>
@@ -423,4 +423,4 @@ ___
   <br>Images by various Classic Faithful contributors and Mojang Studios.
 </p>
 
-___
+---

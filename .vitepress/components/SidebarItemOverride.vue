@@ -1,8 +1,8 @@
 <script setup lang="ts">
 /**
- * ok so because this is recursive I can't simply call the inner component
- * but rather have to remake the entire component with the added slot
- * ! if the vitepress version ever gets updated this won't update along with it
+ * The entire component has to be recreated since it's recursive
+ * As a result, pretty much all this code is directly ripped from VitePress
+ * ! Won't update if the VitePress component changes
  */
 
 import { computed } from "vue";
@@ -11,29 +11,17 @@ import { useSidebarControl } from "vitepress/dist/client/theme-default/composabl
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue";
 import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue";
 
-const delayedDate = new Date();
-delayedDate.setMonth(delayedDate.getMonth() - 1);
-
 /**
- * Check if a DD/MM/YYYY date is older than one month
+ * Check if a YYYY-MM-DD date is older than one month
  * @author Juknum
- * @param date DD/MM/YYYY date to check
+ * @param date YYYY-MM-DD date to check
  * @returns whether it is
  */
 function isNew(date?: string) {
-	if (date === undefined) return false;
-	const postDate = new Date();
-	const [day, month, year] = date.split("/").map((el) => Number.parseInt(el, 10));
-	postDate.setDate(day);
-	postDate.setMonth(month - 1);
-	postDate.setFullYear(year);
-
-	if (isNaN(postDate.getTime())) return false;
-
-	/**
-	 * If the post date is greater than today's date - 1 month, show the span
-	 */
-	return postDate.getTime() > delayedDate.getTime();
+	if (!date) return false;
+	const delayedDate = new Date();
+	delayedDate.setMonth(delayedDate.getMonth() - 1);
+	return new Date(date).getTime() > delayedDate.getTime();
 }
 
 interface SidebarItemOverride extends DefaultTheme.SidebarItem {

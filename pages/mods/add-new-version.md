@@ -1,7 +1,7 @@
 ---
 title: "Add new Minecraft version"
 type: "Mods"
-date: "02/12/2020"
+date: "2020-12-02"
 ---
 
 # Add a **new Minecraft version** support:

@@ -1,7 +1,7 @@
 ---
 title: "The Faithful Contributor's Handbook"
 type: "Manuals"
-date: "23/03/2022"
+date: "2022-03-23"
 ---
 
 # The Faithful Contributor's Handbook
@@ -11,7 +11,7 @@ date: "23/03/2022"
 
 Now, let's get started.
 
-___
+---
 ## Creating Textures
 Before you begin, we highly recommend reading our guidelines [here](/pages/textures/f32-texturing-guidelines) (for Faithful 32x) or [here](/pages/textures/cf32-texturing-guidelines) (for Classic Faithful 32x), as every texture in Faithful needs to follow them. The guidelines also contain a lot of handy texturing tips that you might find useful later down the path.
 If you’re looking for a good program for pixel art, here’s what some of our best artists use:

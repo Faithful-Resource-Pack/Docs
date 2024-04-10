@@ -1,7 +1,7 @@
 ---
 title: "Alpha Textures"
 type: "Dungeons"
-date: "03/08/2020"
+date: "2020-08-03"
 archived: true
 ---
 
