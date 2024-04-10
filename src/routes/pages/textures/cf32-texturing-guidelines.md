@@ -248,7 +248,7 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/cf32-texturing-guidelines/20.png" alt="constructive color use" class="center" loading="lazy">
   <i class="center"><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i>
   <br>
-  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like; two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn't have a clear outline or the vanilla texture itself doesn't use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
+  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like; two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn't have a clear outline or the vanilla texture itself doesn't use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/21.png" alt="thinned outlines" class="center" loading="lazy">
   <i class="center"><b>Picture 21:</b> Left: Examples of textures with two pixel wide outlines. Right: Textures with one pixel wide outlines.</i>
