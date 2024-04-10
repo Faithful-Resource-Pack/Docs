@@ -1,7 +1,5 @@
 ---
 layout: home
-sidebar: true
-
 title: Faithful Docs
 
 hero:

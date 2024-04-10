@@ -61,10 +61,6 @@ function generateSidebar() {
 			const file = readFileSync(fileName, { encoding: "utf8" });
 			const name = fileName.replace(process.cwd(), "").replace(".md", "");
 			const parsed = parse(file.split(/---|___|\*\*\*/g)[1]);
-			if (isNew(parsed.date)) parsed.title = `${parsed.title} <Badge type="danger" text="NEW" /> `;
-			if (parsed.deprecated)
-				parsed.title = `${parsed.title} <Badge type="warning" text="DEPRECATED" />`;
-			if (parsed.archived) parsed.title = `${parsed.title} <Badge type="info" text="ARCHIVED" />`;
 			return {
 				text: parsed.title,
 				link: name,
@@ -75,7 +71,7 @@ function generateSidebar() {
 			const category = cur.parsed.type;
 			delete cur.parsed;
 			const found = acc.findIndex((v) => v.text === category);
-			if (found === -1) acc.push({ text: category, items: [cur] });
+			if (found === -1) acc.push({ text: category, collapsed: false, items: [cur] });
 			else acc[found].items?.push(cur);
 			return acc;
 		}, [] as DefaultTheme.SidebarItem[])
@@ -92,12 +88,13 @@ export default defineConfig({
 			{
 				rel: "icon",
 				href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
-			}
-		]
+			},
+		],
 	],
 	themeConfig: {
+		logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
 		// https://vitepress.dev/reference/default-theme-config
-		nav: [{ text: "Home", link: "/" }],
+		nav: [{ text: "Home", link: "/" }, ...(generateSidebar() as any)],
 		sidebar: generateSidebar(),
 		docFooter: {
 			prev: false,
@@ -111,6 +108,6 @@ export default defineConfig({
 		},
 		search: {
 			provider: "local",
-		}
+		},
 	},
 });
