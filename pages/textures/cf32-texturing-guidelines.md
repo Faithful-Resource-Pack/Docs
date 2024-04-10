@@ -32,7 +32,7 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <br>There are many types of blending. The most important ones in the context of Classic Faithful are listed here:</li>
   <ol class="lettered">
     <br>
-    <li effect or look flat, which is undesirable in most cases.</li>
+    <li><b>No blending</b> is a simple border between two or more colors, without any additional effects. A work in progress texture tends to have no blending, as other blending methods are usually added later on. However, this tends to have a "plasticky" effect or look flat, which is undesirable in most cases.</li>
     <br>
     <img src="/images/pages/textures/cf32-texturing-guidelines/1.png" alt="no blending" class="center" loading="lazy">
     <i class="center"><b>Picture 1:</b> Example of a border between two colors, with no blending applied.</i>
@@ -48,12 +48,12 @@ Over time, our community has adopted and come up with numerous terms regarding p
     <br><br>Dithering can be done in multiple ways:</li>
     <br>
     <ol class="roman">
-      <li) is not recommended in most cases, because it is too repetitive and usually doesn't fit the material. Special cases include chainmail and some particle effects. It looks, exactly as you'd expect, like a checkerboard of two colors.</li>
+      <li><b>Checkerboard dithering</b> (also known as simply "checkerboarding") is not recommended in most cases, because it is too repetitive and usually doesn't fit the material. Special cases include chainmail and some particle effects. It looks, exactly as you'd expect, like a checkerboard of two colors.</li>
       <br>
       <img src="/images/pages/textures/cf32-texturing-guidelines/4.png" alt="checkerboard dithering transition" class="center" loading="lazy">
       <i class="center"><b>Picture 4:</b> Checkerboard dithering used as a transition between two colors.</i>
       <br>
-      <li) consists of displacing pixels around the color border in such a way that little to no checkerboarding is created. These displaced pixels may look random, but oftentimes are cleverly laid out to avoid visual issues. Displaced pixels are usually a single pixel or sometimes a small cluster, but regular dithering should never convey any sense of directionality.</li>
+      <li><b>Regular dithering</b> (sometimes called "conventional dithering" or simply "dithering") consists of displacing pixels around the color border in such a way that little to no checkerboarding is created. These displaced pixels may look random, but oftentimes are cleverly laid out to avoid visual issues. Displaced pixels are usually a single pixel or sometimes a small cluster, but regular dithering should never convey any sense of directionality.</li>
       <br>
       <img src="/images/pages/textures/cf32-texturing-guidelines/5.png" alt="regular dithering textures" class="center" loading="lazy">
       <i class="center"><b>Picture 5:</b> Examples of regular dithering being used on certain materials.</i>
@@ -81,14 +81,14 @@ Over time, our community has adopted and come up with numerous terms regarding p
   <img src="/images/pages/textures/cf32-texturing-guidelines/9.png" alt="indexed textures" class="center" loading="lazy">
   <i class="center"><b>Picture 9:</b> Left: A "limited palette" texture. Center: A blurry texture. Right: A noisy texture.</i>
   <br>
-  <li, in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
+  <li><b>Noise</b>, as opposed to limited palette is a filter which randomly brightens and darkens pixels to give a grainer look, oftentimes used by novice pixel artists. In other contexts, it can mean a texture with no "definition", in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/10.png" alt="noise" class="center" loading="lazy">
   <i class="center"><b>Picture 10:</b> Left: A "noisy" texture with an excessively large palette. Right: A "noisy" texture with no definition and just a random mess of pixels.</i>
   <br>
-  <li Boerstra</b> is the current art director for Minecraft, formerly working on the game's art from 2017 to 2022. In addition, he was mostly responsible for the 1.14 texture update.</li>
+  <li><b>Jasper "JAPPA" Boerstra</b> is the current art director for Minecraft, formerly working on the game's art from 2017 to 2022. In addition, he was mostly responsible for the 1.14 texture update.</li>
   <br>
-  <li) is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren't made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn't coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features, which is what the pre-1.14 textures basically are, since many of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
+  <li><b>Programmer art</b> (often colloquially referred to as "progart" or "PA") is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14 (except all of the new textures that were added in 1.13). These weren't made by Jappa, or any real artist, but by the developers of the game. Note that this term wasn't coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features, which is what the pre-1.14 textures basically are, since many of the widely used ones were originally made by Notch in paint.net within a span of minutes.</li>
   <br>
   <li><b>Jappa textures</b> directly oppose Programmer Art. They were made by dedicated pixel artists like Jappa and they have a consistent art style. They are featured in all versions after 1.14 inclusive.</li>
   <br>
@@ -137,22 +137,22 @@ These requirements apply to all textures unless specified otherwise and must all
   <img src="/images/pages/textures/cf32-texturing-guidelines/17.png" alt="default vs cf" class="center" loading="lazy">
   <i class="center"><b>Picture 17:</b> Right: A texture with vanilla color placement, proportions, and overall structure. Left: Its vanilla counterpart.</i>
   <br>
-  <lihttps://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Vattic's art</a>.</b> Another self explanatory one given the entire purpose of the pack. If the texture has a programmer art equivalent, or just generally fits into a similar material as one, always reference Vattic's original art when drawing textures. Not only does it make texturing much easier, but it also helps keep the stylistic cohesion of looking like Vattic's original Faithful 32x32.</li>
+  <li><b>When applicable, always reference <a href="https://web.archive.org/web/20170630235514/faithful32x32.com/dl/faithful32pack.zip/">Vattic's art</a>.</b> Another self explanatory one given the entire purpose of the pack. If the texture has a programmer art equivalent, or just generally fits into a similar material as one, always reference Vattic's original art when drawing textures. Not only does it make texturing much easier, but it also helps keep the stylistic cohesion of looking like Vattic's original Faithful 32x32.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/18.png" alt="vattic vs cf" class="center" loading="lazy">
   <i class="center"><b>Picture 18:</b> Left: Vattic's bricks. Right: Its Jappa equivalent.</i>
   <br>
-  <licould Jappa have done this in a 16x canvas" before adding additional detail; if large details are not present in vanilla there's probably a reason for it. If something genuinely could not fit in the vanilla texture and makes no sense to not add, such as gravel not containing actual rocks, then it can be acceptable to add. However, always get feedback before changing anything noticeable about any texture.</li>
+  <li><b>With detailing, less is more.</b> Don’t overdo dithering or antialiasing, use the minimal amount of detail to keep textures from looking flat or ugly. Always ask yourself "could Jappa have done this in a 16x canvas" before adding additional detail; if large details are not present in vanilla there's probably a reason for it. If something genuinely could not fit in the vanilla texture and makes no sense to not add, such as gravel not containing actual rocks, then it can be acceptable to add. However, always get feedback before changing anything noticeable about any texture.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/19.png" alt="overdetailed textures" class="center" loading="lazy">
   <i class="center"><b>Picture 19:</b> Left: A texture with just enough detail. Right: An overdetailed texture.</i>
   <br>
-  <li flat look, but don't overdo it by making the texture completely nonvanilla or blurry. Generally, between one and three added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
+  <li><b>Don't overly change the vanilla palette.</b> Adding in-between colors is encouraged to eliminate a "plasticky" flat look, but don't overdo it by making the texture completely nonvanilla or blurry. Generally, between one and three added colors should suffice, and oftentimes none are even necessary to begin with. As well as this, ensure that the darkest and lightest colors of the texture are untouched to avoid the overall contrast being significantly altered; any added colors should just be used to blend contrasty and/or flat areas rather than create nonvanilla contrast in the palette. Another thing to note is to never change any already existing colors in a texture, only add to them. There are certain specific exceptions to this rule which will be covered later on.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/20.png" alt="constructive color use" class="center" loading="lazy">
   <i class="center"><b>Picture 20:</b> Left: Vanilla texture. Center: Unnecessary use of added colors. Right: Constructive use of added colors.</i>
   <br>
-  <li id="1px-items"><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like; two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn't have a clear outline or the vanilla texture itself doesn't use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
+  <li><b>When making item textures, thin out the borders to one pixel wide.</b> Pretty much exactly what it sounds like; two pixel wide outlines for items in 32x almost always look disproportionate and bloated. If the texture doesn't have a clear outline or the vanilla texture itself doesn't use a one pixel wide outline, then it can be acceptable to use more than one pixel, but nearly all of the time you should be thinning them out.
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/21.png" alt="thinned outlines" class="center" loading="lazy">
   <i class="center"><b>Picture 21:</b> Left: Examples of textures with two pixel wide outlines. Right: Textures with one pixel wide outlines.</i>
@@ -172,17 +172,17 @@ These requirements apply to all textures unless specified otherwise and must all
 These are less specific ways to improve your textures, and unlike rules can be subject to interpretation.
 
 <ol>
-  <li face).</li>
+  <li><b>Mob faces</b> can be difficult to interpret. If making eyes, try to blend the corner of the eye into the next color over using an added color. This can be seen on a number of mob textures, as Vattic employed this method a lot. Try to upscale other features unless you cannot make it work (or it creates your new sleep paralysis demon), in which case leaving it the same as default is fine (a "mixel" face).</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/23.png" alt="mob faces" class="center" loading="lazy">
   <i class="center"><b>Picture 23:</b> Left and center: Examples of "demixelled" mob faces. Right: A hard to interpret face left as mixels.</i>
   <br>
-  <li) do not form. Essentially, you want to ensure differing lengths of pixels within the curve don't alternate or repeat, rather curving it in a more natural way where the lengths of each section get longer or shorter consistently.</li>
+  <li><b>Smooth jagged lines whenever possible.</b> When upscaling lines and curves in a texture, you have to ensure jagged or lumpy edges (oftentimes referred to as "jaggies") do not form. Essentially, you want to ensure differing lengths of pixels within the curve don't alternate or repeat, rather curving it in a more natural way where the lengths of each section get longer or shorter consistently.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/24.png" alt="jaggies vs not jaggies" class="center" loading="lazy">
   <i class="center"><b>Picture 24:</b> Left: Examples of jagged edges and curves. Right: Examples of smooth edges and curves.</i>
   <br>
-  <li id="overuse-2px"><b>Don't overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also makes the texture look flat. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
+  <li><b>Don't overuse undetailed two pixel wide lines.</b> Not only does it look mixelly or incomplete which is undesired, but it also makes the texture look flat. The best way to upscale these types of textures would be to add a color or use an existing color to depth shade the block to eliminate these straight two pixel wide lines, or to simply reduce the width of the band if necessary.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/25.png" alt="stairing pixels" class="center" loading="lazy">
   <i class="center"><b>Picture 25:</b> Left: Improper interpretation of textures. Right: Utilizing the larger canvas size to remove unnecessarily thick lines.</i>
@@ -370,7 +370,7 @@ Noise is usually present on textures because they are an original, programmer ar
   <img src="/images/pages/textures/cf32-texturing-guidelines/46.png" alt="tiling repetitions" class="center" loading="lazy">
   <i class="center"><b>Picture 46:</b> Left: The default texture. Center: The default texture tiled in a 2x2 grid. Right: Tiling repetitions removed.</i>
   <br>
-  <li, is a method of automatically upscaling textures with a lot of noise, which you may recall is how you should be upscaling grassy textures. Essentially, it gets demixelled by shuffling the pixels around randomly near, meaning that color placement stays similar to default. However, this method has a very rough and almost patchy look and not all materials will support it.</li>
+  <li><b>Jumbling</b>, sometimes also called "scrambling", "diffuse", or just "randomize", is a method of automatically upscaling textures with a lot of noise, which you may recall is how you should be upscaling grassy textures. Essentially, it gets demixelled by shuffling the pixels around randomly near, meaning that color placement stays similar to default. However, this method has a very rough and almost patchy look and not all materials will support it.</li>
   <br>
   <img src="/images/pages/textures/cf32-texturing-guidelines/47.png" alt="jumbling" class="center" loading="lazy">
   <i class="center"><b>Picture 47:</b> Examples of texture upscaling via jumbling.</i>

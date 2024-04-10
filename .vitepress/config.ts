@@ -3,6 +3,13 @@ import { readdirSync, readFileSync, statSync } from "fs";
 import { join } from "path";
 import { parse } from "yaml";
 
+/**
+ * Return an array of all filepaths in a directory
+ * @author Juknum, Evorp
+ * @param dir
+ * @param filelist recursion
+ * @returns array of file paths
+ */
 function walkSync(dir: string, filelist: string[] = []) {
 	// add trailing slash if not present
 	if (dir.at(-1) != "/") dir += "/";
@@ -15,6 +22,12 @@ function walkSync(dir: string, filelist: string[] = []) {
 	return filelist;
 }
 
+/**
+ * Check if a DD/MM/YYYY date is older than one month
+ * @author Juknum
+ * @param date DD/MM/YYYY date to check
+ * @returns whether it is
+ */
 function isNew(date: string) {
 	if (date === undefined) return false;
 
@@ -35,6 +48,11 @@ function isNew(date: string) {
 	return postDate.getTime() > delayedDate.getTime();
 }
 
+/**
+ * Generate VitePress sidebar
+ * @author Evorp
+ * @returns formatted sidebar
+ */
 function generateSidebar() {
 	const basePath = join(process.cwd(), "pages");
 	return walkSync(basePath)

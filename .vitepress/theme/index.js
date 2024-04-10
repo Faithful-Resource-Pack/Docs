@@ -1,3 +1,3 @@
 import DefaultTheme from "vitepress/theme";
-import "./custom.css";
+import "./styles.css";
 export default DefaultTheme;
