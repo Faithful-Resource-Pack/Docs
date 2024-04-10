@@ -23,80 +23,83 @@ function walkSync(dir: string, filelist: string[] = []) {
 	return filelist;
 }
 
-// reused so using a function would be unnecessary
-const bars = walkSync(join(process.cwd(), "pages"))
-	.filter((f) => f.endsWith(".md"))
-	.map((fileName) => {
-		const file = readFileSync(fileName, { encoding: "utf8" });
-		const name = fileName.replace(process.cwd(), "").replace(".md", "");
-		// parse yaml frontmatter into object
-		const frontmatter = parse(file.split(/---|___|\*\*\*/g)[1]);
-		return {
-			frontmatter,
-			text: frontmatter.title,
-			link: name,
-			date: frontmatter.date,
-			archived: frontmatter.archived ?? false,
-			deprecated: frontmatter.deprecated ?? false,
-		};
-	})
-	.reduce((acc, cur) => {
-		const category = cur.frontmatter.type;
+function computeBars() {
+	return walkSync(join(process.cwd(), "pages"))
+		.filter((f) => f.endsWith(".md"))
+		.map((fileName) => {
+			const file = readFileSync(fileName, { encoding: "utf8" });
+			const name = fileName.replace(process.cwd(), "").replace(".md", "");
+			// parse yaml frontmatter into object
+			const frontmatter = parse(file.split(/---|___|\*\*\*/g)[1]);
+			return {
+				frontmatter,
+				text: frontmatter.title,
+				link: name,
+				date: frontmatter.date,
+				archived: frontmatter.archived ?? false,
+				deprecated: frontmatter.deprecated ?? false,
+			};
+		})
+		.reduce((acc, cur) => {
+			const category = cur.frontmatter.type;
 
-		// delete because unused
-		delete cur.frontmatter;
+			// delete because unused
+			delete cur.frontmatter;
 
-		// because this isn't just an object with the names as keys we need to search
-		const found = acc.findIndex((v) => v.text === category);
-		if (found === -1) acc.push({ text: category, collapsed: false, items: [cur] });
-		else acc[found].items?.push(cur);
-		return acc;
-	}, [] as any[])
-	.sort();
+			// because this isn't just an object with the names as keys we need to search
+			const found = acc.findIndex((v) => v.text === category);
+			if (found === -1) acc.push({ text: category, collapsed: false, items: [cur] });
+			else acc[found].items?.push(cur);
+			return acc;
+		}, [] as any[])
+		.sort();
+}
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-	title: "Faithful Docs",
-	description: "The official site with documentation and guides related to Faithful.",
-	head: [
-		[
-			"link",
-			{
-				rel: "icon",
-				href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
-			},
-		],
-	],
-	themeConfig: {
-		logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
-		// https://vitepress.dev/reference/default-theme-config
-		nav: [{ text: "Home", link: "/" }, ...bars],
-		sidebar: bars,
-		docFooter: {
-			prev: false,
-			next: false,
-		},
-		socialLinks: [{ icon: "github", link: "https://github.com/faithful-resource-pack" }],
-		footer: {
-			message:
-				"NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT",
-			copyright: "© 2024 Faithful Resource Pack",
-		},
-		search: {
-			provider: "local",
-		},
-	},
-	vite: {
-		resolve: {
-			alias: [
+export default () => {
+	const bars = computeBars();
+	return defineConfig({
+		title: "Faithful Docs",
+		description: "The official site with documentation and guides related to Faithful.",
+		head: [
+			[
+				"link",
 				{
-					find: /^.*\/VPSidebarItem\.vue$/,
-					replacement: fileURLToPath(
-						new URL("./components/SidebarItemOverride.vue", import.meta.url),
-					),
-
+					rel: "icon",
+					href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
 				},
 			],
+		],
+		themeConfig: {
+			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
+			// https://vitepress.dev/reference/default-theme-config
+			nav: [{ text: "Home", link: "/" }, ...bars],
+			sidebar: bars,
+			docFooter: {
+				prev: false,
+				next: false,
+			},
+			socialLinks: [{ icon: "github", link: "https://github.com/faithful-resource-pack" }],
+			footer: {
+				message:
+					"NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT",
+				copyright: `© ${new Date().getFullYear()} Faithful Resource Pack`,
+			},
+			search: {
+				provider: "local",
+			},
 		},
-	},
-});
+		vite: {
+			resolve: {
+				alias: [
+					{
+						find: /^.*\/VPSidebarItem\.vue$/,
+						replacement: fileURLToPath(
+							new URL("./components/SidebarItemOverride.vue", import.meta.url),
+						),
+					},
+				],
+			},
+		},
+	});
+};
