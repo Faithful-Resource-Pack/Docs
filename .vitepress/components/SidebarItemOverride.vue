@@ -17,7 +17,7 @@ import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue"
  * @param date DD/MM/YYYY date to check
  * @returns whether it is
  */
-function isNew(date: string) {
+function isNew(date?: string) {
 	if (date === undefined) return false;
 
 	const delayedDate = new Date();
@@ -29,7 +29,6 @@ function isNew(date: string) {
 	postDate.setFullYear(year);
 
 	if (isNaN(postDate.getTime())) return false;
-	console.log(postDate, delayedDate);
 
 	/**
 	 * If the post date is greater than today's date - 1 month, show the span

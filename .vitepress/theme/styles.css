@@ -1,6 +1,13 @@
 :root {
-	--vp-c-brand-1: #76c945;
+	--faithful-brand: #76c945;
+	--secondary-brand: #00a2ff;
+	--vp-c-brand-1: var(--faithful-brand);
 	--vp-c-brand-2: #22a831;
+	/* light is treated as "default" */
+	--vp-c-brand-soft: #efffe6;
+}
+
+.dark {
 	--vp-c-brand-soft: #2d4022;
 }
 
