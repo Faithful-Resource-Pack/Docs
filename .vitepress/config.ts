@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import { readdirSync, readFileSync, statSync } from "fs";
-import { join } from "path";
+import { join, sep } from "path";
 import { parse } from "yaml";
 import { fileURLToPath } from "url";
 
@@ -13,11 +13,11 @@ import { fileURLToPath } from "url";
  */
 function walkSync(dir: string, filelist: string[] = []) {
 	// add trailing slash if not present
-	if (dir.at(-1) != "/") dir += "/";
+	if (dir.at(-1) != sep) dir += sep;
 	for (const file of readdirSync(dir)) {
 		if (statSync(dir + file).isDirectory())
 			// read directories inside directories recursively
-			filelist = walkSync(dir + file + "/", filelist);
+			filelist = walkSync(dir + file + sep, filelist);
 		else filelist.push(dir + file);
 	}
 	return filelist;
