@@ -13,8 +13,6 @@ date: "2023-09-13"
 
 *Finally, you can find all our branding assets on our [GitHub repository](https://github.com/Faithful-Resource-Pack/Branding).*
 
----
-
 ## Part 1: Language
 
 Faithful is the product of the community. If a community you rely on cannot understand you, that's a problem.

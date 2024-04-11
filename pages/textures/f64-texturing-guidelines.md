@@ -6,8 +6,6 @@ date: "2023-09-27"
 
 # Faithful 64x Guidelines
 
----
-
 ## Introduction
 
 *Faithful 64x is not the first 64x pack, and won't be the last. However, it stands out among many other vanilla-style HD packs by being high resolution without cutting corners. Over years, a specific style has become the generally accepted look for textures, but the rules for creating this style weren't stated anywhere clearly. To help achieve this consistent style and to maintain the standard of quality we have set out, this guide will teach you the specifics of dealing with large textures and what to do with them.*

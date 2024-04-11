@@ -68,6 +68,4 @@ As said before, you will need the Pillow module, install it (if you haven't alre
     - Texture Group → UI
     <img class="center" src="/images/pages/dungeons/loader-texture/11.png" alt="settings" loading="lazy">
 
----
-
 <p class="center"><em>Everything should be good, you now just have to package your files using the <a href="https://github.com/Dokucraft/Dungeons-Mod-Kit">Dokucraft Tool</a></em></p>

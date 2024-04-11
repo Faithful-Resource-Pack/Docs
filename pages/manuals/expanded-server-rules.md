@@ -15,8 +15,6 @@ Template for adding new entries if you're lazy like me:
 
 # Expanded Server Rules
 
----
-
 <h2>Introduction</h2>
 
 <p>
@@ -35,8 +33,6 @@ Template for adding new entries if you're lazy like me:
     </i>
 </p>
 
----
-
 <h2>Definitions (in order of severity)</h2>
 <ul>
     <li><b>Verbal Warning</b> - A reminder from a moderator to avoid breaking and follow a particular rule. These have no repercussions if behavior improves.</li>
@@ -53,8 +49,6 @@ Template for adding new entries if you're lazy like me:
     <br>
     <i>Escalating punishments means to progress down this list for each repeated offense.</i>
 </ul>
-
----
 
 <h2 id="1">Rule 1: Read & Follow Discord's Terms of Service and Community Guidelines</h2>
 
@@ -81,8 +75,6 @@ Template for adding new entries if you're lazy like me:
         <li>In general, warn and escalate up to a ban or report if continued. Genuine dangers will lead to an immediate report.</li>
     </ol>
 </ol>
-
----
 
 <h2 id="2">Rule 2: Use Common Sense</h2>
 
@@ -122,8 +114,6 @@ Template for adding new entries if you're lazy like me:
     </ol>
 </ol>
 
----
-
 <h2 id="3">Rule 3: Speak English</h2>
 
 *People and by extension moderators can't know what you're saying otherwise, as this is an English-speaking server. Please use a [translator](https://deepl.com) if you cannot fluently understand English.*
@@ -143,8 +133,6 @@ Template for adding new entries if you're lazy like me:
         <li>Short mute, and escalate if repeated.</li>
     </ol>
 </ol>
-
----
 
 <h2 id="4">Rule 4: Be Constructive and Polite</h2>
 
@@ -166,8 +154,6 @@ Template for adding new entries if you're lazy like me:
         <li>Verbal warn the user that their language is a bit excessive, potentially give a short mute if continued.</li>
     </ol>
 </ol>
-
----
 
 <h2 id="5">Rule 5: Try to Not Annoy Others</h2>
 
@@ -197,8 +183,6 @@ Template for adding new entries if you're lazy like me:
     </ol>
 </ol>
 
----
-
 <h2 id="6">Rule 6: Don't Clutter Chats</h2>
 
 *While short tangents are fine, we have multiple channels for a reason, so please use them as intended. Spamming random things, including emojis and stickers, or starting a chat chain contributes nothing to a conversation and only causes a mess.*
@@ -220,8 +204,6 @@ Template for adding new entries if you're lazy like me:
     </ol>
 </ol>
 
----
-
 <h2 id="7">Rule 7: Avoid NSFW and NSFL Content</h2>
 
 *This includes, but is not limited to pornography, gore, and overly gross content; if you think it’s against the rules it probably will be, DM a moderator for approval if you’re very unsure.*
@@ -232,8 +214,6 @@ Template for adding new entries if you're lazy like me:
         <li>Slightly questionable content will be punished less than full on gore.</li>
     </ol>
 </ol>
-
----
 
 <h2 id="8">Rule 8: Stay Away From Political Discussion</h2>
 
@@ -249,8 +229,6 @@ Template for adding new entries if you're lazy like me:
         <li>Verbal warn all users involved to stop, if it proceeds warn and short mute.</li>
     </ol>
 </ol>
-
----
 
 <h2 id="9">Rule 9: No Unsolicited Promoting or Advertising</h2>
 
@@ -268,8 +246,6 @@ Template for adding new entries if you're lazy like me:
     </ol>
 </ol>
 
----
-
 <h2 id="10">Rule 10: Don’t Leak Private Information</h2>
 
 *What happens in private channels stays in those channels; keep any confidential information you may have private. Doxxing will get you reported to Discord and banned from the servers.*
@@ -285,8 +261,6 @@ Template for adding new entries if you're lazy like me:
     </ol>
 </ol>
 
----
-
 <h2>About Appeals</h2>
 
 Oftentimes, moderation action is required immediately and a debate over punishments isn't possible, which can lead to sub-optimal decisions being made by staff. In addition, people can change for the better and having your past looming over you isn't the best way to get a clean slate.
@@ -296,8 +270,6 @@ If you believe your punishment or ban was unwarranted, you can appeal after a gr
 The "grace period" between punishment and appeal can last anywhere from a few days to a few months depending on how severe the rule violation was, and we will let you know how long a period is when a punishment is issued. Certain punishments will be non-negotiable without chance of appeal, but these instances will be generally rare in the case of unusual circumstances.
 
 **If you submit the form before the grace period is over, it will result in harsher punishments and no appeal opportunities.**
-
----
 
 <h2>Conclusion</h2>
 
@@ -309,8 +281,6 @@ _As with many things, nothing can be applied completely, as there will always be
 
 Our golden rule of moderation: **"If a post is not done with malicious intent and people don’t seem to care, don’t give permanent punishments."**
 
----
-
 <h2>Credits</h2>
 <p>
     Concept by <a href="https://www.reddit.com/user/Pythagoras_314">Pythagoras_314</a>.
@@ -319,5 +289,3 @@ Our golden rule of moderation: **"If a post is not done with malicious intent an
     <br>Edits by Nyodex and Fred figglehorn.
     <br>Appeal form by <a href="https://github.com/Ninventoo">Ninventoo</a>.
 </p>
-
----

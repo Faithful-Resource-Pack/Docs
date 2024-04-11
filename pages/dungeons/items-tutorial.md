@@ -303,6 +303,4 @@ And there you have it! You have made yourself a model and render that is usable 
 
 <img class="center" src="/images/pages/dungeons/items-tutorial/configure-and-render-5.png" alt="configure and render 5" loading="lazy">
 
----
-
 <p style="text-align: center;"><em>Thank you so much for reading this tutorial, and good luck with your mod!</em></p>
