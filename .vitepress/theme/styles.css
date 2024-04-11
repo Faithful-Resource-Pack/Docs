@@ -33,11 +33,11 @@
 }
 
 /* lists */
-.lettered {
+.lettered > li {
 	list-style-type: lower-alpha;
 }
 
-.roman {
+.roman > li {
 	list-style-type: upper-roman;
 }
 
