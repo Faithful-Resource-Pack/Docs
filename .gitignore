@@ -3,5 +3,7 @@ node_modules
 .temp
 .cache
 
-.vitepress/dist
 .vitepress/cache
+
+# vitepress build folder
+dist/

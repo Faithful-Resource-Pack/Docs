@@ -92,6 +92,7 @@ export default () => {
 				provider: "local",
 			},
 		},
+		outDir: "./dist",
 		vite: {
 			resolve: {
 				alias: [
