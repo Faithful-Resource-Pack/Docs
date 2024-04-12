@@ -8,15 +8,6 @@ hero:
     src: https://database.faithfulpack.net/images/branding/logos/transparent/512/plain_logo.png
     alt: Faithful Logo
 ---
-
-## Tags
-
-<Badge type="danger" text="NEW" />: This is a recently released article.
-<br />
-<Badge type="warning" text="DEPRECATED" />: This article is no longer being updated and may contain outdated information.
-<br />
-<Badge type="info" text="ARCHIVED" />: This article is no longer relevant to Faithful, but is staying up for archival purposes.
-
 <style>
 
 .colorful {
