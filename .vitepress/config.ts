@@ -83,9 +83,14 @@ export default () => {
 				prev: false,
 				next: false,
 			},
+			editLink: {
+				pattern: "https://github.com/Faithful-Resource-Pack/Docs/edit/main/:path",
+			},
 			footer: {
-				message:
-					"NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT",
+				message: `NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT
+					<br>
+					This website was made using the <a href="https://vitepress.dev">VitePress</a> framework. View the source <a href="https://github.com/Faithful-Resource-Pack/Docs">here</a>!
+				`,
 				copyright: `© ${new Date().getFullYear()} Faithful Resource Pack`,
 			},
 			search: {

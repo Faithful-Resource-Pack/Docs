@@ -20,7 +20,7 @@ _If you find any bugs, please post a new issue on GitHub._
 
 - Pillow is required to use those programs!
 
-```python
+```sh
  python3 -m pip install --upgrade pip
  python3 -m pip install --upgrade Pillow
 ```
