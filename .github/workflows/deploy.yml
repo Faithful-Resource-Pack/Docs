@@ -1,4 +1,4 @@
-name: Svelte site CI
+name: Deploy Docs
 
 on:
   push:
