@@ -23,5 +23,4 @@ jobs:
           git pull
           pnpm install
           pnpm build
-          pm2 restart "DOCS" || pm2 start --name "DOCS" "PORT=5050 node build/"
-      
+

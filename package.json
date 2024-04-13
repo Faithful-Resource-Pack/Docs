@@ -1,56 +1,16 @@
 {
-	"name": "docs",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "vite dev",
-		"clear": "del-cli --force node_modules/.vite .svelte-kit/ build/ static/g/",
-		"build": "vite build",
-		"package": "svelte-kit package",
-		"preview": "vite preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-node": "1.0.0-next.86",
-		"@sveltejs/kit": "1.0.0-next.405",
-		"@typescript-eslint/eslint-plugin": "^5.62.0",
-		"@typescript-eslint/parser": "^5.62.0",
-		"autoprefixer": "^10.4.19",
-		"cssnano": "^5.1.15",
-		"del-cli": "^5.1.0",
-		"eslint": "^8.57.0",
-		"eslint-config-prettier": "^8.10.0",
-		"eslint-plugin-svelte3": "^4.0.0",
-		"mdsvex": "^0.10.6",
-		"postcss": "^8.4.38",
-		"postcss-load-config": "^4.0.2",
-		"prettier": "^2.8.8",
-		"prettier-plugin-svelte": "^2.10.1",
-		"sass": "^1.74.1",
-		"svelte": "^3.59.2",
-		"svelte-check": "^2.10.3",
-		"svelte-preprocess": "^4.10.7",
-		"tslib": "^2.6.2",
-		"typescript": "^4.9.5",
-		"vite": "^3.2.10"
-	},
+	"name": "faithful-docs",
+	"description": "The official site with documentation and guides related to Faithful.",
+	"version": "3.0.0",
 	"type": "module",
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
 	"dependencies": {
-		"@fortawesome/free-brands-svg-icons": "^6.5.2",
-		"@fortawesome/free-solid-svg-icons": "^6.5.2",
-		"axios": "1.6.8",
-		"blurhash": "1.1.5",
-		"image-hash": "^5.3.2",
-		"jsdom": "^22.1.0",
-		"potrace": "^2.1.8",
-		"rehype-autolink-headings": "^6.1.1",
-		"rehype-slug": "^5.1.0",
-		"sharp": "^0.33.3",
-		"svelte-fa": "^3.0.4",
-		"svelte-hammer": "^0.1.7",
-		"svelte-waypoint": "^0.1.4",
-		"svgo": "^2.8.0"
+		"vitepress": "^1.0.2",
+		"vue": "^3.4.21",
+		"yaml": "^2.4.1"
 	}
 }

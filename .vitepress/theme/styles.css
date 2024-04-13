@@ -1,0 +1,65 @@
+:root {
+	--faithful-brand: #76c945;
+	--secondary-brand: #00a2ff;
+	--vp-c-brand-1: var(--faithful-brand);
+	--vp-c-brand-2: #22a831;
+
+	--vp-sidebar-width: 300px;
+
+	/* light is treated as "default" */
+	--vp-c-brand-soft: #efffe6;
+	scrollbar-color: #76C945 #ffffffbb;
+}
+
+.dark {
+	--vp-c-brand-soft: #2d4022;
+	scrollbar-color: #76C945 #191919bb;
+}
+
+.center {
+	text-align: center !important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* colored text */
+.red-text {
+	color: #f44336;
+}
+
+.green-text {
+	color: #4caf50;
+}
+
+/* lists */
+.lettered > li {
+	list-style-type: lower-alpha;
+}
+
+.roman > li {
+	list-style-type: upper-roman;
+}
+
+
+/* scrollbar stuff */
+
+/* firefox */
+* {
+	scrollbar-width: auto;
+}
+
+/* Chrome, Edge, and Safari */
+html::-webkit-scrollbar, html *::-webkit-scrollbar {
+	width: 12px;
+}
+
+html::-webkit-scrollbar-track, html *::-webkit-scrollbar-track {
+	background: #191919bb;
+}
+
+html::-webkit-scrollbar-thumb, html *::-webkit-scrollbar-thumb {
+	background-color: #76C945;
+	border-radius: 12px;
+	border: -1px solid #76C945;
+}
