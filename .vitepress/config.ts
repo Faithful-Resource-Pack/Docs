@@ -3,6 +3,7 @@ import { readdirSync, readFileSync, statSync } from "fs";
 import { join, sep } from "path";
 import { parse } from "yaml";
 import { fileURLToPath } from "url";
+import metaTags from "./meta";
 
 /**
  * Return an array of all filepaths in a directory
@@ -61,18 +62,10 @@ export default () => {
 	return defineConfig({
 		title: "Faithful Docs",
 		description: "The official site with documentation and guides related to Faithful.",
-		head: [
-			[
-				"link",
-				{
-					rel: "icon",
-					href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
-				},
-			],
-		],
+		head: metaTags,
+		// https://vitepress.dev/reference/default-theme-config
 		themeConfig: {
 			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
-			// https://vitepress.dev/reference/default-theme-config
 			nav: [
 				{ text: "Home", link: "/" },
 				...bars,
