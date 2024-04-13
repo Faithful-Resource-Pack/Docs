@@ -89,7 +89,17 @@ export default () => {
 			footer: {
 				message: `NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT
 					<br>
-					This website was made using the <a href="https://vitepress.dev">VitePress</a> framework. View the source <a href="https://github.com/Faithful-Resource-Pack/Docs">here</a>!
+					This website was made using the
+					<a
+						href="https://vitepress.dev"
+						target="_blank"
+						rel="noopener noreferrer"
+					>VitePress</a> framework. View the source
+					<a
+						href="https://github.com/Faithful-Resource-Pack/Docs"
+						target="_blank"
+						rel="noopener noreferrer"
+					>here</a>!
 				`,
 				copyright: `© ${new Date().getFullYear()} Faithful Resource Pack`,
 			},
