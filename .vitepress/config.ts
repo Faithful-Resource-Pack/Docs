@@ -100,6 +100,7 @@ export default () => {
 				provider: "local",
 			},
 		},
+		cleanUrls: true,
 		outDir: "./dist",
 		vite: {
 			resolve: {
