@@ -9,8 +9,8 @@
 		"preview": "vitepress preview"
 	},
 	"dependencies": {
-		"vitepress": "^1.0.2",
-		"vue": "^3.4.21",
-		"yaml": "^2.4.1"
+		"vitepress": "^1.2.0",
+		"vue": "^3.4.27",
+		"yaml": "^2.4.2"
 	}
 }
