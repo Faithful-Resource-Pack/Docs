@@ -62,7 +62,16 @@ export default () => {
 	return defineConfig({
 		title: "Faithful Docs",
 		description: "The official site with documentation and guides related to Faithful.",
-		head: metaTags,
+		transformHead: ({ pageData }) => [
+			...metaTags,
+			[
+				"meta",
+				{
+					property: "og:title",
+					content: `${pageData.frontmatter.title} | Faithful Docs`,
+				},
+			],
+		],
 		// https://vitepress.dev/reference/default-theme-config
 		themeConfig: {
 			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
