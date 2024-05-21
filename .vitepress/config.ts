@@ -65,11 +65,6 @@ export default () => {
 		transformHead: ({ pageData }) => [
 			...metaTags,
 			[
-				"title",
-				{},
-				`${pageData.frontmatter.title} | Faithful Docs`
-			],
-			[
 				"meta",
 				{
 					property: "og:title",

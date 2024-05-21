@@ -36,13 +36,6 @@ export default [
 	[
 		"meta",
 		{
-			property: "og:title",
-			content: "Faithful Docs",
-		},
-	],
-	[
-		"meta",
-		{
 			property: "og:description",
 			content: DESCRIPTION,
 		},
