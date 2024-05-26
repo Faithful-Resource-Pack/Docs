@@ -22,6 +22,11 @@ hero:
   --vp-home-hero-image-filter: blur(44px);
 }
 
+/* vertically center hero image (pain) */
+.image-container > * {
+  margin-top: 2em;
+}
+
 /* bigger blur for bigger screens */
 @media (min-width: 640px) {
   :root {
