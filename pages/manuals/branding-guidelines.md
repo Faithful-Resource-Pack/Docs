@@ -83,7 +83,7 @@ Logotexts were designed for users to be able to use a logo and a wordmark at the
 <img src="https://database.faithfulpack.net/images/branding/logotexts/plain_logotext.png" class="center" loading="lazy">
 <i class="center">The Faithful logotext.</i>
 
-Always make sure to put logotexts on plain or low-contrast backgrounds — readability can be negatively impacted with noisy backgrounds. Please also note that the text and the logo that make up the logotexts are inseparable — don't use the pixel art text by itself.
+Always make sure to put logotexts on plain or low-contrast backgrounds — readability can be negatively impacted with noisy backgrounds. Please also note that the text and the logo that make up the logotexts are inseparable, so don't use the pixel art text by itself.
 
 <img src="/images/pages/manuals/branding-guidelines/logotext_comparison.png" class="center" loading="lazy">
 <i class="center">Top: Correct placement of a logotext that ensures it's easily readable. Bottom: Poorly placed logotext.</i>

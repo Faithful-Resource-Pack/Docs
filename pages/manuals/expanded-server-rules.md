@@ -5,7 +5,7 @@ date: "2022-10-23"
 ---
 
 <!--
-Template for adding new entries if you're lazy like me:
+Template for adding new entries:
     <br>
     <li><b></b> - </li>
     <ol class="lettered">
@@ -21,11 +21,11 @@ Template for adding new entries if you're lazy like me:
     <i>
     As long as the Faithful Discord servers have existed, there have been one set of rules. They have a description of what to do, what not to do, and nothing more. While this sounds pretty standard for most Discord servers at first, the problem is that the interpretation of these rules can be entirely up the moderator or moderators online at any given time.
     <br><br>
-    A system like this for us ended up resulting in a plethora of hasty decisions made on the spot. Long arguments between moderators would drag on over fuzzy rule boundaries, all stemming from punishments made hours before. In addition, there was little to no transparency as to how decisions were made — decisions would often be reversed hours after they were made with no explanation as to why. All of this ended up with the alienation of the community from the moderation staff — users would seemingly get punished for no reason after just making a joke, and the moderation team wouldn't give any insight as to why.
+    A system like this for us ended up resulting in a plethora of hasty decisions made on the spot. Long arguments between moderators would drag on over fuzzy rule boundaries, all stemming from punishments made hours before. In addition, there was little to no transparency as to how decisions were made — decisions would often be reversed hours after they were made with no explanation as to why. All of this ended up with the alienation of the community from the moderation staff, as users would seemingly get punished for no reason after just making a joke and the moderation team wouldn't give any insight as to why.
     <br><br>
     However, this problem went far further than the moderation staff and rule interpretation itself. This was a systematic problem across the entirety of Faithful, leading to an endless dilemma over how the rules should be interpreted. Moderation exists to keep the server a welcoming and civilized place, but if punishments go too far, moderation becomes meaningless and nobody wants to be on the server in fear of retribution over a simple joke. However, swing too far the other way and the Discord becomes a lawless mess where nobody takes the rules seriously and nobody can take action when necessary.
     <br><br>
-    Transparency is one of our key factors — playing into the open sourced aspect of Faithful — and the community is Faithful's biggest asset. The more inviting the staff and the server can be, the better everything will end up as a result. Knowing the distinction between stern and unapproachable is essential to maintaining this — you may have noticed us ditching overly formal language in the past few months in favor of more human-readable content (e.g. the license update). Keeping all of this in mind has been central to our thought process that made us decide to fix the true source of the problem — the server rules. By removing the need for constant interpretation of the rules with inbuilt guidelines for dealing with the most common rule breaks, everyone ends up better — the community gets a much more consistent and sympathetic moderation team, and the moderators don't have to deal with constant arguments over specific rule clauses.
+    Transparency is one of our key factors, playing into the open sourced aspect of Faithful, and the community is Faithful's biggest asset. The more inviting the staff and the server can be, the better everything will end up as a result. Knowing the distinction between stern and unapproachable is essential to maintaining this — you may have noticed us ditching overly formal language in the past few months in favor of more human-readable content (e.g. the license update). Keeping all of this in mind has been central to our thought process that made us decide to fix the true source of the problem: the server rules. By removing the need for constant interpretation of the rules with inbuilt guidelines for dealing with the most common rule breaks, everyone ends up better, as the community gets a much more consistent and sympathetic moderation team and the moderators don't have to deal with constant arguments over specific rule clauses.
     <br><br>
     That's not all. While this document was originally intended to be used only by the moderation staff and just contain punishment guidelines, we eventually realized that making it public would be a far better idea. Not only would ban appeals and rule clarifications fit in perfectly, but users would know exactly the reasoning for their punishment and could even suggest changes if the vast majority considered a certain rule or punishment inappropriate. While the new rules take an overall more lenient approach, which the majority of users (taken from our moderation poll made few months prior to the rewrite) wanted, some things were disallowed due to many people requesting it.
     <br><br>
@@ -97,7 +97,7 @@ Template for adding new entries if you're lazy like me:
         <li>If done to cause harm, ban and report the user.</li>
     </ol>
     <br>
-    <li><b>Being unable to respect people's identity</b> - Intentional misgendering, inflammatory comments, and generally rude comments towards one's identity — even those that aren't outright hate speech — are disallowed under all circumstances.</li>
+    <li><b>Being unable to respect people's identity</b> - Intentional misgendering, inflammatory comments, and generally rude comments towards one's identity, even those that aren't outright hate speech, are disallowed under all circumstances.</li>
     <ol class="lettered">
         <li>Between a short mute and ban depending on context and the severity of actions.</li>
     </ol>
@@ -237,7 +237,7 @@ Template for adding new entries if you're lazy like me:
     <li><b>Advertising without context</b> - Resource packs are allowed within reason, however don't overdo it.</li>
     <ol class="lettered">
         <li>Delete the offending content and verbal warn the user not to do it again. Repeat offenses will lead to a mute and ban.</li>
-        <li>This includes doing transactions with real-life money — take these topics to DMs or a more suitable place.</li>
+        <li>This includes doing transactions with real-life money. Take these topics to DMs or a more suitable place.</li>
     </ol>
     <br>
     <li><b>Spamming/DM advertising</b> - This also includes any sort of inappropriate advertising or scams.</li>
