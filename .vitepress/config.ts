@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import { readdirSync, readFileSync, statSync } from "fs";
 import { join, sep } from "path";
-import { parse } from "yaml";
+import matter from "gray-matter";
 import { fileURLToPath } from "url";
 import metaTags from "./meta";
 
@@ -31,7 +31,7 @@ function computeBars() {
 			const file = readFileSync(fileName, { encoding: "utf8" });
 			const name = fileName.replace(process.cwd(), "").replace(".md", "");
 			// parse yaml frontmatter into object
-			const frontmatter = parse(file.split(/---|___|\*\*\*/g)[1]);
+			const frontmatter = matter(file).data;
 			return {
 				frontmatter,
 				text: frontmatter.title,
@@ -45,7 +45,7 @@ function computeBars() {
 			const category = cur.frontmatter.type;
 
 			// delete because unused
-			delete cur.frontmatter;
+			delete (cur as any).frontmatter;
 
 			// because this isn't just an object with the names as keys we need to search
 			const found = acc.findIndex((v) => v.text === category);
