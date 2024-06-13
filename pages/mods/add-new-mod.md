@@ -2,6 +2,7 @@
 title: "Add new Mod"
 type: "Mods"
 date: "2021-04-11"
+deprecated: true
 ---
 
 # Add an entirely **new** Mod:
