@@ -1,6 +1,6 @@
 ---
 title: "Rules for Add-ons"
-type: "Manuals"
+category: "Manuals"
 date: "2022-08-13"
 ---
 

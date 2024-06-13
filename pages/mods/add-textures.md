@@ -1,6 +1,6 @@
 ---
 title: "Add textures"
-type: "Mods"
+category: "Mods"
 date: "2020-12-02"
 deprecated: true
 ---

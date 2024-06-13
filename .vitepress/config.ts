@@ -5,6 +5,14 @@ import matter from "gray-matter";
 import { fileURLToPath } from "url";
 import metaTags from "./meta";
 
+function toTitleCase(str?: string) {
+	if (!str) return str;
+	return str
+		.split(/-|_| /g)
+		.map((word) => word[0].toUpperCase() + word.slice(1))
+		.join(" ");
+}
+
 /**
  * Return an array of all filepaths in a directory
  * @author Juknum, Evorp
@@ -42,7 +50,7 @@ function computeBars() {
 			};
 		})
 		.reduce((acc, cur) => {
-			const category = cur.frontmatter.type;
+			const category = cur.frontmatter.category || toTitleCase(cur.link.split("/").at(-2));
 
 			// delete because unused
 			delete (cur as any).frontmatter;

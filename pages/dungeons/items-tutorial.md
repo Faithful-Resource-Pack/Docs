@@ -1,6 +1,6 @@
 ---
 title: "Items Tutorial"
-type: "Dungeons"
+category: "Dungeons"
 date: "2020-09-09"
 archived: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Expanded Server Rules"
-type: "Manuals"
+category: "Manuals"
 date: "2022-10-23"
 ---
 

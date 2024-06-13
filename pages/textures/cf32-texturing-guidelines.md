@@ -1,6 +1,6 @@
 ---
 title: "Classic Faithful 32x Texturing Guidelines"
-type: "Textures"
+category: "Textures"
 date: "2022-08-22"
 ---
 

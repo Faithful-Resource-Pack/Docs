@@ -1,6 +1,6 @@
 ---
 title: "Write a Doc"
-type: "Manuals"
+category: "Manuals"
 date: "2021-07-19"
 ---
 
@@ -18,7 +18,7 @@ Below you can see an example.
 ```yaml
 ---
 title: "Your title here"
-type: "Docs"
+category: "Docs" # optional, falls back to folder name
 date: "yyyy-mm-dd"
 deprecated: false # optional
 archived: false # optional

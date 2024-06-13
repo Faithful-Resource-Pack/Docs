@@ -1,6 +1,6 @@
 ---
 title: "The Faithful Contributor's Handbook"
-type: "Manuals"
+category: "Manuals"
 date: "2022-03-23"
 ---
 

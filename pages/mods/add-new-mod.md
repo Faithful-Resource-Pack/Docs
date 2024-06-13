@@ -1,6 +1,6 @@
 ---
 title: "Add new Mod"
-type: "Mods"
+category: "Mods"
 date: "2021-04-11"
 deprecated: true
 ---
