@@ -15,7 +15,7 @@ deprecated: true
 ## Step by Step:
 
 1.  Firstly find your Mod repository in our [organization](https://github.com/Faithful-Mods), then find the repository `HTTPS` and use those commands in a shell:
-<img src="/images/pages/mods/add-textures-commands/get-repository-https.png" alt="github get https" class="center" loading="lazy">
+<img src="/images/mods/add-textures-commands/get-repository-https.png" alt="github get https" class="center" loading="lazy">
 ```shell
   $ git clone <git url>
 ```
@@ -29,7 +29,7 @@ deprecated: true
 > Note: If the branch doesn't exist, create a new one using `git branch <new-branch>` first, the new branch will be based on the actual branch
 
 3.  Your local repository should now looks like the image below, you can now edit/add textures locally.
-<img src="/images/pages/mods/add-textures-commands/folder-example.png" alt="folder result" class="center" loading="lazy">
+<img src="/images/mods/add-textures-commands/folder-example.png" alt="folder result" class="center" loading="lazy">
 
 4.  Once you are done with editing/adding textures, you can commit and push your changes to the online repository:
 ```shell

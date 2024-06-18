@@ -53,25 +53,25 @@ Logos work well for displaying our branding in places with limited space. This i
 
 For most general-purpose applications, use our plain logo. This logo additionally encompasses Classic Faithful, but if you specifically want to refer to Classic Faithful, you can use its respective plain logo as well.
 
-<img src="/images/pages/manuals/branding-guidelines/main_logos.png" loading="lazy">
+<img src="/images/manuals/branding-guidelines/main_logos.png" loading="lazy">
 <i class="center">Left: Plain logo. Right: Classic Faithful plain logo.</i>
 
 If you only want to refer to one project, such as in a card, use that project's respective logo. The Classic Faithful logos have different margins to the regular Faithful logo, so bear that in mind when adjusting sizes.
 
-<img src="/images/pages/manuals/branding-guidelines/all_logos.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/all_logos.png" class="center" loading="lazy">
 
 You can use a monochrome version of our logo in small spaces if using the regular logo would look visually noisy or be hard to read.
 
-<img src="/images/pages/manuals/branding-guidelines/monochrome_logos.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/monochrome_logos.png" class="center" loading="lazy">
 
 All our logos should always retain their pixel art form. Even when using the monochrome logo, don't simplify the shape into vectors.
 
-<img src="/images/pages/manuals/branding-guidelines/no_vectors.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/no_vectors.png" class="center" loading="lazy">
 <i class="center">Left: Correct depiction of the Faithful monochrome logo. Right: Incorrect depiction.</i>
 
 Finally, our logos should always be centered based on their main hexagonal part. The numbers and symbols in the bottom-right corner should not be taken into account when positioning.
 
-<img src="/images/pages/manuals/branding-guidelines/centering.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/centering.png" class="center" loading="lazy">
 <i class="center">Left: Correctly centered Faithful 32x logo. Right: An example of incorrect centering; Note that the logo on the right has been centered based on the whole image, and not just the hexagonal part.</i>
 
 ## Part 3: Logotexts
@@ -85,7 +85,7 @@ Logotexts were designed for users to be able to use a logo and a wordmark at the
 
 Always make sure to put logotexts on plain or low-contrast backgrounds — readability can be negatively impacted with noisy backgrounds. Please also note that the text and the logo that make up the logotexts are inseparable, so don't use the pixel art text by itself.
 
-<img src="/images/pages/manuals/branding-guidelines/logotext_comparison.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/logotext_comparison.png" class="center" loading="lazy">
 <i class="center">Top: Correct placement of a logotext that ensures it's easily readable. Bottom: Poorly placed logotext.</i>
 
 ## Part 4: Wordmarks
@@ -101,17 +101,17 @@ The plain Faithful wordmark is preferred for most purposes, but specific project
 
 In addition, both cracked, flat, and outlined versions exist. As a rule of thumb, use the flat versions for referring to Faithful (or Classic Faithful) as a whole, the cracked versions for specific projects, and the outlined versions to help readability when necessary.
 
-<img src="/images/pages/manuals/branding-guidelines/wordmarks.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/wordmarks.png" class="center" loading="lazy">
 <i class="center">Each Faithful wordmark variation.</i>
 
 Wordmarks don't tend to scale well, so refrain from using them in small spaces — consider using the logo or simply typing out the name when space is limited.
 
-<img src="/images/pages/manuals/branding-guidelines/bad_wordmark_scaling.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/bad_wordmark_scaling.png" class="center" loading="lazy">
 <i class="center">An example of a wordmark not scaling well.</i>
 
 However, don't mix logos and wordmarks, since that's what the logotexts are for. The reasoning is because the pixelated logos don't mix well with the high-resolution wordmarks.
 
-<img src="/images/pages/manuals/branding-guidelines/wordmark_vs_logotext.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/wordmark_vs_logotext.png" class="center" loading="lazy">
 <i class="center">A logo next to a wordmark. A logotext is much better suited for this situation.</i>
 
 ## Part 5: Typography
@@ -122,12 +122,12 @@ The Faithful font should be used for titles and headings, while any neutral sans
 
 The individual pixels on a logotext also tend to blend at small resolutions so you're usually better off just typing the name out in a regular font.
 
-<img src="/images/pages/manuals/branding-guidelines/bad_font.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/bad_font.png" class="center" loading="lazy">
 <i class="center">Left: Good diversity in font sizing. Right: Blends together from the uniform size and font.</i>
 
 The semibold Faithful font should be used for large headings and the regular Faithful font for sub-headings. Only use the bold Faithful font for top-level titles when more than two levels of nested titles are required, due to its low readability and large horizontal footprint.
 
-<img src="/images/pages/manuals/branding-guidelines/font_scaling.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/font_scaling.png" class="center" loading="lazy">
 <i class="center">Each font weight and where it should be used.</i>
 
 ## Part 6: Scaling
@@ -138,12 +138,12 @@ In general, the hierarchy of branding elements to be used should be as following
 
 Always leave padding around the edges of any logo, logotext, and wordmark. Specific ratios don't really matter as long as the padding is even on all sides and the respective branding doesn't appear too large.
 
-<img src="/images/pages/manuals/branding-guidelines/padding.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/padding.png" class="center" loading="lazy">
 <i class="center">Left: Correct padding and scaling of the logo. Right: Incorrect padding and sizing.</i>
 
 Don't distort our branding to fit in a given space. Instead try using another suitable image or simply typing out the Faithful name using the format specified in part 1.
 
-<img src="/images/pages/manuals/branding-guidelines/distortion.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/distortion.png" class="center" loading="lazy">
 <i class="center">Do not.</i>
 
 ## Part 7: Colors and Backgrounds
@@ -152,12 +152,12 @@ Faithful has a fairly limited color palette used throughout most of the branding
 
 The main brand color is used for most accent colors, such as buttons or embeds. It works in combination with the "generic" background image.
 
-<img src="/images/pages/manuals/branding-guidelines/faithful_color.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/faithful_color.png" class="center" loading="lazy">
 <i class="center">The main Faithful brand color and image.</i>
 
 Each pack additionally has a unique color and background screenshot assigned to it.
 
-<img src="/images/pages/manuals/branding-guidelines/colors.png" class="center" loading="lazy">
+<img src="/images/manuals/branding-guidelines/colors.png" class="center" loading="lazy">
 <i class="center">All Faithful project colors with their respective images.</i>
 
 A background image works well with a wordmark, decently with a logo, and not very well with a logotext. This placement hierarchy should be used to determine an element to go on top of a background image. If you absolutely have to use a logo or a logotext on a background image, it is recommended to add a drop shadow and/or blur the background.
