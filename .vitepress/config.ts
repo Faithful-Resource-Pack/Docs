@@ -61,6 +61,12 @@ function computeBars() {
 			else acc[found].items?.push(cur);
 			return acc;
 		}, [] as any[])
+		.map((category) => {
+			// collapse categories that are entirely archived/deprecated by default
+			if (category.items.every((i: any) => i.deprecated || i.archived))
+				return { ...category, collapsed: true };
+			return category;
+		})
 		.sort();
 }
 
