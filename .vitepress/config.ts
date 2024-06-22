@@ -1,78 +1,13 @@
 import { defineConfig } from "vitepress";
-import { readdirSync, readFileSync, statSync } from "fs";
-import { join, sep } from "path";
-import matter from "gray-matter";
 import { fileURLToPath } from "url";
 import metaTags from "./meta";
-
-function toTitleCase(str?: string) {
-	if (!str) return str;
-	return str
-		.split(/-|_| /g)
-		.map((word) => word[0].toUpperCase() + word.slice(1))
-		.join(" ");
-}
-
-/**
- * Return an array of all filepaths in a directory
- * @author Juknum, Evorp
- * @param dir
- * @param filelist recursion
- * @returns array of file paths
- */
-function walkSync(dir: string, filelist: string[] = []) {
-	// add trailing slash if not present
-	if (!dir.endsWith(sep)) dir += sep;
-	for (const file of readdirSync(dir)) {
-		if (statSync(dir + file).isDirectory())
-			// read directories inside directories recursively
-			filelist = walkSync(dir + file + sep, filelist);
-		else filelist.push(dir + file);
-	}
-	return filelist;
-}
-
-function computeBars() {
-	return walkSync(join(process.cwd(), "pages"))
-		.filter((f) => f.endsWith(".md"))
-		.map((fileName) => {
-			const file = readFileSync(fileName, { encoding: "utf8" });
-			const name = fileName.replace(process.cwd(), "").replace(".md", "");
-			// parse yaml frontmatter into object
-			const frontmatter = matter(file).data;
-			return {
-				frontmatter,
-				text: frontmatter.title,
-				link: name,
-				date: frontmatter.date,
-				archived: frontmatter.archived ?? false,
-				deprecated: frontmatter.deprecated ?? false,
-			};
-		})
-		.reduce((acc, cur) => {
-			const category = cur.frontmatter.category || toTitleCase(cur.link.split("/").at(-2));
-
-			// delete because unused
-			delete (cur as any).frontmatter;
-
-			// because this isn't just an object with the names as keys we need to search
-			const found = acc.findIndex((v) => v.text === category);
-			if (found === -1) acc.push({ text: category, collapsed: false, items: [cur] });
-			else acc[found].items?.push(cur);
-			return acc;
-		}, [] as any[])
-		.map((category) => {
-			// collapse categories that are entirely archived/deprecated by default
-			if (category.items.every((i: any) => i.deprecated || i.archived))
-				return { ...category, collapsed: true };
-			return category;
-		})
-		.sort();
-}
+import computeCategories from "./computeCategories";
+import { join } from "path";
 
 // https://vitepress.dev/reference/site-config
 export default () => {
-	const bars = computeBars();
+	// DocCategory satisfies both navbar and sidebar interfaces
+	const categories = computeCategories(join(process.cwd(), "pages"));
 	return defineConfig({
 		title: "Faithful Docs",
 		description: "The official site with documentation and guides related to Faithful.",
@@ -86,15 +21,15 @@ export default () => {
 				},
 			],
 		],
-		// https://vitepress.dev/reference/default-theme-config
 		themeConfig: {
 			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
 			nav: [
 				{ text: "Home", link: "/" },
-				...bars,
+				// don't put all archived/deprecated categories in navbar
+				...categories.filter((c) => !c.collapsed),
 				{ text: "Main Site", link: "https://faithfulpack.net" },
 			],
-			sidebar: bars,
+			sidebar: categories,
 			docFooter: {
 				prev: false,
 				next: false,
