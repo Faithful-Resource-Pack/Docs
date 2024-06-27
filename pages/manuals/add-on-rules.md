@@ -14,12 +14,14 @@ date: "2022-08-13"
     <li><b>It must be descriptive enough to give anybody a basic idea what your pack does.</b></li>
     <li><b>It has to be properly capitalised with <a href="https://en.wikipedia.org/wiki/Title_case">Title Case</a>.</b></li>
     <li><b>When possible, use proper English grammar.</b>
-    <br>(If you forget to do any of these nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.)</li>
-    <li><b>Avoid using the word “Better” in the name! Be creative — Describe your pack more precisely. (This can be tolerated in some cases if the header image shows what the add-on does clearly, but we'd still prefer more creative names for your add-ons.)</b></li>
+    <br>If you forget to do any of these nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.</li>
+    <li><b>Avoid using the word “Better” in the name!</b>
+    <br>Be creative and describe your pack more precisely. This can be tolerated in some cases if the header image shows what the add-on does clearly, but we'd still prefer more creative names for your add-ons.</li>
     <li><b>No obscenities or swear words.</b></li>
-    <li><b>Don’t use the word “Faithful” in the title unless absolutely necessary.</b> It’s already evident that your pack is made for Faithful, since, you know, it’s on the Faithful website. The same goes for the resolution – don't include it in your title, it's displayed right above it anyway.</li>
+    <li><b>Don’t use the word “Faithful” in the title unless absolutely necessary.</b>
+    <br>It’s already evident that your pack is made for Faithful, since, you know, it’s on the Faithful website. The same goes for the resolution – don't include it in your title, since it's displayed right above it anyway.</li>
     </ol>
-5. **The add-on description must characterise what the add-on does and what it’s like. More is better than less.**
+5. **The add-on description must characterise what the add-on does and what it’s like.** More is better than less.
 6. **No NSFW or NSFL content.** (As in pornography, over-the-top gore and other questionable stuff.)
 7. **Please use the built-in tags to let people know whether OptiFine is required or not, and what edition/Faithful resolution your add-on is made for.** Don’t specify that in the title.
 8. **Your pack must comply with our [license](https://faithfulpack.net/license).** That means crediting Faithful and linking back to https://faithfulpack.net when listing your pack anywhere except the Faithful website. Also, refrain from using any monetisation sites such as adf.ly.
