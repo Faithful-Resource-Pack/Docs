@@ -23,6 +23,11 @@
 	margin-right: auto;
 }
 
+/* fix captions slightly clipping into images */
+i.center {
+	margin-top: 10px;
+}
+
 /* colored text */
 .red-text {
 	color: #f44336;

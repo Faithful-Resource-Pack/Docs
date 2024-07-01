@@ -14,6 +14,10 @@ date: "2023-09-27"
 
 *Now, let's get started.*
 
+::: tip
+Many texturing and Faithful-specific terms are referred to throughout these guidelines. Make sure to read the [Faithful Texturing Glossary](/pages/textures/glossary) if you run into any terminology you're unfamiliar with.
+:::
+
 ## Use the Resolution to your Advantage
 
 To put it simply, a 64x64 canvas is **big**. With this added space comes both advantages and disadvantages, which need to be addressed.
