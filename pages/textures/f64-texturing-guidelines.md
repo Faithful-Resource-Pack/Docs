@@ -22,12 +22,12 @@ To put it simply, a 64x64 canvas is **big**. With this added space comes both ad
 
 While 32x isn't a small resolution, some blocks and items can benefit from the additional space 64x offers to make the texture look closer to its real-life equivalent. For instance, the 64x fishing rod moves up the string like a real fishing rod would, which would not be possible in Faithful 32x.
 
-<img src="/images/textures/f64-texturing-guidelines/fishing_rod.png" alt="fishing rod example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/fishing_rod.png" alt="fishing rod example" class="center">
 <i class="center">Adding additional detail where vanilla could not.</i>
 
 This point is more about simply working with the resolution rather than against it, so remember not to go overboard with added details. The same goes for adding colours — try bringing in colours from other parts of the texture or dither harsh colour transitions instead of adding colours.
 
-<img src="/images/textures/f64-texturing-guidelines/fermented_spider_eye.png" alt="excessive dithering example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/fermented_spider_eye.png" alt="excessive dithering example" class="center">
 <i class="center">Unnecessary detailing.</i>
 
 As a rule of thumb, if the detail you're adding would be possible in 32x without significantly compromising its look, the addition is probably too excessive.
@@ -36,12 +36,12 @@ As a rule of thumb, if the detail you're adding would be possible in 32x without
 
 While the Faithful 32x guidelines emphasizes using one pixel wide highlights and shadows for textures, this can have problems in 64x with both visibility and rendering. Glass can turn completely invisible on small screens with a one pixel wide outline in 64x, so using a two pixel wide shaded outline is better in these circumstances.
 
-<img src="/images/textures/f64-texturing-guidelines/glass.png" alt="glass example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/glass.png" alt="glass example" class="center">
 <i class="center">One pixel wide versus two pixel wide gaps. Note how the thinner outlines become nearly invisible in-game.</i>
 
 Exceptions can also apply to blocks with defined gaps, such as stone bricks. Thin gaps can make the texture look flat or unrealistically proportioned at times, but highlights don't have this issue. Therefore, using smaller highlights and bigger gaps ends up looking the best in this scenario, despite the 32x reference texture having the same width for both.
 
-<img src="/images/textures/f64-texturing-guidelines/stone_bricks.png" alt="brick example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/stone_bricks.png" alt="brick example" class="center">
 <i class="center">An example of mismatching gap and highlight sizes looking better than being fully consistent.</i>
 
 Above all, get feedback from others about using a one pixel versus two pixel wide outline, since it can vary from texture to texture.
@@ -50,12 +50,12 @@ Above all, get feedback from others about using a one pixel versus two pixel wid
 
 The Faithful 32x guidelines go into depth about not upscaling mob faces, but in 64x there's a lot more space to experiment. Many eye shapes that don't work well in 32x can become viable in higher resolutions since there's more space to add realistic detail.
 
-<img src="/images/textures/f64-texturing-guidelines/squid_eyes.png" alt="good eyes example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/squid_eyes.png" alt="good eyes example" class="center">
 <i class="center">Upscaling the squid's eyes works well in 64x since the eyes can be properly rounded.</i>
 
 The same rule about keeping a "mixel face" if no options look particularly good still applies, but try different options and see if any look good first.
 
-<img src="/images/textures/f64-texturing-guidelines/villager_eyes.png" alt="bad eyes example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/villager_eyes.png" alt="bad eyes example" class="center">
 <i class="center">While a cross-eyed model could be considered a limitation, removing that can have... undesirable effects.</i>
 
 ## Materials
@@ -68,7 +68,7 @@ Dithering in Faithful 64x works differently to dithering in Faithful 32x. Conven
 
 To get around this, Faithful 64x heavily relies on a form of linear dithering often colloquially called "wispy" dithering. Instead of using single pixels to smooth out colour transitions, small clusters of pixels are used instead. These clusters usually face in the same direction, giving a slight linear look to the texture.
 
-<img src="/images/textures/f64-texturing-guidelines/linear_dithering.png" alt="wispy dithering example" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/linear_dithering.png" alt="wispy dithering example" class="center">
 <i class="center">Checkerboard-heavy dithering in 32x should be converted into clusters and lines in 64x, with minimum single-pixel displacement.</i>
 
 Do note that other types of dithering can still be used, and there are occasions with particularly rough textures where conventional dithering can be used as well.
@@ -79,22 +79,22 @@ This is a much more general reference than the Faithful 32x guidelines, since th
 
 **Metal and polished gems** should use no dithering of any type.
 
-<img src="/images/textures/f64-texturing-guidelines/polished.png" alt="polished texture examples" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/polished.png" alt="polished texture examples" class="center">
 <i class="center">Examples of polished textures.</i>
 
 **Smooth-ish textures** should not use any lone pixels with dithering, but can have additional linear detail to fill empty spaces.
 
-<img src="/images/textures/f64-texturing-guidelines/smooth.png" alt="smoothish texture examples" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/smooth.png" alt="smoothish texture examples" class="center">
 <i class="center">Examples of somewhat smooth textures.</i>
 
 **Hair and fur** should use a combination of wispy and conventional dithering, to portray a messy and chaotic surface accurately.
 
-<img src="/images/textures/f64-texturing-guidelines/fur.png" alt="fur and hair texture examples" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/fur.png" alt="fur and hair texture examples" class="center">
 <i class="center">Examples of hair and fur.</i>
 
 **Stone, planks, and other rough textures** should use both linear and wispy dithering, but not much conventional dithering.
 
-<img src="/images/textures/f64-texturing-guidelines/rough.png" alt="rough texture examples" class="center" loading="lazy">
+<img src="/images/textures/f64-texturing-guidelines/rough.png" alt="rough texture examples" class="center">
 <i class="center">Examples of rough, natural textures.</i>
 
 For materials not explicitly stated here, follow their 32x equivalents where possible. In particularly difficult cases, you can also ask the original author what their intent was, something not possible in 32x.

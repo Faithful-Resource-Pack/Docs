@@ -19,14 +19,14 @@ deprecated: true
 	#### **Using GitHub Website:**
 
 	Type the Minecraft version you want to add support for, then click on `Create a branch`.
-	<img src="/images/mods/add-new-version/github-add-branch.png" alt="github-add-branch.png" class="center" loading="lazy">
+	<img src="/images/mods/add-new-version/github-add-branch.png" alt="github-add-branch.png" class="center">
 
 	#### **Using GitHub Desktop:**
 
 	1. Click on the `current branch` button, then `New branch`, then type the Minecraft version you want to add support for, if `main` is not selected, click on it, then `create branch`.
-	<img src="/images/mods/add-new-version/github-desktop-add-branch-1st-step.png" alt="github-desktop-add-branch-1st-step.png" class="center" loading="lazy">
+	<img src="/images/mods/add-new-version/github-desktop-add-branch-1st-step.png" alt="github-desktop-add-branch-1st-step.png" class="center">
 	<br>
-	<img src="/images/mods/add-new-version/github-desktop-add-branch-2nd-step.png" alt="github-desktop-add-branch-2nd-step.png" class="center" loading="lazy">
+	<img src="/images/mods/add-new-version/github-desktop-add-branch-2nd-step.png" alt="github-desktop-add-branch-2nd-step.png" class="center">
 
 	2. Add those files to your new branch:
 		- **The pack.png and pack.mcmeta are not needed anymore, because that process is now automated. If you still find them, just delete them.**

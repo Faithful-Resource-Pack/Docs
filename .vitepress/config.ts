@@ -60,6 +60,11 @@ export default () => {
 		},
 		cleanUrls: true,
 		outDir: "./dist",
+		markdown: {
+			image: {
+				lazyLoading: true,
+			},
+		},
 		vite: {
 			resolve: {
 				alias: [
