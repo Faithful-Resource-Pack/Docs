@@ -27,16 +27,21 @@ Finally, during the creation of your texture, we recommend that you share your p
 
 ## Formatting a Submission
 
-Once you’re done with your texture, submit it by uploading a PNG file in the proper channel. Make sure the filename is exactly the same as the name of the texture in the game files! If you're looking for which channel submits to which project, here's a handy guide:
+Once you’re done with your texture, submit it by uploading a PNG file in the proper channel. Make sure the filename is exactly the same as the name of the texture in the game files!
+
+::: details But which channel submits to which project?
+
+Here's a handy guide:
 - [#32x-submit-textures](https://discord.com/channels/773983706582482946/773987409993793546) – Faithful 32x
 - [#64x-submit-textures](https://discord.com/channels/773983706582482946/931887174977208370) – Faithful 64x
 - [#32x-submit-jappa](https://discord.com/channels/814198513847631944/814201529032114226) – Classic Faithful 32x Jappa
-- [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x PA
+- [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x Programmer Art
 - [#64x-submit-jappa](https://discord.com/channels/814198513847631944/814209343502286899) – Classic Faithful 64x
 
 The former two are on the [main Discord](https://discord.gg/sN9YRQbBv7), and the last three channels are on the [Classic Faithful Discord](https://discord.gg/KSEhCVtg4J).
+:::
 
-You can additionally upload multiple textures in one message if you made an entire set of textures, such as wool or planks, and attach a comment to your submission by sending a text message with the texture.
+You can upload multiple textures in one message if you made an entire set of textures, such as wool or planks, and optionally attach a comment to your submission using the text content of your message.
 
 If you’re submitting a texture with a name that is present more than once in the vanilla files (such as `jungle.png`, which is the name of a villager, sign, and boat texture), wait for a bit after sending your message. The bot will ask you to clarify which texture you’re submitting with a dropdown menu.
 
@@ -70,7 +75,9 @@ Whether a texture makes it into Faithful or not is determined by a voting proces
 
     - **Communicate issues to the author:** Communication to the author is a crucial part of the evaluation process. If at any point, you find issues through your evaluation of a texture, try to explain to the original author what issues the texture has, and try to give advice on how to fix it. Remember, constructive criticism is key – simply saying that “a texture is bad” is no help whatsoever.
 
-    **REMEMBER: Never vote based on how many votes a texture already has! Always vote based on your own individual opinion.**
+::: warning REMEMBER:
+Never vote based on how many votes a texture already has! **Always vote based on your own individual opinion.**
+:::
 
 2. **Art Director Council Voting**: When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 2 day period), it enters a 1-day phase of council voting. During this phase, council members talk about the submission in private and vote to determine whether the texture fits the stylistic direction of Faithful. For Classic Faithful, the results from community voting directly go to results, without a council phase.
 
@@ -80,9 +87,4 @@ Besides the upvote and downvote options regular users get, there are 2 other opt
 
 1. **Instapass**: An instapass is when a texture immediately gets added into the pack without needing to go through the voting process. These textures usually get instapassed for reasons such as being recolours of another texture, consistency fixes for textures that are outdated, or even bugs that needed fixing.
 
-2. **Invalidation**: An invalidation is given when textures break the guidelines.
-
-
-
-
-
+2. **Invalidation**: An invalidation is given when textures blatantly and objectively break the guidelines.
