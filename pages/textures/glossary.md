@@ -25,7 +25,7 @@ No blending is a simple border between two or more colors, without any additiona
 
 ### Banding
 
-Color banding describes the phenomenon of noticeable stripes of a single color appearing as a result of using multiple colors for a transition. This goes hand in hand with having no blending methods being employed, but is generally undesirable for looking flat
+Color banding describes the phenomenon of noticeable stripes of a single color appearing as a result of using multiple colors for a transition. This goes hand in hand with having no blending methods being employed, but is generally undesirable for looking flat.
 
 <img src="/images/textures/glossary/banding.png" class="center" alt="banding example" />
 <i class="center">Left: An example of noticeable color banding. Right: Most of the color banding removed.</i>
@@ -39,28 +39,28 @@ Antialiasing (AA) is a technique used to smooth the jaggedness of a pixelated bo
 
 ### Dithering
 
-Dithering, also known as regular or conventional dithering, is a technique where pixels of a color border are displaced in such a way that said border is no longer as sharply defined and has parts protruding in and out of the other color. It's commonly used for rough textures in the main Faithful packs and generally adding texture to a material.
+Dithering, also known as regular or conventional dithering, is a technique where pixels of a color border are displaced in such a way that said border is no longer as sharply defined and has parts protruding in and out of the other color. It's commonly used for rough textures in the main Faithful packs and can be more generally used to add material definition to a texture.
 
 <img src="/images/textures/glossary/dithering.png" class="center" alt="dithering example" />
 <i class="center">Example of regular dithering in a texture.</i>
 
 ### Checkerboard Dithering
 
-Checkerboard dithering (also known as checkerboarding) is exactly what the name describes — a simple checkerboard between two colors. This is often used in stylized pixel art, but is usually not suitable for Minecraft textures as it looks very repetitive.
+Checkerboard dithering (also known as checkerboarding) is exactly what the name describes — a simple checkerboard between two colors. This is often used in stylized pixel art, but is usually not suitable for Minecraft textures as it looks very repetitive and unnatural.
 
 <img src="/images/textures/glossary/checkerboarding.png" class="center" alt="checkerboarding example" />
 <i class="center">Example of a checkerboarded color border.</i>
 
 ### Linear Dithering
 
-Linear dithering (LD) is just like dithering, but the displaced pixels are longer and face in a particular direction, as if regular dithering was stretched. This is frequently used for wood-adjacent textures to mirror real-life wood grain, but can be applied in many different contexts as a smoother alternative to regular dithering.
+Linear dithering (LD) is just like dithering, but with longer and more directional displaced pixels as if regular dithering was stretched. This is frequently used for wood and wood-adjacent textures to mirror real-life wood grain, but can be applied in many different contexts as a smoother alternative to regular dithering.
 
 <img src="/images/textures/glossary/linear_dithering.png" class="center" alt="ld example" />
 <i class="center">Examples of linearly dithered textures.</i>
 
 ### Wispy Dithering
 
-Wispy dithering is a form of linear dithering, where instead of using single pixels to smooth out color transitions, small clusters of (often linear) pixels are used instead. Faithful 64x makes use of this extensively as conventional dithering in higher resolutions can look undesirably grainy or fine.
+Wispy dithering is a form of linear dithering, where instead of using single pixels to smooth out color transitions, small clusters of (often linear) pixels are used instead. Faithful 64x makes use of this extensively, as conventional dithering in higher resolutions can look undesirably grainy or fine.
 
 <img src="/images/textures/glossary/wispy_dithering.png" class="center" alt="wispy dithering example" />
 <i class="center">Regular dithering being converted to wispy dithering in Faithful 64x.</i>
@@ -78,39 +78,39 @@ Upscaling simply refers to changing the resolution of an image to be bigger. In 
 
 ### Automatic Upscaling
 
-Automatic upscaling (usually referred to as AI upscaling, despite having nothing to do with AI) is an umbrella term for algorithmic based upscaling methods. Some examples of automatic upscaling algorithms are bilinear upscaling, XBR upscaling, and RotSprite upscaling. These methods are usually unsuitable for Faithful, at least in an unedited form, since these generalized algorithms can't handle detail or color placement in a consistent way.
+Automatic upscaling (often referred to as AI upscaling, despite having nothing to do with AI) is an umbrella term for algorithmic based upscaling methods. Some examples of automatic upscaling algorithms are bilinear upscaling, XBR upscaling, and RotSprite upscaling. These methods are usually unsuitable for Faithful—at least in an unedited form—since these generalized algorithms aren't made for pixel art and result in blurry or flat textures.
 
 <img src="/images/textures/glossary/automatic_upscaling.png" class="center" alt="ai upscale example" />
 <i class="center">Different algorithmic upscaling methods.</i>
 
 ### Nearest Neighbor Upscaling
 
-Nearest neighbor upscaling is a specific type of automatic upscaling where individual pixels retain their size relative to the canvas regardless of the actual resolution. This means the texture looks identical despite being physically bigger, and it's a helpful base for manually upscaling the image in comparison with most other automatic methods.
+Nearest neighbor upscaling is a specific type of automatic upscaling where individual pixels retain their size relative to the canvas regardless of the actual resolution. This means the texture looks identical despite being physically bigger, and is a helpful base for manually upscaling the image in comparison with most other automatic methods.
 
 <img src="/images/textures/glossary/nearest_upscaling.png" class="center" alt="nearest neighbor example" />
 <i class="center">Left: The default texture. Right: 2x nearest neighbor upscaled texture.</i>
 
 ## Palette
 
-In pixel art, a palette refers to the colors being used in an image. Since pixel art typically employs an intentionally limited palette, there are usually only a handful of colors being used at any point.
+In pixel art, a palette refers to the colors being used in an image. Since pixel art typically employs an intentionally limited palette, there are usually only a handful of colors in a Minecraft texture's palette.
 
 ### Color Indexing
 
-Color indexing, color quantizing, or limiting palettes (LP) are names for the concept of reducing the amount of colors in a texture to only the necessary shades. This can either be done by hand or automatically using a program like GIMP or Aseprite. Limited palette textures generally have colors reused throughout the texture and noticeable color transitions.
+Color indexing, color quantizing, and limiting palettes (LP) are names for the concept of reducing the amount of colors in a texture to only necessary shades. This can either be done by hand or automatically using a program like GIMP or Aseprite. Textures with a limited palette generally have colors reused throughout the texture and noticeable color transitions.
 
 <img src="/images/textures/glossary/indexing.png" class="center" alt="lp example" />
 <i class="center">Left: Original texture. Right: Automatically indexed version of texture.</i>
 
 ### Noise
 
-Noise, as opposed to a limited palette, is a filter which randomly brightens and darkens pixels to make a texture grainier, often used by novice pixel artists. In other contexts, it can mean a texture with no "definition", in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them, oftentimes on materials that make no sense to be noisy.
+Noise, as opposed to a limited palette, is a filter which randomly brightens and darkens pixels to make a texture grainier, often used by novice pixel artists. In other contexts, it can mean a texture with no "definition", in that the detail has no meaning and is just a jumble of randomly placed pixels with no thought or reasoning behind them.
 
 <img src="/images/textures/glossary/noise.png" class="center" alt="noise example" />
 <i class="center">Left: A "noisy" texture with an excessively large palette. Right: A random mess of pixels with no definition, which can also be called "noisy".</i>
 
 ### Contrast
 
-Contrast is a method of classifying a certain color palette. High contrast means that the colors look very different from each other, and low contrast means the colors look very similar to each other. In more technical terms, it's the average distance between each color, usually in brightness, but sometimes with a mix of saturation and hue differences as well.
+Contrast is a method of classifying a certain color palette. High contrast means that the colors look very different from each other, and low contrast means the colors look very similar to each other. In more technical terms, it's the average distance between each color in perceived brightness. Pixel art tends to use higher contrast than more conventional art since the use of a limited palette restricts the number of available shades.
 
 <img src="/images/textures/glossary/contrast.png" class="center" alt="contrast example" />
 <i class="center">The same texture with reduced and increased contrast.</i>
@@ -128,14 +128,14 @@ False lines are the occurrence of several elements and/or color areas of a textu
 
 ### Mixels
 
-Mixels describe pixels of clashing resolutions. If a texture uses both 1x1 and 2x2 pixels interchangeably, that would be considered mixels.
+Mixels (a portmanteau of "mixed-resolution pixels") are pixels of clashing resolutions. For instance, if a texture uses both 1x1 and 2x2 pixels interchangeably, that would be considered mixels.
 
 <img src="/images/textures/glossary/mixels.png" class="center" alt="mixel example" />
 <i class="center">Example of mixels.</i>
 
 ### Stairing
 
-Not to be confused with staring, stairing is a method of making lines and curves, where each pixel moved up or down in the line is joined back to the previous one. While this can be employed in small amounts to create more natural looking gaps, it generally doesn't look good in large amounts and should be avoided.
+Not to be confused with staring, stairing is a method of making lines and curves where each pixel moved the line is joined back to the previous one. While this can be employed in small amounts to create more natural looking gaps, it generally doesn't look good in large amounts and should be avoided.
 
 <img src="/images/textures/glossary/stairing.png" class="center" alt="stairing example" />
 <i class="center">Left: Excessively staired gaps. Right: More varied gaps.</i>
@@ -144,7 +144,7 @@ Not to be confused with staring, stairing is a method of making lines and curves
 
 ### Jappa Textures
 
-Jasper "JAPPA" Boerstra is the current art director for Minecraft, and the lead artist from 2017 to 2022. He was also responsible for the 1.14 texture update, where the majority of the game's art was redone and polished with his style. These redone textures and any textures made after 1.14 by dedicated artists like him are often called Jappa textures in his honor.
+Jasper "JAPPA" Boerstra is the current art director for Minecraft, and was the lead artist from 2017 to 2022. He was also responsible for the 1.14 texture update, where the majority of the game's art was redone and polished with his style. These redone textures and any textures made after 1.14 by dedicated artists like him are often called Jappa textures in his honor.
 
 ### Programmer Art
 
@@ -164,7 +164,7 @@ Vattic is the original creator of the Faithful 32x32 texture pack, and the lead 
 
 ## Conclusion
 
-If you think there's a term missing from here that's commonly used, let us know on our [Discord Server](https://discord.gg/sN9YRQbBv7) — new terms are always evolving and this document will grow as needed.
+If you think there's a term missing from here that's commonly used, let us know on our [Discord Server](https://discord.gg/sN9YRQbBv7) — new terms are always evolving and this document will grow as needed. For further reading, we recommend the [Blockbench Minecraft Style Guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide/).
 
 Good luck texturing!
 
