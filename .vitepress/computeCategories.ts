@@ -70,8 +70,7 @@ export default function computeCategories(dir: string) {
 		}, [] as DocCategory[])
 		.map((category) => {
 			// collapse categories that are entirely archived/deprecated by default
-			if (category.items.every((i) => i.deprecated || i.archived))
-				return { ...category, collapsed: true };
+			if (category.items.every((i) => i.deprecated || i.archived)) category.collapsed = true;
 			return category;
 		})
 		.sort();
