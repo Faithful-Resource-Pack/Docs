@@ -79,6 +79,9 @@ This rule does not apply to animated textures that used to be generated procedur
 
 8. **Try to eliminate colour banding, if possible.** This can be done by cleverly reducing the width of each colour band to one or two pixels. Don’t brute force it though, since in some cases where the colour palette is especially limited this can harm the texture overall. It’s certainly possible to do in most cases though.
 
+<img src="/images/textures/f32-texturing-guidelines/reduce_banding.png" alt="reduce banding" class="center">
+<i class="center">Left: An example of a texture with noticeable colour banding. Right: The same texture, with colour banding mostly eliminated.</i>
+
 <br id="no-colour-chunk">
 
 9. **Unless it’s intentional and makes sense to have, there should never be large single-colour areas in your texture.** This applies especially to raw materials like stone or wood. You can always break these areas up by using dithering or other methods.
