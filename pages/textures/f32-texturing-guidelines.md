@@ -182,7 +182,7 @@ There exists a correlation between the roughness and shininess of a material and
 <br id="polished-stones">
 
 **Polished stones** should use dithering (linear when applicable) a bit, but not nearly as much as raw stones. Instead, anti-aliasing should be used in heavier amounts to express the smoothness of the material.
-Smooth stone is a special case however, as it directly reuses regular stone’s texture pattern (which you should do as well, as per rule 10).
+Smooth stone is a special case however, as it directly reuses regular stone’s texture pattern (which you should do as well, as per rule 11).
 
 <img src="/images/textures/f32-texturing-guidelines/polished_stone.png" alt="polished stone textures" class="center">
 <i class="center">Examples of polished stone textures.</i>
