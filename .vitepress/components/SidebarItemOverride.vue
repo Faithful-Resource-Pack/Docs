@@ -2,7 +2,8 @@
 /**
  * The entire component has to be recreated since it's recursive
  * As a result, pretty much all this code is directly ripped from VitePress
- * ! Won't update if the VitePress component changes
+ * Check this link when you update VitePress to make sure nothing changed:
+ * https://github.com/vuejs/vitepress/commits/main/src/client/theme-default/components/VPSidebarItem.vue
  */
 
 import { computed } from "vue";
