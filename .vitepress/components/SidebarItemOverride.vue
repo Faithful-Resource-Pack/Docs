@@ -8,7 +8,7 @@
 
 import { computed } from "vue";
 import type { DefaultTheme } from "vitepress/theme";
-import { useSidebarControl } from "vitepress/dist/client/theme-default/composables/sidebar";
+import { useSidebarControl } from "vitepress/dist/client/theme-default/composables/sidebar.js";
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue";
 import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue";
 

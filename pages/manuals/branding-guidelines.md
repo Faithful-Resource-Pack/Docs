@@ -64,10 +64,10 @@ You can use a monochrome version of our logo in small spaces if using the regula
 
 <img src="/images/manuals/branding-guidelines/monochrome_logos.png" class="center">
 
-All our logos should always retain their pixel art form. Even when using the monochrome logo, don't simplify the shape into vectors.
+All our logos should always retain their pixel art form—don't simplify the shape into vectors.
 
 <img src="/images/manuals/branding-guidelines/no_vectors.png" class="center">
-<i class="center">Left: Correct depiction of the Faithful monochrome logo. Right: Incorrect depiction.</i>
+<i class="center">Left: Correct depiction of the Faithful logo. Right: Incorrect depiction.</i>
 
 Finally, our logos should always be centered based on their main hexagonal part. The numbers and symbols in the bottom-right corner should not be taken into account when positioning.
 
