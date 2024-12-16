@@ -1,7 +1,7 @@
 {
 	"name": "faithful-docs",
-	"description": "The official site with documentation and guides related to Faithful.",
 	"version": "3.0.0",
+	"description": "The official site with documentation and guides related to Faithful.",
 	"type": "module",
 	"scripts": {
 		"dev": "vitepress dev",
@@ -14,6 +14,6 @@
 		"vue": "^3.5.13"
 	},
 	"devDependencies": {
-		"@types/node": "^22.10.1"
+		"@types/node": "^22.10.2"
 	}
 }
