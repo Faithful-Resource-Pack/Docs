@@ -39,7 +39,7 @@ Here's a handy guide:
 - [#64x-submit-jappa](https://discord.com/channels/814198513847631944/814209343502286899) – Classic Faithful 64x Jappa
 - [#64x-submit-progart](https://discord.com/channels/814198513847631944/1320159924625473599) – Classic Faithful 64x Programmer Art
 
-The former two are on the [main Discord](https://discord.gg/sN9YRQbBv7), and the last three channels are on the [Classic Faithful Discord](https://discord.gg/KSEhCVtg4J).
+The former two channels are on the [main Discord](https://discord.gg/sN9YRQbBv7), and the latter four are on the [Classic Faithful Discord](https://discord.gg/KSEhCVtg4J).
 :::
 
 You can upload multiple textures in one message if you made an entire set of textures, such as wool or planks, and optionally attach a comment to your submission using the text content of your message.
