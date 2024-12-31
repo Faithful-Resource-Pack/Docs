@@ -36,7 +36,7 @@ These requirements apply to all textures unless specified otherwise and must all
 
 <br id="1px-wide">
 
-2. **Outlines, dividing lines and the like that would end up being 2 pixels wide when upscaled to double the resolution should almost always be 1 pixel wide.** Pretty straightforward; most lines in Faithful should be 1 pixel wide (examples: glass, gold block, iron ingot, diamond). There are exceptions to this, especially if a line is not an outline/dividing line and/or is curvy, or would be off-centre if it was 1 pixel wide – in these cases it’s acceptable to make the line wider.
+2. **Outlines, dividing lines and the like that would end up being 2 pixels wide when upscaled to double the resolution should almost always be 1 pixel wide.** Pretty straightforward; most lines in Faithful should be 1 pixel wide (examples: glass, gold block, iron ingot, diamond). There are exceptions to this, especially if a line is not an outline/dividing line and/or is curvy, or would be off-centre if it was 1 pixel wide—in these cases it’s acceptable to make the line wider.
 
 <img src="/images/textures/f32-texturing-guidelines/1px_wide.png" alt="outlines" class="center">
 <i class="center">Top: Vanilla texture. Bottom left: Improper interpretation of lines present in the vanilla texture. Bottom right: Better interpretation.</i>
@@ -120,7 +120,7 @@ Special rules and/or exceptions can apply to specific textures if the Art Direct
 
 <br id="mob-faces">
 
-1. **Mob faces** can be particularly hard to interpret in only double the resolution. If all attempts at upscaling the face end up looking bad, it is acceptable to use a “mixel-face” – just keeping the vanilla mob face, without any edits, on an upscaled background.
+1. **Mob faces** can be particularly hard to interpret in only double the resolution. If all attempts at upscaling the face end up looking bad, it is acceptable to use a “mixel-face”—just keeping the vanilla mob face, without any edits, on an upscaled background.
 
 <img src="/images/textures/f32-texturing-guidelines/mob_faces.png" alt="acceptable mob face" class="center">
 <i class="center">An acceptable mob face.</i>
@@ -167,7 +167,7 @@ There exists a correlation between the roughness and shininess of a material and
 
 <br id="gems">
 
-**Diamonds and other gemstones** in Minecraft’s context should be shaded like reflective rocks more than anything – they usually don’t let much light pass through, unlike their real-life counterparts. Only anti-aliasing should be used here. For faces in the shade in item textures, the same shading logic as on smooth metal textures applies.
+**Diamonds and other gemstones** in Minecraft’s context should be shaded like reflective rocks more than anything—they usually don’t let much light pass through, unlike their real-life counterparts. Only anti-aliasing should be used here. For faces in the shade in item textures, the same shading logic as on smooth metal textures applies.
 
 <img src="/images/textures/f32-texturing-guidelines/gemstones.png" alt="gemstone textures" class="center">
 <i class="center">Examples of gemstone textures.</i>
@@ -303,7 +303,7 @@ It is obvious that this texture uses the programmer art oak planks and bark. Thi
 
 Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the Jappa planks in order to make a viable Faithful texture.
 
-On the contrary, a texture that should NOT be “Jappafied” is blaze powder. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classified as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises – there is no obvious way to do it correctly. What colour palette should be used? How contrasty should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
+On the contrary, a texture that should NOT be “Jappafied” is blaze powder. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classified as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises—there is no obvious way to do it correctly. What colour palette should be used? How contrasty should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
 
 <img src="/images/textures/f32-texturing-guidelines/keep_progart.png" alt="texture should not be jappafied" class="center">
 <i class="center">Blaze powder, an example of a texture that should not be “Jappafied”.</i>

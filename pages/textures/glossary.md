@@ -46,7 +46,7 @@ Dithering, also known as regular or conventional dithering, is a technique where
 
 ### Checkerboard Dithering
 
-Checkerboard dithering (also known as checkerboarding) is exactly what the name describes — a simple checkerboard between two colors. This is often used in stylized pixel art, but is usually not suitable for Minecraft textures as it looks very repetitive and unnatural.
+Checkerboard dithering (also known as checkerboarding) is exactly what the name describes—a simple checkerboard between two colors. This is often used in stylized pixel art, but is usually not suitable for Minecraft textures as it looks very repetitive and unnatural.
 
 <img src="/images/textures/glossary/checkerboarding.png" class="center" alt="checkerboarding example" />
 <i class="center">Example of a checkerboarded color border.</i>
@@ -164,7 +164,7 @@ Vattic is the original creator of the Faithful 32x32 texture pack, and the lead 
 
 ## Conclusion
 
-If you think there's a term missing from here that's commonly used, let us know on our [Discord Server](https://discord.gg/sN9YRQbBv7) — new terms are always evolving and this document will grow as needed. For further reading, we recommend the [Blockbench Minecraft Style Guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide/).
+If you think there's a term missing from here that's commonly used, let us know on our [Discord Server](https://discord.gg/sN9YRQbBv7)—new terms are always evolving and this document will grow as needed. For further reading, we recommend the [Blockbench Minecraft Style Guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide/).
 
 Good luck texturing!
 

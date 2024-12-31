@@ -29,7 +29,7 @@ While 32x isn't a small resolution, some blocks and items can benefit from the a
 <img src="/images/textures/f64-texturing-guidelines/fishing_rod.png" alt="fishing rod example" class="center">
 <i class="center">Adding additional detail where vanilla could not.</i>
 
-This point is more about simply working with the resolution rather than against it, so remember not to go overboard with added details. The same goes for adding colours — try bringing in colours from other parts of the texture or dither harsh colour transitions instead of adding colours.
+This point is more about simply working with the resolution rather than against it, so remember not to go overboard with added details. The same goes for adding colours—try bringing in colours from other parts of the texture or dither harsh colour transitions instead of adding colours.
 
 <img src="/images/textures/f64-texturing-guidelines/fermented_spider_eye.png" alt="excessive dithering example" class="center">
 <i class="center">Unnecessary detailing.</i>

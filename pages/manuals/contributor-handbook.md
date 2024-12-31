@@ -54,7 +54,7 @@ Any and all reused parts of an existing Faithful texture should be credited in y
 
 In the submission comment, simply surround each co-author's username in curly brackets, so the bot can detect them as a contributor. For example, "Fixed a false line. Credit to {Author} for the original texture." would credit Author. If you're simply tweaking an existing texture, prefix your submission description with a plus sign (+) to add all the previous co-authors to the texture automatically.
 
-One thing to note about using curly brackets is that the name is based on the user's web app profile, not their Discord username. If these are different, or you don't want to go through the trouble of finding the correct username, you can alternatively ping the author in the comment to add them as well — both methods work in exactly the same way besides the former saving a ghost ping. If credits for a texture are missing, you don’t need to worry about any of this.
+One thing to note about using curly brackets is that the name is based on the user's web app profile, not their Discord username. If these are different, or you don't want to go through the trouble of finding the correct username, you can alternatively ping the author in the comment to add them as well—both methods work in exactly the same way besides the former saving a ghost ping. If credits for a texture are missing, you don’t need to worry about any of this.
 
 You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, and reacting with the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message a manager or council member and they will remove your texture.
 
@@ -74,7 +74,7 @@ Whether a texture makes it into Faithful or not is determined by a voting proces
 
     - **Compare different resolutions:** When evaluating, you shouldn’t just look at the texture that was submitted. Of course, with this being a higher resolution resource pack of the base textures, it’s important that the texture is consistent to the original. Using the comparison image inside the submission embed, try to look for consistency issues such as incorrect color placement, incorrect shape sizes, and even detail not present in the original.
 
-    - **Communicate issues to the author:** Communication to the author is a crucial part of the evaluation process. If at any point, you find issues through your evaluation of a texture, try to explain to the original author what issues the texture has, and try to give advice on how to fix it. Remember, constructive criticism is key – simply saying that “a texture is bad” is no help whatsoever.
+    - **Communicate issues to the author:** Communication to the author is a crucial part of the evaluation process. If at any point, you find issues through your evaluation of a texture, try to explain to the original author what issues the texture has, and try to give advice on how to fix it. Remember, constructive criticism is key—simply saying that “a texture is bad” is no help whatsoever.
 
 ::: warning REMEMBER:
 Never vote based on how many votes a texture already has! **Always vote based on your own individual opinion.**
@@ -82,7 +82,7 @@ Never vote based on how many votes a texture already has! **Always vote based on
 
 2. **Art Director Council Voting**: When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 2 day period), it enters a 1-day phase of council voting. During this phase, council members talk about the submission in private and vote to determine whether the texture fits the stylistic direction of Faithful. For Classic Faithful, the results from community voting directly go to results, without a council phase.
 
-    A texture passes council voting if it has more upvotes than downvotes after one day. The council’s decision is final – if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
+    A texture passes council voting if it has more upvotes than downvotes after one day. The council’s decision is final—if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
 
 Besides the upvote and downvote options regular users get, there are 2 other options that the council and managers have:
 
