@@ -5,6 +5,6 @@ hero:
   name: Welcome to the <span class="colorful">Faithful Docs</span>
   tagline: Documentation and guides related to the Faithful Project for texture making, moderation, and more.
   image:
-    src: https://database.faithfulpack.net/images/branding/logos/transparent/hd/plain_logo.png
+    src: https://database.faithfulpack.net/images/branding/logos/transparent/hd/main_logo.png
     alt: Faithful Logo
 ---

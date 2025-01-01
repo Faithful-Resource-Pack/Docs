@@ -61,10 +61,10 @@ There are also abbreviations for each project, although it's not recommended to 
 
 Logos work well for displaying our branding in places with limited space. This includes, but is not limited to cards, thumbnails, and buttons. Don't use our logos as a substitute for showing the name "Faithful" itself, but use them when the name is already established instead.
 
-For most general-purpose applications, use our plain logo. This logo additionally encompasses Classic Faithful, but if you specifically want to refer to Classic Faithful, you can use its respective plain logo as well.
+For most general-purpose applications, use our main logo. This logo additionally encompasses Classic Faithful, but if you specifically want to refer to Classic Faithful, you can use its respective main logo as well.
 
 <img src="/images/manuals/branding-guidelines/main_logos.png">
-<i class="center">Left: Plain logo. Right: Classic Faithful plain logo.</i>
+<i class="center">Left: Main logo. Right: Classic Faithful main logo.</i>
 
 If you only want to refer to one project, such as in a card, use that project's respective logo.
 

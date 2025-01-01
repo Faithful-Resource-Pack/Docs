@@ -9,7 +9,7 @@ date: "2021-07-19"
 You can add a new article by creating a new file in the `pages/` directory or any of its subdirectories.
 Please only use markdown files and do not change anything on the existing CSS or TypeScript.
 
-## Front Matter
+## Frontmatter
 
 The article needs a front matter to be added to the sidebar and be easily viewable.
 It has to be the first thing in the file and defines the title and other properties of your article.
