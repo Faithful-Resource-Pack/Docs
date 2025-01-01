@@ -1,6 +1,6 @@
 const DESCRIPTION = "The official site with documentation and guides related to Faithful.";
 const BANNER_URL =
-	"https://database.faithfulpack.net/images/branding/site/banners/universal_banner.png";
+	"https://database.faithfulpack.net/images/branding/social_media/banners/universal_banner.png";
 
 export default [
 	// html meta tags
@@ -8,7 +8,7 @@ export default [
 		"link",
 		{
 			rel: "icon",
-			href: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
+			href: "https://database.faithfulpack.net/images/branding/logos/favicon.ico",
 		},
 	],
 	[

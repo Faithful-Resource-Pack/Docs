@@ -22,7 +22,7 @@ export default () => {
 			],
 		],
 		themeConfig: {
-			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/site/favicon.ico",
+			logo: "https://raw.githubusercontent.com/Faithful-Resource-Pack/Branding/main/logos/transparent/hd/main_logo.png",
 			nav: [
 				{ text: "Home", link: "/" },
 				// don't put all archived/deprecated categories in navbar

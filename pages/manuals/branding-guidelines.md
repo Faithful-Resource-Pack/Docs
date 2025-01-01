@@ -7,7 +7,7 @@ date: "2023-09-13"
 # Faithful Branding Guidelines
 ### A non-exhaustive handbook to use our branding effectively.
 
-*Faithful is a community project that's not meant to be taken too seriously. Our branding, however, was made with certain goals in mind – so if you're into this sort of thing and want to represent Faithful properly, we'll be extra grateful if you follow these guidelines.*
+*Faithful is a community project that's not meant to be taken too seriously. Our branding, however, was made with certain goals in mind. If you're into this sort of thing and want to represent Faithful properly, we'll be extra grateful if you follow these guidelines.*
 
 *Do remember that [our license](https://faithfulpack.net/license) still applies when using our branding. This means that you cannot use our branding with the intent to confuse users into believing an unofficial project is official.*
 
@@ -45,6 +45,16 @@ For specific projects, use (division) Faithful (resolution)x (style) as the form
 - faithfull
 :::
 
+There are also abbreviations for each project, although it's not recommended to use in user-facing UI since they can be hard to understand:
+
+::: details Common Project Abbreviations
+- Faithful 32x: F32
+- Faithful 64x: F64
+- Classic Faithful 32x: CF32
+- Classic Faithful 64x Jappa: CF64J
+- Classic Faithful (the whole project): CF
+:::
+
 ## Part 2: Logos
 
 *[View all our logos here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/logos)*
@@ -56,7 +66,7 @@ For most general-purpose applications, use our plain logo. This logo additionall
 <img src="/images/manuals/branding-guidelines/main_logos.png">
 <i class="center">Left: Plain logo. Right: Classic Faithful plain logo.</i>
 
-If you only want to refer to one project, such as in a card, use that project's respective logo. The Classic Faithful logos have different margins to the regular Faithful logo, so bear that in mind when adjusting sizes.
+If you only want to refer to one project, such as in a card, use that project's respective logo.
 
 <img src="/images/manuals/branding-guidelines/all_logos.png" class="center">
 
@@ -74,27 +84,13 @@ Finally, our logos should always be centered based on their main hexagonal part.
 <img src="/images/manuals/branding-guidelines/centering.png" class="center">
 <i class="center">Left: Correctly centered Faithful 32x logo. Right: An example of incorrect centering; Note that the logo on the right has been centered based on the whole image, and not just the hexagonal part.</i>
 
-## Part 3: Logotexts
-
-*[View all our logotexts here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/logotexts)*
-
-Logotexts were designed for users to be able to use a logo and a wordmark at the same time without having a clash in resolution. Each logo has a corresponding logotext and this can be used if the Faithful name is not already well established.
-
-<img src="https://database.faithfulpack.net/images/branding/logotexts/plain_logotext.png" class="center">
-<i class="center">The Faithful logotext.</i>
-
-Always make sure to put logotexts on plain or low-contrast backgrounds — readability can be negatively impacted with noisy backgrounds. Please also note that the text and the logo that make up the logotexts are inseparable, so don't use the pixel art text by itself.
-
-<img src="/images/manuals/branding-guidelines/logotext_comparison.png" class="center">
-<i class="center">Top: Correct placement of a logotext that ensures it's easily readable. Bottom: Poorly placed logotext.</i>
-
-## Part 4: Wordmarks
+## Part 3: Wordmarks
 
 *[View all our wordmarks here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/wordmarks)*
 
 Wordmarks tend to be pretty big and bold, so use them sparingly for large banners and other big areas. They're usually the preferred branding when placed over busy backgrounds such as screenshots.
 
-<img src="https://database.faithfulpack.net/images/branding/social%20media/banners/universal_banner.png" class="center">
+<img src="https://database.faithfulpack.net/images/branding/social_media/banners/universal_banner.png" class="center">
 <i class="center">The Faithful banner.</i>
 
 The plain Faithful wordmark is preferred for most purposes, but specific projects also have their own wordmarks, similarly to the project logos.
@@ -104,23 +100,23 @@ In addition, both cracked, flat, and outlined versions exist. As a rule of thumb
 <img src="/images/manuals/branding-guidelines/wordmarks.png" class="center">
 <i class="center">Each Faithful wordmark variation.</i>
 
-Wordmarks don't tend to scale well, so refrain from using them in small spaces — consider using the logo or simply typing out the name when space is limited.
+Wordmarks don't tend to scale well, so refrain from using them in small spaces—consider using the logo or simply typing out the name when space is limited.
 
 <img src="/images/manuals/branding-guidelines/bad_wordmark_scaling.png" class="center">
 <i class="center">An example of a wordmark not scaling well.</i>
 
-However, don't mix logos and wordmarks, since that's what the logotexts are for. The reasoning is because the pixelated logos don't mix well with the high-resolution wordmarks.
+Most importantly, don't mix logos and wordmarks, since the pixelated logos don't mix well with the high-resolution wordmarks. Instead, only use one or the other—write out the name elsewhere if you're using the logo, or completely remove the logo and only use the wordmark.
 
-<img src="/images/manuals/branding-guidelines/wordmark_vs_logotext.png" class="center">
-<i class="center">A logo next to a wordmark. A logotext is much better suited for this situation.</i>
+<img src="/images/manuals/branding-guidelines/combining_elements.png" class="center">
+<i class="center">A logo next to a wordmark.</i>
 
-## Part 5: Typography
+## Part 4: Typography
 
 *[Download the Faithful fonts here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/font)*
 
 The Faithful font should be used for titles and headings, while any neutral sans-serif is preferred for body text. This is primarily because the individual pixels in the Faithful font blur together, hindering legibility at small scales.
 
-The individual pixels on a logotext also tend to blend at small resolutions so you're usually better off just typing the name out in a regular font.
+Since wordmarks don't scale very well, at small resolutions you're usually better off just typing the name out in a regular font.
 
 <img src="/images/manuals/branding-guidelines/bad_font.png" class="center">
 <i class="center">Left: Good diversity in font sizing. Right: Blends together from the uniform size and font.</i>
@@ -130,13 +126,11 @@ The semibold Faithful font should be used for large headings and the regular Fai
 <img src="/images/manuals/branding-guidelines/font_scaling.png" class="center">
 <i class="center">Each font weight and where it should be used.</i>
 
-## Part 6: Scaling
+## Part 5: Scaling
 
-In general, the hierarchy of branding elements to be used should be as following (from largest to smallest space available):
+In general, the hierarchy of branding elements to be used should be (from largest to smallest space available) wordmarks, then logos, then regular text.
 
-### Wordmark → Logotext → Logo → Text
-
-Always leave padding around the edges of any logo, logotext, and wordmark. Specific ratios don't really matter as long as the padding is even on all sides and the respective branding doesn't appear too large.
+Always leave padding around the edges of any logo and wordmark. Specific ratios don't really matter as long as the padding is even on all sides and the respective branding doesn't appear too large.
 
 <img src="/images/manuals/branding-guidelines/padding.png" class="center">
 <i class="center">Left: Correct padding and scaling of the logo. Right: Incorrect padding and sizing.</i>
@@ -146,7 +140,7 @@ Don't distort our branding to fit in a given space. Instead try using another su
 <img src="/images/manuals/branding-guidelines/distortion.png" class="center">
 <i class="center">Do not.</i>
 
-## Part 7: Colors and Backgrounds
+## Part 6: Colors and Backgrounds
 
 Faithful has a fairly limited color palette used throughout most of the branding, and a set of background images to complement them.
 
@@ -160,11 +154,11 @@ Each pack additionally has a unique color and background screenshot assigned to 
 <img src="/images/manuals/branding-guidelines/colors.png" class="center">
 <i class="center">All Faithful project colors with their respective images.</i>
 
-A background image works well with a wordmark, decently with a logo, and not very well with a logotext. This placement hierarchy should be used to determine an element to go on top of a background image. If you absolutely have to use a logo or a logotext on a background image, it is recommended to add a drop shadow and/or blur the background.
+A background image works well with a wordmark, decently with a logo, and not as well with written text. This placement hierarchy should be used to determine an element to go on top of a background image. If you absolutely have to use a logo or text on a background image, it is recommended to add a drop shadow and/or blur the background.
 
 ## Conclusion
 
-These guidelines probably look very different to your standard 50-page corporate brand guidelines with every single use case laid out, and that's because at the end of the day, as long as you're getting your point across and aren't confusing anyone, it's probably fine. We aren't fussed if your padding is a few pixels off, or if you're using the wrong font size — just don't be horribly inconsistent with everything else and that's about it.
+These guidelines probably look very different to your standard 50-page corporate brand guidelines with every single use case laid out, and that's because at the end of the day, as long as you're getting your point across and aren't confusing anyone, it's probably fine. We aren't fussed if your padding is a few pixels off, or if you're using the wrong font size—just don't be horribly inconsistent with everything else and that's about it.
 
 As with all our docs, if you have any suggestions leave them on our [Discord server](https://discord.gg/sN9YRQbBv7). Good luck with whatever you're doing!
 
