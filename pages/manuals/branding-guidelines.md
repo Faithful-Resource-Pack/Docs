@@ -55,6 +55,8 @@ There are also abbreviations for each project, although it's not recommended to 
 - Classic Faithful (the whole project): CF
 :::
 
+Finally, for Faithful Add-ons, never capitalized "ons" (Add-Ons) or write the word without a hyphen (Addons).
+
 ## Part 2: Logos
 
 *[View all our logos here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/logos)*
