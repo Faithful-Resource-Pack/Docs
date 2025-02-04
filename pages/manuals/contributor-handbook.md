@@ -34,10 +34,10 @@ Once you’re done with your texture, submit it by uploading a PNG file in the p
 Here's a handy guide:
 - [#32x-submit-textures](https://discord.com/channels/773983706582482946/773987409993793546) – Faithful 32x
 - [#64x-submit-textures](https://discord.com/channels/773983706582482946/931887174977208370) – Faithful 64x
+- [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x
+- [#64x-submit-progart](https://discord.com/channels/814198513847631944/1320159924625473599) – Classic Faithful 64x
 - [#32x-submit-jappa](https://discord.com/channels/814198513847631944/814201529032114226) – Classic Faithful 32x Jappa
-- [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x Programmer Art
 - [#64x-submit-jappa](https://discord.com/channels/814198513847631944/814209343502286899) – Classic Faithful 64x Jappa
-- [#64x-submit-progart](https://discord.com/channels/814198513847631944/1320159924625473599) – Classic Faithful 64x Programmer Art
 
 The former two channels are on the [main Discord](https://discord.gg/sN9YRQbBv7), and the latter four are on the [Classic Faithful Discord](https://discord.gg/KSEhCVtg4J).
 :::
