@@ -9,12 +9,12 @@ archived: true
 
 ## Introduction
 
-Minecraft Dungeons is known to use textures with invisible or half-visible pixels. This can be an issue when your software do not allow you to save pixels with their alpha value set to 0. There are a bunch of handy scripts to help you making these tricky textures!
+Minecraft Dungeons is known to use textures with invisible or half-visible pixels. This can be an issue when your software does not allow you to save pixels with their alpha value set to 0. There are a bunch of handy scripts to help you making these tricky textures!
 
 ## Sources
 
 All scripts are available [here](https://github.com/Faithful-Resource-Pack/Faithful-Dungeons-32x/tree/dungeons-latest/Tools/alpha%20textures).
-_If you find any bugs, please post a new issue on GitHub._
+_If you find any bugs, please make a issue on the GitHub repository._
 
 ## Requirements
 
@@ -28,9 +28,11 @@ _If you find any bugs, please post a new issue on GitHub._
 > Follow this tutorial if you don't know how to use inline commands: [YouTube Link](https://www.youtube.com/watch?v=Jey1GH8CERI)
 
 ## Scripts
+
 <ul>
     <li>
-        <code>remove_alpha.py</code><br><br>
+        <code>remove_alpha.py</code>
+        <br><br>
         <img src="/images/dungeons/alpha-img/remove_alpha.png" alt="remove alpha" width="192" height="64">
         <blockquote>From Alpha to Opaque.</blockquote>
         <p>Set <strong class="red-text">all pixels</strong> opaque.</p>
@@ -41,7 +43,8 @@ _If you find any bugs, please post a new issue on GitHub._
     </li>
     <br>
     <li>
-        <code>get_alpha.py</code><br><br>
+        <code>get_alpha.py</code>
+        <br><br>
         <img src="/images/dungeons/alpha-img/get_alpha.png" alt="get alpha" width="192" height="64">
         <blockquote>From Opaque to Alpha.</blockquote>
         <p>Set <strong class="red-text">all pixels</strong> transparent.</p>
@@ -52,10 +55,11 @@ _If you find any bugs, please post a new issue on GitHub._
     </li>
     <br>
     <li>
-        <code>merge_alpha_layers.py</code><br><br>
+        <code>merge_alpha_layers.py</code>
+        <br><br>
         <img src="/images/dungeons/alpha-img/merge_alpha_layers.png" alt="merge alpha layers" width="192" height="192">
         <blockquote>Merge both types easily.</blockquote>
-        <p>With this one, you have to set "masks", one with opaque pixels, one with transparent pixels.</p>
+        <p>With this one, you have to set two "masks": one with opaque pixels and one with transparent pixels.</p>
         <ul>
             <li>Use <code>BASE_merge_alpha_layer0.png</code> as base for solid pixels.</li>
             <li>Use <code>BASE_merge_alpha_layer1.png</code> as base for transparent pixels.</li>
