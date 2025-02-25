@@ -63,7 +63,7 @@ export default function computeCategories(dir: string) {
 		})
 		.reduce((acc, cur) => {
 			// because this isn't just an object with the names as keys we need to search
-			const found = acc.findIndex((v) => v.text === cur.category);
+			const found = acc.findIndex((category) => category.text === cur.category);
 			if (found === -1) acc.push({ text: cur.category, collapsed: false, items: [cur] });
 			else acc[found].items?.push(cur);
 			return acc;

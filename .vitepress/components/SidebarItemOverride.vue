@@ -279,12 +279,13 @@ function onCaretClick() {
 
 .caret-icon {
 	font-size: 18px;
+	/*rtl:ignore*/
 	transform: rotate(90deg);
 	transition: transform 0.25s;
 }
 
 .SidebarItemOverride.collapsed .caret-icon {
-	transform: rotate(0);
+	transform: rotate(0)/*rtl:rotate(180deg)*/;
 }
 
 .SidebarItemOverride.level-1 .items,
