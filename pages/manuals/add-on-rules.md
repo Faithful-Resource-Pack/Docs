@@ -14,7 +14,7 @@ date: "2024-03-10"
     <li><b>It must be descriptive enough to give anybody a basic idea of what your pack does.</b></li>
     <li><b>It has to be properly capitalised with <a href="https://en.wikipedia.org/wiki/Title_case">Title Case</a>.</b></li>
     <li><b>When possible, use proper English grammar.</b>
-    <br>If you forget to do any of these above nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.</li>
+    <br>If you forget to do any of these above, nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.</li>
     <li><b>Avoid using the word “Better” in the name!</b>
     <br>Be creative and describe your pack more precisely. This can be tolerated in some cases if the header image shows what the add-on does clearly, but we'd still prefer more creative names for your add-ons.</li>
     <li><b>No obscenities or swear words.</b></li>
