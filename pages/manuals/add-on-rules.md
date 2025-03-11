@@ -1,7 +1,7 @@
 ---
 title: "Rules for Add-ons"
 category: "Manuals"
-date: "2024-03-10"
+date: "2022-08-13"
 ---
 
 # Rules for Faithful Add-ons
