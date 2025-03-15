@@ -216,20 +216,20 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 
 ## Part 3: Fixing JAPPA’s Mistakes and Things He’s Forgotten
 
-Faithful extends its field of expertise to correcting JAPPA’s mistakes. One such example would be the oak sign, which until 1.17 used this texture:
+Faithful extends its field of expertise to correcting JAPPA’s mistakes. One such example would be the observer texture:
 
 <img src="/images/textures/f32-texturing-guidelines/jappafy.png" alt="forgotten texture" class="center">
-<i class="center">Pre-1.17 vanilla oak sign texture.</i>
+<i class="center">JAPPA's observer top texture.</i>
 
 <br>
 
-It is obvious that this texture uses the programmer art oak planks and bark. This is not viable for Faithful, as the pack strives for consistency, and as such it has been decided to use the already existing jappa plank and bark textures instead. Besides the sign, many more textures requiring this treatment exist. Some uncertainties about this have emerged over time, so a specific rule has been made:
+It is obvious that this texture uses the programmer art furnace cobblestone in the background. This is not viable for Faithful, as the pack strives for consistency, and as such it has been decided to use the already existing furnace cobblestone texture instead. Besides the observer, many more textures requiring this treatment exist. Some uncertainties about this have emerged over time, so a specific rule has been made:
 
 **Only replace programmer art textures (or textures that weren’t changed in the texture update) if it’s absolutely obvious what they should be changed to.**
 
-Let’s take the sign texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple recolours. Thus, this process can be replicated with the Jappa planks in order to make a viable Faithful texture.
+Let’s take the observer texture mentioned above as an example. It is clear that it uses programmer art textures with very little modifications, and even when these edits exist, they’re simple overlays. Thus, this process can be replicated with the Jappa cobblestone in order to make a viable Faithful texture.
 
-On the contrary, a texture that should NOT be “Jappafied” is blaze powder. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classified as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises—there is no obvious way to do it correctly. What colour palette should be used? How contrasty should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
+On the contrary, a texture that should NOT be “Jappafied” is blaze powder. The number of colours and the shading style make it clear that it was not made by JAPPA, meaning that it can be classified as programmer art. One might think of trying to re-interpret the texture using the art style present in other item textures by JAPPA, but one major problem arises: there is no obvious way to do it correctly. What colour palette should be used? How contrasty should the colours be? Should the shape be preserved? Would the same shading methods be kept? Nobody knows for sure, and these assumptions are not for Faithful artists to make. As such, this texture, and all the other textures that fall into this category, are to be left as-is, and should be upscaled like any other texture according to the rules mentioned above.
 
 <img src="/images/textures/f32-texturing-guidelines/keep_progart.png" alt="texture should not be jappafied" class="center">
 <i class="center">Blaze powder, an example of a texture that should not be “Jappafied”.</i>
