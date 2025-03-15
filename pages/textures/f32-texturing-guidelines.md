@@ -83,7 +83,7 @@ This rule does not apply to animated textures that used to be generated procedur
 
 12. **If a texture would end up looking identical to vanilla when upscaled (while following all the above rules), it shall not be included in Faithful.** Self-explanatory. Textures like these look exactly the same as vanilla when used in-game, and so they only bloat the pack and needlessly increase the file size.
 
-13. **If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.** Some examples of bugs that are allowed to be fixed include: unused/misaligned pixels or textures, “Jappafication” errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.
+13. **If a texture has issues noted on the Mojira website, Mojang's offical bug tracker, then changes should be made to fix them.** Some examples of bugs that are allowed to be fixed include unused/misaligned pixels or textures, “Jappafication” errors, and parity issues. Fixing bugs allows for the pack to have issues in textures resolved before they are added into the base game, which saves us time.
 
 ::: danger NOTE
 Special rules and/or exceptions can apply to specific textures if the Art Director Council approves it.
@@ -124,7 +124,7 @@ There exists a correlation between the roughness and shininess of a material and
 <img src="/images/textures/f32-texturing-guidelines/smooth_metal.png" alt="smooth metal textures" class="center">
 <i class="center">Examples of various smooth metal textures.</i>
 
-**Rough metals** such as raw ore blocks, netherite, anvils and even iron golems should follow the same lighting logic as regular metals while being dithered. Regular dithering should be used as the preferred method.
+**Rough metals** such as raw ore blocks, netherite, anvils, and even iron golems should follow the same lighting logic as regular metals while being dithered. While regular dithering should be the preferred method, small amounts of linear dithering can be used as well.
 
 <img src="/images/textures/f32-texturing-guidelines/rough_metal.png" alt="rough metal textures" class="center">
 <i class="center">Examples of rough metal textures.</i>
@@ -209,7 +209,7 @@ Smooth stone is a special case however, as it directly reuses regular stone’s 
 
 ### Shapes
 
-**Cylindrical type objects** such as iron bars, individual dynamite sticks that make up TNT and metal railings should have visible shades along both sides and a highlight on the side near the centre like so:
+**Cylindrical type objects** such as iron bars, individual dynamite sticks that make up TNT, and metal railings should have visible shades along both sides and a highlight on the side near the centre like so:
 
 <img src="/images/textures/f32-texturing-guidelines/cylinder.png" alt="cylindrical type objects" class="center">
 <i class="center">An example showing how to shade cylindrical type objects.</i>
@@ -247,4 +247,4 @@ These rules and guidelines are subject to change at any time. Significant change
 - Written by Pomi108 for use in the Faithful project
 - Edited by Anonymous, Juknum, and Fred figglehorn
 - Images compiled by Anonymous and Pomi108
-- Credit for images goes to various Faithful contributors, Mojang Studios and Google Images
+- Credit for images goes to various Faithful contributors, Mojang Studios, and Google Images
