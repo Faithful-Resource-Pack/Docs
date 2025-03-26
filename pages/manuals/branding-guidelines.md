@@ -76,7 +76,7 @@ You can use a monochrome version of our logo in small spaces if using the regula
 
 <img src="/images/manuals/branding-guidelines/monochrome_logos.png" class="center">
 
-All our logos should always retain their pixel art form—don't simplify the shape into vectors.
+Project logos should always retain their pixel art form—don't simplify the shape into vectors.
 
 <img src="/images/manuals/branding-guidelines/no_vectors.png" class="center">
 <i class="center">Left: Correct depiction of the Faithful logo. Right: Incorrect depiction.</i>
