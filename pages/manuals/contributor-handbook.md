@@ -66,26 +66,20 @@ Finally, please know that by submitting a texture, you agree to allow:
 
 ## Voting on Textures and the Texture Approval Process
 
-Whether a texture makes it into Faithful or not is determined by a voting process. It consists of two stages:
+Whether a texture makes it into Faithful or not is determined by a community vote. This period lasts for 2 days and is open to everybody. To vote on a submission, simply click on the check mark ✅ or cross ❌ button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
 
-1. **Community Voting:**
-    On the main Discord, this period lasts for 2 days and is open to everybody. For Classic Faithful, this period lasts one day. To vote on a submission, simply click on the check mark ✅ or cross ❌ button depending on whether you like the texture or not. Before you vote however, keep in mind that you should do the following:
-    - **Clearly view the texture:** You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to actually view. Thankfully, the bot is equipped with tools that you can use to get a better view of the texture. You can click on the magnifying glass button to view the texture more closely (this button is also a command in the form of `/magnify`).
+- **Clearly view the texture:** You should always get a clear look at the texture before voting on it. The size of the texture you see in submissions can sometimes be too small and compressed to view properly, particularly on UI textures, so you can use the magnifying glass button to view the texture more closely (this button is also a slash command: `/magnify`). If an edit to an existing texture has been submitted, you can also use the eye button to see the exact pixel differences between the proposed and current textures.
 
-    - **Compare different resolutions:** When evaluating, you shouldn’t just look at the texture that was submitted. Of course, with this being a higher resolution resource pack of the base textures, it’s important that the texture is consistent to the original. Using the comparison image inside the submission embed, try to look for consistency issues such as incorrect color placement, incorrect shape sizes, and even detail not present in the original.
+- **Compare different resolutions:** When evaluating a texture, you shouldn’t just look at the submitted work, but also should examine it against the reference texture it was based on. Using the comparison image inside the submission embed, try to look for consistency issues such as incorrect color placement, incorrect shape sizes, and detail not present in the original. It's also worth noting that for 64x packs, the reference texture is usually the 32x texture rather than the vanilla texture, so you should examine both to ensure the reference is accurate as well.
 
-    - **Communicate issues to the author:** Communication to the author is a crucial part of the evaluation process. If at any point, you find issues through your evaluation of a texture, try to explain to the original author what issues the texture has, and try to give advice on how to fix it. Remember, constructive criticism is key—simply saying that “a texture is bad” is no help whatsoever.
+- **Communicate issues to the author:** Communicating issues to the author is a crucial part of the evaluation process. Try to explain to the original author what issues the texture has, and give actionable advice on how to fix these issues. Remember, constructive criticism is key—simply saying that "this texture is bad" with no elaboration is no help to anyone.
 
 ::: warning REMEMBER:
 Never vote based on how many votes a texture already has! **Always vote based on your own individual opinion.**
 :::
 
-2. **Art Director Council Voting**: When a submission has passed public voting (determined as getting more or the same amount of upvotes than downvotes after a 2 day period), it enters a 1-day phase of council voting. During this phase, council members talk about the submission in private and vote to determine whether the texture fits the stylistic direction of Faithful. For Classic Faithful, the results from community voting directly go to results, without a council phase.
+Besides the upvote and downvote options regular users get, there are two other options that the council and managers have:
 
-    A texture passes council voting if it has more upvotes than downvotes after one day. The council’s decision is final—if the council rejects a texture, it will never be added to the pack and the same, unmodified one cannot be submitted again.
+1. **Instapass**: An instapass (a portmanteau of "instantly-passed texture") is when a texture skips the voting process and is added immediately. This may be for recolours of another texture, consistency fixes for outdated textures, or texture bugs that needed fixing.
 
-Besides the upvote and downvote options regular users get, there are 2 other options that the council and managers have:
-
-1. **Instapass**: An instapass is when a texture immediately gets added into the pack without needing to go through the voting process. These textures usually get instapassed for reasons such as being recolours of another texture, consistency fixes for textures that are outdated, or even bugs that needed fixing.
-
-2. **Invalidation**: An invalidation is given when textures blatantly and objectively break the guidelines.
+2. **Invalidation**: A texture is invalidated when it objectively breaks the guidelines. It must be justified by a council member and is generally reserved for particularly contentious textures.
