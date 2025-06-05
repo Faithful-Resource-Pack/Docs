@@ -36,10 +36,6 @@ i.center {
 	color: #f44336;
 }
 
-.green-text {
-	color: #4caf50;
-}
-
 /* lists */
 .lettered > li {
 	list-style-type: lower-alpha;
@@ -49,7 +45,7 @@ i.center {
 	list-style-type: upper-roman;
 }
 
-/* scrollbar stuff */
+/** scrollbar stuff */
 
 /* firefox */
 * {
