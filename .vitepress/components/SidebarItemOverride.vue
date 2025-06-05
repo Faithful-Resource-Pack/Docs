@@ -285,7 +285,7 @@ function onCaretClick() {
 }
 
 .SidebarItemOverride.collapsed .caret-icon {
-	transform: rotate(0)/*rtl:rotate(180deg)*/;
+	transform: rotate(0) /*rtl:rotate(180deg)*/;
 }
 
 .SidebarItemOverride.level-1 .items,
