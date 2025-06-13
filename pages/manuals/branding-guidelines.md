@@ -27,12 +27,12 @@ Classic Faithful 32x goes all out on nostalgia!
 Classic Faithful, formerly named the Emulated Vattic Textures or "EM" project, attempts to answer the question "what if Vattic had never left Faithful".
 :::
 
-To refer to the project as a whole, "Faithful Resource Pack" or "Faithful Project" is preferred when Faithful hasn't been already introduced. Once the Faithful name has been established, you can simply use "Faithful" from then on.
+To refer to the project as a whole, "Faithful Resource Pack" is preferred when Faithful hasn't been already introduced. Once the Faithful name has been established, you can simply use "Faithful" from then on.
 
 For specific projects, use (division) Faithful (resolution)x (style) as the format for each specifier.
 
 ::: tip Good:
-- Faithful Project
+- Faithful Resource Pack
 - Faithful 32x
 - Classic Faithful 32x
 - Faithful

@@ -244,7 +244,7 @@ These rules and guidelines are subject to change at any time. Significant change
 
 ## Credits
 
-- Written by Pomi108 for use in the Faithful project
+- Written by Pomi108 for use in Faithful
 - Edited by Anonymous, Juknum, and Fred figglehorn
 - Images compiled by Anonymous and Pomi108
 - Credit for images goes to various Faithful contributors, Mojang Studios, and Google Images

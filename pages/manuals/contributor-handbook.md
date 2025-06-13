@@ -60,7 +60,7 @@ You can delete your submission at any time by clicking the arrow icon below your
 
 Finally, please know that by submitting a texture, you agree to allow:
 - The texture to be used in any public or development version of Faithful.
-- The texture to be used directly or in a modified state in other projects under the Faithful project. (Classic Faithful, Faithful Tweaks/Add-ons etc.)
+- The texture to be used directly or in a modified state in other projects under the Faithful umbrella. (Classic Faithful, Faithful Tweaks/Add-ons etc.)
 - The texture to be used in/as a base for other textures meant for Faithful.
 - Others to edit your texture without any required prior notice, and allow them to submit the edited texture to Faithful, with appropriate credit.
 
