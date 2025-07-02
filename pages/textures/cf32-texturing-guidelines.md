@@ -4,7 +4,7 @@ category: "Textures"
 date: "2022-08-22"
 ---
 
-# Classic Faithful 32x (Jappa and PA) Texturing Rules and Guidelines
+# Classic Faithful 32x Texturing Guidelines
 
 ## Introduction
 

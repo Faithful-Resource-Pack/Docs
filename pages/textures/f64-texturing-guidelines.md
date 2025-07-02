@@ -4,7 +4,7 @@ category: "Textures"
 date: "2023-09-27"
 ---
 
-# Faithful 64x Guidelines
+# Faithful 64x Texturing Guidelines
 
 ## Introduction
 

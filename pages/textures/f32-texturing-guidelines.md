@@ -4,7 +4,7 @@ category: "Textures"
 date: "2022-03-19"
 ---
 
-# Faithful 32x Texturing Rules and Guidelines
+# Faithful 32x Texturing Guidelines
 
 ## Introduction
 
