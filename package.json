@@ -11,9 +11,9 @@
 	"dependencies": {
 		"gray-matter": "^4.0.3",
 		"vitepress": "^1.6.3",
-		"vue": "^3.5.17"
+		"vue": "^3.5.18"
 	},
 	"devDependencies": {
-		"@types/node": "^24.0.10"
+		"@types/node": "^24.1.0"
 	}
 }

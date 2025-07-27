@@ -45,7 +45,7 @@ export function walkSync(dir: string, filelist: string[] = []) {
 export default function computeCategories(dir: string) {
 	return walkSync(dir)
 		.filter((f) => f.endsWith(".md"))
-		.map((fileName) => {
+		.map<DocFile>((fileName) => {
 			const file = readFileSync(fileName, { encoding: "utf8" });
 			const name = fileName.replace(process.cwd(), "").replace(".md", "");
 			// parse yaml frontmatter into object
@@ -59,15 +59,15 @@ export default function computeCategories(dir: string) {
 				// default false
 				archived: frontmatter.archived ?? false,
 				deprecated: frontmatter.deprecated ?? false,
-			} as DocFile;
+			};
 		})
-		.reduce((acc, cur) => {
+		.reduce<DocCategory[]>((acc, cur) => {
 			// because this isn't just an object with the names as keys we need to search
 			const found = acc.findIndex((category) => category.text === cur.category);
 			if (found === -1) acc.push({ text: cur.category, collapsed: false, items: [cur] });
 			else acc[found].items?.push(cur);
 			return acc;
-		}, [] as DocCategory[])
+		}, [])
 		.map((category) => {
 			// collapse categories that are entirely archived/deprecated by default
 			if (category.items.every((i) => i.deprecated || i.archived)) category.collapsed = true;
