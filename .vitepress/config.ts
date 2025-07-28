@@ -38,8 +38,7 @@ export default () => {
 				pattern: "https://github.com/Faithful-Resource-Pack/Docs/edit/main/:path",
 			},
 			footer: {
-				message: `NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT
-					<br>
+				message: `
 					This website was made using the
 					<a
 						href="https://vitepress.dev"
