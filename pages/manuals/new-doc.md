@@ -7,12 +7,11 @@ date: "2021-07-19"
 # How to write a new documentation article
 
 You can add a new article by creating a new file in the `pages/` directory or any of its subdirectories.
-Please only use markdown files and do not change anything on the existing CSS or TypeScript.
+Please only use Markdown files and do not change anything on the existing CSS or TypeScript.
 
 ## Frontmatter
 
-The article needs a front matter to be added to the sidebar and be easily viewable.
-It has to be the first thing in the file and defines the title and other properties of your article.
+Each article must contain frontmatter specifying metadata like the title, category, and other relevant properties. Without it, the article will not appear in the sidebar or navigation and hence be inaccessible.
 Below you can see an example.
 
 ```yaml
@@ -31,7 +30,7 @@ Markdown is a lightweight markup language with plain-text-formatting syntax, cre
 
 ## Other programming/markup languages
 
-We recommend only using markdown, but other languages can be used or included in the markdown file:
+We recommend only using Markdown, but other languages can be used or included in the Markdown file:
 
 - HTML
 - CSS (using the `style` html tag)
