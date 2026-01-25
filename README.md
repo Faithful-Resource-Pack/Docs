@@ -1,6 +1,6 @@
 <a href="https://docs.faithfulpack.net/" target="_blank">
   <img
-    src="https://database.faithfulpack.net/images/branding/logos/transparent/hd/main_logo.png?w=256"
+    src="https://database.faithfulpack.net/images/branding/logos/transparent/hd/docs_logo.png?w=256"
     alt="Faithful Logo"
     height="256"
     align="right"
