@@ -48,9 +48,9 @@ This behavior is immensely useful across Faithful, both because the contribution
 
 ### Texture IDs
 
-Each texture is assigned a unique ID on creation, since Minecraft textures filenames aren't guaranteed to be unique (`jungle.png` is shared by unrelated villager, boat, and sign textures). Texture IDs are simple automatically-incrementing numeric values, so the first created texture has the ID #0, the second texture #1, etc.
+Each texture is assigned a unique ID on creation, since Minecraft texture filenames aren't guaranteed to be unique (`jungle.png` is shared by unrelated villager, boat, and sign textures). Texture IDs are simple automatically-incrementing numeric values, so the first created texture has the ID #0, the second texture #1, etc.
 
-Other texture-related collections like contributions use texture IDs to represent a relationship to a specific texture as a [foreign key](https://en.wikipedia.org/wiki/Foreign_key), so they're are immutable to prevent data moving around. Additionally, if a texture gets removed or merged with another identical texture, the removed ID isn't ever reused for the same reason.
+Other texture-related collections like contributions use texture IDs to represent a relationship to a specific texture as a [foreign key](https://en.wikipedia.org/wiki/Foreign_key), so they're immutable to prevent data moving around. Additionally, if a texture gets removed or merged with another identical texture, the removed ID isn't ever reused for the same reason.
 
 ::: warning Note: it is unsafe to assume that every numeric ID less than the current maximum is a valid texture ID, since there may be "holes" where textures were deleted.
 This is also why the latest texture ID is substantially greater than the actual number of textures indexed in the database.
@@ -64,7 +64,7 @@ Yes! The initial set of paths from when the Faithful texture database was create
 
 Bedrock-exclusive textures from the same time period are listed after that, also alphabetically (roughly IDs 2000~5000).
 
-Since then, textures have been added alongside game releases (with a few exceptions regarding legacy version support), so texture IDs are more-or-less chronological since 1.17 across both editions (IDs 5000+).
+Since then, textures have been added alongside game releases (with a few exceptions regarding legacy version support), so texture IDs are more-or-less chronological after 1.17 across both editions (IDs 5000+).
 :::
 
 ### Additional Texture Information
@@ -142,11 +142,11 @@ const example: Path = {
 };
 ```
 
-**Paths** are the lowest level of the texture hierarchy, and define individual file paths the texture file can be found, along with the specific versions they apply to.
+**Paths** are the lowest level of the texture hierarchy, and define individual file paths where the texture file can be found, along with the specific versions they apply to.
 
 Path IDs are [pseudorandom hashes](https://www.php.net/manual/en/function.uniqid.php) to better distinguish them from use and texture IDs. Since they are the final "link" in the chain, as nothing needs to reference path IDs, the actual value doesn't matter and isn't seen in user-facing UI anywhere. Paths link back to their parent use by storing its ID, and since a use ID is simply a texture ID with a letter appended, it is trivial to get a texture ID from a path entry by removing the final character.
 
-Path names start from the pack folder name, which is usually `assets/` for Java Edition and `textures/` for Bedrock Edition. Only forward slashes are used, with none at the start, and the `.png` extension is always included for forwards compatibility with potential non-png textures.
+Path names start from the pack folder name, which is usually `assets/` for Java Edition and `textures/` for Bedrock Edition. Only forward slashes are used, with none at the start, and the `.png` extension is always included for forward compatibility with potential non-png textures.
 
 The MCMETA boolean specifically marks paths with a corresponding `.mcmeta` animation file. It is not stored on the texture level since not all paths are guaranteed to have an MCMETA file, such as Bedrock Edition paths, so by storing it on the path itself it's easy to search a texture's paths until a match is found.
 
