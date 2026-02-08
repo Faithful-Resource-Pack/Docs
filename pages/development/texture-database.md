@@ -11,7 +11,7 @@ The Faithful texture database powers the submission system, texture gallery, and
 This guide doesn't go into extensive detail as to what every texture-related Faithful API endpoint does, but rather aims to provide a high-level overview of how everything functions and links together at a broad scope. This should be reasonably comfortable for non-developers to read, but some basic knowledge about database management will go a long way.
 
 ::: tip
-All [Faithful API](https://api.faithfulpack.net/docs) endpoints under `/v2/textures`, `/v2/uses`, and `/v2/paths`, and most of the `/v2/gallery` endpoints are handled by this portion of the database.
+All [Faithful API](https://api.faithfulpack.net/docs) endpoints under `/v2/textures`, `/v2/uses`, and `/v2/paths`, and most of the `/v2/gallery` and `/v2/versions` endpoints are handled by this portion of the database.
 :::
 
 ## Overview
@@ -71,8 +71,8 @@ Since then, textures have been added alongside game releases (with a few excepti
 
 A texture has two other top-level fields: its display name and its tags:
 
--   The primary display name is mostly used for texture searching. If an image is used in multiple places with different names, the more obvious/common of the two is chosen for the display name (e.g. `glass_bottle.png` and `potion.png` share a texture entry but the display name is [`glass_bottle`](https://webapp.faithfulpack.net/gallery?show=1526) since the name is clearer and more obvious).
--   Texture tags are effectively a gallery search optimization that prevents unnecessarily searching path substrings when filtering results, since there are many more paths than textures. Tags are usually the folder directly after `textures/` in the path with [title casing](https://en.wikipedia.org/wiki/Title_case), such as `Block`, `Item`, or `Entity`.
+- The primary display name is mostly used for texture searching. If an image is used in multiple places with different names, the more obvious/common of the two is chosen for the display name (e.g. `glass_bottle.png` and `potion.png` share a texture entry but the display name is [`glass_bottle`](https://webapp.faithfulpack.net/gallery?show=1526) since the name is clearer and more obvious).
+- Texture tags are effectively a gallery search optimization that prevents unnecessarily searching path substrings when filtering results, since there are many more paths than textures. Tags are usually the folder directly after `textures/` in the path with [title casing](https://en.wikipedia.org/wiki/Title_case), such as `Block`, `Item`, or `Entity`.
 
 ::: tip Tag Ordering
 By convention, tags are always listed in the order: Java, Realms, Bedrock, Java texture folder names, Bedrock-exclusive texture folder names.
@@ -167,9 +167,9 @@ This means that you cannot guarantee an MCMETA file existing when a path is mark
 
 Minecraft versions mostly follow the conventions of the Minecraft launcher, with the latest patch version included (e.g. the database uses 1.17.1 instead of 1.17 even though both are functionally identical). However, there are a few special versions:
 
--   `java-latest` is guaranteed to point to the latest stable version of Minecraft.
--   `java-snapshot` points to the latest snapshot of Minecraft, and goes unused when snapshots are not in development.
--   `bedrock-latest` is the only Bedrock Edition version, since older versions are not officially supported.
+- `java-latest` is guaranteed to point to the latest stable version of Minecraft.
+- `java-snapshot` points to the latest snapshot of Minecraft, and goes unused when snapshots are not in development.
+- `bedrock-latest` is the only Bedrock Edition version, since older versions are not officially supported.
 
 When a new Minecraft version is made stable, the previous `java-latest` version is renamed to its final numbered version and `java-snapshot` is renamed to form the new `java-latest` version.
 
@@ -177,8 +177,8 @@ When a new Minecraft version is made stable, the previous `java-latest` version 
 
 The Faithful texture database can effectively be summed up as follows:
 
--   **Textures** are the root entry of the database, and are based on the number of unique image files in the game across all versions and editions.
--   **Uses** divide a texture into its distinct purposes, but are most frequently used to split up paths by edition.
--   **Paths** are linked to uses and store the actual filepaths, Minecraft versions it's used in, and animated textures.
+- **Textures** are the root entry of the database, and are based on the number of unique image files in the game across all versions and editions.
+- **Uses** divide a texture into its distinct purposes, but are most frequently used to split up paths by edition.
+- **Paths** are linked to uses and store the actual filepaths, Minecraft versions it's used in, and animated textures.
 
 Still have questions? Ask a developer on our [Discord server](https://discord.gg/sN9YRQbBv7) for more information.
