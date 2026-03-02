@@ -11,12 +11,10 @@
 
 	/* light is treated as "default" */
 	--vp-c-brand-soft: #efffe6;
-	scrollbar-color: #76c945 #ffffffbb;
 }
 
 .dark {
 	--vp-c-brand-soft: #2d4022;
-	scrollbar-color: #76c945 var(--vp-c-bg);
 }
 
 .center {
@@ -45,27 +43,6 @@ i.center {
 	list-style-type: upper-roman;
 }
 
-/** scrollbar stuff */
-
-/* firefox */
-* {
-	scrollbar-width: auto;
-}
-
-/* Chrome, Edge, and Safari */
-html::-webkit-scrollbar, html *::-webkit-scrollbar {
-	width: 8px;
-}
-
-html::-webkit-scrollbar-track, html *::-webkit-scrollbar-track {
-	background: var(--vp-c-bg);
-}
-
-html::-webkit-scrollbar-thumb, html *::-webkit-scrollbar-thumb {
-	background-color: #76c945;
-	border-radius: 12px;
-}
-
 /* home page */
 .colorful {
 	background: -webkit-linear-gradient(115deg, var(--faithful-brand) 30%, var(--secondary-brand));
@@ -89,5 +66,44 @@ html::-webkit-scrollbar-thumb, html *::-webkit-scrollbar-thumb {
 @media (min-width: 960px) {
 	:root {
 		--vp-home-hero-image-filter: blur(68px);
+	}
+}
+
+/* taken from https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#examples */
+
+/* For browsers that support `scrollbar-*` properties */
+@supports (scrollbar-color: auto) {
+	* {
+		scrollbar-color: #76c945 var(--vp-c-bg);
+	}
+	.VPSidebar {
+		scrollbar-color: #76c945 var(--vp-sidebar-bg-color);
+	}
+}
+
+/* Otherwise, use `::-webkit-scrollbar-*` pseudo-elements */
+@supports selector(::-webkit-scrollbar) {
+	/* basic styles to make scrollbars not look terrible */
+	::-webkit-scrollbar,
+	*::-webkit-scrollbar {
+		width: 14px;
+	}
+
+	::-webkit-scrollbar-thumb,
+	*::-webkit-scrollbar-thumb {
+		background-clip: content-box;
+		border-radius: 12px;
+		border: solid 3px transparent;
+		background-color: #76c945;
+	}
+
+	::-webkit-scrollbar-track,
+	*::-webkit-scrollbar-track {
+		background: var(--vp-c-bg);
+	}
+
+	.VPSidebar::-webkit-scrollbar-track,
+	.VPSidebar *::-webkit-scrollbar-track {
+		background: var(--vp-sidebar-bg-color);
 	}
 }
