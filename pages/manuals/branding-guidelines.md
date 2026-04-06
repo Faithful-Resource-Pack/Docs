@@ -116,14 +116,9 @@ Most importantly, don't mix logos and wordmarks, since the pixelated logos don't
 
 *[Download the Faithful fonts here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/font)*
 
-The Faithful font should be used for titles and headings, while any neutral sans-serif is preferred for body text. This is primarily because the individual pixels in the Faithful font blur together, hindering legibility at small scales.
+The Faithful 32x font is the main typeface for headings, tooltips, form controls, and buttons. For large areas of body text or very small text, Roboto can be used instead, as raster type doesn't scale well at small sizes. For more interactive websites, such as the Faithful Web Application, Roboto can be used for other purposes to increase legibility and consistency as needed.
 
-Since wordmarks don't scale very well, at small resolutions you're usually better off just typing the name out in a regular font.
-
-<img src="/images/manuals/branding-guidelines/bad_font.png" class="center">
-<i class="center">Left: Good diversity in font sizing. Right: Blends together from the uniform size and font.</i>
-
-The semibold Faithful font should be used for large headings and the regular Faithful font for sub-headings. Only use the bold Faithful font for top-level titles when more than two levels of nested titles are required, due to its low readability and large horizontal footprint.
+To add additional emphasis to text (such as multiple levels of title or a key statistic), use the semibold variant of the Faithful 32x typeface. Refrain from excessively using the full bold variant, as it has a large horizontal footprint and can be hard to read at small scales.
 
 <img src="/images/manuals/branding-guidelines/font_scaling.png" class="center">
 <i class="center">Each font weight and where it should be used.</i>
@@ -132,7 +127,7 @@ The semibold Faithful font should be used for large headings and the regular Fai
 
 In general, the hierarchy of branding elements to be used should be (from largest to smallest space available) wordmarks, then logos, then regular text.
 
-Always leave padding around the edges of any logo and wordmark. Specific ratios don't really matter as long as the padding is even on all sides and the respective branding doesn't appear too large.
+Always leave padding around the edges of any logo and wordmark. For logos, try to keep the padding such that the logo image is always displayed as an integer multiple of 64x64, since that minimizes pixel distortion when rendered on low-resolution screens.
 
 <img src="/images/manuals/branding-guidelines/padding.png" class="center">
 <i class="center">Left: Correct padding and scaling of the logo. Right: Incorrect padding and sizing.</i>
