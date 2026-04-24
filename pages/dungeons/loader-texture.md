@@ -5,7 +5,7 @@ date: "2020-08-09"
 archived: true
 ---
 
-<h1> How to customize the loader cube from Minecraft Dungeons</h1>
+# How to customize the loader cube from Minecraft Dungeons
 
 ## Sources
 All needed files for this tutorial can be found [here](https://github.com/Faithful-Resource-Pack/Faithful-Dungeons-32x/tree/dungeons-latest/Tools/loader).
@@ -36,7 +36,7 @@ All needed files for this tutorial can be found [here](https://github.com/Faithf
 
 6. Drag the green slider until a new face
     - Redo the previous step and this one until all faces are done
-    - <p class="red-text">⚠️ The second side of the animation has 2 orange tabs. This is because the animation file uses a non-euclidean cube, so there are 2 textures for 1 face.</p>
+    - <p class="red-text">⚠️ The second side of the animation has two orange tabs. This is because the animation file uses a non-euclidean cube, so there are two textures for one face.</p>
     - Optional: You can go to the `Texture Paint` tab and press the space bar to see your texture on the model.
 
 7. Return to the `Layout` tab, and in the bottom right, change the output path.
