@@ -17,7 +17,7 @@ date: "2023-09-13"
 
 Faithful is the product of the community. If a community you rely on cannot understand you, that's a problem.
 
-This concept basically boils down to not using unnecessarily formal language. Certain settings may require more or less formal language than others (e.g. licenses and guides should be more professional than regular posts), but if the average person doesn't understand what you're talking about, you either need to add in some definitions or simplify your language a bit.
+In other words, don't use unnecessarily formal or technical language. Certain settings may require more or less formal language than others (e.g. licenses and guides should be more professional than regular posts), but if the average person doesn't understand what you're talking about, you either need to add in some definitions or simplify your language a bit.
 
 ::: tip Good:
 Classic Faithful 32x goes all out on nostalgia!
@@ -61,7 +61,7 @@ Finally, for Faithful Add-ons, never capitalized "ons" (Add-Ons) or write the wo
 
 *[View all our logos here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/logos)*
 
-Logos work well for displaying our branding in places with limited space. This includes, but is not limited to cards, thumbnails, and buttons. Don't use our logos as a substitute for showing the name "Faithful" itself, but use them when the name is already established instead.
+Logos work well for displaying our branding in places with limited space. This includes, but is not limited to cards, thumbnails, and buttons. Don't use our logos as a substitute for showing the name "Faithful" itself, instead only when the name is already established.
 
 For most general-purpose applications, use our main logo. This logo additionally encompasses Classic Faithful, but if you specifically want to refer to Classic Faithful, you can use its respective main logo as well.
 

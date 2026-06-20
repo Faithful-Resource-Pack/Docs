@@ -72,7 +72,7 @@ Since then, textures have been added alongside game releases (with a few excepti
 A texture has two other top-level fields: its display name and its tags:
 
 - The primary display name is mostly used for texture searching. If an image is used in multiple places with different names, the more obvious/common of the two is chosen for the display name (e.g. `glass_bottle.png` and `potion.png` share a texture entry but the display name is [`glass_bottle`](https://webapp.faithfulpack.net/gallery?show=1526) since the name is clearer and more obvious).
-- Texture tags are effectively a gallery search optimization that prevents unnecessarily searching path substrings when filtering results, since there are many more paths than textures. Tags are usually the folder directly after `textures/` in the path with [title casing](https://en.wikipedia.org/wiki/Title_case), such as `Block`, `Item`, or `Entity`.
+- Texture tags are usually the folder directly after `textures/` in the path with [title casing](https://en.wikipedia.org/wiki/Title_case), such as `Block`, `Item`, or `Entity`. Tags help make gallery searching easier and can also help disambiguate between similarly named textures without having to look up the uses or paths every time.
 
 ::: tip Tag Ordering
 By convention, tags are always listed in the order: Java, Realms, Bedrock, Java texture folder names, Bedrock-exclusive texture folder names.

@@ -5,6 +5,7 @@ date: "2022-03-23"
 ---
 
 # The Faithful Contributor's Handbook
+
 ### A step-by-step guide on how to create and submit textures for Faithful, and vote on them afterwards.
 
 *If you’re reading this, you’ve most likely decided to help Faithful out and make a texture! For that, we sincerely thank you. Faithful is a fully community-run project, and wouldn’t be able to exist without volunteers like yourself!*
@@ -32,6 +33,7 @@ Once you’re done with your texture, submit it by uploading a PNG file in the p
 ::: details But which channel submits to which project?
 
 Here's a handy guide:
+
 - [#32x-submit-textures](https://discord.com/channels/773983706582482946/773987409993793546) – Faithful 32x
 - [#64x-submit-textures](https://discord.com/channels/773983706582482946/931887174977208370) – Faithful 64x
 - [#32x-submit-progart](https://discord.com/channels/814198513847631944/909503944118648883) – Classic Faithful 32x
@@ -48,21 +50,21 @@ If you’re submitting a texture with a name that is present more than once in t
 
 If there are many textures with the same filename and you don't want to deal with the dropdown menus, you can also submit by texture ID (the numbers in front of the texture name in embeds or on the gallery). For instance, if your texture's filename is `307` or you include `[#307]` in your submission comment (with the square brackets and hashtag to prevent normal numbers in comments getting flagged), found textures will be overridden and texture 307 (dirt) will instead be submitted.
 
+You can delete your submission at any time by clicking the arrow reaction below your submission, waiting for the bot to open the tray, and reacting with the trash icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message a manager or council member to remove it.
+
 ## Crediting Contributions
 
 Any and all reused parts of an existing Faithful texture should be credited in your submission (you can find who made a texture using the `/texture` command). Additionally, if you’ve collaborated with someone else while making the texture, credit the co-author(s) as well.
 
 In the submission comment, simply surround each co-author's username in curly brackets, so the bot can detect them as a contributor. For example, "Fixed a false line. Credit to {Author} for the original texture." would credit Author. If you're simply tweaking an existing texture, prefix your submission description with a plus sign (+) to add all the previous co-authors to the texture automatically.
 
-One thing to note about using curly brackets is that the name is based on the user's web app profile, not their Discord username. If these are different, or you don't want to go through the trouble of finding the correct username, you can alternatively ping the author in the comment to add them as well—both methods work in exactly the same way besides the former saving a ghost ping. If credits for a texture are missing, you don’t need to worry about any of this.
+::: warning Be careful with curly brackets!
+The name detected inside curly brackets is based on the user's web app profile, not their Discord username. You can find this by either searching the user's profile page or looking at the gallery authors for a texture they have previously contributed.
 
-You can delete your submission at any time by clicking the arrow icon below your submission, waiting for the bot to finish reacting, and reacting with the trash bin icon. Additionally, if you ever want your texture removed from Faithful after it has passed voting and been added, message a manager or council member and they will remove your texture.
+Alternatively, you can simply ping the author in the comment to add them as well. This method works identically to using curly brackets aside from the former saving a ghost ping.
+:::
 
-Finally, please know that by submitting a texture, you agree to allow:
-- The texture to be used in any public or development version of Faithful.
-- The texture to be used directly or in a modified state in other projects under the Faithful umbrella. (Classic Faithful, Faithful Tweaks/Add-ons etc.)
-- The texture to be used in/as a base for other textures meant for Faithful.
-- Others to edit your texture without any required prior notice, and allow them to submit the edited texture to Faithful, with appropriate credit.
+**If credits for a texture are missing, you don’t need to worry about any of this.**
 
 ## Voting on Textures and the Texture Approval Process
 
