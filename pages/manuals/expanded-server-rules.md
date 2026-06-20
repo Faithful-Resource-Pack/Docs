@@ -8,17 +8,15 @@ date: "2022-10-23"
 
 ## Introduction
 
-*As long as the Faithful Discord servers have existed, there have been one set of rules. They have a description of what to do, what not to do, and nothing more. While this sounds pretty standard for most Discord servers at first, the problem is that the interpretation of these rules can be entirely up the moderator or moderators online at any given time.*
+*In the early days of the Faithful Discord servers, there was one set of rules. It had a description of what to do, what not to do, and that's about it. While this sounds pretty standard for a public Discord server, for Faithful it ended up causing users to leave, entire mod teams to get fired, and moderation disaster after disaster.*
 
-*A system like this for us ended up resulting in a plethora of hasty decisions made on the spot. Long arguments between moderators would drag on over fuzzy rule boundaries, all stemming from punishments made hours before. In addition, there was little to no transparency as to how decisions were made—decisions would often be reversed hours after they were made with no explanation as to why. All of this ended up with the alienation of the community from the moderation staff, as users would seemingly get punished for no reason after just making a joke and the moderation team wouldn't give any insight as to why.*
+*Because the rules were so short and hence incredibly vague, any amount of moderation consistency was impossible. The punishment a user could receive could vary wildly between mods or even times of day, and long arguments between moderators would drag on almost daily over fuzzy rule boundaries stemming from punishments made hours or even days before. After a year or two of this system, everyone was frustrated—people would get punished for something completely arbitrary, and a few days later the punishment would either magically vanish with no explanation or remain on the user's record forever despite practically everyone knowing it was unwarranted. There had to be a better way to do things.*
 
-*However, this problem went far further than the moderation staff and rule interpretation itself. This was a systematic problem across the entirety of Faithful, leading to an endless dilemma over how the rules should be interpreted. Moderation exists to keep the server a welcoming and civilized place, but if punishments go too far, moderation becomes meaningless and nobody wants to be on the server in fear of retribution over a simple joke. However, swing too far the other way and the Discord becomes a lawless mess where nobody takes the rules seriously and nobody can take action when necessary.*
+*Throughout 2022, we dug deep to figure out the root of these problems. Through an anonymous public poll about the state of the Faithful moderation system, we found that people consistently thought the staff wasn't transparent enough despite being a community-led project, and that the rules were far too black and white about nearly every topic to be a reasonable basis for punishments. Based on this feedback and other internal changes, we started a top-down rework of everything: adding a public community poll channel for big decisions, bringing in new moderators who had been long-time community members, and even rewriting our license to be more understandable to novice contributors. Finally though, it came time for the server rules.*
 
-*Transparency is one of our key factors, playing into the open sourced aspect of Faithful, and the community is Faithful's biggest asset. The more inviting the staff and the server can be, the better everything will end up as a result. Knowing the distinction between stern and unapproachable is essential to maintaining this—you may have noticed us ditching overly formal language in the past few months in favor of more human-readable content (e.g. the license update). Keeping all of this in mind has been central to our thought process that made us decide to fix the true source of the problem: the server rules. By removing the need for constant interpretation of the rules with inbuilt guidelines for dealing with the most common rule breaks, everyone ends up better, as the community gets a much more consistent and sympathetic moderation team and the moderators don't have to deal with constant arguments over specific rule clauses.*
+*While rewriting the server rules, we also simultaneously worked on an internal document elaborating further on each rule and specifying a general guideline for what punishments to use in a given situation, since we thought a single source of truth would lead to more consistent judgements among moderators. However, after finishing this document, we realized that making it public would accomplish exactly what we set out to do in the first place, since now users would know exactly what motivated a moderation decision, individual moderators could be directly accountable for their actions, and users could even suggest balancing different punishments if they thought a guideline was unfair. In effect, everyone would have the resources of a moderator at their disposal at all times.*
 
-*That's not all. While this document was originally intended to be used only by the moderation staff and just contain punishment guidelines, we eventually realized that making it public would be a far better idea. Not only would ban appeals and rule clarifications fit in perfectly, but users would know exactly the reasoning for their punishment and could even suggest changes if the vast majority considered a certain rule or punishment inappropriate. While the new rules take an overall more lenient approach, which the majority of users (taken from our moderation poll made few months prior to the rewrite) wanted, some things were disallowed due to many people requesting it.*
-
-*With all of that context out of the way, let's start with the basics.*
+*With that context, let's get into it.*
 
 ::: details Definitions (in order of severity)
 
@@ -202,7 +200,7 @@ Our golden rule of moderation: **"If a post is not done with malicious intent an
 ## Credits
 
 - Concept by [Pythagoras_314](https://www.reddit.com/user/Pythagoras_314).
-- Written by [Evorp](https://github.com/3vorp).
-- A few sections by Nyodex.
-- Edits by Nyodex and Fred figglehorn.
+- Written by [Evorp](https://3vorp.github.io).
+- A few sections by Skottify.
+- Edits by Skottify and Fred figglehorn.
 - Appeal form by [Ninventoo](https://github.com/Ninventoo).
