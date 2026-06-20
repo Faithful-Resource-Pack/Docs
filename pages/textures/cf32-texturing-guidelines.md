@@ -265,6 +265,6 @@ The majority of additional techniques for upscaling blurry textures are shared w
 ## Credits go to…
 
 - The [Faithful 32x guidelines](/pages/textures/f32-texturing-guidelines) by [Pomi108](https://github.com/Pomi108), which this document drew heavy inspiration from.
-- Written by [Evorp](https://github.com/3vorp).
+- Written by [Evorp](https://3vorp.github.io).
 - Edits by [ZapPack](https://www.twitch.tv/zappack_).
 - Images by various Classic Faithful contributors and Mojang Studios.
