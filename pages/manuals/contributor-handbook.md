@@ -59,7 +59,7 @@ Any and all reused parts of an existing Faithful texture should be credited in y
 In the submission comment, simply surround each co-author's username in curly brackets, so the bot can detect them as a contributor. For example, "Fixed a false line. Credit to {Author} for the original texture." would credit Author. If you're simply tweaking an existing texture, prefix your submission description with a plus sign (+) to add all the previous co-authors to the texture automatically.
 
 ::: warning Be careful with curly brackets!
-The name detected inside curly brackets is based on the user's web app profile, not their Discord username. You can find this by either searching the user's profile page or looking at the gallery authors for a texture they have previously contributed.
+The name detected inside curly brackets is based on the user's Faithful account, not their Discord username. You can find this by either searching for the user's profile page or looking at the gallery authors for a texture they have previously contributed.
 
 Alternatively, you can simply ping the author in the comment to add them as well. This method works identically to using curly brackets aside from the former saving a ghost ping.
 :::

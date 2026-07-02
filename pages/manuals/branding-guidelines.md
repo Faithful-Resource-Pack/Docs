@@ -116,7 +116,7 @@ Most importantly, don't mix logos and wordmarks, since the pixelated logos don't
 
 *[Download the Faithful fonts here](https://github.com/Faithful-Resource-Pack/Branding/tree/main/font)*
 
-The Faithful 32x font is the main typeface for headings, tooltips, form controls, and buttons. For large areas of body text or very small text, Roboto can be used instead, as raster type doesn't scale well at small sizes. For more interactive websites, such as the Faithful Web Application, Roboto can be used for other purposes to increase legibility and consistency as needed.
+The Faithful 32x font is the main typeface for headings, tooltips, form controls, and buttons. For large areas of body text or very small text, Roboto can be used instead, as raster type doesn't scale well at small sizes. For more interactive websites, such as the Faithful Studio, Roboto can be used for other purposes to increase legibility and consistency as needed.
 
 To add additional emphasis to text (such as multiple levels of title or a key statistic), use the semibold variant of the Faithful 32x typeface. Refrain from excessively using the full bold variant, as it has a large horizontal footprint and can be hard to read at small scales.
 
