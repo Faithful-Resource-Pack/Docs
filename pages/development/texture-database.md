@@ -19,7 +19,7 @@ All [Faithful API](https://api.faithfulpack.net/docs) endpoints under `/v2/textu
 <img src="/images/development/texture-database/overview.png" alt="schema overview" class="center">
 <i class="center">Note: Two of the same thing on a level means there can be multiple of them.</i>
 
-The Faithful texture database is organized into three main collection tables: `textures`, `uses`, and `paths`. While they may appear to be one unified collection in practice, they are actually stored completely separately and are only linked together using IDs and keys at runtime. This enables lazy-loading collections when not all data is needed, and reduces the memory footprint of opening extremely large JSON files frequently.
+The Faithful texture database is organized into three main collection tables: `textures`, `uses`, and `paths`. While they may appear to be one unified collection in practice, they are actually stored as three separate files, and are only linked together using the data relationships themselves. Splitting up the content makes the database run more quickly and efficiently since collections are only loaded when needed.
 
 ## Textures
 
@@ -48,9 +48,9 @@ This behavior is immensely useful across Faithful, both because the contribution
 
 ### Texture IDs
 
-Each texture is assigned a unique ID on creation, since Minecraft texture filenames aren't guaranteed to be unique (`jungle.png` is shared by unrelated villager, boat, and sign textures). Texture IDs are simple automatically-incrementing numeric values, so the first created texture has the ID #0, the second texture #1, etc.
+Each texture is assigned a unique ID on creation, since Minecraft texture filenames aren't guaranteed to be unique (e.g. `jungle.png` is shared by unrelated villager, boat, and sign textures). Texture IDs are simple automatically-incrementing numeric values, so the first created texture has the ID #0, the second texture #1, etc.
 
-Other texture-related collections like contributions use texture IDs to represent a relationship to a specific texture as a [foreign key](https://en.wikipedia.org/wiki/Foreign_key), so they're immutable to prevent data moving around. Additionally, if a texture gets removed or merged with another identical texture, the removed ID isn't ever reused for the same reason.
+The contribution database and other texture-associated collections use texture IDs to represent a relationship to a specific texture, since any additional information can be looked up later by finding the corresponding texture entry for the specified texture ID. To prevent a texture ID referenced in another collection referring to the wrong texture, a texture ID is permanently associated with one texture and one texture only. Hence, if a texture gets removed or merged with another identical texture, its ID is invalidated and not reused.
 
 ::: warning Note: it is unsafe to assume that every numeric ID less than the current maximum is a valid texture ID, since there may be "holes" where textures were deleted.
 This is also why the latest texture ID is substantially greater than the actual number of textures indexed in the database.

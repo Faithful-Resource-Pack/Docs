@@ -162,5 +162,5 @@ As with all our docs, if you have any suggestions leave them on our [Discord ser
 ## Credits go to…
 
 - Evorp (content, some images)
-- Pomi108 (images and some content ideas and edits)
+- Pomi108 (images and some content ideas/edits)
 - Klonoa (an image)
