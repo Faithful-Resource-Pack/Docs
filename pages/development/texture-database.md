@@ -112,7 +112,7 @@ By convention, the primary Java Edition use is placed first, since in many place
 In general, the Bedrock use will still take priority as the second use, with any additional uses being placed at the end.
 :::
 
-While uses are not required to be named (nameless uses have a null name field), named uses only need to reflect the paths they store, and are hence able to be more precise than the texture display name. Returning to the `glass_bottle` example from earlier, the corresponding use names are `potion` and `glass_bottle`, which covers both distinct uses of the texture.
+Since named uses only need to reflect the paths they store, they can be more precise than the texture display name. Returning to the `glass_bottle` example from earlier, the corresponding use names are `potion` and `glass_bottle`, covering both distinct uses of the texture.
 
 <img src="/images/development/texture-database/use_id_ordering.png" alt="example of use ID ordering" class="center">
 <i class="center">An example of uses and their order.</i>

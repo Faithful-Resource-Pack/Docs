@@ -236,7 +236,7 @@ On the contrary, a texture that should NOT be “Jappafied” is blaze powder. T
 
 ## Conclusion
 
-Wow, this turned out way longer than we expected it to be. Would you believe that these guidelines were over a month in development? Well, we hope that you have found them useful and descriptive, and that they have cleared up any misbeliefs or doubts you might have had. If you have any questions, want to give feedback for this document or just post your textures, message us on our Discord server!
+Wow, this turned out way longer than we expected it to be. Would you believe that these guidelines were over a month in development? Well, we hope that you have found them useful and descriptive, and that they have cleared up any misbeliefs or doubts you might have had. If you have any questions, want to give feedback for this document or just post your textures, message us on our [Discord server](https://discord.gg/sN9YRQbBv7)!
 
 ## Final Note
 
