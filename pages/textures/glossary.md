@@ -148,7 +148,7 @@ Jasper "JAPPA" Boerstra is the current art director for Minecraft, and was the l
 
 ### Programmer Art
 
-Programmer art, often colloquially referred to as "progart" or "PA", is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14. These weren't made by Jappa, or any real artist, but by the developers of the game.
+Programmer art, often colloquially referred to as "progart" or "PA", is an umbrella term that describes the textures and the general art style used in Minecraft before version 1.14. These weren't made by JAPPA, or any real artist, but by the developers of the game.
 
 Note that this term wasn't coined by Mojang, and outside of the Minecraft resource pack community it refers to placeholder visuals usually created by the programmers as placeholders for new features. This is what the pre-1.14 textures basically are, since many of the widely used ones were originally made by Notch in Paint.NET within a span of minutes.
 

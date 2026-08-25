@@ -34,9 +34,9 @@ While there may be some exceptions in particularly difficult circumstances, thes
 2. **Reference existing textures.** This is one of the most important tips to make textures look like they fit. Not only should you reference Vattic's own art, especially if there's a direct programmer art equivalent, but you should also reference existing textures that may be similar shape or material-wise. Using a lot of reference material also has the added upside of making texturing oftentimes easier, since you can frequently copy shapes or shading ideas from a texture already in the pack.
 
 <img src="/images/textures/cf32-texturing-guidelines/reference_vattic.png" alt="vattic vs cf" class="center">
-<i class="center">Left: Vattic's bricks. Right: Its Jappa equivalent.</i>
+<i class="center">Left: Vattic's bricks. Right: Its JAPPA equivalent.</i>
 
-3. **With detailing, less is more.** Try asking yourself, "Could Jappa have done this in a 16x canvas?" before adding additional detail, and avoid reaching for techniques like dithering and excessive antialiasing if there's no need for it. There are exceptions to this rule, however, and you should always get feedback if you're struggling with the amount of detail a texture should have.
+3. **With detailing, less is more.** Try asking yourself, "Could JAPPA have done this in a 16x canvas?" before adding additional detail, and avoid reaching for techniques like dithering and excessive antialiasing if there's no need for it. There are exceptions to this rule, however, and you should always get feedback if you're struggling with the amount of detail a texture should have.
 
 <img src="/images/textures/cf32-texturing-guidelines/less_is_more.png" alt="overdetailed textures" class="center">
 <i class="center">Left: A texture with just enough detail. Right: An overdetailed texture.</i>
@@ -194,10 +194,10 @@ These guidelines have mainly referenced Classic Faithful 32x Jappa thus far. For
 Newer textures should never be "progartified" to match older ones unless there is one—and only one—obvious way to make it. When in doubt, defer to the vanilla programmer art resource pack.
 :::
 
-Even though newer Jappa textures have a distinct style from programmer art, the exact way a developer would have gone about making a certain texture can't ever be known for sure, and it isn't really our job to interpret that. While a texture like nylium, which was introduced in 1.16, has an obvious fix (to update the netherrack texture), a texture like blackstone has no clear programmer art equivalent, and as such shouldn't be edited.
+Even though newer JAPPA textures have a distinct style from programmer art, the exact way a developer would have gone about making a certain texture can't ever be known for sure, and it isn't really our job to interpret that. While a texture like nylium, which was introduced in 1.16, has an obvious fix (to update the netherrack texture), a texture like blackstone has no clear programmer art equivalent, and as such shouldn't be edited.
 
 <img src="/images/textures/cf32-texturing-guidelines/progartification.png" alt="progartification" class="center">
-<i class="center">Left: Nylium, an example of a texture that should be "progartified" to fix an obvious oversight in the vanilla programmer art resource pack. Right: Blackstone, an example of a texture with no clear programmer art equivalent and should not be changed from its Jappa texture.</i>
+<i class="center">Left: Nylium, an example of a texture that should be "progartified" to fix an obvious oversight in the vanilla programmer art resource pack. Right: Blackstone, an example of a texture with no clear programmer art equivalent and should not be changed from its JAPPA texture.</i>
 
 ## Part 4: Working With Larger Palettes
 
