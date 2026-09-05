@@ -6,8 +6,6 @@ date: "2022-03-19"
 
 # Faithful 32x Texturing Guidelines
 
-## Introduction
-
 *Faithful was meant to be a love letter to the artists that created the world of Minecraft. In doing a default style resource pack such as this, we pay respect to the art by following the design philosophies made by JAPPA in order to maintain Faithful.*
 
 *But since the pack was premised primarily on community contributions, the risk of inconsistency in the art loomed over us. We figured that with a set of rules or guidelines, these inconsistencies could be reduced and allow the pack to flourish.*

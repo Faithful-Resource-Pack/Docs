@@ -6,8 +6,6 @@ date: "2022-08-22"
 
 # Classic Faithful 32x Texturing Guidelines
 
-## Introduction
-
 *Classic Faithful's art direction is fundamentally built around Vattic, Faithful's founder. Unpacking the five years of textures he left behind and seamlessly carrying on from there has been a years-long endeavor, being further complicated with Classic Faithful 32x Jappa's need to apply his techniques to JAPPA's radically different art style.*
 
 *At first glance, Vattic's style is idiosyncratic at best, oftentimes being openly inconsistent even within the same set of textures or materials. As soon as you think he followed any sort of general guiding principles, there's immediately at least three or four exceptions to the rule. How can you make a set of rules for a pack so obviously never governed by any?*

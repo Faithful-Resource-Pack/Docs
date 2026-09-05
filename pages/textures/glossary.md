@@ -6,8 +6,6 @@ date: "2024-06-30"
 
 # The Faithful Texturing Glossary
 
-## Introduction
-
 *Faithful isn't without its specific jargon, from important names to broader pixel art-related texturing terms. Instead of having to constantly describe to new users who JAPPA is or what dithering means, we figured it would be easier to list them all out right here.*
 
 *All Faithful texturing guidelines extensively reference terms found in this document, so it's recommended to read this before doing anything else.*

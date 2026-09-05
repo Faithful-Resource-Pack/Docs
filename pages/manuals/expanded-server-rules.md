@@ -6,8 +6,6 @@ date: "2022-10-23"
 
 # Expanded Server Rules
 
-## Introduction
-
 *In the early days of the Faithful Discord servers, there was one set of rules. It had a description of what to do, what not to do, and that's about it. While this sounds pretty standard for a public Discord server, for Faithful it ended up causing users to leave, entire mod teams to get fired, and moderation disaster after disaster.*
 
 *Because the rules were so short and hence incredibly vague, any amount of moderation consistency was impossible. The punishment a user could receive could vary wildly between mods or even times of day, and long arguments between moderators would drag on almost daily over fuzzy rule boundaries stemming from punishments made hours or even days before. After a year or two of this system, everyone was frustrated—people would get punished for something completely arbitrary, and a few days later the punishment would either magically vanish with no explanation or remain on the user's record forever despite practically everyone knowing it was unwarranted. There had to be a better way to do things.*
