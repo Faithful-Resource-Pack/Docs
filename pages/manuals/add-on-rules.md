@@ -1,10 +1,10 @@
 ---
-title: "Rules for Add-ons"
+title: "Faithful Add-on Rules"
 category: "Manuals"
 date: "2022-08-13"
 ---
 
-# Rules for Faithful Add-ons
+# Faithful Add-on Rules
 
 1. **Your pack must be based on the latest Faithful textures at the time of publishing.** You can check the [texture gallery](https://studio.faithfulpack.net/gallery/java/default/latest/all) for the latest contributed textures.
 2. **All images must accurately represent your add-on in its current state.** Don’t use any packs other than Faithful with your add-on applied while taking screenshots!
