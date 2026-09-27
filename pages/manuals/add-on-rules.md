@@ -6,27 +6,64 @@ date: "2022-08-13"
 
 # Faithful Add-on Rules
 
-1. **Your pack must be based on the latest Faithful textures at the time of publishing.** You can check the [texture gallery](https://studio.faithfulpack.net/gallery/java/default/latest/all) for the latest contributed textures.
-2. **All images must accurately represent your add-on in its current state.** Don’t use any packs other than Faithful with your add-on applied while taking screenshots!
-3. **If at all applicable, all textures in your add-on must at least partially adhere to the texturing guidelines.** This only applies to add-ons for packs with guidelines.
-4. **The title of your add-on must comply with these rules:**
-    <ol class="roman">
-    <li><b>It must be descriptive enough to give anybody a basic idea of what your pack does.</b></li>
-    <li><b>It has to be properly capitalised with <a href="https://en.wikipedia.org/wiki/Title_case">Title Case</a>.</b></li>
-    <li><b>When possible, use proper English grammar.</b>
-    <br>If you forget to do any of these above things, nothing bad will happen, but please keep this in mind so that the managers don’t have to fix the title for every add-on.</li>
-    <li><b>Avoid using the word “Better” in the name!</b>
-    <br>Be creative and describe your pack more precisely. This can be tolerated in some cases if the header image shows what the add-on does clearly, but we'd still prefer more creative names for your add-ons.</li>
-    <li><b>No obscenities or swear words.</b></li>
-    <li><b>Don’t use the word “Faithful” in the title unless absolutely necessary.</b>
-    <br>It’s already evident that your pack is made for Faithful, since you are downloading it from the Faithful website. The same goes for the resolution—don't include it in your title, since it's already displayed right above it.</li>
-    </ol>
-5. **The add-on description must characterise what the add-on does and what it’s like.** More is better than less.
-6. **No NSFW or NSFL content.** (As in pornography, over-the-top gore and other questionable stuff.)
-7. **Please use the built-in tags to let people know whether OptiFine is required or not, and what edition/Faithful resolution your add-on is made for.** Don’t specify that in the title.
-8. **Your pack must comply with our [license](https://faithfulpack.net/license).** That means crediting Faithful and linking back to https://faithfulpack.net when listing your pack anywhere except the Faithful website. Also, refrain from using any monetisation sites such as adfoc.us.
-9. **Your add-on can’t be the same as an already existing one.** If you want to update an existing add-on, contact its creator, and if they don’t respond within a reasonable timeframe, contact a manager to ask for editing permissions. If you want to make an add-on with the same purpose as an existing one but done in a different way, use a different title.
-10. **All download links must be direct.** Don't link to posts on other sites. Ideally, clicking on the download button should directly download the pack file, but linking to services such as MediaFire or Mega is also fine.
-11. **The add-on needs to be zipped properly.** Users shouldn't be required to unzip the pack and fiddle with the folders to get your add-on working. Please ensure that your zip works in-game!
+Thank you for your interest in submitting an add-on to the Faithful website! However, before you hit submit, we have a few ground rules to make sure every add-on upholds our standards to be officially listed.
 
-Lastly, the managers reserve the right to correct small grammar/spelling mistakes in your add-on’s description, should they find any.
+::: info
+Add-on reviewers may correct spelling errors or other small mistakes during the review process. If you find any mistake after the add-on has been approved, you can resubmit it with a note describing what you fixed.
+:::
+
+## 1. Use the Latest Faithful Textures
+
+While add-ons with somewhat outdated textures are generally fine, if a texture inconsistency or issue is particularly noticeable in-game, it may be archived until the add-on is updated.
+
+## 2. Upload Accurate Images
+
+Don’t use any packs other than the relevant Faithful resource pack(s) with your add-on applied while taking screenshots, and update your images if your add-on substantially changes.
+
+## 3. Try to Follow Texturing Guidelines
+
+While texture quality isn't enforced as strictly as it is with the main packs, extremely low-quality textures or work that feels completely inconsistent with Faithful's art direction may be denied.
+
+::: warning This only applies to packs with texturing guidelines!
+Packs without guidelines will be judged case-by-case based on existing textures.
+:::
+
+## 4. Write Descriptive Titles
+
+If you forget to do any of these below things, nothing bad will happen, but keep it in mind so add-on reviewers don't have to fix or deny every add-on.
+
+- **Use correct spelling and capitalization.** All Faithful add-on titles should use <a href="https://en.wikipedia.org/wiki/Title_case">Title Case</a>.
+- **Be specific.** Avoid using words like "Better" that say nothing about what the add-on actually does.
+- **Don't use "Faithful" or pack names directly in titles.** It’s already obvious that your pack is made for Faithful, since you're literally downloading it from the Faithful website, plus the specific packs and editions your add-on is tagged with are shown directly next to its title.
+
+## 5. Prefer Detailed Descriptions
+
+Make it clear what your add-on changes or updates, and provide any additional contextual information like what versions the pack is intended for, credits to any reference material.
+
+*More is better than less!*
+
+## 6. Avoid NSFW Content
+
+Add-ons featuring pornography, over-the-top gore, and other questionable content won't be listed on the Faithful website. Pretty self-explanatory.
+
+## 7. Comply With Our License
+
+::: tip
+You can always find our license at https://faithfulpack.net/license or by running `/license` in any of our Discord servers.
+:::
+
+Credit Faithful and link back to https://faithfulpack.net when listing your pack anywhere except the Faithful website. The same caveats involving CurseForge and Modrinth reward points apply to add-ons depending on how much of its work is your own (e.g. a complete item set overhaul from scratch vs a simple armor recolor).
+
+## 8. Don't Duplicate Existing Add-ons
+
+If you want to update an existing add-on, contact its creator. If they don’t respond within a reasonable timeframe, contact an add-on reviewer for permission to edit the existing add-on.
+
+If you want to make an add-on with the same purpose as an existing one but done in a different way, use a different title and make it clear what the difference is.
+
+## 9. Use Direct Downloads
+
+Ideally, clicking a download button should directly download the add-on file, but linking to either listing sites (CurseForge, Modrinth, Planet Minecraft, etc.) or download hosting providers (MediaFire, Mega, etc.) is also allowed. Link shorteners aren't allowed under any circumstances.
+
+## 10. Package Add-ons Correctly
+
+Users shouldn't be required to unzip the pack and fiddle with the folders to get your add-on working. Please ensure that your zip works in-game!
