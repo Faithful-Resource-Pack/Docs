@@ -20,13 +20,15 @@ While add-ons with somewhat outdated textures are generally fine, if a texture i
 
 Don’t use any packs other than the relevant Faithful resource pack(s) with your add-on applied while taking screenshots, and update your images if your add-on substantially changes.
 
+::: danger Make sure your images are correctly formatted!
+Add-on header images and screenshots must be 16:9 lossy JPEGs to be accepted. You can compress images for free using https://compressor.io.
+:::
+
 ## 3. Try to Follow Texturing Guidelines
 
 While texture quality isn't enforced as strictly as it is with the main packs, extremely low-quality textures or work that feels completely inconsistent with Faithful's art direction may be denied.
 
-::: warning This only applies to packs with texturing guidelines!
 Packs without guidelines will be judged case-by-case based on existing textures.
-:::
 
 ## 4. Write Descriptive Titles
 
@@ -62,7 +64,7 @@ If you want to make an add-on with the same purpose as an existing one but done 
 
 ## 9. Use Direct Downloads
 
-Ideally, clicking a download button should directly download the add-on file, but linking to either listing sites (CurseForge, Modrinth, Planet Minecraft, etc.) or download hosting providers (MediaFire, Mega, etc.) is also allowed. Link shorteners aren't allowed under any circumstances.
+Ideally, clicking a download button should directly download the add-on file, but linking to either listing sites (CurseForge, Modrinth, Planet Minecraft, etc.) or download hosting providers (MediaFire, Mega, etc.) is also allowed. Monetized link shorteners aren't allowed under any circumstances.
 
 ## 10. Package Add-ons Correctly
 
