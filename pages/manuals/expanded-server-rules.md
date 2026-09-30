@@ -1,7 +1,7 @@
 ---
 title: "Expanded Server Rules"
 category: "Manuals"
-date: "2022-10-23"
+created: "2022-10-23"
 ---
 
 # Expanded Server Rules

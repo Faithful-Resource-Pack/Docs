@@ -1,7 +1,7 @@
 ---
 title: "The Faithful Texturing Glossary"
 category: "Textures"
-date: "2024-06-30"
+created: "2024-06-30"
 ---
 
 # The Faithful Texturing Glossary

@@ -1,7 +1,7 @@
 ---
 title: "Writing a New Article"
 category: "Manuals"
-date: "2021-07-19"
+created: "2021-07-19"
 ---
 
 # Writing a New Documentation Article
@@ -50,8 +50,8 @@ You can copy and paste this template to the top of your Markdown file, and chang
 title: "Your title here"
 # optional, falls back to folder name
 category: "Manuals"
-# new articles get pushed to the top
-date: "YYYY-MM-DD"
+# newly-created articles get tagged as new and hoisted
+created: "YYYY-MM-DD"
 # optional, adds a deprecated badge to the sidebar
 deprecated: false
 # optional, excludes from navigation bar and collapses sidebar

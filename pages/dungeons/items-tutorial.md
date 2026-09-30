@@ -1,7 +1,7 @@
 ---
 title: "Items Tutorial"
 category: "Dungeons"
-date: "2020-09-09"
+created: "2020-09-09"
 archived: true
 ---
 

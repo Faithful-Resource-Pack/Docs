@@ -11,6 +11,7 @@ import type { DefaultTheme } from "vitepress/theme";
 import { useSidebarControl } from "vitepress/dist/client/theme-default/composables/sidebar.js";
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue";
 import VPBadge from "vitepress/dist/client/theme-default/components/VPBadge.vue";
+import type { DocMeta } from "../types";
 
 /**
  * Check if a YYYY-MM-DD date is older than one month
@@ -25,10 +26,10 @@ function isNew(date?: string) {
 	return new Date(date).getTime() > delayedDate.getTime();
 }
 
-interface SidebarItemOverride extends DefaultTheme.SidebarItem {
-	date?: string;
-	archived?: boolean;
-	deprecated?: boolean;
+// typescript really hates extending namespaced interfaces
+type DefaultSidebarItem = DefaultTheme.SidebarItem;
+
+interface SidebarItemOverride extends DefaultSidebarItem, DocMeta {
 	items?: SidebarItemOverride[];
 }
 
@@ -101,7 +102,7 @@ function onCaretClick() {
 				/>
 				<VPBadge
 					class="small"
-					v-if="isNew(item.date)"
+					v-if="isNew(item.created)"
 					type="danger"
 					text="NEW"
 				/>

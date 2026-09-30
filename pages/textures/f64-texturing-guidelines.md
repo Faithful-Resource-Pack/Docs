@@ -1,7 +1,7 @@
 ---
 title: "Faithful 64x Texturing Guidelines"
 category: "Textures"
-date: "2023-09-27"
+created: "2023-09-27"
 ---
 
 # Faithful 64x Texturing Guidelines

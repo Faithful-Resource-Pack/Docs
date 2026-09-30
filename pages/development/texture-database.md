@@ -1,7 +1,7 @@
 ---
 title: "The Faithful Texture Database"
 category: "Development"
-date: "2025-12-23"
+created: "2025-12-23"
 ---
 
 # A Guide to the Faithful Texture Database

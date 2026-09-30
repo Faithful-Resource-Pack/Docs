@@ -1,7 +1,7 @@
 ---
 title: "Loader Texture"
 category: "Dungeons"
-date: "2020-08-09"
+created: "2020-08-09"
 archived: true
 ---
 

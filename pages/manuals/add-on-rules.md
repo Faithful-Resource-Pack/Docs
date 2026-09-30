@@ -1,7 +1,7 @@
 ---
 title: "Faithful Add-on Rules"
 category: "Manuals"
-date: "2022-08-13"
+created: "2022-08-13"
 ---
 
 # Faithful Add-on Rules

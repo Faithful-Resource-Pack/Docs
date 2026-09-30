@@ -1,7 +1,7 @@
 ---
 title: "Faithful Branding Guidelines"
 category: "Manuals"
-date: "2023-09-13"
+created: "2023-09-13"
 ---
 
 # Faithful Branding Guidelines
