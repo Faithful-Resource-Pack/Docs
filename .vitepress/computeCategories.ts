@@ -56,6 +56,7 @@ export default function computeCategories(dir: string) {
 				// fall back to the parent folder
 				category: frontmatter.category || toTitleCase(name.split("/").at(-2) || ""),
 				created: frontmatter.created,
+				last_updated: frontmatter.last_updated || "",
 				// default false
 				archived: frontmatter.archived ?? false,
 				deprecated: frontmatter.deprecated ?? false,

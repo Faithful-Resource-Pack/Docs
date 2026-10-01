@@ -2,6 +2,7 @@
 title: "Faithful Branding Guidelines"
 category: "Manuals"
 created: "2023-09-13"
+last_updated: "2026-04-06"
 ---
 
 # Faithful Branding Guidelines

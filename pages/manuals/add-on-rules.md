@@ -2,6 +2,7 @@
 title: "Faithful Add-on Rules"
 category: "Manuals"
 created: "2022-08-13"
+last_updated: "2026-09-28"
 ---
 
 # Faithful Add-on Rules

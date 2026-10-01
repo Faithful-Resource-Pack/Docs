@@ -2,6 +2,7 @@
 title: "The Faithful Contributor's Handbook"
 category: "Manuals"
 created: "2022-03-23"
+last_updated: "2025-07-01"
 ---
 
 # The Faithful Contributor's Handbook

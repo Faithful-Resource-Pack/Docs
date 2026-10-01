@@ -2,6 +2,7 @@
 title: "Expanded Server Rules"
 category: "Manuals"
 created: "2022-10-23"
+last_updated: "2024-07-02"
 ---
 
 # Expanded Server Rules

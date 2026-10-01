@@ -2,6 +2,7 @@
 title: "Writing a New Article"
 category: "Manuals"
 created: "2021-07-19"
+last_updated: "2026-09-04"
 ---
 
 # Writing a New Documentation Article
@@ -52,6 +53,8 @@ title: "Your title here"
 category: "Manuals"
 # newly-created articles get tagged as new and hoisted
 created: "YYYY-MM-DD"
+# optional, represents the last significant update made
+last_updated: "YYYY-MM-DD"
 # optional, adds a deprecated badge to the sidebar
 deprecated: false
 # optional, excludes from navigation bar and collapses sidebar

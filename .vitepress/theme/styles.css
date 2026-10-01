@@ -56,6 +56,11 @@ i.center {
 	margin-top: 2em;
 }
 
+/* align badges to text */
+.VPBadge.small {
+	transform: none !important;
+}
+
 /* bigger blur for bigger screens */
 @media (min-width: 640px) {
 	:root {

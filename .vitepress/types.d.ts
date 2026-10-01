@@ -1,6 +1,7 @@
 export interface DocMeta {
 	category?: string;
 	created: string;
+	last_updated?: string;
 	archived?: boolean;
 	deprecated?: boolean;
 }

@@ -103,19 +103,25 @@ function onCaretClick() {
 				<VPBadge
 					class="small"
 					v-if="isNew(item.created)"
-					type="danger"
+					type="tip"
 					text="NEW"
 				/>
 				<VPBadge
 					class="small"
+					v-if="isNew(item.last_updated)"
+					type="info"
+					text="UPDATED"
+				/>
+				<VPBadge
+					class="small"
 					v-if="item.deprecated"
-					type="warning"
+					type="danger"
 					text="DEPRECATED"
 				/>
 				<VPBadge
 					class="small"
 					v-if="item.archived"
-					type="info"
+					type="warning"
 					text="ARCHIVED"
 				/>
 			</VPLink>
