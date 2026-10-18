@@ -44,7 +44,7 @@ export default () => {
 						href="https://vitepress.dev"
 						target="_blank"
 						rel="noopener noreferrer"
-					>VitePress</a> framework. View the source
+					>VitePress</a> framework. View the source code
 					<a
 						href="https://github.com/Faithful-Resource-Pack/Docs"
 						target="_blank"
