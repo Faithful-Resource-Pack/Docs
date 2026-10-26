@@ -97,7 +97,7 @@ interface Use {
 const example: Use = {
 	id: "307c",
 	texture: 307,
-	name: "options_backgroundd",
+	name: "options_background",
 	edition: "java",
 };
 ```
